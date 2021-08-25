@@ -4,7 +4,7 @@ title: disconnect()
 
 ---
 
-# disconnect()
+# disconnectt()
 
 ## Description
 This function disconnects with the drone that you're connected to.
