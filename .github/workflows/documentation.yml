@@ -45,6 +45,7 @@ jobs:
           Host github.com
           HostName github.com
           IdentityFile ~/.ssh/id_rsa
+          cat /home/runner/.ssh/id_rsa
           EOT
       - name: Release to GitHub Pages
         env:
