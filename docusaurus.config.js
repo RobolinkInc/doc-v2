@@ -99,7 +99,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/RobolinkInc/doc-v2/edit/master/website/',
+            'https://github.com/RobolinkInc/doc-v2/edit/documentation/',
         },
         blog: {
           showReadingTime: true,
