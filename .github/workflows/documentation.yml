@@ -33,32 +33,11 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-      - name: Add key to allow access to repository
+    # Install and build Docusaurus website
+      - name: Deploy to GitHub Pages
+        uses: RobolinkInc/ghaction-github-pages@v2
+        with:
+          target_branch: gh-pages
+          build_dir: build
         env:
-          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-        run: |
-          mkdir -p ~/.ssh
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-          echo "${{ secrets.GH_PAGES_DEPLOY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          cat <<EOT >> ~/.ssh/config
-          Host github.com
-          HostName github.com
-          IdentityFile ~/.ssh/id_rsa
-          cat /home/runner/.ssh/id_rsa
-          EOT
-      - name: Release to GitHub Pages
-        env:
-          USE_SSH: true
-          GIT_USER: frias.pablo@gmail.com
-        run: |
-          git config --global user.email "frias.pablo@gmail.com"
-          git config --global user.name "Pablo Frias"
-          if [ -e yarn.lock ]; then
-            yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-            npm ci
-          else
-            npm i
-          fi
-          npm run deploy
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
