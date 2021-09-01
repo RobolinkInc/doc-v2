@@ -25,13 +25,19 @@ module.exports = {
           type: 'doc',
           docId: 'codrone-mini/cdm',
           position: 'left',
-          label: 'Codrone Mini Lib',
+          label: 'CoDrone Pro/Lite Lib',
+        },
+        {
+          type: 'doc',
+          docId: 'codrone-mini/cdm',
+          position: 'left',
+          label: 'CoDrone Mini Lib',
         },
         {
           type: 'doc',
           docId: 'zumi/zumi',
           position: 'left',
-          label: 'Zumi',
+          label: 'Zumi Lib',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
