@@ -25,7 +25,7 @@ module.exports = {
           type: 'doc',
           docId: 'codrone-mini/cdm',
           position: 'left',
-          label: 'Codrone Mini',
+          label: 'Codrone Mini Lib',
         },
         {
           type: 'doc',
