@@ -23,6 +23,12 @@ module.exports = {
       items: [
         {
           type: 'doc',
+          docId: 'zumi/home',
+          position: 'left',
+          label: 'Zumi Lib',
+        },
+        {
+          type: 'doc',
           docId: 'codrone-mini/cdm',
           position: 'left',
           label: 'CoDrone Pro/Lite Lib',
@@ -32,12 +38,6 @@ module.exports = {
           docId: 'codrone-mini/cdm',
           position: 'left',
           label: 'CoDrone Mini Lib',
-        },
-        {
-          type: 'doc',
-          docId: 'zumi/zumi',
-          position: 'left',
-          label: 'Zumi Lib',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
