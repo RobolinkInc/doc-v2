@@ -29,7 +29,7 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'codrone-mini/cdm',
+          docId: 'codrone-pro/home',
           position: 'left',
           label: 'CoDrone Pro/Lite Lib',
         },
