@@ -2,7 +2,7 @@
 title: set_pitch()
 menu: set_pitch() / setPitch()
 taxonomy:
-	tag: codrone-library
+	
 	category: flight-variables
 ---
 

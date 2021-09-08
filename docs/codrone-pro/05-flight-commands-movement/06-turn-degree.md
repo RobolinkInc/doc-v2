@@ -2,7 +2,7 @@
 title: turn_degree()
 menu: turn_degree() / turnDegree()
 taxonomy:
-	tag: codrone-library
+	
 	category: flight-command-movement
 ---
 

@@ -1,9 +1,6 @@
 ---
 title: CoDrone Arduino Changelog
 menu: CoDrone Arduino Library Changelog
-taxonomy:
-	tag: codrone-library
-	category: changelog
 ---
 # Changelog
 

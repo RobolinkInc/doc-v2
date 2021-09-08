@@ -1,9 +1,9 @@
 ---
 title: eye_pattern()
 menu: eye_pattern() / eyePattern()
-tag: codrone-library
+
 taxonomy:
-	tag: codrone-library
+	
 	category: LED
 ---
 

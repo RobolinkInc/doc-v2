@@ -2,7 +2,7 @@
 title: get_battery_voltage()
 menu: get_battery_voltage() / getBatteryVoltage()
 taxonomy:
-	tag: codrone-library
+	
 	category: sensors
 ---
 

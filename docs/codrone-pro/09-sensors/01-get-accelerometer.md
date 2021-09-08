@@ -1,10 +1,5 @@
 ---
 title: get_accelerometer()
-taxonomy:
-    category:
-        - sensors
-    tag:
-        - codrone-library
 menu: 'get_accelerometer() / getAccelerometer()'
 ---
 

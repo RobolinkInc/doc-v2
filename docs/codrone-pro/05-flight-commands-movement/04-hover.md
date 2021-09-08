@@ -1,9 +1,9 @@
 ---
 title: hover()
 menu: hover()
-tag: codrone-library
+
 taxonomy:
-	tag: codrone-library
+	
 	category: flight-command-movement
 ---
 

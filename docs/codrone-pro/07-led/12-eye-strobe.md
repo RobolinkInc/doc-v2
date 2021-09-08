@@ -1,9 +1,9 @@
 ---
 title: eye_strobe()
 menu: eye_strobe() / eyeStrobe()
-tag: codrone-library
+
 taxonomy:
-	tag: codrone-library
+	
 	category: LED
 ---
 

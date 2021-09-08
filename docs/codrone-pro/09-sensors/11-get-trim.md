@@ -2,7 +2,7 @@
 title: get_trim()
 menu: get_trim() / getTrim()
 taxonomy:
-	tag: codrone-library
+	
 	category: sensors
 ---
 

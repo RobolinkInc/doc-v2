@@ -2,7 +2,7 @@
 title: is_ready_to_fly()
 menu: is_ready_to_fly() / isReadyToFly()
 taxonomy:
-	tag: codrone-library
+	
 	category: status-checkers
 ---
 

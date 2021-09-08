@@ -2,7 +2,7 @@
 title: turn()
 menu: turn()
 taxonomy:
-	tag: codrone-library
+	
 	category: flight-command-movement
 ---
 

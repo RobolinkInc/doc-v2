@@ -2,7 +2,7 @@
 title: takeoff()
 menu: takeoff()
 taxonomy:
-	tag: codrone-library
+	
 	category: flight-command-startstop
 ---
 

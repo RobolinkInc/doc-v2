@@ -1,9 +1,9 @@
 ---
 title: arm_off()
 menu: arm_off() / armOff()
-tag: codrone-library
+
 taxonomy:
-	tag: codrone-library
+	
 	category: LED
 ---
 

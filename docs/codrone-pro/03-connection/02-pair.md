@@ -1,10 +1,6 @@
 ---
 title: pair()
-taxonomy:
-    category:
-        - connection
-    tag:
-        - codrone-library
+
 menu: pair()
 ---
 

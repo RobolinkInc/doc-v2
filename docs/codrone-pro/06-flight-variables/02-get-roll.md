@@ -2,7 +2,7 @@
 title: get_roll()
 menu: get_roll() / getRoll()
 taxonomy:
-	tag: codrone-library
+	
 	category: flight-variables
 ---
 

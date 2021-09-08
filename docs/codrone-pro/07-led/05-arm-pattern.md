@@ -3,10 +3,9 @@ title: arm_pattern()
 taxonomy:
     category:
         - LED
-    tag:
-        - codrone-library
+
 menu: 'arm_pattern() / armPattern()'
-tag: codrone-library
+
 ---
 
 ## arm_pattern() / armPattern()

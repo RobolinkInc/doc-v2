@@ -2,7 +2,7 @@
 title: land()
 menu: land()
 taxonomy:
-	tag: codrone-library
+	
 	category: flight-command-startstop
 ---
 

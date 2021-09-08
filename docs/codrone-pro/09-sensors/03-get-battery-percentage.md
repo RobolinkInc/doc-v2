@@ -2,7 +2,7 @@
 title: get_battery_percentage()
 menu: get_battery_percentage() / getBatteryPercentage()
 taxonomy:
-	tag: codrone-library
+	
 	category: sensors
 ---
 

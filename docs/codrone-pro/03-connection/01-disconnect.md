@@ -1,9 +1,7 @@
 ---
 title: disconnect()
 menu: disconnect()
-taxonomy:
-	tag: codrone-library
-	category: connection
+
 ---
 
 # disconnect()

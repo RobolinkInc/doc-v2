@@ -2,7 +2,7 @@
 title: fly_sequence()
 menu: fly_sequence() / flySequence()
 taxonomy:
-	tag: codrone-library
+	
 	category: flight-command-movement
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: eye_default_color()
 menu: eye_default_color() / eyeDefaultColor()
-tag: codrone-library
+
 taxonomy:
-	tag: codrone-library
+	
 	category: LED
 ---
 

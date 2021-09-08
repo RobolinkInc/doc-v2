@@ -2,7 +2,7 @@
 title: get_pitch()
 menu: get_pitch() / getPitch()
 taxonomy:
-	tag: codrone-library
+	
 	category: flight-variables
 ---
 

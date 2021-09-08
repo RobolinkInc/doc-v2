@@ -2,7 +2,7 @@
 title: move()
 menu: move()
 taxonomy:
-	tag: codrone-library
+	
 	category: flight-variables
 ---
 

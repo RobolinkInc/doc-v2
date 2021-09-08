@@ -2,7 +2,7 @@
 title: is_flying()
 menu: is_flying() / isFlying()
 taxonomy:
-	tag: codrone-library
+	
 	category: status-checkers
 ---
 

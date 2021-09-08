@@ -2,7 +2,7 @@
 title: get_pressure()
 menu: get_pressure() / getPressure()
 taxonomy:
-	tag: codrone-library
+	
 	category: sensors
 ---
 

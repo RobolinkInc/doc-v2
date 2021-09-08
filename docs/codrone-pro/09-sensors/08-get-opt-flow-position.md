@@ -2,7 +2,7 @@
 title: get_opt_flow_position()
 menu: get_opt_flow_position() / getOptFlowPosition()
 taxonomy:
-	tag: codrone-library
+	
 	category: sensors
 ---
 
