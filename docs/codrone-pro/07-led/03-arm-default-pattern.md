@@ -1,9 +1,9 @@
 ---
 title: arm_default_pattern()
 menu: arm_default_pattern() / armDefaultPattern()
-
+tag: codrone-library
 taxonomy:
-	
+
 	category: LED
 ---
 

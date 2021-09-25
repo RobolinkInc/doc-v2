@@ -2,7 +2,7 @@
 title: get_pitch()
 menu: get_pitch() / getPitch()
 taxonomy:
-	
+
 	category: flight-variables
 ---
 

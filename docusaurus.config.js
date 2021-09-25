@@ -1,19 +1,17 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
+const path = require('path');
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Robolink Documentation',
+  tagline: 'Robolink docs',
   url: 'https://github.com/RobolinkInc/doc-v2',
   baseUrl: '/doc-v2/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'RobolinkInc', // Usually your GitHub org/user name.
   projectName: 'doc-v2', // Usually your repo name.
-  trailingSlash: false,
   themeConfig: {
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true, 
+    },
     navbar: {
       title: 'My Site',
       logo: {
@@ -33,13 +31,7 @@ module.exports = {
           position: 'left',
           label: 'CoDrone Pro/Lite Lib',
         },
-        {
-          type: 'doc',
-          docId: 'codrone-mini/cdm',
-          position: 'left',
-          label: 'CoDrone Mini Lib',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -50,15 +42,6 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
         {
           title: 'Community',
           items: [
@@ -81,7 +64,7 @@ module.exports = {
           items: [
             {
               label: 'Blog',
-              to: '/blog',
+              to: 'blog',
             },
             {
               label: 'GitHub',
@@ -92,11 +75,10 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
-    prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
-    },
   },
+  plugins: [[path.resolve(__dirname, './node_modules/docusaurus-lunr-search/'),{
+    languages:['en', 'de']
+  }]],
   presets: [
     [
       '@docusaurus/preset-classic',

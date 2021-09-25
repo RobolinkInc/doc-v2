@@ -1,12 +1,5 @@
 ---
 title: get_battery_voltage()
-taxonomy:
-    category:
-        - Sensors
-        - sensors
-    tag:
-        - zumi-library
-menu: get_battery_voltage()
 ---
 
 # get_battery_voltage()

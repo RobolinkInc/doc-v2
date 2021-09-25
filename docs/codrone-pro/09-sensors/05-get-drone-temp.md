@@ -3,7 +3,8 @@ title: get_drone_temp()
 taxonomy:
     category:
         - sensors
-
+    tag:
+        - codrone-library
 menu: 'get_drone_temp() / getDroneTemp()'
 ---
 

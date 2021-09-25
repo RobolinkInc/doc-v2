@@ -2,7 +2,7 @@
 title: takeoff()
 menu: takeoff()
 taxonomy:
-	
+
 	category: flight-command-startstop
 ---
 

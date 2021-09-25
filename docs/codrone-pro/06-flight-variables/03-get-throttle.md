@@ -2,7 +2,7 @@
 title: get_throttle()
 menu: get_throttle() / getThrottle()
 taxonomy:
-	
+
 	category: flight-variables
 ---
 

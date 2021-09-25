@@ -2,7 +2,7 @@
 title: fly_sequence()
 menu: fly_sequence() / flySequence()
 taxonomy:
-	
+
 	category: flight-command-movement
 ---
 

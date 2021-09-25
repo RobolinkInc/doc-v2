@@ -2,7 +2,7 @@
 title: get_height()
 menu: get_height() / getHeight()
 taxonomy:
-	
+
 	category: sensors
 ---
 

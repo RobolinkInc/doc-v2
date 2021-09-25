@@ -2,7 +2,7 @@
 title: is_flying()
 menu: is_flying() / isFlying()
 taxonomy:
-	
+
 	category: status-checkers
 ---
 

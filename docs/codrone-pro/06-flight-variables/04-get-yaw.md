@@ -2,7 +2,7 @@
 title: get_yaw()
 menu: get_yaw() / getYaw()
 taxonomy:
-	
+
 	category: flight-variables
 ---
 

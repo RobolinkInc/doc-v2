@@ -2,7 +2,7 @@
 title: is_upside_down()
 menu: is_upside_down() / isUpsideDown()
 taxonomy:
-	
+
 	category: status-checkers
 ---
 

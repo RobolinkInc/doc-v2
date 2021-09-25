@@ -2,7 +2,7 @@
 title: get_gyro_angles()
 menu: get_gyro_angles() / getGyroAngles()
 taxonomy:
-	
+
 	category: sensors
 ---
 

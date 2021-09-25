@@ -2,7 +2,7 @@
 title: set_roll()
 menu: set_roll() / setRoll()
 taxonomy:
-	
+
 	category: flight-variables
 ---
 

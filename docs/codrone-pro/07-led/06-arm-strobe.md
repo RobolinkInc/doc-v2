@@ -1,9 +1,9 @@
 ---
 title: arm_strobe()
 menu: arm_strobe() / armStrobe()
-
+tag: codrone-library
 taxonomy:
-	
+
 	category: LED
 ---
 

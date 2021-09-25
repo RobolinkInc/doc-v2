@@ -2,7 +2,7 @@
 title: set_throttle()
 menu: set_throttle() / setThrottle()
 taxonomy:
-	
+
 	category: flight-variables
 ---
 

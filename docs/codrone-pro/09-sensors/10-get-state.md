@@ -3,7 +3,7 @@ title: get_state()
 menu: get_state() / getState()
 template: function_ref
 taxonomy:
-	
+
 	category: sensors
 ---
 

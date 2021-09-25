@@ -1,6 +1,9 @@
 ---
 title: CoDrone Python Changelog
 menu: CoDrone Python Library Changelog
+taxonomy:
+
+	category: changelog
 ---
 
 # Changelog

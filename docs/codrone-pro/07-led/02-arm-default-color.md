@@ -1,9 +1,9 @@
 ---
 title: arm_default_color()
 menu: arm_default_color() / armDefaultColor()
-
+tag: codrone-library
 taxonomy:
-	
+
 	category: LED
 ---
 

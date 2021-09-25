@@ -1,7 +1,9 @@
 ---
 title: disconnect()
 menu: disconnect()
+taxonomy:
 
+	category: connection
 ---
 
 # disconnect()

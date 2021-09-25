@@ -2,7 +2,6 @@
 title: get_pressure()
 menu: get_pressure() / getPressure()
 taxonomy:
-	
 	category: sensors
 ---
 

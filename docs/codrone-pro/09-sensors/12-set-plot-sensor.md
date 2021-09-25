@@ -2,7 +2,7 @@
 title: set_plot_sensor()/draw_plot_sensor()
 menu: set_plot_sensor()/draw_plot_sensor()
 taxonomy:
-    
+    tag: codrone-library
     category: sensors
 ---
 

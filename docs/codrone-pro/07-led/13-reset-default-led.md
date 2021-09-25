@@ -1,9 +1,9 @@
 ---
 title: reset_default_led()
 menu: reset_default_led() / resetDefaultLED()
-
+tag: codrone-library
 taxonomy:
-	
+
 	category: LED
 ---
 

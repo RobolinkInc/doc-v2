@@ -2,7 +2,7 @@
 title: set_yaw()
 menu: set_yaw() / setYaw()
 taxonomy:
-	
+
 	category: flight-variables
 ---
 

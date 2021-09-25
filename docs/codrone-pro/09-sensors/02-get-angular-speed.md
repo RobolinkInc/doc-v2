@@ -3,7 +3,8 @@ title: get_angular_speed()
 taxonomy:
     category:
         - sensors
-
+    tag:
+        - codrone-library
 menu: 'get_angular_speed() / getAngularSpeed()'
 ---
 

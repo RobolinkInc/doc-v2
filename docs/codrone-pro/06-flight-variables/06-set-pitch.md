@@ -2,7 +2,7 @@
 title: set_pitch()
 menu: set_pitch() / setPitch()
 taxonomy:
-	
+
 	category: flight-variables
 ---
 

@@ -2,7 +2,7 @@
 title: emergency_stop()
 menu: emergency_stop() / emergencyStop()
 taxonomy:
-	
+
 	category: flight-command-startstop
 ---
 
