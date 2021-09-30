@@ -29,6 +29,11 @@
   
 }
 
+div.main-wrapper {
+  background-image: url("../../static/img/home_background.png");
+  background-position: 0cm bottom;
+}
+
 .menu {
   background-color: #ECECEC;
   color: #AEAEAE;
@@ -51,13 +56,22 @@
 }
 
 .hero {
-  background-color: white !important; 
+  background-color: transparent !important; 
   color: black; 
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   height: 80px;
+}
+
+.hero h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  color: #FFFFFF;
 }
 
 .navbar__link:hover {
