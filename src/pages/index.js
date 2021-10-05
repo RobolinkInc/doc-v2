@@ -9,7 +9,8 @@ import styles from './styles.module.css';
 const features = [
   {
     title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/codroneProLogo.png',
+    imageUrl2: 'img/codroneProPic.png',
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -19,7 +20,8 @@ const features = [
   },
   {
     title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/cdmLogo.png',
+    imageUrl2: 'img/cmdPic.png',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -29,7 +31,8 @@ const features = [
   },
   {
     title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/zumiLogo.png',
+    imageUrl2: 'img/zumiPic.png',
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -39,17 +42,22 @@ const features = [
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({imageUrl, imageUrl2, title, button3}) {
   const imgUrl = useBaseUrl(imageUrl);
+  const imgUrl2 = useBaseUrl(imageUrl2);
   return (
     <div className={classnames('col col--4', styles.feature)}>
+      <div className={styles.featureInner} >
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
+          <img className={styles.featureImagePic} src={imgUrl2} alt={title} />
         </div>
       )}
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <button></button>
+      <button></button>
+      <button></button>
+      </div>
     </div>
   );
 }

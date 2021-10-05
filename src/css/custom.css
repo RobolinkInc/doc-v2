@@ -31,7 +31,7 @@
 
 div.main-wrapper {
   background-image: url("../../static/img/home_background.png");
-  background-position: 0cm bottom;
+  background-size: cover;
 }
 
 .menu {
@@ -72,6 +72,10 @@ div.main-wrapper {
   font-size: 40px;
   line-height: 47px;
   color: #FFFFFF;
+}
+
+div.main-wrapper.docs-wrapper {
+  background-image: none;
 }
 
 .navbar__link:hover {
