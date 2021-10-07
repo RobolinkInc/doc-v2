@@ -11,52 +11,65 @@ const features = [
     title: <>Easy to Use</>,
     imageUrl: 'img/codroneProLogo.png',
     imageUrl2: 'img/codroneProPic.png',
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    cardClassName: <CmdProButtons /> 
   },
   {
     title: <>Focus on What Matters</>,
     imageUrl: 'img/cdmLogo.png',
     imageUrl2: 'img/cmdPic.png',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    cardClassName: <CmdTwoButtons />
   },
   {
     title: <>Powered by React</>,
     imageUrl: 'img/zumiLogo.png',
     imageUrl2: 'img/zumiPic.png',
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    cardClassName: <CmdTwoButtons />
   },
 ];
 
-function Feature({imageUrl, imageUrl2, title, button3}) {
+function CmdProButtons() {
+  return (
+    <div className={styles.columns }>
+   <div className={styles.column }>
+      <button>Blockly</button>
+   </div>
+   <div className={styles.column }>
+   <button>Python</button>
+
+  </div>
+  <div className={styles.column }>
+  <button>Arduino</button>
+  </div>
+</div>
+  );
+}
+
+function CmdTwoButtons() {
+  return (
+    <div className={styles.columns }>
+   <div className={styles.columnHalf }>
+      <button>Blockly</button>
+   </div>
+  <div className={styles.columnHalf }>
+  <button>Python</button>
+  </div>
+</div>
+  );
+}
+
+function Feature({imageUrl, imageUrl2, title, cardClassName}) {
   const imgUrl = useBaseUrl(imageUrl);
   const imgUrl2 = useBaseUrl(imageUrl2);
   return (
     <div className={classnames('col col--4', styles.feature)}>
-      <div className={styles.featureInner} >
+      <div className={styles.featureInner }  >
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
           <img className={styles.featureImagePic} src={imgUrl2} alt={title} />
         </div>
       )}
-      <button></button>
-      <button></button>
-      <button></button>
+      {cardClassName } 
       </div>
     </div>
   );

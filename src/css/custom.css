@@ -7,7 +7,8 @@
 
 /* You can override the default Infima variables here. */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 :root {
   --ifm-color-primary: #25c2a0;
@@ -35,12 +36,41 @@ div.main-wrapper {
 }
 
 .menu {
+  padding-top: 175px;
   background-color: #ECECEC;
-  color: #AEAEAE;
   font-family: Inter;
   font-style: normal;
-  font-weight: 500;
   font-size: 16px;
+  letter-spacing: -0.011em;
+  color: #AEAEAE !important;
+}
+
+.menu li {
+  padding-top: 12px;;
+  padding-bottom: 12px;;
+}
+
+ul>li>ul {
+  background: rgba(37, 194, 160, 0.4);
+  font-family: Roboto;
+}
+
+ul>li>ul>li>a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF !important;
+}
+
+ul .menu__list {
+  margin-left: 0px;
+}
+
+
+div.menu {
+  padding-top: 155px;
+  background-color: #ECECEC;
 }
 
 .menu__link--active {
