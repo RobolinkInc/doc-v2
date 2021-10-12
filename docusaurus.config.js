@@ -46,7 +46,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `<div><div> © ${new Date().getFullYear()}, Robolink <br />All rights reserved </div><div><img src="img/footer-logo.png" </div></div>`,
+      copyright: `<div className="box" ><div> © ${new Date().getFullYear()}, Robolink <br />All rights reserved </div><div><img src="img/footer-logo.png" /> </div></div>`,
      },
   },
   plugins: [[path.resolve(__dirname, './node_modules/docusaurus-lunr-search/'),{

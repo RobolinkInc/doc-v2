@@ -52,7 +52,6 @@ div.main-wrapper {
 
 ul>li>ul {
   background: rgba(37, 194, 160, 0.4);
-  font-family: Roboto;
 }
 
 ul>li>ul>li>a {
@@ -69,7 +68,6 @@ ul .menu__list {
 
 
 div.menu {
-  padding-top: 155px;
   background-color: #ECECEC;
 }
 
@@ -135,4 +133,19 @@ div.main-wrapper.docs-wrapper {
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  width: 128px;
+  height: 100px;
+}
+
+.box div:nth-child(2) {
+  width: 55px;
 }

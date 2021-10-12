@@ -47,10 +47,6 @@
   margin-top: 17px;
 }
 
-
-
-
-
 .featureImagePic {
   height: 250px;
 }
@@ -74,6 +70,7 @@
   border-radius: 30px;
   height: 38px;
   width: 90%;
+  border: none;
   margin-left: 9px;
   font-family: Roboto;
   font-style: normal;
