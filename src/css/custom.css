@@ -7,8 +7,9 @@
 
 /* You can override the default Infima variables here. */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 
 :root {
   --ifm-color-primary: #25c2a0;
@@ -22,12 +23,11 @@
 }
 
 .navbar {
-  background-color: #00ADEE !important;
+  background-color: #00adee !important;
 }
 
 .navbar__link--active {
   color: white;
-  
 }
 
 div.main-wrapper {
@@ -37,38 +37,37 @@ div.main-wrapper {
 
 .menu {
   padding-top: 175px;
-  background-color: #ECECEC;
+  background-color: #ececec;
   font-family: Inter;
   font-style: normal;
   font-size: 16px;
   letter-spacing: -0.011em;
-  color: #AEAEAE !important;
+  color: #aeaeae !important;
 }
 
 .menu li {
-  padding-top: 12px;;
-  padding-bottom: 12px;;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
-ul>li>ul {
+ul > li > ul {
   background: rgba(37, 194, 160, 0.4);
 }
 
-ul>li>ul>li>a {
+ul > li > ul > li > a {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  color: #FFFFFF !important;
+  color: #ffffff !important;
 }
 
 ul .menu__list {
   margin-left: 0px;
 }
 
-
 div.menu {
-  background-color: #ECECEC;
+  background-color: #ececec;
 }
 
 .menu__link--active {
@@ -84,8 +83,8 @@ div.menu {
 }
 
 .hero {
-  background-color: transparent !important; 
-  color: black; 
+  background-color: transparent !important;
+  color: black;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -99,7 +98,7 @@ div.menu {
   font-weight: bold;
   font-size: 40px;
   line-height: 47px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 div.main-wrapper.docs-wrapper {
@@ -113,13 +112,13 @@ div.main-wrapper.docs-wrapper {
 .navbar__link {
   color: white;
   font-family: Roboto;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 21px;
   font-weight: bold;
 }
 
 .navbar__link:nth-child(4) {
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   box-sizing: border-box;
   border-radius: 24px;
   margin-right: 10px;
@@ -131,7 +130,7 @@ div.main-wrapper.docs-wrapper {
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -143,9 +142,80 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .box div {
   width: 128px;
-  height: 100px;
+}
+
+.boxLanding {
+  display: flex;
+  justify-content: center;
+}
+
+.boxLanding div {
+  text-align: center;
+  margin-right: 20px;
+  padding: 0 15px 15px 15px;
+  padding-bottom: 20px;
+}
+
+.boxLanding .parentContainer {
+  background: #ffffff;
+  box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding-top: 9px;
+}
+
+.parentContainer h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  color: #888888;
 }
 
 .box div:nth-child(2) {
   width: 55px;
+}
+
+section.features_src-pages- > div.container {
+  margin-bottom: 128px;
+}
+
+div.col:first-child img:nth-child(2) {
+  height: 242px;
+}
+
+.menu li:last-child {
+  border: none;
+}
+
+article > header > h1 {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #666666;
+}
+
+article > header > h3 {
+  text-align: center;
+}
+
+.parentContainer a {
+  display: block;
+}
+
+.marginTop25 {
+  margin-top: 25px;
+}
+
+.markdown>h3.homeDocLandingVersion{
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 19px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 22.27px;
+  margin-top: 0px;
+  color: #666666;
+  margin-top: calc(var(--ifm-leading-desktop) * -1 * var(--ifm-leading)) !important;
 }

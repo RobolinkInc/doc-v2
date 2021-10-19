@@ -12,6 +12,9 @@ module.exports = {
       defaultMode: 'light',
       disableSwitch: true, 
     },
+    prism: {
+      theme: require('prism-react-renderer/themes/github')
+    },
     navbar: {
        logo: {
         alt: 'My Site Logo',
@@ -22,19 +25,19 @@ module.exports = {
           type: 'doc',
           docId: 'codrone-pro/home',
           position: 'right',
-          label: 'CoDrone Pro/Lite Lib',
+          label: 'CoDrone Pro/Lite',
         },
         {
           type: 'doc',
           docId: 'codrone-mini/cdm',
           position: 'right',
-          label: 'CoDrone Mini Lib',
+          label: 'CoDrone Mini',
         },
         {
           type: 'doc',
           docId: 'zumi/home',
           position: 'right',
-          label: 'Zumi Lib',
+          label: 'Zumi',
         },
        
          {
@@ -46,7 +49,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `<div className="box" ><div> © ${new Date().getFullYear()}, Robolink <br />All rights reserved </div><div><img src="img/footer-logo.png" /> </div></div>`,
+      copyright: `<div class="box" ><div> © ${new Date().getFullYear()}, Robolink <br />All rights reserved </div><div><img src="img/footer-logo.png" /> </div></div>`,
      },
   },
   plugins: [[path.resolve(__dirname, './node_modules/docusaurus-lunr-search/'),{

@@ -8,19 +8,19 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: 'coDronePro',
     imageUrl: 'img/codroneProLogo.png',
     imageUrl2: 'img/codroneProPic.png',
     cardClassName: <CmdProButtons /> 
   },
   {
-    title: <>Focus on What Matters</>,
+    title: 'coDroneMini',
     imageUrl: 'img/cdmLogo.png',
     imageUrl2: 'img/cmdPic.png',
     cardClassName: <CmdTwoButtons />
   },
   {
-    title: <>Powered by React</>,
+    title: 'coDronezumi',
     imageUrl: 'img/zumiLogo.png',
     imageUrl2: 'img/zumiPic.png',
     cardClassName: <CmdTwoButtons />
@@ -65,7 +65,7 @@ function Feature({imageUrl, imageUrl2, title, cardClassName}) {
       <div className={styles.featureInner }  >
       {imgUrl && (
         <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
+          <img className={styles.featureImage}  src={imgUrl} alt={title} />
           <img className={styles.featureImagePic} src={imgUrl2} alt={title} />
         </div>
       )}

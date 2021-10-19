@@ -80,3 +80,11 @@
   text-align: center;
   color: #FFFFFF;
 }
+
+section.features_src-pages->div.container  {
+  margin-bottom: 128px;
+}
+
+div.col:first-child img:nth-child(2){
+  height: 112px;
+}
