@@ -8,6 +8,9 @@ module.exports = {
   organizationName: 'RobolinkInc', // Usually your GitHub org/user name.
   projectName: 'doc-v2', // Usually your repo name.
   themeConfig: {
+    prism: {
+      theme: require('prism-react-renderer/themes/github')
+    },
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true, 
@@ -22,19 +25,19 @@ module.exports = {
           type: 'doc',
           docId: 'codrone-pro/home',
           position: 'right',
-          label: 'CoDrone Pro/Lite Lib',
+          label: 'CoDrone Pro/Lite',
         },
         {
           type: 'doc',
           docId: 'codrone-mini/cdm',
           position: 'right',
-          label: 'CoDrone Mini Lib',
+          label: 'CoDrone Mini',
         },
         {
           type: 'doc',
           docId: 'zumi/home/home',
           position: 'right',
-          label: 'Zumi Lib',
+          label: 'Zumi',
         },
        
          {
