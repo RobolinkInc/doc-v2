@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: [
-    'zumi/home',
+    'zumi/home/home',
     {
       type: 'category',
       label: 'MPU',

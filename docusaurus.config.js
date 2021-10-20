@@ -12,9 +12,6 @@ module.exports = {
       defaultMode: 'light',
       disableSwitch: true, 
     },
-    prism: {
-      theme: require('prism-react-renderer/themes/github')
-    },
     navbar: {
        logo: {
         alt: 'My Site Logo',
@@ -25,19 +22,19 @@ module.exports = {
           type: 'doc',
           docId: 'codrone-pro/home',
           position: 'right',
-          label: 'CoDrone Pro/Lite',
+          label: 'CoDrone Pro/Lite Lib',
         },
         {
           type: 'doc',
           docId: 'codrone-mini/cdm',
           position: 'right',
-          label: 'CoDrone Mini',
+          label: 'CoDrone Mini Lib',
         },
         {
           type: 'doc',
-          docId: 'zumi/home',
+          docId: 'zumi/home/home',
           position: 'right',
-          label: 'Zumi',
+          label: 'Zumi Lib',
         },
        
          {
@@ -49,11 +46,14 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `<div class="box" ><div> © ${new Date().getFullYear()}, Robolink <br />All rights reserved </div><div><img src="img/footer-logo.png" /> </div></div>`,
+      copyright: `<div className="box" ><div> © ${new Date().getFullYear()}, Robolink <br />All rights reserved </div><div><img src="img/footer-logo.png" /> </div></div>`,
      },
   },
   plugins: [[path.resolve(__dirname, './node_modules/docusaurus-lunr-search/'),{
-    languages:['en', 'de']
+    languages:['en', 'de'],
+    excludeRoutes: [
+      'docs/zumi/home/**/*', // exclude changelogs from indexing
+  ]
   }]],
   presets: [
     [
