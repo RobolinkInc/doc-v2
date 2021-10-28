@@ -101,6 +101,14 @@ div.menu {
   color: #ffffff;
 }
 
+@media (max-width: 800px) {
+  .hero {
+    margin-top: 30px;
+    font-size: 30px;
+    height: 90px;
+  }
+}
+
 div.main-wrapper.docs-wrapper {
   background-image: none;
 }
@@ -147,6 +155,12 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 .boxLanding {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .boxLanding {
+    flex-direction: column;
+  }
 }
 
 .boxLanding div {
@@ -241,4 +255,14 @@ article > header > h3 {
   font-weight: 500;
   font-size: 16px;
   color: #666666;
+}
+
+.menu__list-item li {
+  margin-left: 0px;
+}
+
+@media (max-width: 800px) {
+  .featureInner_src-pages- .text--center {
+    margin-top: 20px !important;
+  }
 }
