@@ -280,5 +280,9 @@ ul.menu__list {
 }
 
 .menu.menu--responsive.thin-scrollbar.menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
-  padding-left: 0px !important
+  padding-left: 0px !important;  
+}
+
+div.menu.menu--responsive {
+  padding-left: 0px !important;
 }
