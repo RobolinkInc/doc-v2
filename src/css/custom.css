@@ -266,3 +266,19 @@ article > header > h3 {
     margin-top: 20px !important;
   }
 }
+
+.menu .menu--responsive .thin-scrollbar  {
+  padding-left: 0px !important;
+}
+
+.menu__list {
+  margin-left: 0px !important;
+}
+
+ul.menu__list {
+  margin-left: 0px;
+}
+
+.menu.menu--responsive.thin-scrollbar.menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
+  padding-left: 0px !important
+}
