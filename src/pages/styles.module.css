@@ -77,9 +77,16 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
+  cursor: pointer;
   text-align: center;
   color: #FFFFFF;
+  
 }
+
+button:hover {
+  background: #E5A65A;
+}
+
 
 section.features_src-pages->div.container  {
   margin-bottom: 128px;

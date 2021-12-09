@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import classnames from 'classnames';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
@@ -23,7 +23,7 @@ const features = [
     title: 'coDronezumi',
     imageUrl: 'img/zumiLogo.png',
     imageUrl2: 'img/zumiPic.png',
-    cardClassName: <CmdTwoButtons />
+    cardClassName: <ZumiTwoButtons />
   },
 ];
 
@@ -31,27 +31,51 @@ function CmdProButtons() {
   return (
     <div className={styles.columns }>
    <div className={styles.column }>
-      <button>Blockly</button>
+      <button onClick={goUrlCodronePro}>Blockly</button>
    </div>
    <div className={styles.column }>
-   <button>Python</button>
+   <button onClick={goUrlCodronePro}>Python</button>
 
   </div>
   <div className={styles.column }>
-  <button>Arduino</button>
+  <button onClick={goUrlCodronePro}>Arduino</button>
   </div>
 </div>
   );
+}
+
+function goUrlCodronePro(e) {
+  window.location.href = 'docs/codrone-pro/home' ;
+}
+
+function goUrlCmd(e) {
+  window.location.href = 'docs/codrone-mini/cdm' ;
+}
+function goUrlZumi(e) {
+  window.location.href = 'docs/zumi/home/home' ;
 }
 
 function CmdTwoButtons() {
   return (
     <div className={styles.columns }>
    <div className={styles.columnHalf }>
-      <button>Blockly</button>
+      <button onClick={goUrlCmd}>Blockly</button>
    </div>
   <div className={styles.columnHalf }>
-  <button>Python</button>
+  <button onClick={goUrlCmd}>Python</button>
+  </div>
+</div>
+  );
+}
+
+function ZumiTwoButtons() {
+  return (
+    <div className={styles.columns }>
+   <div className={styles.columnHalf }>
+      <button onClick={goUrlZumi}>Blockly</button>
+   </div>
+  <div className={styles.columnHalf }>
+  <button onClick={goUrlZumi}>Python</button>
   </div>
 </div>
   );
@@ -84,7 +108,8 @@ function Home() {
       description="Description will go into a meta tag in <head />">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">Welcome to DOCS</h1>
+          <h1 className="hero__title">Welcome to Robolink Docs</h1>
+          <h4 className="hero__subtitle">Learn about how to use the library functions and blocks for the coding platforms of our robots</h4>
           <div className={styles.buttons}>
         
           </div>

@@ -22,24 +22,49 @@ module.exports = {
       },
       items: [
         {
-          type: 'doc',
-          docId: 'codrone-pro/home',
           position: 'right',
           label: 'CoDrone Pro/Lite',
-        },
-        {
-          type: 'doc',
-          docId: 'codrone-mini/cdm',
-          position: 'right',
-          label: 'CoDrone Mini',
-        },
-        {
-          type: 'doc',
-          docId: 'zumi/home/home',
-          position: 'right',
-          label: 'Zumi',
-        },
-       
+          items: [
+            {
+              label: 'Blockly',
+              href: 'docs/codrone-pro/home',
+            },
+            {
+              label: 'Python',
+              href: 'docs/codrone-pro/home',
+            },
+            {
+              label: 'Arduino',
+              href: 'docs/codrone-pro/home',
+            },
+          
+          ]},
+          {
+            position: 'right',
+            label: 'CoDrone Mini',
+            items: [
+              {
+                label: 'Blockly',
+                href: 'docs/codrone-mini/cdm',
+              },
+              {
+                label: 'Python',
+                href: 'docs/codrone-mini/cdm',
+              },
+            ]},  
+            {
+              position: 'right',
+              label: 'Zumi',
+              items: [
+                {
+                  label: 'Blockly',
+                  href: 'docs/zumi/home/home',
+                },
+                {
+                  label: 'Python',
+                  href: 'docs/zumi/home/home',
+                },
+              ]},      
          {
           href: 'https://robolink.com',
           label: 'Go to robolink.com',
