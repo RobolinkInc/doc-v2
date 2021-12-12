@@ -6,8 +6,6 @@ taxonomy:
     category: screen
 ---
 
-# sleepy_right()
-
 ##### Description
 draws a sleepy right eye on the screen
 

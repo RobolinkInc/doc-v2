@@ -6,8 +6,6 @@ taxonomy:
 menu: get_altitude()
 ---
 
-# get_altitude()
-
 ##### Description
 
 This is a getter function which returns the current **altitude** of the drone. <br />

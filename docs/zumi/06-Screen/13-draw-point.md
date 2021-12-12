@@ -9,8 +9,6 @@ taxonomy:
 menu: draw_point()
 ---
 
-# draw_point()
-
 ##### Description
 Draws a single pixel at the set x and y coordinate.
 

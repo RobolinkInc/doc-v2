@@ -10,8 +10,6 @@ taxonomy:
 menu: rectangle_right()
 ---
 
-# rectangle_right()
-
 ##### Description
 Drives Zumi in a clockwise rectangle.
 

@@ -9,8 +9,6 @@ taxonomy:
 menu: sleeping()
 ---
 
-# sleeping()
-
 ##### Description
 Draws an animation of Zumi sleeping on the screen.
 

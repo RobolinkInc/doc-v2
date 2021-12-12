@@ -9,8 +9,6 @@ taxonomy:
 menu: draw_triangle()
 ---
 
-# draw_triangle()
-
 ##### Description
 Draws a triangle with 3 points (x1,y1), (x2,y2), (x3,y3): ```x1, y1, x2, y2, x3, y3```.
 

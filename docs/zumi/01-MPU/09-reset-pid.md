@@ -10,8 +10,6 @@ taxonomy:
 menu: reset_PID()
 ---
 
-# reset_PID()
-
 ##### Description
 Resets the sum of the gyro error to zero as well as the PID error sum.
 Use for driving straight or turning accurately.

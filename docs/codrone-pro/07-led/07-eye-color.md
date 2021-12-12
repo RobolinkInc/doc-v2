@@ -7,8 +7,6 @@ taxonomy:
 	category: LED
 ---
 
-## eye_color() / eyeColor()
-
 ##### Description
 
 This function sets the LED color of the arms using RGB values and their brightness with value a from 1 - 100.

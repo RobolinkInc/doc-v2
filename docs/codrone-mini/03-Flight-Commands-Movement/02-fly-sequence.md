@@ -8,8 +8,6 @@ taxonomy:
 menu: fly_sequence()
 ---
 
-# fly_sequence()
-
 ##### Description
 
 This function makes the drone fly in a pre-determined shape. The options are **square**, **spiral**, **triangle**, **hop**, **sway**, and **zigzag**. It's recommended that you **make sure the drone is trimmed and hovering stably** before running a sequence, otherwise the sequence may not appear as expected.

@@ -9,8 +9,6 @@ taxonomy:
 menu: hello()
 ---
 
-# hello()
-
 ##### Description
 Draws Zumi's default eyes on the screen.
 

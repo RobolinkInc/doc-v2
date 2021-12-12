@@ -6,8 +6,6 @@ taxonomy:
 	category: flight-command-movement
 ---
 
-# turn()
-
 ##### Description
 
 A function that represents yaw, but with more natural language. It simply turns in the given direction, duration and power.

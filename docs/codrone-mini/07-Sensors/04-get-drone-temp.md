@@ -8,8 +8,6 @@ taxonomy:
 menu: get_drone_temp()
 ---
 
-# get_drone_temp()
-
 ##### Description
 
 This is a getter function gets the drone's **temperature** from the barometer.<br />

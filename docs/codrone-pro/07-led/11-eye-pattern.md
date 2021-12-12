@@ -7,8 +7,6 @@ taxonomy:
 	category: LED
 ---
 
-## eye_pattern() / eyePattern()
-
 ##### Description
 
 This function sets the color of the eye LED lights to flash in a particular pre-set pattern at a given speed.

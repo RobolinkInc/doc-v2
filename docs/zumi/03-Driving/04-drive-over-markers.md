@@ -10,8 +10,6 @@ taxonomy:
 menu: drive_over_markers()
 ---
 
-# drive_over_markers()
-
 ##### Description
 Zumi will drive over the specified number of alternating black and white horizontal lines at least 2 centimeters wide. Zumi will stop when the number of markers have been crossed or if the timeout ends, whichever is first. (Avoid making the speed very high, zumi will most likely overshoot since it has a lot of speed)
 

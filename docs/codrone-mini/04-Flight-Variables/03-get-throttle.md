@@ -8,8 +8,6 @@ taxonomy:
 menu: get_throttle()
 ---
 
-# get_throttle()
-
 ##### Description
 
 This is a getter function that gets the value of the **throttle** variable.

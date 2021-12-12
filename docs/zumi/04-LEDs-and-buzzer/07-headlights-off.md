@@ -6,8 +6,6 @@ taxonomy:
     category: LEDs-and-Buzzer
 ---
 
-# headlights_off()
-
 ##### Description
 Turns off front LEDs only
 

@@ -6,8 +6,6 @@ taxonomy:
 	category: sensors
 ---
 
-# get_opt_flow_position() / getOptFlowPosition()
-
 ##### Description
 
 This function gets the x and y coordinates from the optical flow sensor.<br/>Keep in mind, the positioning does not take rotation into account.

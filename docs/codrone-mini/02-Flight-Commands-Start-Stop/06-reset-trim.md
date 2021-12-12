@@ -3,8 +3,6 @@ id: reset-trim
 title: reset_trim()
 ---
 
-# reset_trim()
-
 ##### Description
 
 You can reset the roll and pitch trim of the drone in case your drone is drifting. This function will reset the roll and pitch trim values back to zero. NOTE: If you're resetting the trim right before a takeoff, make sure to add a ```time.sleep(1)``` before the ```takeoff()```, otherwise the take off might be skipped.

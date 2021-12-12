@@ -10,8 +10,6 @@ taxonomy:
 menu: circle_left()
 ---
 
-# circle_left()
-
 ##### Description
 Drives Zumi in a counterclockwise circle.
 

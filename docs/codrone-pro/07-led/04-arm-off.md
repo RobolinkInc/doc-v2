@@ -7,8 +7,6 @@ taxonomy:
 	category: LED
 ---
 
-## arm_off() / armOff()
-
 ##### Description
 
 This function turns off the arm LEDs

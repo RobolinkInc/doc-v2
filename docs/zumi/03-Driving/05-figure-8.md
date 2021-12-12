@@ -10,8 +10,6 @@ taxonomy:
 menu: figure_8()
 ---
 
-# figure_8()
-
 ##### Description
 Drives Zumi in a figure 8.
 

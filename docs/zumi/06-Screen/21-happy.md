@@ -9,8 +9,6 @@ taxonomy:
 menu: happy()
 ---
 
-# happy()
-
 ##### Description
 Draws an animation of Zumi's happy eyes.
 

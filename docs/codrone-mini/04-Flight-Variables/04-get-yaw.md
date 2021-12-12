@@ -8,8 +8,6 @@ taxonomy:
 menu: get_yaw()
 ---
 
-# get_yaw()
-
 ##### Description
 
 This is a getter function that gets the value of the **yaw** variable.

@@ -8,8 +8,6 @@ taxonomy:
 menu: 'get_accelerometer() / getAccelerometer()'
 ---
 
-# get_accelerometer() / getAccelerometer()
-
 ##### Description
 
 This function gets the accelerometer sensor data, which returns x, y, and z.<br/> It outputs to the UI in Blockly and as a class in Python as a struct in Arduino.

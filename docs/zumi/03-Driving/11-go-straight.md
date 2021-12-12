@@ -10,8 +10,6 @@ taxonomy:
 menu: go_straight()
 ---
 
-# go_straight()
-
 ##### Description
 Takes one drive "step" to correct for the set heading. This function only works when called inside of a loop.
 

@@ -10,8 +10,6 @@ taxonomy:
 menu: reset_drive()
 ---
 
-# reset_drive()
-
 ##### Description
 Calls both ```reset_PID()``` and ```reset_gyro()```.
 Use for driving straight or turning accurately.

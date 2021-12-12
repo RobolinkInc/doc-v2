@@ -10,8 +10,6 @@ taxonomy:
 menu: reset_gyro()
 ---
 
-# reset_gyro()
-
 ##### Description
 Resets all values in the angle list to 0.
 Use for driving straight or turning accurately.

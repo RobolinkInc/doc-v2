@@ -6,8 +6,6 @@ taxonomy:
 	category: status-checkers
 ---
 
-# is_upside_down() / isUpsideDown()
-
 ##### Description
 
 This function checks whether the drone is upside-down and returns a boolean

@@ -6,8 +6,6 @@ taxonomy:
 	category: status-checkers
 ---
 
-# on_low_battery() / onLowBattery()
-
 ##### Description
 
 Add callback function when CoDrone battery percentage is lower than 50%

@@ -9,8 +9,6 @@ menu: 'arm_pattern() / armPattern()'
 tag: codrone-library
 ---
 
-## arm_pattern() / armPattern()
-
 ##### Description
 
 This function sets the color of the arm LED lights to flash in a particular pre-set pattern at a given speed.

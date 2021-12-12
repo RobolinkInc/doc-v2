@@ -6,8 +6,6 @@ taxonomy:
     category: personality
 ---
 
-# happy()
-
 ##### Description
 makes zumi have a happy personality.
 

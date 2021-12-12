@@ -3,7 +3,6 @@ id: headless-off
 title: headless_off()
 
 ---
-# headless_off()
 
 ##### Description
 This function turns off headless mode. In this mode, the drone is keeping track of which direction it's facing and will fly relative to which direction it is facing. Remember that the "front" is denoted by the red line on the shell.

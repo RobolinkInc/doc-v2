@@ -6,8 +6,6 @@ taxonomy:
 	category: flight-variables
 ---
 
-# get_yaw() / getYaw()
-
 ##### Description
 
 This is a getter function that gets the value of the yaw variable.

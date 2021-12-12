@@ -6,8 +6,6 @@ taxonomy:
 	category: flight-command-startstop
 ---
 
-# emergency_stop() / emergencyStop()
-
 ##### Description
 
 This function immediately stops all commands and stops all motors, so the drone will stop flying immediately. <br />

@@ -10,8 +10,6 @@ taxonomy:
 menu: j_turn()
 ---
 
-# j_turn()
-
 ##### Description
 Drives Zumi in a j-turn.
 

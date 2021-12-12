@@ -10,8 +10,6 @@ taxonomy:
 menu: line_follow_gyro_assist()
 ---
 
-# line_follow_gyro_assist()
-
 ##### Description
 Drives Zumi forward at a default speed of 20 for 1 second in the direction Zumi is currently facing. Zumi will stop when the duration or timeout is over.
 If the bottom IR sensors detect a black line, Zumi will continue to drive. If one or the other sensor detects white, Zumi will auto-adjust to stay on the line.

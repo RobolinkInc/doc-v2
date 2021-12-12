@@ -10,8 +10,6 @@ taxonomy:
 menu: parallel_park()
 ---
 
-# parallel_park()
-
 ##### Description
 Drives Zumi in a parallel park maneuver.
 

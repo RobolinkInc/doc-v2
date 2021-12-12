@@ -10,8 +10,6 @@ taxonomy:
 menu: go_reverse()
 ---
 
-# go_reverse()
-
 ##### Description
 Takes one drive "step" in reverse to correct for the set heading. This function only works when called inside of a loop.
 

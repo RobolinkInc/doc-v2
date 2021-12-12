@@ -6,8 +6,6 @@ taxonomy:
     category: screen
 ---
 
-# draw_image()
-
 ##### Description
 draws the image on the screen.
 

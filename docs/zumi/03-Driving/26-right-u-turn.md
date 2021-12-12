@@ -10,8 +10,6 @@ taxonomy:
 menu: right_u_turn()
 ---
 
-# right_u_turn()
-
 ##### Description
 Drives Zumi in a right u-turn.
 

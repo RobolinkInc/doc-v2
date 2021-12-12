@@ -10,8 +10,6 @@ taxonomy:
 menu: turn()
 ---
 
-# turn()
-
 ##### Description
 Zumi will turn to a desired angle.
 

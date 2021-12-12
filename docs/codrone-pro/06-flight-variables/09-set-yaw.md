@@ -6,8 +6,6 @@ taxonomy:
 	category: flight-variables
 ---
 
-# set_yaw() / setYaw()
-
 ##### Description
 
 This is a setter function that allows you to set the yaw variable.

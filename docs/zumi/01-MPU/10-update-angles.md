@@ -10,8 +10,6 @@ taxonomy:
 menu: update_angles()
 ---
 
-# update_angles()
-
 ##### Description
 Reads angular speeds and updates the list of angles:
 The first 3 are angles produced from the gyroscope readings.<br />

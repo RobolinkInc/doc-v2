@@ -9,8 +9,6 @@ taxonomy:
 menu: blink()
 ---
 
-# blink()
-
 ##### Description
 Draws Zumi's blinking animation on the screen.
 

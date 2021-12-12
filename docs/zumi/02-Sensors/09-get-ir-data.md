@@ -9,8 +9,6 @@ taxonomy:
 menu: get_IR_data()
 ---
 
-# get_IR_data()
-
 ##### Description
 Get the reading from the IR sensors and the index specified. 
 

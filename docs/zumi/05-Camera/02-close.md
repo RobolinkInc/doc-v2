@@ -6,8 +6,6 @@ taxonomy:
     category: camera
 ---
 
-# close()
-
 ##### Description
 Releases camera's resources 
 

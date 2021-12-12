@@ -10,8 +10,6 @@ taxonomy:
 menu: turn_right()
 ---
 
-# turn_right()
-
 ##### Description
 Causes Zumi to turn right the specified number of degrees. Default to 90 degrees.
 

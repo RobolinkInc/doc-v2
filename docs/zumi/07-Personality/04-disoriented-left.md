@@ -6,8 +6,6 @@ taxonomy:
     category: personality
 ---
 
-# disoriented_left()
-
 ##### Description
 makes zumi look to the left and play disoriented sound
 

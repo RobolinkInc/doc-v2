@@ -9,8 +9,6 @@ taxonomy:
 menu: draw_square()
 ---
 
-# draw_square()
-
 ##### Description
 Draws a square on the screen.
 

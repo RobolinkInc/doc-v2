@@ -9,8 +9,6 @@ taxonomy:
 menu: draw_arc()
 ---
 
-# draw_arc()
-
 ##### Description
 Draws an arc within the boundaries of points x1,y1, and x2,y2 at the specified starting and ending angles.
 

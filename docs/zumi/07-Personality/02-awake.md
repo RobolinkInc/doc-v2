@@ -6,8 +6,6 @@ taxonomy:
     category: personality
 ---
 
-# awake()
-
 ##### Description
 Makes Zumi open her eyes with the wake up sound
 

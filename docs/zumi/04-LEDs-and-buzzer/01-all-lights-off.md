@@ -6,8 +6,6 @@ taxonomy:
     category: LEDs-and-Buzzer
 ---
 
-# all_lights_off()
-
 ##### Description
 Turns all LEDs off
 

@@ -6,8 +6,6 @@ taxonomy:
     category: camera
 ---
 
-# save_photo()
-
 ##### Description
 Captures an image and saves it in the working directory.
 

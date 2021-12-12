@@ -7,8 +7,6 @@ taxonomy:
 	category: LED
 ---
 
-## eye_default_color() / eyeDefaultColor()
-
 ##### Description
 
 This function sets the default LED color of the eyes using RGB values and their brightness with a value from 1 - 100. This means the color will remain, even after the CoDrone has been powered off and back on.

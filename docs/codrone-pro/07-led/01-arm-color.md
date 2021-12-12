@@ -7,8 +7,6 @@ taxonomy:
 	category: LED
 ---
 
-## arm_color() / armColor()
-
 ##### Description
 
 This function sets the LED color of the arms using RGB values and their brightness with value from 1 - 100.

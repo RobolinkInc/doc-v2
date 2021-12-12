@@ -6,8 +6,6 @@ taxonomy:
 	category: flight-command-startstop
 ---
 
-# takeoff()
-
 ##### Description
 
 This function makes the drone take off and begin hovering.<br />

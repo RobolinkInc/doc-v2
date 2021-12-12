@@ -6,8 +6,6 @@ taxonomy:
 	category: flight-command-movement
 ---
 
-# fly_sequence() / flySequence()
-
 ##### Description
 
 This function make drone fly specific shape and hover after finish. The options are square, circle, spiral, triangle, hop, sway, zigzag

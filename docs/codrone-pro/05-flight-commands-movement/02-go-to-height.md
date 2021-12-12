@@ -6,8 +6,6 @@ taxonomy:
 	category: flight-command-movement
 ---
 
-# go_to_height() / goToHeight()
-
 ##### Description
 
 This is a setter function will make the drone fly to the given height above the object directly below its IR sensor (usually the ground).<br />

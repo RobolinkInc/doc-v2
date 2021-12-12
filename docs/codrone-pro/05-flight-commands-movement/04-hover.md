@@ -7,8 +7,6 @@ taxonomy:
 	category: flight-command-movement
 ---
 
-# hover()
-
 ##### Description
 
 This function makes the drone hover for a given amount of time. <br />

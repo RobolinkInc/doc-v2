@@ -8,8 +8,6 @@ taxonomy:
 menu: get_trim()
 ---
 
-# get_trim()
-
 ##### Description
 
 This function gets the current trim values of the drone.

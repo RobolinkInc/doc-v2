@@ -7,8 +7,6 @@ taxonomy:
 	category: LED
 ---
 
-## eye_strobe() / eyeStrobe()
-
 ##### Description
 
 This function makes the arms to strobe in various colors

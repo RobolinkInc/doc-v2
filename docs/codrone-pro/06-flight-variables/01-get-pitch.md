@@ -6,8 +6,6 @@ taxonomy:
 	category: flight-variables
 ---
 
-# get_pitch() / getPitch()
-
 ##### Description
 
 This is a getter function that gets the value of the pitch variable.

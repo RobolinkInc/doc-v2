@@ -6,8 +6,6 @@ taxonomy:
     category: LEDs-and-Buzzer
 ---
 
-# hazard_lights_off()
-
 ##### Description
 Turns off flashing front and back LEDs
 

@@ -6,8 +6,6 @@ taxonomy:
     category: LEDs-and-Buzzer
 ---
 
-# signal_left_on()
-
 ##### Description
 Flashes both left front and left back LEDs
 

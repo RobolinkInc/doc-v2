@@ -10,8 +10,6 @@ taxonomy:
 menu: triangle()
 ---
 
-# triangle()
-
 ##### Description
 Drives Zumi in a triangle. Default is counterclockwise.
 

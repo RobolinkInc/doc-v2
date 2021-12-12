@@ -9,8 +9,6 @@ taxonomy:
 menu: sleepy_eyes()
 ---
 
-# sleepy_eyes()
-
 Draws Zumi's sleepy eyes on the screen.
 
 ##### Syntax

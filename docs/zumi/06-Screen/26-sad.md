@@ -9,8 +9,6 @@ taxonomy:
 menu: sad()
 ---
 
-# sad()
-
 ##### Description
 Draws Zumi's sad eyes on the screen.
 

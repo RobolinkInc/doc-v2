@@ -10,8 +10,6 @@ taxonomy:
 menu: forward_avoid_collision()
 ---
 
-# forward_avoid_collision()
-
 ##### Description
 Drives Zumi forward at a default speed of 40 for 1 second in the direction Zumi is currently facing.
 If either of the front IR sensor values go below the threshold, Zumi will stop even if the duration or timeout is not complete.

@@ -9,8 +9,6 @@ taxonomy:
 menu: look_around_open()
 ---
 
-# look_around_open()
-
 ##### Description
 Draws Zumi's eyes looking around left and right on the screen.
 

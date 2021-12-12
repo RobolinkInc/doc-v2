@@ -10,8 +10,6 @@ taxonomy:
 menu: speed_calibration
 ---
 
-# speed_calibration()
-
 ##### Description
 In order to use this method you will need a speed calibration sheet (Click [here](https://learn.robolink.com/wp-content/uploads/2021/06/calibration.pdf) for a PDF version).
 Zumi will drive over 5 horizontal white lines that are 2 centimeters wide.

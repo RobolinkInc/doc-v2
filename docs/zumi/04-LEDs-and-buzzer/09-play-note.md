@@ -8,8 +8,6 @@ taxonomy:
 menu: play_note()
 ---
 
-# play_note()
-
 ##### Description
 Play a note, from C2 - B6.
 

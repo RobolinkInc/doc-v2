@@ -10,8 +10,6 @@ taxonomy:
 menu: get_orientation()
 ---
 
-# get_orientation()
-
 ##### Description
 Uses the acceleration values to find Zumi's orientation with respect to the strongest force being applied to Zumi (gravity).
 

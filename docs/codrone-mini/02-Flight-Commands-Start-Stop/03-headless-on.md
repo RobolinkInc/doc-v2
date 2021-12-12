@@ -4,8 +4,6 @@ title: headless_on()
 
 ---
 
-# headless_on()
-
 ##### Description
 This function turns on headless mode, meaning that no matter in which direction the drone is facing, it will fly in the directions relative to you. This is ideal for long range drones.
 

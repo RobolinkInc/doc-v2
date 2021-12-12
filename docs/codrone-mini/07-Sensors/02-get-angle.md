@@ -8,8 +8,6 @@ taxonomy:
 menu: get_angle()
 ---
 
-# get_angle()
-
 ##### Description
 
 This function gets the **roll, pitch, and yaw angles** from the gyrometer sensor.

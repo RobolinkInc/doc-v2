@@ -6,8 +6,6 @@ taxonomy:
 menu: play_note()
 ---
 
-# play_note()
-
 ##### Description
 
 This function allows you to program the buzzer on the remote, not the drone. <br/>

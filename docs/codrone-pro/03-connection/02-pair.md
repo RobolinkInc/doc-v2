@@ -8,8 +8,6 @@ taxonomy:
 menu: pair()
 ---
 
-# pair()
-
 ##### Description
 This function pairs the BLE board to the CoDrone.  After establishing a connection, it always waits for 3 seconds before executing the next command. Pair works a bit differently between Arduino and Python.  With the Arduino-based remote, ```pair()``` with no parameters will pair with the last paired CoDrone. If it's your first time using the remote, it will just find the nearest CoDrone it can find, then "lock in" with that CoDrone and always pair with it.  With Python, ```pair()``` with no parameters will pair with the last paired CoDrone, which is saved in a file called "PairInfo." If it's your first time running ```pair()```, it will just find the nearest CoDrone it can find, then "lock in" with that CoDrone, save it to "PairInfo" and always pair with it until you run ```pair(drone.Nearest)```.
 

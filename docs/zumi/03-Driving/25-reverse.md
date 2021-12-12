@@ -10,8 +10,6 @@ taxonomy:
 menu: reverse()
 ---
 
-# reverse()
-
 ##### Description
 Drives Zumi in reverse at a default speed of 40 for 1 second in the direction Zumi is currently facing.
 

@@ -4,8 +4,6 @@ title: pair()
 
 ---
 
-# pair()
-
 ##### Description
 This function connects your controller with the program. You can set debug equal to True if you want to see helpful print statements that can help you debug your code. We recommend setting this to True to check if commands are being skipped. You can also set the specific USB port name.
 

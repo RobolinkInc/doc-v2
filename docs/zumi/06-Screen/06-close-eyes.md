@@ -9,8 +9,6 @@ taxonomy:
 menu: close_eyes()
 ---
 
-# close_eyes()
-
 ##### Description
 Draws Zumi's closed eyes on the screen.
 

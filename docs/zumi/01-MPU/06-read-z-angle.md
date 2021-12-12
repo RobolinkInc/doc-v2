@@ -10,8 +10,6 @@ taxonomy:
 menu: read_z_angle()
 ---
 
-# read_z_angle()
-
 ##### Description
 Calls ```update_angles()``` and returns only the z-angle.
 

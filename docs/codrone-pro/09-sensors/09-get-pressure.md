@@ -5,8 +5,6 @@ taxonomy:
 	category: sensors
 ---
 
-# get_pressure() / getPressure()
-
 ##### Description
 
 This is a getter function gets the data from the barometer sensor.

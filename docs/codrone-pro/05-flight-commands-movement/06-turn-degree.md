@@ -6,8 +6,6 @@ taxonomy:
 	category: flight-command-movement
 ---
 
-# turn_degree() / turnDegree()
-
 ##### Description
 
 A Senior level function that yaws by a given degree in a given direction. <br />

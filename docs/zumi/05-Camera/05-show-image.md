@@ -9,8 +9,6 @@ taxonomy:
 menu: show_image()
 ---
 
-# show_image()
-
 ##### Description
 Displays an image taken from Zumi's camera.
 

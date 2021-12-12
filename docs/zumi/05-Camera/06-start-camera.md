@@ -6,8 +6,6 @@ taxonomy:
     category: camera
 ---
 
-# start_camera()
-
 ##### Description
 Turns on the camera
 

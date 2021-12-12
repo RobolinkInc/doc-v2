@@ -6,8 +6,6 @@ taxonomy:
 menu: get_battery_percentage()
 ---
 
-# get_battery_percentage()
-
 ##### Description
 
 This function gets the battery percentage of the drone, returning a value from 0 to 100.

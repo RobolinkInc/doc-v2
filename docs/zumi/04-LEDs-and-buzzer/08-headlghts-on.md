@@ -6,8 +6,6 @@ taxonomy:
     category: LEDs-and-Buzzer
 ---
 
-# headlights_on()
-
 ##### Description
 Turns on front LEDs only
 

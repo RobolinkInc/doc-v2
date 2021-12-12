@@ -9,8 +9,6 @@ taxonomy:
 menu: draw_polygon()
 ---
 
-# draw_polygon()
-
 ##### Description
 Draws lines between points in a given list ```[(x1,y1),...,(xn,yn)]``` to form a shape.
 

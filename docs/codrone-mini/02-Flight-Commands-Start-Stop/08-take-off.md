@@ -3,8 +3,6 @@ id: take-off
 title: takeoff()
 ---
 
-# takeoff()
-
 ##### Description
 
 This function makes the drone takeoff and hover.<br />

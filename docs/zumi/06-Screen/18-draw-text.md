@@ -6,8 +6,6 @@ taxonomy:
     category: screen
 ---
 
-# draw_text()
-
 ##### Description
 Draws text to the upper lefthand corner of the screen
 

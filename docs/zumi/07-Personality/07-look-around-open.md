@@ -9,8 +9,6 @@ taxonomy:
 menu: look_around_open()
 ---
 
-# look_around_open()
-
 ##### Description
 makes zumi look around with wide open eyes
 

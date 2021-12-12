@@ -10,8 +10,6 @@ taxonomy:
 menu: reset_coordinate()
 ---
 
-# reset_coordinate()
-
 ##### Description
 Will reset the coordinate to (0,0).
 

@@ -6,8 +6,6 @@ taxonomy:
     category: personality
 ---
 
-# look_around()
-
 ##### Description
 makes zumi look around
 

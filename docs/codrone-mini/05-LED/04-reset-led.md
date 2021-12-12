@@ -8,8 +8,6 @@ taxonomy:
 menu: reset_LED()
 ---
 
-## reset_LED()
-
 ##### Description
 
 This function sets the LED color back to red and sets the mode to SOLID, which is the original default color and pattern.

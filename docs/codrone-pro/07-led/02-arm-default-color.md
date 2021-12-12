@@ -7,8 +7,6 @@ taxonomy:
 	category: LED
 ---
 
-## arm_default_color() / armDefaultColor()
-
 ##### Description
 
 This function sets the default LED color of the eyes as well as the mode, so it will remain that color even after powering off and back on. The colors set are using RGB values.

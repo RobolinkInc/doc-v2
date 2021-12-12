@@ -8,8 +8,6 @@ taxonomy:
 menu: turn_off_LED()
 ---
 
-## turn_off_LED
-
 ##### Description
 
 This function turns off the LED.

@@ -7,8 +7,6 @@ taxonomy:
 	category: LED
 ---
 
-## eye_off() / eyeOff()
-
 ##### Description
 
 This function turns off the eye LEDs

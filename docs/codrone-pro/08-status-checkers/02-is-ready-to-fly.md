@@ -6,8 +6,6 @@ taxonomy:
 	category: status-checkers
 ---
 
-# is_ready_to_fly() / isReadyToFly()
-
 ##### Description
 
 This function checks whether the drone is ready to fly by returning a boolean.<br/>The drone is ready to fly if it is oriented right-side up, and not flying.

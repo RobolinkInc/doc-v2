@@ -8,8 +8,6 @@ taxonomy:
 menu: set_throttle()
 ---
 
-# set_throttle()
-
 ##### Description
 
 This is a setter function that allows you to set the **throttle** variable. Once you set throttle, you have to use ```move()``` to actually execute the movement. The throttle variable will remain what you last set it until the end of the flight sequence, so you will have to set it back to 0 if you don't want the drone to throttle again.

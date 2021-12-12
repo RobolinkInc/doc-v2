@@ -10,8 +10,6 @@ taxonomy:
 menu: move_to_coordinate()
 ---
 
-# move_to_coordinate()
-
 ##### Description
 This method drives Zumi from an origin to an x,y position in inches. Using this function will keep track of Zumi's coordinates. To reset the origin, use the reset_coordinate() function. This method uses a best fit linear approximation of the distance traveled over time.
 It uses the equation y = mx + b, where:

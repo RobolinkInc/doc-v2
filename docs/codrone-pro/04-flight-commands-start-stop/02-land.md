@@ -6,8 +6,6 @@ taxonomy:
 	category: flight-command-startstop
 ---
 
-# land()
-
 ##### Description
 
 This function makes the drone stop all commands, hovers, and makes a soft landing where it is. <br />

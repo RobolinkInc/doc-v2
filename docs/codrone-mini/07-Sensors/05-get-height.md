@@ -6,8 +6,6 @@ taxonomy:
 menu: get_height()
 ---
 
-# get_height()
-
 ##### Description
 
 This is a getter function which returns the current **height** of the drone. <br />

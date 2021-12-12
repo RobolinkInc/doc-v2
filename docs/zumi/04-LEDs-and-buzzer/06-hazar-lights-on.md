@@ -6,8 +6,6 @@ taxonomy:
     category: LEDs-and-Buzzer
 ---
 
-# hazard_lights_on()
-
 ##### Description
 Flashes both front and back LEDs
 

@@ -6,8 +6,6 @@ taxonomy:
 	category: flight-variables
 ---
 
-# move()
-
 ##### Description
 
 You can use this function to create more complex flight movements.  With no parameters, ```move()``` will just run based on whatever the flight variables have been set to with functions like ```setPitch()``` and ```setThrottle()``` indefinitely.  You can also run it for a certain duration.  The function also takes multiple parameters, where you can set roll, pitch, yaw, and throttle all at once.  You can run it infinitely with 4 parameters, or you can run it for a given duration with 5 parameters.  If the drone is not flying, nothing will happen.

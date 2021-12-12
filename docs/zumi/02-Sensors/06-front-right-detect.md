@@ -9,8 +9,6 @@ taxonomy:
 menu: front_right_detect()
 ---
 
-# front_right_detect()
-
 ##### Description
 Returns True if the front right IR sensor detects a value below a threshold. The value decreases as the light reflected back to the receiver increases.
 

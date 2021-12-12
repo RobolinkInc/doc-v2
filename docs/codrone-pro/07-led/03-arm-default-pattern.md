@@ -7,8 +7,6 @@ taxonomy:
 	category: LED
 ---
 
-## arm_default_pattern() / armDefaultPattern()
-
 ##### Description
 
 This function sets the default color of the arm LED lights to flash in a particular pre-set pattern at a given speed, which means the lights will remain in that color and pattern when powered off and back on.

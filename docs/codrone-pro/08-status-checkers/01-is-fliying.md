@@ -6,8 +6,6 @@ taxonomy:
 	category: status-checkers
 ---
 
-# is_flying() / isFlying()
-
 ##### Description
 
 This function checks whether the drone is flying and returns a boolean

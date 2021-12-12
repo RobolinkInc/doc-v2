@@ -9,8 +9,6 @@ taxonomy:
 menu: back_left_detect()
 ---
 
-# back_left_detect()
-
 ##### Description
 Returns True if the back left IR sensor detects a value below a threshold. The value decreases as the light reflected back to the receiver increases.
 

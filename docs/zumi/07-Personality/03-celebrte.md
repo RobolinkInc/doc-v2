@@ -6,8 +6,6 @@ taxonomy:
     category: personality
 ---
 
-# celebrate()
-
 ##### Description
 makes zumi celebrate. 
 

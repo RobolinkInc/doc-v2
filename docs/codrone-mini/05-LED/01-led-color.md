@@ -8,8 +8,6 @@ taxonomy:
 menu: LED_color()
 ---
 
-## LED_color()
-
 ##### Description
 
 This function sets the LED color of the CoDrone Mini's LED using RGB values and their brightness with a value from 1 - 100. **NOTE:** If you're setting the LED right before a takeoff, make sure to add a ```time.sleep(1)``` before the ```takeoff()```, otherwise the take off might be skipped.

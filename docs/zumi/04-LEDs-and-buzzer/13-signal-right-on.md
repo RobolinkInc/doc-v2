@@ -6,8 +6,6 @@ taxonomy:
     category: LEDs-and-Buzzer
 ---
 
-# signal_right_on()
-
 ##### Description
 Flashes both right front and right back LEDs
 

@@ -6,8 +6,6 @@ taxonomy:
     category: LEDs-and-Buzzer
 ---
 
-# brake_lights_on()
-
 ##### Description
 Turns on back LEDs only
 

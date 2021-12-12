@@ -9,8 +9,6 @@ taxonomy:
 menu: clear_drawing()
 ---
 
-# clear_drawing()
-
 ##### Description
 Clears the drawing canvas object without clearing the OLED screen. Use this before using any new draw functions.
 

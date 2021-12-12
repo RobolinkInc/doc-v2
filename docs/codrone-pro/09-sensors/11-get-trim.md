@@ -6,8 +6,6 @@ taxonomy:
 	category: sensors
 ---
 
-# get_trim() / getTrim()
-
 ##### Description
 
 This function gets the current trim values of the drone.

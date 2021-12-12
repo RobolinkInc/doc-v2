@@ -10,8 +10,6 @@ taxonomy:
 menu: get_all_IR_data()
 ---
 
-# get_all_IR_data()
-
 ##### Description
 Returns the readings from all 6 IR sensors. 
 

@@ -3,8 +3,6 @@ id: flip
 title: flip()
 ---
 
-# flip()
-
 ##### Description
 
 This function makes the drone do a flip in one of four directions: **forward**, **backward**, **left**, or **right**. It's recommended that you wait a few seconds in between successive flips, otherwise the sequence may not appear as expected.

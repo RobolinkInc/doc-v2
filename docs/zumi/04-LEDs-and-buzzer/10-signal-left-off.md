@@ -6,8 +6,6 @@ taxonomy:
     category: LEDs-and-Buzzer
 ---
 
-# signal_left_off()
-
 ##### Description
 Turns off flashing both left front and left back LEDs
 

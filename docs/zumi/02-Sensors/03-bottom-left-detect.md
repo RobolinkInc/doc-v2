@@ -9,8 +9,6 @@ taxonomy:
 menu: bottom_left_detect()
 ---
 
-# bottom_left_detect()
-
 ##### Description
 Returns True if the bottom left IR sensor detects a value below a threshold. The value decreases as the light reflected back to the receiver increases.
 

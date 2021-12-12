@@ -9,8 +9,6 @@ taxonomy:
 menu: clock()
 ---
 
-# clock()
-
 ##### Descriptionx
 Clears the screen and draws a clock with the given hour and minute set by the user.
 

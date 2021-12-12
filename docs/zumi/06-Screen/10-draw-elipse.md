@@ -9,8 +9,6 @@ taxonomy:
 menu: draw_ellipse()
 ---
 
-# draw_ellipse()
-
 ##### Description
 Draws an ellipse that fits in a rectangle with its top-left corner at x,y and a set width and height.
 

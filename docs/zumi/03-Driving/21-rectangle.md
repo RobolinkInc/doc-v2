@@ -10,8 +10,6 @@ taxonomy:
 menu: rectangle()
 ---
 
-# rectangle()
-
 ##### Description
 Drives Zumi in a rectangle.
 

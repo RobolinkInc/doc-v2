@@ -8,8 +8,6 @@ taxonomy:
 menu: LED_pattern()
 ---
 
-## LED_pattern()
-
 ##### Description
 
 This function sets the color of the arm LED lights to flash in a particular pre-set pattern at a given speed.

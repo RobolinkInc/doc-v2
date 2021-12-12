@@ -6,8 +6,6 @@ taxonomy:
     category: LEDs-and-Buzzer
 ---
 
-# brake_lights_off()
-
 ##### Description
 Turns off front LEDs only
 

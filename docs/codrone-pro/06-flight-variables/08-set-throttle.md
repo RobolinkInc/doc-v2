@@ -6,8 +6,6 @@ taxonomy:
 	category: flight-variables
 ---
 
-# set_throttle() / setThrottle()
-
 ##### Description
 
 This is a setter function that allows you to set the throttle variable.

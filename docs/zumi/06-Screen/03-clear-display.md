@@ -9,8 +9,6 @@ taxonomy:
 menu: clear_display()
 ---
 
-# clear_display()
-
 ##### Description
 Clears everything on the OLED by drawing a black rectangle.
 

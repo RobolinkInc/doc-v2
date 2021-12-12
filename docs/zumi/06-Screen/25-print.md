@@ -9,8 +9,6 @@ taxonomy:
 menu: print()
 ---
 
-# print()
-
 ##### Description
 Prints any number of Strings on the screen. 
 

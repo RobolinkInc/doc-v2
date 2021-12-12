@@ -9,8 +9,6 @@ taxonomy:
 menu: glimmer()
 ---
 
-# glimmer()
-
 ##### Description
 Draws an animation of Zumi's eyes glimmering on the screen.
 

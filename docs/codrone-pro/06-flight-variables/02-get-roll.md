@@ -6,8 +6,6 @@ taxonomy:
 	category: flight-variables
 ---
 
-# get_roll() / getRoll()
-
 ##### Description
 
 This is a getter function that gets the value of the roll variable.

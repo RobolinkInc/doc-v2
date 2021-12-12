@@ -6,8 +6,6 @@ taxonomy:
     category: sensors
 ---
 
-# set_plot_sensor()/draw_plot_sensor()
-
 ##### Description
 
 This function is used for drawing sensor data.  The function should be used in pairs, with set_plot_sensor() starting the recording process, and draw_plot_sensor() doing the actual drawing process.  You can plot the height sensor, the temperature sensor, the gyro angles, gyro raw sensor values, the image flow sensor, and the accelerometer sensor.

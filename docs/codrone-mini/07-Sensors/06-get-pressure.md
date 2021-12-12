@@ -6,8 +6,6 @@ taxonomy:
 menu: get_pressure()
 ---
 
-# get_pressure()
-
 ##### Description
 
 This is a getter function that returns the data from the barometer. The function returns a value in the unit Pascals. **Note:** 1atm = 101325 Pa

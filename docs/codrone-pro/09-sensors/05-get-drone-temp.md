@@ -8,8 +8,6 @@ taxonomy:
 menu: 'get_drone_temp() / getDroneTemp()'
 ---
 
-# get_drone_temp() / getDroneTemp()
-
 ##### Description
 
 This is a getter function gets the data from the drone’s temperature sensor.<br/>Importantly, it reads the drone’s temperature, not the air around it.

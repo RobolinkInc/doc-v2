@@ -8,8 +8,6 @@ taxonomy:
 menu: 'draw_text_center(self, string, display=0, image=0, font_size=16, clear=True)'
 ---
 
-# draw_text_center()
-
 ##### Description
 Draws text to the center of the screen
 

@@ -10,8 +10,6 @@ taxonomy:
 menu: funnel_align()
 ---
 
-# funnel_align()
-
 ##### Description
 Zumi will try to align to the funnel piece on the competition field (Click [here](https://learn.robolink.com/wp-content/uploads/2021/06/current_funnel.pdf) for a PDF version).
 

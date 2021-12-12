@@ -9,8 +9,6 @@ taxonomy:
 menu: draw_circle()
 ---
 
-# draw_circle()
-
 ##### Description
 Draws a circle that fits inside a square with its top-left corner at x,y and a width/height of the circle's diameter.
 

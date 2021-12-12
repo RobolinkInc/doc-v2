@@ -6,8 +6,6 @@ taxonomy:
 	category: sensors
 ---
 
-# get_battery_voltage() / getBatteryVoltage()
-
 ##### Description
 
 This function gets the voltage of the battery

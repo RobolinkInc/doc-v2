@@ -10,8 +10,6 @@ taxonomy:
 menu: read_x_angle()
 ---
 
-# read_x_angle()
-
 ##### Description
 Calls ```update_angles()``` and returns only the x-angle.
 

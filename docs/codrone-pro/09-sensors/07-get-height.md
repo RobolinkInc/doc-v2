@@ -6,8 +6,6 @@ taxonomy:
 	category: sensors
 ---
 
-# get_height() / getHeight()
-
 ##### Description
 
 This is a getter function gets the current height of the drone from the object directly below its IR sensor. 

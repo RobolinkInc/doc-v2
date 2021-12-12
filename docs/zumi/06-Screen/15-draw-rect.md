@@ -9,8 +9,6 @@ taxonomy:
 menu: draw_rect()
 ---
 
-# draw_rect()
-
 ##### Description
 Draws a rectangle on the screen.
 

@@ -7,8 +7,6 @@ taxonomy:
 	category: sensors
 ---
 
-# get_state() / getState()
-
 ##### Description
 
 This function gets the state of the drone, as in whether it’s: ready, takeoff, flight, flip, stop, landing, reverse, accident, error.

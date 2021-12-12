@@ -6,8 +6,6 @@ taxonomy:
     category: camera
 ---
 
-# is_closed()
-
 ##### Description
 Checks if the camera stream is open
 

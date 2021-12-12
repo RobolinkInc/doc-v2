@@ -8,8 +8,6 @@ taxonomy:
 menu: capture()
 ---
 
-# capture()
-
 ##### Description
 Takes a picture using the PiCamera and saves it in an array. 
 

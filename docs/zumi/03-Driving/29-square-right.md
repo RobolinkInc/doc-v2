@@ -10,8 +10,6 @@ taxonomy:
 menu: square_right()
 ---
 
-# square_right()
-
 ##### Description
 Drives Zumi in a clockwise square.
 

@@ -10,8 +10,6 @@ taxonomy:
 menu: left_u_turn()
 ---
 
-# left_u_turn()
-
 ##### Description
 Drives Zumi in a left u-turn.
 

@@ -7,8 +7,6 @@ taxonomy:
 	category: LED
 ---
 
-## reset_default_led() / resetDefaultLED()
-
 ##### Description
 
 This function sets the LED color of the eyes and arms back to red and sets the mode to SOLID, which is the original default color.

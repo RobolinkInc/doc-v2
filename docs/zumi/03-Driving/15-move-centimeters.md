@@ -10,8 +10,6 @@ taxonomy:
 menu: move_centimeters()
 ---
 
-# move_centimeters()
-
 ##### Description
 This method uses a best fit linear approximation of the distance traveled over time.
 It uses the equation y = mx + b, where:

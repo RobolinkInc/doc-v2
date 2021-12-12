@@ -2,8 +2,6 @@
 title: get_battery_voltage()
 ---
 
-# get_battery_voltage()
-
 ##### Description
 Get the reading from battery level.
 

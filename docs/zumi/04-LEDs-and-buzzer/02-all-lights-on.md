@@ -6,8 +6,6 @@ taxonomy:
     category: LEDs-and-Buzzer
 ---
 
-# all_lights_on()
-
 ##### Description
 Turns all LEDs on
 the 2 front white leds and the rear 2 leds.

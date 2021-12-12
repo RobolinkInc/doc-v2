@@ -3,8 +3,6 @@ id: turn
 title: turn()
 ---
 
-# turn()
-
 ##### Description
 
 A function that represents yaw, but with more natural language. It turns CoDrone Mini in the given direction, with the given duration and power.

@@ -8,8 +8,6 @@ taxonomy:
 menu: get_roll()
 ---
 
-# get_roll()
-
 ##### Description
 
 This is a getter function that gets the value of the **roll** variable.

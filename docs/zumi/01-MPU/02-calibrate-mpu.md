@@ -10,8 +10,6 @@ taxonomy:
 menu: calibrate_MPU()
 ---
 
-# calibrate_MPU()
-
 ##### Description
 Reads from the previous MPU offsets file unless the file does not exist. If an offsets file does not exist, then it will
 create an offsets file by taking the average of multiple readings from the sensor. While running this function, make 

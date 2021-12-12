@@ -6,8 +6,6 @@ taxonomy:
 	category: sensors
 ---
 
-# get_gyro_angles() / getGyroAngles()
-
 ##### Description
 
 This function gets the data from the gyrometer sensor to determine the roll, pitch, and yaw as angles.

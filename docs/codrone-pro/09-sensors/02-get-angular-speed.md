@@ -8,8 +8,6 @@ taxonomy:
 menu: 'get_angular_speed() / getAngularSpeed()'
 ---
 
-# get_angular_speed() / getAngularSpeed()
-
 ##### Description
 
 This function gets the data from the gyrometer sensor for the roll, pitch, and yaw angular speed.

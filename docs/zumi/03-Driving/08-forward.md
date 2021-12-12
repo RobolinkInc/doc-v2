@@ -10,8 +10,6 @@ taxonomy:
 menu: forward()
 ---
 
-# forward()
-
 ##### Description
 Drives Zumi forward at a default speed of 40 for 1 second in the direction Zumi is currently facing.
 

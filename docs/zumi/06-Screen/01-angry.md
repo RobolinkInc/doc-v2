@@ -9,8 +9,6 @@ taxonomy:
 menu: angry()
 ---
 
-# angry()
-
 ##### Description
 Draws Zumi's angry eyes on the screen.
 

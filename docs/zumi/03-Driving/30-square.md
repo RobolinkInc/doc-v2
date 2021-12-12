@@ -10,8 +10,6 @@ taxonomy:
 menu: square()
 ---
 
-# square()
-
 ##### Description
 Drives Zumi in a square. Default to counterclockwise.
 

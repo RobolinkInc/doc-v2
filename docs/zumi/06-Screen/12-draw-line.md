@@ -9,8 +9,6 @@ taxonomy:
 menu: draw_line()
 ---
 
-# draw_line()
-
 ##### Description
 Draws a line between points (x1,y1) and (x2,y2).
 

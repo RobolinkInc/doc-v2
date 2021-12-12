@@ -8,8 +8,6 @@ taxonomy:
 menu: get_pitch()
 ---
 
-# get_pitch()
-
 ##### Description
 
 This is a getter function that gets the value of the **pitch** variable.

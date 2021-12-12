@@ -6,8 +6,6 @@ taxonomy:
 	category: flight-variables
 ---
 
-# set_pitch() / setPitch()
-
 ##### Description
 This is a setter function that allows you to set the pitch variable.
 

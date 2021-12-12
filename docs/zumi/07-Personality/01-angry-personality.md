@@ -9,8 +9,6 @@ taxonomy:
 menu: angry()
 ---
 
-# angry()
-
 ##### Description
 makes zumi get angry.
 

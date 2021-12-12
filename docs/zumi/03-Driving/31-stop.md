@@ -10,8 +10,6 @@ taxonomy:
 menu: stop()
 ---
 
-# stop()
-
 ##### Description
 Stops Zumi's motors immediately.
 
