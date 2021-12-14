@@ -45,11 +45,11 @@ module.exports = {
             items: [
               {
                 label: 'Blockly',
-                href: 'docs/codrone-mini/cdm',
+                href: 'docs/codrone-mini/Connection/disc',
               },
               {
                 label: 'Python',
-                href: 'docs/codrone-mini/cdm',
+                href: 'docs/codrone-mini/Connection/disc',
               },
             ]},  
             {

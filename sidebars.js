@@ -73,8 +73,7 @@ module.exports = {
   ],
   codroneProSideBar:  [
     'codrone-pro/home',
-    'codrone-pro/arduino-changelog',
-    'codrone-pro/python-changelog',
+
     {
       type: 'category',
       label: 'Connection',
@@ -147,7 +146,6 @@ module.exports = {
     },
   ],
   cdmSideBar:  [
-    'codrone-mini/cdm',
     {
       type: 'category',
       label: 'Connection',

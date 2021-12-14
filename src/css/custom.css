@@ -101,12 +101,10 @@ div.menu {
 }
 
 .hero h4 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
   font-size: 16px;
   line-height: 0px;
-  color: lightgray;
+  color: white;
+  font-weight: normal;
 }
 
 
@@ -359,4 +357,8 @@ ul.dropdown__menu>li:last-child {
  
   .navbar__item .navbar__link:hover {
     border-radius: none;
+  }
+
+  ul>li>ul>li>a {
+    margin-left: 20px;
   }
