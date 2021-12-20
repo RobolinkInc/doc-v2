@@ -39,6 +39,16 @@
   padding-bottom: 11px;
 }
 
+@media screen and (min-width: 1600px) {
+  .featureInner  {
+    height: 100%;
+  }
+  .featureImagePic {
+    display: block;
+    margin: auto;
+  }
+}
+
 .feature:nth-child(3){
   margin-right: 0px;
 }

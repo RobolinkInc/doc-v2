@@ -286,16 +286,6 @@ article > header > h3 {
   }
 }
 
-@media screen and (min-width: 1600px) {
-  .featureInner_src-pages-  {
-    height: 100%;
-  }
-  .featureImagePic_src-pages- {
-    display: block;
-    margin: auto;
-  }
-}
-
 .menu .menu--responsive .thin-scrollbar {
   padding-left: 0px !important;
 }
