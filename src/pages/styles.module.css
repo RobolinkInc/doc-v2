@@ -93,6 +93,18 @@
   
 }
 
+.column:nth-child(1) {
+  margin-left: -3px;
+}
+
+.column:nth-child(2) {
+  margin-left: -1px;
+}
+
+.column:nth-child(3) {
+  margin-right: 3px;
+}
+
 button:hover {
   background: #E5A65A;
 }

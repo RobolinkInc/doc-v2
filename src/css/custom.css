@@ -159,14 +159,22 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.box {
+#box {
   display: flex;
   align-items: center;
+  margin-top: 20px;
   justify-content: center;
 }
 
-.box div {
-  width: 128px;
+#footerBox1 a {
+  margin-bottom: 15px;
+  color: white;
+}
+
+#box div:nth-child(2) {
+  width: 268px;
+  padding-left: 5px;
+  display: flex;
 }
 
 .boxLanding {
