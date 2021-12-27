@@ -74,7 +74,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `<div id="footerBox1"><a href="#"> Robolink Help</a> | <a href="#"> Terms of use</a> | <a href="#"> Privacy</a></div><div id="box" ><div><img src="img/footer-logo.png" /> </div> <div> © ${new Date().getFullYear()} Robolink, All rights reserved </div></div>`,
+      copyright: `<div id="footerBox1"> <img id="imgFooter" src="img/footer-logo.png" />  <a href="#"> Robolink Help</a> | <a href="#"> Terms of use</a> | <a href="#"> Privacy</a></div><div id="box" ></div>`,
      },
   },
   plugins: [[path.resolve(__dirname, './node_modules/docusaurus-lunr-search/'),{

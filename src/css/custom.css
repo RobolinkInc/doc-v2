@@ -166,6 +166,16 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   justify-content: center;
 }
 
+
+.footer {
+  background-color: #33bdf1;
+}
+
+#imgFooter {
+  float: left;
+  margin-top: -13px; 
+}
+
 #footerBox1 a {
   margin-bottom: 15px;
   color: white;
