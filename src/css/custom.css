@@ -171,8 +171,13 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: #33bdf1;
 }
 
+.footer__bottom {
+  margin-top: 14px;
+}
+
 #imgFooter {
   float: left;
+  width: 40px;
   margin-top: -13px; 
 }
 
