@@ -81,6 +81,12 @@ div.menu {
   border-bottom: 1px solid white;
 }
 
+a.menu__link {
+  margin-top: 10px;
+  height: 40px;
+  padding-top: 6px;
+}
+
 .hero {
   background-color: transparent !important;
   color: black;
@@ -177,7 +183,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 
 #imgFooter {
   float: left;
-  width: 40px;
+  width: 35px;
   margin-top: -13px; 
 }
 
@@ -385,3 +391,27 @@ ul.dropdown__menu>li:last-child {
   ul>li>ul>li>a {
     margin-left: 20px;
   }
+
+  ul>li>ul>li>a.menu__link {
+    height: 59px;
+    padding-top: 15px;
+  }
+
+  li>ul.menu__list>li.menu__list-item {
+    margin-top: -22px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  a.menu__link.menu__link--active.active {
+    background: #FFFFFF;
+    color: #888 !important;
+    margin: 0px;
+    margin-top: 10px;
+    top: 0;
+    border-radius: 0px;
+    border: 0px !important;
+    padding-left: 37px;
+    border: 0px;
+    height: 59px;
+}
