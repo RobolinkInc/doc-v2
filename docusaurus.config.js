@@ -27,15 +27,15 @@ module.exports = {
           items: [
             {
               label: 'Blockly',
-              href: 'docs/codrone-pro/home',
+              href: '/doc-v2/docs/codrone-pro/home',
             },
             {
               label: 'Python',
-              href: 'docs/codrone-pro/home',
+              href: '/doc-v2/docs/codrone-pro/home',
             },
             {
               label: 'Arduino',
-              href: 'docs/codrone-pro/home',
+              href: '/doc-v2/docs/codrone-pro/home',
             },
           
           ]},
@@ -45,11 +45,11 @@ module.exports = {
             items: [
               {
                 label: 'Blockly',
-                href: 'docs/codrone-mini/Connection/disc',
+                href: '/doc-v2/docs/codrone-mini/blockly/reference',
               },
               {
                 label: 'Python',
-                href: 'docs/codrone-mini/Connection/disc',
+                href: '/doc-v2/docs/codrone-mini/Connection/disc',
               },
             ]},  
             {
@@ -58,11 +58,12 @@ module.exports = {
               items: [
                 {
                   label: 'Blockly',
-                  href: 'docs/zumi/home/home',
+                  href: '/doc-v2/docs/zumi/home/home',
                 },
                 {
                   label: 'Python',
-                  href: 'docs/zumi/home/home',
+                  href: '/doc-v2/docs/zumi/home/home',
+                  //doc-v2/docs/zumi/home/home
                 },
               ]},      
          {
