@@ -1,7 +1,7 @@
 ---
 title: "CoDrone Mini Library Reference"
 menu: "Codrone Mini"
-id: reference
+id: reference_blockly
 hide_table_of_contents: true
 ---
 
