@@ -45,7 +45,7 @@ module.exports = {
             items: [
               {
                 label: 'Blockly',
-                href: '/doc-v2/docs/codrone-mini/blockly/reference',
+                href: '/doc-v2/docs/codrone-mini/blockly/reference_blockly',
               },
               {
                 label: 'Python',
