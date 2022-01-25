@@ -496,3 +496,15 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.navbar__item.dropdown.dropdown--hoverable.dropdown--right:first-child>ul {
+  left: -1%
+}
+
+.navbar__item.dropdown.dropdown--hoverable.dropdown--right:nth-child(2)>ul {
+  left: -12%
+}
+
+.navbar__item.dropdown.dropdown--hoverable.dropdown--right:nth-child(3)>ul {
+  left: -72%
+}
