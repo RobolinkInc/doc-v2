@@ -218,7 +218,14 @@ module.exports = {
     },
   ],
   cdmBlocklySideBar:  [
-    'codrone-mini/blockly/reference_blockly',
+
+    {
+      type: 'category',
+      label: 'Reference',
+      items: [  'codrone-mini/blockly/reference_blockly',  'codrone-mini/blockly/reference_senior',
+      ],
+    },
+  
     {
       type: 'category',
       label: 'Flight Commands',

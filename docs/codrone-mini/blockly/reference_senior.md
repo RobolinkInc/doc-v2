@@ -2,6 +2,7 @@
 title: "CoDrone Mini Library Reference"
 menu: "Codrone Mini"
 id: reference_senior
+sidebar_label: Junior reference
 hide_table_of_contents: true
 ---
 
@@ -9,7 +10,7 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
 
 <div class="center">
     <span class="label-toggle">Junior</span>
-<label onClick={function hi(){if(!document.getElementById("juniorSeniorSelector").checked){window.location.href = "/doc-v2/docs/codrone-mini/blockly/reference"}}} class="switch">
+<label onClick={function hi(){if(!document.getElementById("juniorSeniorSelector").checked){window.location.href = "/doc-v2/docs/codrone-mini/blockly/reference_blockly"}}} class="switch">
  <input id="juniorSeniorSelector" type="checkbox"  checked="true" />
   <span class="slider round"></span> 
 </label>   <span class="label-toggle">Senior</span>

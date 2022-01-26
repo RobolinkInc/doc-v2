@@ -2,6 +2,7 @@
 title: "CoDrone Mini Library Reference"
 menu: "Codrone Mini"
 id: reference_blockly
+sidebar_label: Senior reference
 hide_table_of_contents: true
 ---
 

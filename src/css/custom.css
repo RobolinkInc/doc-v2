@@ -457,7 +457,7 @@ ul.dropdown__menu>li:last-child {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: lightgray;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -507,4 +507,9 @@ input:checked + .slider:before {
 
 .navbar__item.dropdown.dropdown--hoverable.dropdown--right:nth-child(3)>ul {
   left: -72%
+}
+
+
+input:checked + .slider{
+  background-color: lightgray;
 }
