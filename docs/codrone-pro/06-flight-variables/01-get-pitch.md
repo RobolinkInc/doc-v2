@@ -1,4 +1,5 @@
 ---
+custom_edit_url: null
 title: get_pitch()
 menu: get_pitch() / getPitch()
 taxonomy:

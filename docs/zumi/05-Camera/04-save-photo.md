@@ -1,4 +1,5 @@
 ---
+custom_edit_url: null
 title: save_photo()
 menu: save_photo()
 taxonomy:

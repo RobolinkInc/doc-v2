@@ -1,4 +1,5 @@
 ---
+custom_edit_url: null
 title: get_battery_percentage()
 taxonomy:
     tag: CDM-library

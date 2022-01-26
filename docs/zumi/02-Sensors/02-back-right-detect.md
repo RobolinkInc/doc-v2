@@ -1,4 +1,5 @@
 ---
+custom_edit_url: null
 title: back_right_detect()
 taxonomy:
     category:

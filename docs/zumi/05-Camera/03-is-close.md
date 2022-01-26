@@ -1,4 +1,5 @@
 ---
+custom_edit_url: null
 title: is_closed()
 menu: is_closed()
 taxonomy:

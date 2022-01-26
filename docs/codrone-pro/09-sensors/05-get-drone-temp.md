@@ -1,4 +1,5 @@
 ---
+custom_edit_url: null
 title: get_drone_temp()
 taxonomy:
     category:

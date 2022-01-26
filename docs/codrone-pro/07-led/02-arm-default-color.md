@@ -1,4 +1,5 @@
 ---
+custom_edit_url: null
 title: arm_default_color()
 menu: arm_default_color() / armDefaultColor()
 tag: codrone-library

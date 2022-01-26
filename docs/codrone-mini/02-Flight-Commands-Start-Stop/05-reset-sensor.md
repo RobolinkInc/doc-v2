@@ -1,4 +1,5 @@
 ---
+custom_edit_url: null
 id: reset-sensor
 title: reset_sensor()
 ---

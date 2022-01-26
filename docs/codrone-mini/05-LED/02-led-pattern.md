@@ -1,4 +1,5 @@
 ---
+custom_edit_url: null
 title: LED_pattern()
 taxonomy:
     category:

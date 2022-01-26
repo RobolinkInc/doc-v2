@@ -1,4 +1,5 @@
 ---
+custom_edit_url: null
 title: arm_pattern()
 taxonomy:
     category:

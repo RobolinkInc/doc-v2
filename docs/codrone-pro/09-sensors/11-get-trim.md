@@ -1,4 +1,5 @@
 ---
+custom_edit_url: null
 title: get_trim()
 menu: get_trim() / getTrim()
 taxonomy:

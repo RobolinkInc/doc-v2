@@ -1,4 +1,5 @@
 ---
+custom_edit_url: null
 title: show_image()
 published: true
 taxonomy:

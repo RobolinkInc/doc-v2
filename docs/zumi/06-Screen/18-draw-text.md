@@ -1,4 +1,5 @@
 ---
+custom_edit_url: null
 title: draw_text()
 menu: draw_text()
 taxonomy:

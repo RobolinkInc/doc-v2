@@ -1,4 +1,5 @@
 ---
+custom_edit_url: null
 title: set_throttle()
 menu: set_throttle() / setThrottle()
 taxonomy:

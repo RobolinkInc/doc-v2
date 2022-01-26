@@ -1,4 +1,5 @@
 ---
+custom_edit_url: null
 id: hello-world
 title: Hello
 author: Endilie Yacop Sucipto

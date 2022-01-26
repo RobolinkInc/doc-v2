@@ -1,4 +1,5 @@
 ---
+custom_edit_url: null
 title: arm_default_pattern()
 menu: arm_default_pattern() / armDefaultPattern()
 tag: codrone-library

@@ -1,4 +1,5 @@
 ---
+custom_edit_url: null
 title: eye_pattern()
 menu: eye_pattern() / eyePattern()
 tag: codrone-library

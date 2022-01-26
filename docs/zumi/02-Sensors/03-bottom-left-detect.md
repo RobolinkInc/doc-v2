@@ -1,4 +1,5 @@
 ---
+custom_edit_url: null
 title: bottom_left_detect()
 taxonomy:
     category:
