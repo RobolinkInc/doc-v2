@@ -36,19 +36,19 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
   </div>
   <div  class="parentContainer">
     <h3> Flight Sequences</h3>
-    <div class="boxLanding">
-      <div>
+    <div class="boxLandingColumn2">
+      
         <img src="/doc-v2/img/flips.png"></img>
-      </div>
+      
     </div>
  
   </div>
     <div  class="parentContainer">
     <h3> Status Checkers</h3>
-    <div class="boxLanding">
-      <div>
+    <div class="boxLandingColumn2">
+      
         <img src="/doc-v2/img/code_is_running.png"></img>
-      </div>
+  
     </div>
  
   </div>
