@@ -6,7 +6,7 @@ title: reset_sensor()
 
 ##### Description
 
-This function will reset the roll and pitch trim values back to zero and set all the gyro angles back to zero for roll, pitch, and yaw. NOTE: If you're resetting  right before a takeoff, make sure to add a ```time.sleep(1)``` before the ```takeoff()```,  otherwise the take off might be skipped.
+This function will reset the roll and pitch trim values back to zero and set all the gyro angles back to zero for roll, pitch, and yaw. NOTE: If you're resetting right before a takeoff, make sure to add a ```time.sleep(1)``` before the ```takeoff()```,  otherwise the take off might be skipped.
 
 
 ##### Syntax
