@@ -528,3 +528,7 @@ input:checked + .slider:before {
 input:checked + .slider{
   background-color: lightgray;
 }
+
+.thin-scrollbar li.menu__list-item:first-child {
+  display: none !important;
+}

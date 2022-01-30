@@ -49,7 +49,7 @@ module.exports = {
               },
               {
                 label: 'Python',
-                href: '/doc-v2/docs/codrone-mini/Connection/disc',
+                href: '/doc-v2/docs/codrone-mini/cdm',
               },
             ]},  
             {

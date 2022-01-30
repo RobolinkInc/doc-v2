@@ -148,6 +148,12 @@ module.exports = {
   cdmSideBar:  [
     {
       type: 'category',
+      label: 'Reference',
+      items: [  'codrone-mini/cdm',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Connection',
       items: [
         {
@@ -218,7 +224,6 @@ module.exports = {
     },
   ],
   cdmBlocklySideBar:  [
-
     {
       type: 'category',
       label: 'Reference',
