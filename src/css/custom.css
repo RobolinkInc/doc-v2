@@ -532,3 +532,7 @@ input:checked + .slider{
 .thin-scrollbar li.menu__list-item:first-child {
   display: none !important;
 }
+
+.pagination-nav {
+  display: none;
+}
