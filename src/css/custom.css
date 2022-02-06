@@ -536,3 +536,7 @@ input:checked + .slider{
 .pagination-nav {
   display: none;
 }
+
+.menu.menu--responsive.thin-scrollbar {
+  padding-right: 0px !important;
+}
