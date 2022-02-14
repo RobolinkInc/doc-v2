@@ -7,7 +7,7 @@ template: zumi_librarylist
 hide_table_of_contents: true
 ---
 
-<h3 class="homeDocLandingVersion">version 1.61</h3>
+<h3 class="homeDocLandingVersion">version 1.61 (<a class="orange-link" href="/doc-v2/docs/zumi/zumi-changelog">Changelog</a>)</h3>
 
 These are the functions that you can use to control the Zumi. The functions are available in Python library. Example code is provided in each function definition.
 

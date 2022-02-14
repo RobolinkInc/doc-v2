@@ -2,69 +2,76 @@
 custom_edit_url: null
 id: cdm
 title: CoDrone Mini Library Reference
-
----
-# Changelog
-
-
-
-##### Aug 14, 2018
-
-**CoDrone Mini Library Reference**
-
-New Function:<br />
-pair() : Updated to a new function for pairing with the CoDrone. Pair will pair with the nearest, then save your drone info to your project folder and use the next time you pair with no parameters.<br />
-calibrate() : you can reset and calibrate drone programmatically.<br />
-
-move() function updated.  It can take 4 parameters move(roll,pitch,yaw,throttle) to move indefinitely
-
-
+hide_table_of_contents: true
 ---
 
-##### May 21, 2018
+<h3 class="homeDocLandingVersion">version 0.15 (<a class="orange-link" href="/doc-v2/docs/zumi/zumi-changelog">Changelog</a>)</h3>
 
-**CoDrone Version 1.1.2**
+These are the functions that you can use to control the CoDrone mini. The functions are available in Python library. Example code is provided in each function definition.
 
-Print port name and drone name at the start of the program.
+<div class="boxLanding">
+  <div class="parentContainer">
+  <div class="box-reference-shadow">
+  <h3>Functions</h3>
+    <a href="/doc-v2/docs/codrone-mini/Connection/01-pair">pair()</a>
+    <br />
+   </div>
+    <div class="box-reference-shadow margin-top-30"> 
+        <h3>Flight Commands (Start/Stop)</h3>
+            <a href="/doc-v2/docs/codrone-mini/Flight-Commands-Start-Stop/01-emergency-stop">emergency_stop()</a>
+            <a href="/docs/codrone-mini/Flight-Commands-Start-Stop/headless-off">headless_off()</a>
+            <a href="/docs/codrone-mini/Flight-Commands-Start-Stop/headless-on">headless_on()</a>
+            <a href="/doc-v2/docs/codrone-mini/Flight-Commands-Start-Stop/land">land()</a>
+            <a href="/doc-v2/docs/codrone-mini/Flight-Commands-Start-Stop/reset-sensor">reset_sensor()</a>
+            <a href="/doc-v2/docs/codrone-mini/Flight-Commands-Start-Stop/reset-trim">reset_trim()</a>
+            <a href="#">front_right_detect()</a>
+            <a href="/doc-v2/docs/codrone-mini/Flight-Commands-Start-Stop/set-trim">set_trim()</a>
+            <a href="/doc-v2/docs/codrone-mini/Flight-Commands-Start-Stop/take-off">takeoff()</a>
+    </div>
+    <div class="box-reference-shadow margin-top-30"> 
+        <h3>Flight Commands (Movement)</h3>
+        <a href="/doc-v2/docs/codrone-mini/Flight-Commands-Movement/flip">flip()</a>
+        <a href="/doc-v2/docs/codrone-mini/Flight-Commands-Movement/fly-sequence">fly_sequence()</a>
+        <a href="/doc-v2/docs/codrone-mini/Flight-Commands-Movement/go">go()</a>
+        <a href="/doc-v2/docs/codrone-mini/Flight-Commands-Movement/hover">hover()</a>
+        <a href="/doc-v2/docs/codrone-mini/Flight-Commands-Movement/turn">turn()</a>
+  </div>
+    <div class="box-reference-shadow margin-top-30"> 
+        <h3>LED and Buzzer</h3>
+        <a href="/doc-v2/docs/codrone-mini/LED/led-color">LED_color()</a>
+        <a href="/doc-v2/docs/codrone-mini/LED/led-pattern">LED_pattern()</a>
+        <a href="/doc-v2/docs/codrone-mini/LED/play-note">play_note()</a>
+        <a href="/doc-v2/docs/codrone-mini/LED/reset-led">reset_LED()</a>
+        <a href="/doc-v2/docs/codrone-mini/LED/turn-off-led">turn_off_LED()()</a>
+  </div>
+  </div>
+  <div  class="parentContainer">
+    <div class="boxLanding">
+       <div class="box-reference-shadow"> 
+            <h3> Flight Variables</h3>
+            <a href="/doc-v2/docs/codrone-mini/Flight-Variables/get-roll">get_roll()</a>
+            <a href="/doc-v2/docs/codrone-mini/Flight-Variables/get-throttle">get_throttle()</a>
+            <a href="/doc-v2/docs/codrone-mini/Flight-Variables/get-yaw">get_yaw()</a>
+            <a href="/doc-v2/docs/codrone-mini/Flight-Variables/move">move()</a>
+            <a href="/doc-v2/docs/codrone-mini/Flight-Variables/get-pitch">set_pitch()</a>
+            <a href="/doc-v2/docs/codrone-mini/Flight-Variables/set-roll">set_roll()</a>
+            <a href="/doc-v2/docs/codrone-mini/Flight-Variables/get-throttle">set_throttle()</a>
+            <a href="/doc-v2/docs/codrone-mini/Flight-Variables/get-yaw">set_yaw()</a>
+        </div>
+    </div>
+     <div class="box-reference-shadow margin-top-30"> 
+            <h3>Sensor</h3>
+                <a href="/doc-v2/docs/codrone-mini/Sensors/get-altitude">get_altitude()</a>
+                <a href="/doc-v2/docs/codrone-mini/Sensors/get-angle">get_angle()</a>
+                <a href="/doc-v2/docs/codrone-mini/Sensors/get-battery-percentage">get_battery_percentage()</a>
+                <a href="/doc-v2/docs/codrone-mini/Sensors/get-drone-temp">get_drone_temp()</a>
+                <a href="/doc-v2/docs/codrone-mini/Sensors/get-height">get_height()</a>
+                <a href="/doc-v2/docs/codrone-mini/Sensors/get-pressure">get_pressure()</a>
+                <a href="/doc-v2/docs/codrone-mini/Sensors/get-trim">get_trim()</a> 
+        </div>
+  </div>
+</div>
+<div class="boxLanding marginTop25">
 
-Solve setAllRGB() function error (couldn't change the colors when repeated it too fast).
 
-
----
-
-
-##### Mar 28, 2018
-
-**CoDrone Version 1.1.1**
-
-Change the Mode name
-
-Change the default value in flight command
-
-Add some error messages for debugging mode
-
----
-
-
-##### Mar 16, 2018
-
-**CoDrone Version 1.1.0**
-
-Remove "time." in protocol.py
-
-Add legacy functions
-
-Fix functions about degrees.
-
-
----
-
-
-##### Dec 16, 2017
-
-**CoDrone Version 0.2**
-
-The first CoDrone library release for the Python Package Index
-
-
----
+</div>

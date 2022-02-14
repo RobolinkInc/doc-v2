@@ -1,6 +1,12 @@
 module.exports = {
   someSidebar: [
-    'zumi/home/home',
+    {
+      type: 'category',
+      label: 'Reference',
+      items: [   'zumi/home/home', 'zumi/zumi-changelog', 'zumi/home/blockly-reference' , 'zumi/home/blockly-reference-senior',
+      ],
+    },
+   
     {
       type: 'category',
       label: 'MPU',
@@ -72,8 +78,12 @@ module.exports = {
     },
   ],
   codroneProSideBar:  [
-    'codrone-pro/home',
-
+    {
+      type: 'category',
+      label: 'Reference',
+      items: [  'codrone-pro/home', 'codrone-pro/cdm-pro-changelog',
+      ],
+    },
     {
       type: 'category',
       label: 'Connection',
@@ -149,7 +159,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Reference',
-      items: [  'codrone-mini/cdm',
+      items: [  'codrone-mini/cdm', 'codrone-mini/cdm-mini-changelog',
       ],
     },
     {

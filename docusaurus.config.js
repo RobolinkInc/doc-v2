@@ -24,6 +24,7 @@ module.exports = {
         {
           position: 'right',
           label: 'CoDrone Pro/Lite',
+          to: '/doc-v2/docs/codrone-pro/cdm-pro-changelog',
           items: [
             {
               label: 'Blockly',
@@ -42,6 +43,7 @@ module.exports = {
           {
             position: 'right',
             label: 'CoDrone Mini',
+            to: '/doc-v2/docs/codrone-mini/cdm-mini-changelog',
             items: [
               {
                 label: 'Blockly',
@@ -55,10 +57,11 @@ module.exports = {
             {
               position: 'right',
               label: 'Zumi',
+              to: '/doc-v2/docs/zumi/zumi-changelog',
               items: [
                 {
                   label: 'Blockly',
-                  href: '/doc-v2/docs/zumi/home/home',
+                  href: '/doc-v2/docs/zumi/home/blockly-reference',
                 },
                 {
                   label: 'Python',

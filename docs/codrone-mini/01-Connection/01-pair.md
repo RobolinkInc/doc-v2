@@ -1,8 +1,7 @@
 ---
 custom_edit_url: null
-id: disc
+id: 01-pair
 title: pair()
-
 ---
 
 ##### Description

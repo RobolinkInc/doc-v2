@@ -225,16 +225,26 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 
 .boxLanding div {
   text-align: left;
-  margin-right: 20px;
-  padding: 0 15px 15px 15px;
+
   padding-bottom: 20px;
 }
 
-.boxLanding .parentContainer {
-  background: #ffffff;
+.box-reference-shadow {
   box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
+  padding-left: 10px;
+  width: 97%;
+}
+
+.margin-top-30 {
+  margin-top: 30px !important;
+}
+.boxLanding .parentContainer {
+  background: #ffffff;
+  padding: 0px;
   padding-top: 9px;
+  margin-right: 3px;
+  width: 100%;
 }
 
 .parentContainer h3 {
@@ -530,7 +540,11 @@ input:checked + .slider{
 }
 
 .thin-scrollbar li.menu__list-item:first-child {
-  display: none !important;
+  display: none;
+}
+
+.thin-scrollbar>ul>li>ul>li.menu__list-item:first-child {
+  display: block;
 }
 
 .pagination-nav {
@@ -539,4 +553,19 @@ input:checked + .slider{
 
 .menu.menu--responsive.thin-scrollbar {
   padding-right: 0px !important;
+}
+
+.orange-link {
+  color: #F2982D;
+  font-style: normal;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+.orange-link:hover {
+  color: #F2982D;
+  font-style: normal;
+  font-family: Roboto;
+  font-size: 16px;
+  
 }
