@@ -51,7 +51,7 @@ module.exports = {
               },
               {
                 label: 'Python',
-                href: '/doc-v2/docs/codrone-mini/cdm',
+                href: '/doc-v2/docs/codrone-mini/home/cdm',
               },
             ]},  
             {
@@ -85,6 +85,7 @@ module.exports = {
     languages:['en', 'de'],
     excludeRoutes: [
       'docs/zumi/home/**/*', // exclude changelogs from indexing
+      'docs/codrone-mini/home/**/*', // exclude changelogs from indexing
   ]
   }]],
   presets: [

@@ -159,7 +159,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Reference',
-      items: [  'codrone-mini/cdm', 'codrone-mini/cdm-mini-changelog',
+      items: [  'codrone-mini/home/cdm', 'codrone-mini/cdm-mini-changelog',
       ],
     },
     {
