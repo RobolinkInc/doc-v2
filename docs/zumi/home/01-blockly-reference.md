@@ -6,7 +6,7 @@ id: blockly-reference
 sidebar_label: Senior reference
 hide_table_of_contents: true
 ---
-
+<h3 class="homeDocLandingVersion">version 1.61 (<a class="orange-link" href="/doc-v2/docs/zumi/home/zumi-changelog">Changelog</a>)</h3>
 These are the Blockly functions that you can use to control the Zumi. Example code is provided in each function definition.
 
 <div class="center">

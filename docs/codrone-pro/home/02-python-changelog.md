@@ -1,16 +1,20 @@
 ---
 custom_edit_url: null
-id: cdm-mini-changelog
-title: CoDrone Mini Library Changelog
+title: CoDrone Changelog
+menu: CoDrone Library Changelog
+id: codrone-pro-changelog
+taxonomy:
 
+	category: changelog
 ---
+
 # Changelog
 
 
 
 ##### Aug 14, 2018
 
-**CoDrone Mini Library Reference**
+**CoDrone Version 1.1.3**
 
 New Function:<br />
 pair() : Updated to a new function for pairing with the CoDrone. Pair will pair with the nearest, then save your drone info to your project folder and use the next time you pair with no parameters.<br />

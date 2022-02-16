@@ -3,7 +3,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Reference',
-      items: [   'zumi/home/home', 'zumi/zumi-changelog', 'zumi/home/blockly-reference' , 'zumi/home/blockly-reference-senior',
+      items: [   'zumi/home/home', 'zumi/home/zumi-changelog', 'zumi/home/zumi-blockly-changelog', 'zumi/home/blockly-reference' , 'zumi/home/blockly-reference-senior',
       ],
     },
    
@@ -81,7 +81,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Reference',
-      items: [  'codrone-pro/home', 'codrone-pro/cdm-pro-changelog',
+      items: [  'codrone-pro/home/python-ref', 
+      'codrone-pro/home/arduino-ref',
+      'codrone-pro/home/codrone-pro-changelog', 
+      'codrone-pro/blockly/reference_blockly', 
+      'codrone-pro/blockly/reference_senior' 
       ],
     },
     {
@@ -159,7 +163,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Reference',
-      items: [  'codrone-mini/home/cdm', 'codrone-mini/cdm-mini-changelog',
+      items: [  'codrone-mini/home/cdm', 'codrone-mini/home/cdm-mini-changelog',
       ],
     },
     {
