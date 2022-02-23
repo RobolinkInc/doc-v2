@@ -34,4 +34,5 @@ drone = CoDrone_mini.CoDrone()
 drone.pair()
 
 drone.reset_LED()
+drone.close()
 ```

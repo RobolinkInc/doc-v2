@@ -29,34 +29,31 @@ Boolean of whether the drone is upside-down
 #Python code
 import CoDrone
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	# takeoff when drone isn’t upside down
-	if not drone.is_upside_down():
-	    drone.takeoff()
-	    
-if __name__ == '__main__':
-	main()
-
+# takeoff when drone isn’t upside down
+if not drone.is_upside_down():
+    drone.takeoff()
+drone.land()
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 
-	if(CoDrone.isUpsideDown()==false)	// if drone is not upside down take off the drone
-	    CoDrone.takeoff();	
+    if(CoDrone.isUpsideDown()==false)   // if drone is not upside down take off the drone
+        CoDrone.takeoff();  
 }
 
 void loop(){
 
 }
-
 ```

@@ -33,4 +33,5 @@ drone.takeoff()
 	
 drone.hover(3)
 drone.land()
+drone.close()
 ```

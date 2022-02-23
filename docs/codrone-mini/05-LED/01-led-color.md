@@ -41,7 +41,8 @@ drone.pair()
 
 drone.LED_color(255, 0, 0, 100)        # set LED color to red using RGB
 
-time.sleep(1)		# Add a time.sleep(1) before takeoff if you're planning to set the LED cover before takeoff, otherwise the takeoff might get missed
+time.sleep(1)       # Add a time.sleep(1) before takeoff if you're planning to set the LED cover before takeoff, otherwise the takeoff might get missed
 drone.takeoff()
 drone.land()
+drone.close()
 ````

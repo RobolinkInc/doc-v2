@@ -29,52 +29,47 @@ Outputs to visual UI. In code, it returns a class in Python and struct in Arduin
 #Python code
 import CoDrone
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	#print current drone's trim value
-	trim = drone.get_trim()
-	print(trim.ROLL, trim.PITCH, trim.YAW, trim.THROTTLE)
-	
-if __name__ == '__main__':
-	main()
-
+#print current drone's trim value
+trim = drone.get_trim()
+print(trim.ROLL, trim.PITCH, trim.YAW, trim.THROTTLE)
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
 //Code for print request data to serial monitor
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);	
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);  
 }
 
 void loop(){
-	// Struct for get trim data
-	trimdata trim;
+    // Struct for get trim data
+    trimdata trim;
 
+    CoDrone.Send_LinkModeBroadcast(LinkBroadcast_Active);   //link module mode change => Active
+    trim = CoDrone.getTrim();                               //save request data
+    delay(100);
 
-	CoDrone.Send_LinkModeBroadcast(LinkBroadcast_Active);	//link module mode change => Active
-	trim = CoDrone.getTrim();								//save request data
-	delay(100);
-	    
-	CoDrone.Send_LinkModeBroadcast(LinkModeMute);       	//link module mode change => Mute
-	delay(100);
+    CoDrone.Send_LinkModeBroadcast(LinkModeMute);           //link module mode change => Mute
+    delay(100);
 
-	Serial.println("");
-	Serial.println("--------- Now -----------");
-	Serial.print("trim roll : \t");
-	Serial.println(trim.roll);
-	Serial.print("trim pitch : \t");
-	Serial.println(trim.pitch);
-	Serial.print("trim yaw : \t");
-	Serial.println(trim.yaw);
-	Serial.print("trim throttle : \t");
-	Serial.println(trim.throttle);	
+    Serial.println("");
+    Serial.println("--------- Now -----------");
+    Serial.print("trim roll : \t");
+    Serial.println(trim.roll);
+    Serial.print("trim pitch : \t");
+    Serial.println(trim.pitch);
+    Serial.print("trim yaw : \t");
+    Serial.println(trim.yaw);
+    Serial.print("trim throttle : \t");
+    Serial.println(trim.throttle);  
 }
-
 ```

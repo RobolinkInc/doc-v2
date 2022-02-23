@@ -29,47 +29,43 @@ The battery’s percentage as an integer from 0 - 100.
 #Python code
 import CoDrone
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
-	drone.takeoff()
+drone = CoDrone.CoDrone()
+drone.pair()
+drone.takeoff()
 
-	# stop the drone if battery is lower than 10 percent.
-	battery = drone.get_battery_percentage()
-	if battery < 10:
-	    drone.emergency_stop()
-	    
-if __name__ == '__main__':
-	main()
-
+# stop the drone if battery is lower than 10 percent.
+battery = drone.get_battery_percentage()
+if battery < 10:
+    drone.emergency_stop()
+drone.land()
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
 //Code for print request data to serial monitor
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 }
 
 void loop(){
-	int batteryPercentage;
+    int batteryPercentage;
 
+    CoDrone.Send_LinkModeBroadcast(LinkBroadcast_Active);   //link module mode change => Active
+    batteryPercentage = CoDrone.getBatteryPercentage();     //save request data
+    delay(100);
 
-	CoDrone.Send_LinkModeBroadcast(LinkBroadcast_Active);	//link module mode change => Active
-	batteryPercentage = CoDrone.getBatteryPercentage();		//save request data
-	delay(100);
-	    
-	CoDrone.Send_LinkModeBroadcast(LinkModeMute);       	//link module mode change => Mute
-	delay(100);
+    CoDrone.Send_LinkModeBroadcast(LinkModeMute);           //link module mode change => Mute
+    delay(100);
 
-	Serial.println("");
-	Serial.println("--------- Now -----------");
-	Serial.print("batteryPercentage : \t");
-	Serial.println(batteryPercentage);	
+    Serial.println("");
+    Serial.println("--------- Now -----------");
+    Serial.print("batteryPercentage : \t");
+    Serial.println(batteryPercentage);  
 }
-
 ```

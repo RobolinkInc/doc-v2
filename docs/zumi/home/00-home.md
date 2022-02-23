@@ -19,22 +19,22 @@ These are the functions that you can use to control the Zumi. The functions are 
     <a href="/doc-v2/docs/zumi/Sensors/back-right-detect">back_right_detect()</a>
     <a href="/doc-v2/docs/zumi/Sensors/bottom-left-detect">bottom_left_detect()</a>
     <a href="/doc-v2/docs/zumi/Sensors/bottom-right-detect">bottom_right_detect()</a>
-    <a href="#">calibrate_gyro()</a>
-    <a href="#">calibrate_MPU()</a>
+    <a href="/doc-v2/docs/zumi/Sensors/calibrate-gyro">calibrate_gyro()</a>
+    <a href="/doc-v2/docs/zumi/Sensors/calibrate-MPU">calibrate_MPU()</a>
     <a href="/doc-v2/docs/zumi/Sensors/front-left-detect">front_left_detect()</a>
     <a href="/doc-v2/docs/zumi/Sensors/front-right-detect">front_right_detect()</a>
     <a href="/doc-v2/docs/zumi/Sensors/get-all-ir-data">get_all_IR_data()</a>
     <a href="/doc-v2/docs/zumi/Sensors/get-battery-voltage">get_battery_voltage()</a>
     <a href="/doc-v2/docs/zumi/Sensors/get-ir-data">get_IR_data()</a>
-    <a href="#">get_orientation_message()</a>
-    <a href="#">get_orientation()</a>
-    <a href="#">read_x_angle()</a>
-    <a href="#">read_y_angle()</a>
-    <a href="#">read_z_angle()</a>
-    <a href="#">reset_drive()</a>
-    <a href="#">reset_gyro()</a>
-    <a href="#">reset_PID()</a>
-    <a href="#">update_angles()</a>
+    <a href="/doc-v2/docs/zumi/Sensors/get-orientation-message">get_orientation_message()</a>
+    <a href="/doc-v2/docs/zumi/Sensors/get-orientation">get_orientation()</a>
+    <a href="/doc-v2/docs/zumi/Sensors/read-x-angle">read_x_angle()</a>
+    <a href="/doc-v2/docs/zumi/Sensors/read-y-angle">read_y_angle()</a>
+    <a href="/doc-v2/docs/zumi/Sensors/read-z-angle">read_z_angle()</a>
+    <a href="/doc-v2/docs/zumi/Sensors/reset-drive">reset_drive()</a>
+    <a href="/doc-v2/docs/zumi/Sensors/reset-gyro">reset_gyro()</a>
+    <a href="/doc-v2/docs/zumi/Sensors/reset-PID">reset_PID()</a>
+    <a href="/doc-v2/docs/zumi/Sensors/update-angles">update_angles()</a>
     </div>
   </div>
   <div  class="parentContainer">
@@ -45,7 +45,7 @@ These are the functions that you can use to control the Zumi. The functions are 
         <a href="/doc-v2/docs/zumi/Driving/circle-left">circle_left()</a>
         <a href="/doc-v2/docs/zumi/Driving/circle-right">circle_right()</a>
         <a href="/doc-v2/docs/zumi/Driving/circle">circle()</a>
-        <a href="#">control_motors()</a>
+        <a href="/doc-v2/docs/zumi/Driving/control-motors">control_motors()</a>
         <a href="/doc-v2/docs/zumi/Driving/drive-over-markers">drive_over_markers()</a>
         <a href="/doc-v2/docs/zumi/Driving/figure-8">figure_8()</a>
         <a href="/doc-v2/docs/zumi/Driving/forward-avoid-colission">forward_avoid_collision()</a>
@@ -70,15 +70,21 @@ These are the functions that you can use to control the Zumi. The functions are 
             <a href="/doc-v2/docs/zumi/Driving/reverse-step">reverse_step()</a>
             <a href="/doc-v2/docs/zumi/Driving/reverse">reverse()</a> 
             <a href="/doc-v2/docs/zumi/Driving/right-u-turn">right_u_turn()</a>
-            <a href="#">smooth_forward()</a> 
-            <a href="#">smooth_backward()</a> 
-            <a href="#">smooth_turn_left()</a>
-            <a href="#">smooth_turn_right()</a>
+            <a href="/doc-v2/docs/zumi/Driving/smooth-forward">smooth_forward()</a> 
+            <a href="/doc-v2/docs/zumi/Driving/smooth-reverse">smooth_reverse()</a> 
+            <a href="/doc-v2/docs/zumi/Driving/smooth-turn-left">smooth_turn_left()</a>
+            <a href="/doc-v2/docs/zumi/Driving/smooth-turn-right">smooth_turn_right()</a>
             <a href="/doc-v2/docs/zumi/Driving/speed-calibration">speed_calibration()</a>
             <a href="/doc-v2/docs/zumi/Driving/square-left">square_left()</a> 
             <a href="/doc-v2/docs/zumi/Driving/square-right">square_right()</a> 
             <a href="/doc-v2/docs/zumi/Driving/square">square()</a>
             <a href="/doc-v2/docs/zumi/Driving/stop">stop()</a>
+            <a href="">triangle-left()</a>
+            <a href="">triangle-right()</a>
+            <a href="">triangle()</a>
+            <a href="">turn_left()</a>
+            <a href="">turn_right()</a>
+            <a href="">turn()</a>
         </div>
     </div>
     </div>

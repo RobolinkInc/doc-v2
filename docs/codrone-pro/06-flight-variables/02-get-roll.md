@@ -27,33 +27,31 @@ The power of the roll variable (int)
 ###### Python
 ```python
 #Python code
+#Python code
 import CoDrone
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	# Print current roll with getter function
-	print(“Current Roll : ”, drone.get_roll())
-	
-if __name__ == '__main__':
-	main()
-
+# Print current roll with getter function
+print(“Current Roll : ”, drone.get_roll())
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 
-	// save current roll value in variable “current_roll”
-	int current_roll = CoDrone.getRoll(); 
+    // save current roll value in variable “current_roll”
+    int current_roll = CoDrone.getRoll(); 
 }
 void loop(){
-	
+
 }
 ```

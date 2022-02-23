@@ -25,20 +25,14 @@ None
 #Python code
 import CoDrone
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	drone.takeoff()
-	drone.hover(1)
-	drone.land()
-	drone.disconnect()
-
-
-if __name__ == '__main__':
-	main()
-
-
+drone.takeoff()
+drone.hover(1)
+drone.land()
+drone.disconnect()
+drone.close()
 ```
 ###### Arduino
 ```c

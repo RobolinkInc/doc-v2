@@ -30,7 +30,6 @@ It returns an Angle class in Python.
 #Python code
 import CoDrone_mini
 
-
 drone = CoDrone_mini.CoDrone()
 drone.pair()
 
@@ -38,4 +37,5 @@ drone.pair()
 angle  = drone.get_angle()
 print(angle)
 print(angle.ROLL, angle.PITCH, angle.YAW)
+drone.close()
 ```

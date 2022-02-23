@@ -38,44 +38,45 @@ None
 #Python code
 import CoDrone
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	drone.takeoff()
-	move() 					# Move indefinitely based on the current value of flight variables
-	move(5) 				# Move 5 seconds based on the current value of flight variables
-	move(0, 0, 80, 80)	    # Move up(throttle) and turn left(yaw) indefinitely
-	move(5, 0, 0, 80, 80)	# Move up(throttle) and turn left(yaw) for 5 seconds
+drone.takeoff()
 
-if __name__ == '__main__':
-	main()
+drone.move()                  # Move indefinitely based on the current value of flight variables
+drone.move(5)                 # Move 5 seconds based on the current value of flight variables
+drone.move(0, 0, 30, 30)      # Move up(throttle) and turn left(yaw) indefinitely
+drone.move(5, 0, 0, 50, 50)   # Move up(throttle) and turn left(yaw) for 5 seconds
 
+drone.land()
+drone.close()
 ```
 ###### Arduino
 ```c
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 
-	CoDrone.takeoff();			// take off
+    CoDrone.takeoff();          // take off
 
-	// Move indefinitely with pitch set to 50
-	CoDrone.setPitch(50);
-	CoDrone.move();
+    // Move indefinitely with pitch set to 50
+    CoDrone.setPitch(50);
+    CoDrone.move();
 
-	// Move 5 seconds to the right with roll set to 50
-	CoDrone.setRoll(50);
-	CoDrone.move(5);
+    // Move 5 seconds to the right with roll set to 50
+    CoDrone.setRoll(50);
+    CoDrone.move(5);
 
-	CoDrone.move(0, 0, 0, 80, 80); 	// Move up(throttle) and turn left(yaw) indefinitely
-	CoDrone.move(5, 0, 0, 80, 80); 	// Move up(throttle) and turn left(yaw) for 5 seconds
+    CoDrone.move(0, 0, 0, 80, 80);  // Move up(throttle) and turn left(yaw) indefinitely
+    CoDrone.move(5, 0, 0, 80, 80);  // Move up(throttle) and turn left(yaw) for 5 seconds
+
+    CoDrone.land();             //land
 }
 
 void loop(){
-	
+
 }
 ```

@@ -29,37 +29,36 @@ Boolean
 #Python code
 import CoDrone
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	drone.takeoff()
-	
-	# Drone turns right for 1 second with 50 power
-	drone.set_yaw(50)
-	drone.move(1)
-	
-if __name__ == '__main__':
-	main()
+drone.takeoff()
 
+# Drone turns right for 1 second with 50 power
+drone.set_yaw(50)
+drone.move(1)
+
+drone.land()
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 
-	CoDrone.takeoff();
-	CoDrone.setYaw(60);		// set yaw power for 60%
-	CoDrone.move(5);		// move drone for 5 seconds
+    CoDrone.takeoff();
+    CoDrone.setYaw(60);     // set yaw power for 60%
+    CoDrone.move(5);        // move drone for 5 seconds
+    CoDrone.land();
 }
 
 void loop(){
-	
-}
-	
+
+}	
 ```

@@ -35,4 +35,5 @@ drone.pair()
 
 # Print current yaw with getter function
 print("Current yaw : ", drone.get_yaw())
+drone.close()
 ```

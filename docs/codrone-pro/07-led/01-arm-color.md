@@ -38,38 +38,35 @@ None
 ###### Python
 ```python
 #Python code
+#Python code
 import CoDrone
 from CoDrone import Color
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	drone.arm_color(Color.Red, 100)        # set color to red using Color
-    drone.arm_color(255, 0, 0, 100)        # set color to red using RGB
-    
-if __name__ == '__main__':
-	main()
-
+drone.arm_color(Color.Red, 100)        # set color to red using Color
+drone.arm_color(255, 0, 0, 100)        # set color to red using RGB
+drone.close()
 ```
+
 ###### Arduino
 ```c
-//Arduino code
-#include<CoDrone.h>		//header
+/Arduino code
+#include<CoDrone.h>     //header
 
 void setup(){
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 
-	CoDrone.armColor(White, 100);          // set color to red using Color
+    CoDrone.armColor(White, 100);          // set color to red using Color
     CoDrone.armColor(255, 0, 0, 100);      // set color to red using RGB
 }
 
 void loop(){
-	
-}
 
+}
 ```
 
 ###### LED Color options

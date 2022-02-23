@@ -30,22 +30,18 @@ None
 import CoDrone
 from CoDrone import Mode
 
+# define function for change drone's arm LED green
 def set_arm_green():
-	drone.set_arm_LED(0,255,0, Mode.SOLID)
-	
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+    drone.set_arm_LED(0,255,0, Mode.SOLID)
 
-	#set eventhandler to run self-defined "set_arm_green" function
-	drone.on_low_battery(set_arm_green)
+drone = CoDrone.CoDrone()
+drone.pair()
 
-if __name__ == '__main__':
-	main()
-
-# define funtion for change drone's arm LED green
-
+#set eventhandler to run self-defined "set_arm_green" function
+drone.on_low_battery(set_arm_green)
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code

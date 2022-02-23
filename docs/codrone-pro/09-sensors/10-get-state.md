@@ -30,47 +30,42 @@ In Arduino, return enum value(fMode_Ready, fMode_TakeOff, fMode_Flight, fMode_Fl
 #Python code
 import CoDrone
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	# take off the drone if state is not on flight
-	state = drone.get_state()
-	if state != "FLIGHT":
-	    drone.takeoff()
+# take off the drone if state is not on flight
+state = drone.get_state()
+if state != "FLIGHT":
+    drone.takeoff()
 
-	drone.hover(3)
-	drone.land()
-	
-if __name__ == '__main__':
-	main()
-
-
+drone.hover(3)
+drone.land()
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
 //Code for print request data to serial monitor
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 
-	int state;
+    int state;
 
-	trim = CoDrone.getState();								//save request data
-	delay(50);
+    trim = CoDrone.getState();                              //save request data
+    delay(50);
 
-	if(state = fMode_Ready)
-		CoDrone.takeoff();
+    if(state = fMode_Ready)
+        CoDrone.takeoff();
 
-	CoDrone.hover(3);
-	CoDrone.land();
+    CoDrone.hover(3);
+    CoDrone.land();
 }
 void loop(){
 
 }
-  
 ```

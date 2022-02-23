@@ -30,36 +30,33 @@ None
 #Python code
 import CoDrone
 
+drone = CoDrone.CoDrone()
+drone.pair()
+drone.takeoff()
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
-	drone.takeoff()
-	
-	drone.hover(3)
-	drone.land()
-
-if __name__ == '__main__':
-	main()
-
+drone.hover(3)
+drone.land()
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
-#include<CoDrone.h>		//header
+//Arduino code
+#include<CoDrone.h>     //header
 
 void setup(){
-	//below this have to code in setup
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    //below this have to code in setup
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 
-	CoDrone.takeoff();		// take off and hover for 3 second
-	CoDrone.hover(3);		// hover for 3 second
-	CoDrone.land();		//landing	
+    CoDrone.takeoff();      // take off and hover for 3 second
+    CoDrone.hover(3);       // hover for 3 second
+    CoDrone.land();     //landing   
 }
 
 void loop(){
-	
+
 }
 ```

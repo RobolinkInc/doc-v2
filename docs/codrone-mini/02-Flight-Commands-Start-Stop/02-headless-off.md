@@ -38,4 +38,5 @@ drone.set_pitch(40)
 drone.move(1)
 
 drone.land()
+drone.close()
 ```

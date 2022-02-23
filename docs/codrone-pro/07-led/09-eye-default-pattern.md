@@ -45,35 +45,31 @@ None
 import CoDrone
 from CoDrone import Mode
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-    # set default eye pattern to RGB (0, 125, 155) and double blink slowly
-	drone.eye_default_pattern(0, 125, 155, Mode.DOUBLE_BLINK, 200)
-	
-if __name__ == '__main__':
-	main()
-
+# set default eye pattern to RGB (0, 125, 155) and double blink slowly
+drone.eye_default_pattern(0, 125, 155, Mode.DOUBLE_BLINK, 200)
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
 //open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 
     // set default arm pattern to blue using RGB and blink quickly
-	CoDrone.eyeDefaultPattern(0,0,100, BLINK, 20);
+    CoDrone.eyeDefaultPattern(0,0,100, BLINK, 20);
 }
 
 void loop(){
-	
-}
 
+}
 ```
 ###### LED Color options
 ```

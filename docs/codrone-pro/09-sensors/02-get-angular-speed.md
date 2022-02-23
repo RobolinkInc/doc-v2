@@ -31,51 +31,45 @@ Output to visual UI. In code, it returns a class in Python and struct in Arduino
 #Python code
 import CoDrone
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	# print the angular speed of drone
-	gyrodata = drone.get_angular_speed()
-	print(gyrodata.ROLL, gyrodata.PITCH, gyrodata.YAW)
-    drone.close()
-	
-if __name__ == '__main__':
-	main()
-
+# print the angular speed of drone
+gyrodata = drone.get_angular_speed()
+print(gyrodata.ROLL, gyrodata.PITCH, gyrodata.YAW)
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
 //Code for print request data to serial monitor
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);	
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);  
 }
 
 void loop(){
-	// Struct for get Angular speed(gyro) data
-	gyrodata gyro;
+    // Struct for get Angular speed(gyro) data
+    gyrodata gyro;
 
+    CoDrone.Send_LinkModeBroadcast(LinkBroadcast_Active);   //link module mode change => Active
+    gyro = CoDrone.getAngularSpeed();                       //save request data
+    delay(100);
 
-	CoDrone.Send_LinkModeBroadcast(LinkBroadcast_Active);	//link module mode change => Active
-	gyro = CoDrone.getAngularSpeed();						//save request data
-	delay(100);
-	    
-	CoDrone.Send_LinkModeBroadcast(LinkModeMute);       	//link module mode change => Mute
-	delay(100);
+    CoDrone.Send_LinkModeBroadcast(LinkModeMute);           //link module mode change => Mute
+    delay(100);
 
-	Serial.println("");
-	Serial.println("--------- Now -----------");
-	Serial.print("gyro roll : \t");
-	Serial.println(gyro.roll);
-	Serial.print("gyro pitch : \t");
-	Serial.println(gyro.pitch);
-	Serial.print("gyro yaw : \t");
-	Serial.println(gyro.yaw);	
+    Serial.println("");
+    Serial.println("--------- Now -----------");
+    Serial.print("gyro roll : \t");
+    Serial.println(gyro.roll);
+    Serial.print("gyro pitch : \t");
+    Serial.println(gyro.pitch);
+    Serial.print("gyro yaw : \t");
+    Serial.println(gyro.yaw);   
 }
-
 ```

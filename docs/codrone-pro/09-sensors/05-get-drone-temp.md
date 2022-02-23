@@ -31,44 +31,40 @@ The temperature in celsius as an integer.
 #Python code
 import CoDrone
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	## print the temperature of drone
-	temperature = drone.get_drone_temp()
-	print(temperature)
-	
-if __name__ == '__main__':
-	main()
-
+## print the temperature of drone
+temperature = drone.get_drone_temp()
+print(temperature)
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
 //Code for print request data to serial monitor
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);		
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);      
 }
 
 void loop(){
-	int temperature;
+    int temperature;
 
-	CoDrone.Send_LinkModeBroadcast(LinkBroadcast_Active);	//link module mode change => Active
-	temperature = CoDrone.getDroneTemp();					//save request data
-	delay(100);
-	    
-	CoDrone.Send_LinkModeBroadcast(LinkModeMute);       	//link module mode change => Mute
-	delay(100);
+    CoDrone.Send_LinkModeBroadcast(LinkBroadcast_Active);   //link module mode change => Active
+    temperature = CoDrone.getDroneTemp();                   //save request data
+    delay(100);
 
-	Serial.println("");
-	Serial.println("--------- Now -----------");
-	Serial.print("temperature : \t");
-	Serial.println(temperature);	
+    CoDrone.Send_LinkModeBroadcast(LinkModeMute);           //link module mode change => Mute
+    delay(100);
+
+    Serial.println("");
+    Serial.println("--------- Now -----------");
+    Serial.print("temperature : \t");
+    Serial.println(temperature);    
 }
-
 ```

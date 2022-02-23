@@ -29,50 +29,45 @@ Outputs to visual UI. In code, it returns a class in Python and struct in Arduin
 #Python code
 import CoDrone
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	# print the angles of drone
-	GyroAngles = drone.get_gyro_angles()
-	print(GyroAngles.ROLL, GyroAngles.PITCH, GyroAngles.YAW)
-
-if __name__ == '__main__':
-	main()
-
+# print the angles of drone
+GyroAngles = drone.get_gyro_angles()
+print(GyroAngles.ROLL, GyroAngles.PITCH, GyroAngles.YAW)
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
 //Code for print request data to serial monitor
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);	
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);  
 }
 
 void loop(){
-	// Struct for get angles(attitude) data
-	angledata angle;
+    // Struct for get angles(attitude) data
+    angledata angle;
 
+    CoDrone.Send_LinkModeBroadcast(LinkBroadcast_Active);   //link module mode change => Active
+    angle = CoDrone.getGyroAngles();                        //save request data
+    delay(100);
 
-	CoDrone.Send_LinkModeBroadcast(LinkBroadcast_Active);	//link module mode change => Active
-	angle = CoDrone.getGyroAngles();						//save request data
-	delay(100);
-	    
-	CoDrone.Send_LinkModeBroadcast(LinkModeMute);       	//link module mode change => Mute
-	delay(100);
+    CoDrone.Send_LinkModeBroadcast(LinkModeMute);           //link module mode change => Mute
+    delay(100);
 
-	Serial.println("");
-	Serial.println("--------- Now -----------");
-	Serial.print("angle roll : \t");
-	Serial.println(angle.roll);
-	Serial.print("angle pitch : \t");
-	Serial.println(angle.pitch);
-	Serial.print("angle yaw : \t");
-	Serial.println(angle.yaw);	
+    Serial.println("");
+    Serial.println("--------- Now -----------");
+    Serial.print("angle roll : \t");
+    Serial.println(angle.roll);
+    Serial.print("angle pitch : \t");
+    Serial.println(angle.pitch);
+    Serial.print("angle yaw : \t");
+    Serial.println(angle.yaw);  
 }
-
 ```

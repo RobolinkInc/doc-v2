@@ -35,4 +35,5 @@ drone.pair()
 
 # Print current throttle with getter function
 print("Current throttle : ", drone.get_throttle())
+drone.close()
 ```

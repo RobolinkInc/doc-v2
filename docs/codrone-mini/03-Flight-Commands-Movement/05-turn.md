@@ -34,7 +34,8 @@ drone = CoDrone_mini.CoDrone()
 drone.pair()
 drone.takeoff()
 	
-drone.turn(Direction.LEFT)  		# Turn left indefinitely at 50 power
+drone.turn(Direction.LEFT)          # Turn left indefinitely at 50 power
 drone.turn(Direction.RIGHT, 3, 100) # Turn right for 3 seconds at 100 power
 drone.land()
+drone.close()
 ```

@@ -33,33 +33,29 @@ None
 #Python code
 import CoDrone
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	# strobe the arms
-	drone.arm_strobe()
-	
-if __name__ == '__main__':
-	main()
-
+# strobe the arms
+drone.arm_strobe()
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
 //open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 
-	// strobe the arms
-	CoDrone.armStrobe();
+    // strobe the arms
+    CoDrone.armStrobe();
 }
 
 void loop(){
-	
-}
 
+}
 ```

@@ -35,4 +35,5 @@ drone.pair()
 
 # Print current pitch with getter function
 print("Current pitch : ", drone.get_pitch())
+drone.close()
 ```

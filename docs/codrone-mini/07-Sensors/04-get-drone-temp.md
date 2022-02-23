@@ -39,4 +39,5 @@ drone.pair()
 time.sleep(1) # to prevent skipping for an accurate reading
 temperature  = drone.get_drone_temp()
 print(temperature)
+drone.close()
 ```

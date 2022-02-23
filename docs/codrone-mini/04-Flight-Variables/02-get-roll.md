@@ -36,4 +36,5 @@ drone.pair()
 
 # Print current roll with getter function
 print("Current Roll : ", drone.get_roll())
+drone.close()
 ```

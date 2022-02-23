@@ -35,9 +35,10 @@ drone = CoDrone_mini.CoDrone()
 drone.pair()
 
 drone.takeoff()
-drone.fly_sequence(Sequence.ZIGZAG)	# Fly zigzag (move left and right 2 times each while move forward)
-drone.fly_sequence(Sequence.SPIRAL)		# Fly Spiral shape
-drone.fly_sequence(Sequence.SQUARE)		# Fly square shape
+drone.fly_sequence(Sequence.ZIGZAG) # Fly zigzag (move left and right 2 times each while move forward)
+drone.fly_sequence(Sequence.SPIRAL)     # Fly Spiral shape
+drone.fly_sequence(Sequence.SQUARE)     # Fly square shape
 
 drone.land()
+drone.close()
 ```

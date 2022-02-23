@@ -40,4 +40,5 @@ drone.play_note(Note.F4, 0.5)
 drone.play_note(Note.G4, 0.5)
 
 drone.play_note(440,0.5) # 440 Hz is Note.C4
+drone.close()
 ```

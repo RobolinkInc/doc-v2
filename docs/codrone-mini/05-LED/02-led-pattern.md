@@ -40,5 +40,6 @@ from CoDrone_mini import Mode
 drone = CoDrone_mini.CoDrone()
 drone.pair()
 time.sleep(1) # to prevent skipping the LED command
-drone.LED_pattern(0, 100, 0, Mode.PULSE, 5)  
+drone.LED_pattern(0, 100, 0, Mode.PULSE, 5)
+drone.close() 
 ```

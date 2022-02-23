@@ -29,33 +29,31 @@ Boolean of whether the drone is flying
 #Python code
 import CoDrone
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	#land if flying.
-	if drone.is_flying():
-	    drone.land()
-
-if __name__ == '__main__':
-	main()
-
+drone.takeoff()
+#land if flying.
+if drone.is_flying():
+    drone.land()
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 
-	// If drone is flying land the drone
-	if(CoDrone.isFlying()==true)	
-	    CoDrone.land();
+    // If drone is flying land the drone
+    if(CoDrone.isFlying()==true)    
+        CoDrone.land();
 }
 void loop(){
-	
+
 }
 ```

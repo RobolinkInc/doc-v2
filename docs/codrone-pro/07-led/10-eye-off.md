@@ -33,33 +33,28 @@ None
 #Python code
 import CoDrone
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	# turn off the eyes
-	drone.eye_off()
-	
-if __name__ == '__main__':
-	main()
-
+# turn off the eyes
+drone.eye_off()
+drone.close()
 ```
 ###### Arduino
 ```c
 //Arduino code
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
 //open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 
-	// turn off the eyes
-	CoDrone.eyeOff();
+    // turn off the eyes
+    CoDrone.eyeOff();
 }
 
 void loop(){
-	
-}
 
+}
 ```

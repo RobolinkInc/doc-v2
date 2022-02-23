@@ -33,33 +33,30 @@ None
 import CoDrone
 from CoDrone import Direction,Degree
 
-def main():	
-	drone = CoDrone.CoDrone()
-	drone.pair()
-	drone.takeoff()
-	
-	drone.turn_degree(Direction.LEFT, Degree.ANGLE_45) 	# Turn left 45 degrees
+drone = CoDrone.CoDrone()
+drone.pair()
+drone.takeoff()
 
-if __name__ == '__main__':
-	main()
-
+drone.turn_degree(Direction.LEFT, Degree.ANGLE_45)  # Turn left 45 degrees
+drone.land()
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 
-	CoDrone.takeoff();
-	CoDrone.turnDegree(LEFT, ANGLE_45); 		// Turn left 45 degrees
+    CoDrone.takeoff();
+    CoDrone.turnDegree(LEFT, ANGLE_45);         // Turn left 45 degrees
 }
 
 void loop(){
-	
+
 }
-	
 ```

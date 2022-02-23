@@ -37,4 +37,5 @@ drone.hover(3)
 height = drone.get_height()
 print(height)
 drone.land()
+drone.close()
 ```

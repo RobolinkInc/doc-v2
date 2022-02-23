@@ -47,35 +47,31 @@ None
 import CoDrone
 from CoDrone import Mode, Color
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	drone.arm_pattern(Color.Red, Mode.DOUBLE_BLINK, 200)        # Set arms to double blink red slowly using Color
-    drone.arm_pattern(0, 100, 0, Mode.PULSE, 200)               # Set arms to pulse green slowly using RGB
-	
-if __name__ == '__main__':
-	main()
-
+drone.arm_pattern(Color.Red, Mode.DOUBLE_BLINK, 200)        # Set arms to double blink red slowly using Color
+drone.arm_pattern(0, 100, 0, Mode.PULSE, 200)               # Set arms to pulse green slowly using RGB
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
 //open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 
-	CoDrone.armPattern(Red, DOUBLE_BLINK, 200);                 // Set arms to double blink red slowly using Color
+    CoDrone.armPattern(Red, DOUBLE_BLINK, 200);                 // Set arms to double blink red slowly using Color
     CoDrone.armPattern(0, 0, 255, PULSE, 200);                  // Set arms to pulse blue slowly using RGB
 }
 
 void loop(){
-	
-}
 
+}
 ```
 ###### LED Color options
 ```

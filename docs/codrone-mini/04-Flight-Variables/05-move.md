@@ -45,10 +45,11 @@ drone.pair()
 
 drone.takeoff()
 drone.set_pitch(20)
-drone.move(5) 					# Move 5 seconds based on the current value of flight variables
-drone.move() 					# Move indefinitely based on the current value of flight variables
-	
-drone.set_pitch(0)				# Set pitch back to 0 for the remaining examples
-drone.move(5, 0, 0, 80, 80)		# Move up(throttle) and turn left(yaw) for 5 seconds
+drone.move(5)                   # Move 5 seconds based on the current value of flight variables
+drone.move()                    # Move indefinitely based on the current value of flight variables
+
+drone.set_pitch(0)              # Set pitch back to 0 for the remaining examples
+drone.move(5, 0, 0, 80, 80)     # Move up(throttle) and turn left(yaw) for 5 seconds
 drone.land()
+drone.close()
 ```

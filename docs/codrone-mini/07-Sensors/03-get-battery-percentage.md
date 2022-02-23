@@ -33,4 +33,5 @@ drone.pair()
 
 battery = drone.get_battery_percentage()
 print(battery)
+drone.close()
 ```

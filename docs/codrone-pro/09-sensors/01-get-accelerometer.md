@@ -31,50 +31,45 @@ Outputs to visual UI. In code, it returns a class in Python and struct in Arduin
 #Python code
 import CoDrone
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	# print the acceleration of drone
-	acceleration = drone.get_accelerometer()
-	print(acceleration.X, acceleration.Y, acceleration.Z)
-	
-if __name__ == '__main__':
-	main()
-
+# print the acceleration of drone
+acceleration = drone.get_accelerometer()
+print(acceleration.X, acceleration.Y, acceleration.Z)
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
 //Code for print request data to serial monitor
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);	
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);  
 }
 
 void loop(){
-	// Struct for get accelerometer data
-	acceldata accel;
+    // Struct for get accelerometer data
+    acceldata accel;
 
+    CoDrone.Send_LinkModeBroadcast(LinkBroadcast_Active);   //link module mode change => Active
+    accel = CoDrone.getAccelerometer();     //save request data
+    delay(100);
 
-	CoDrone.Send_LinkModeBroadcast(LinkBroadcast_Active);	//link module mode change => Active
-	accel = CoDrone.getAccelerometer();		//save request data
-	delay(100);
-	    
-	CoDrone.Send_LinkModeBroadcast(LinkModeMute);       	//link module mode change => Mute
-	delay(100);
+    CoDrone.Send_LinkModeBroadcast(LinkModeMute);           //link module mode change => Mute
+    delay(100);
 
-	Serial.println("");
-	Serial.println("--------- Now -----------");
-	Serial.print("accel x : \t");
-	Serial.println(accel.x);
-	Serial.print("accel y : \t");
-	Serial.println(accel.y);
-	Serial.print("accel z : \t");
-	Serial.println(accel.z);	
+    Serial.println("");
+    Serial.println("--------- Now -----------");
+    Serial.print("accel x : \t");
+    Serial.println(accel.x);
+    Serial.print("accel y : \t");
+    Serial.println(accel.y);
+    Serial.print("accel z : \t");
+    Serial.println(accel.z);    
 }
-
 ```

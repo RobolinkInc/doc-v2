@@ -45,35 +45,31 @@ None
 import CoDrone
 from CoDrone import Color, Mode
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	drone.eye_pattern(Color.Red, Mode.BLINK, 1)            # Set eyes to blink red slowly using Color
-    drone.eye_pattern(255, 0, 0, Mode.DIMMING, 200)        # Set eyes to dim red slowly using RGB
-	
-if __name__ == '__main__':
-	main()
-
+drone.eye_pattern(Color.Red, Mode.BLINK, 1)            # Set eyes to blink red slowly using Color
+drone.eye_pattern(255, 0, 0, Mode.DIMMING, 200)        # Set eyes to dim red slowly using RGB
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
 //open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 
-	CoDrone.eyePattern(Red, DOUBLE_BLINK, 1);             // Set eyes to double blink red quickly using Color
+    CoDrone.eyePattern(Red, DOUBLE_BLINK, 1);             // Set eyes to double blink red quickly using Color
     CoDrone.eyePattern(255, 0, 0, DOUBLE_BLINK, 10);       // Set eyes to double blink red quickly using RGB
 }
 
 void loop(){
-	
-}
 
+}
 ```
 ###### LED Color options
 ```

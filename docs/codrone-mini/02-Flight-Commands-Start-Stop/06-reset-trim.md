@@ -37,4 +37,5 @@ drone.hover(3)
 drone.land()
 drone.reset_trim() 
 print(drone.get_trim())
+drone.close()
 ```

@@ -33,9 +33,10 @@ import CoDrone_mini
 drone = CoDrone_mini.CoDrone()
 drone.pair()
 drone.takeoff()
-	
+
 # Drone goes right for 1 second with 50 power
 drone.set_pitch(50)
-drone.move(1)				#use move() to execute the movement for 1 second
+drone.move(1)               #use move() to execute the movement for 1 second
 drone.land()
+drone.close()
 ```

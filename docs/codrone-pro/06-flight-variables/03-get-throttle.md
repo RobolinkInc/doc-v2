@@ -29,31 +29,28 @@ The power of the throttle variable (int)
 #Python code
 import CoDrone
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	# Print current throttle with getter function
-	print(“Current throttle : ”, drone.get_throttle())
-	
-if __name__ == '__main__':
-	main()
-
+# Print current throttle with getter function
+print(“Current throttle : ”, drone.get_throttle())
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 
-	// save current throttle value in variable “current_throttle”
-	int current_throttle = CoDrone.getThrottle(); 
+    // save current throttle value in variable “current_throttle”
+    int current_throttle = CoDrone.getThrottle(); 
 }
 void loop(){
-	
+
 }
 ```

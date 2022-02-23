@@ -33,4 +33,5 @@ drone.takeoff()
 drone.hover(3)   # hover for 3 seconds
 #drone.hover()   # hover indefinitely 
 drone.land()
+drone.close()
 ```

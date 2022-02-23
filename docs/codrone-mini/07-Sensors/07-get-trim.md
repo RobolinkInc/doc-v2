@@ -37,4 +37,5 @@ drone.pair()
 trim  = drone.get_trim()
 print(trim)
 print(trim.ROLL, trim.PITCH, trim.YAW, trim.THROTTLE)
+drone.close()
 ```

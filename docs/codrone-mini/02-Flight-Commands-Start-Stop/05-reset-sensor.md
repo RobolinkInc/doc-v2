@@ -38,4 +38,5 @@ drone.land()
 print("After ",drone.get_angle())
 drone.reset_sensor() 
 print("Reset ", drone.get_angle())
+drone.close()
 ```

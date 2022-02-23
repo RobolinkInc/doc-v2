@@ -33,34 +33,31 @@ None
 import CoDrone
 from CoDrone import Direction
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
-	drone.takeoff()
-	
-	drone.turn(Direction.LEFT)  		# Turn left for 1 second at -50 power
-	drone.turn(Direction.LEFT, 0)  		# Turn left at -50 power indefinitely
-	drone.turn(Direction.RIGHT, 3, 100) # Turn right for 3 seconds at 100 power
-	
-if __name__ == '__main__':
-	main()
+drone = CoDrone.CoDrone()
+drone.pair()
+drone.takeoff()
 
-
+drone.turn(Direction.LEFT)          # Turn left for 1 second at -50 power
+drone.turn(Direction.LEFT, 0)       # Turn left at -50 power indefinitely
+drone.turn(Direction.RIGHT, 3, 100) # Turn right for 3 seconds at 100 power
+drone.land()
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 
-	CoDrone.takeoff();
-	CoDrone.turn(LEFT);  			// Turn left for 1 second at 50 power
-	CoDrone.turn(LEFT, 0);			// Turn left at 50 power indefinitely
-	CoDrone.turn(RIGHT, 5, 100); 	// Turn right for 5 seconds at 100 power	
+    CoDrone.takeoff();
+    CoDrone.turn(LEFT);             // Turn left for 1 second at 50 power
+    CoDrone.turn(LEFT, 0);          // Turn left at 50 power indefinitely
+    CoDrone.turn(RIGHT, 5, 100);    // Turn right for 5 seconds at 100 power    
 }
 
 void loop(){

@@ -30,38 +30,36 @@ None
 import CoDrone
 from CoDrone import Sequence
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	drone.takeoff()
-	drone.fly_sequence(Sequence.ZIG_ZAG)	# Fly zigzag (move left and right 2 times each while move forward)
-	drone.fly_sequence(Sequence.SPIRAL)		# Fly Spiral shape
-	drone.fly_sequence(Sequence.SQUARE)		# Fly square shape
-	
-if __name__ == '__main__':
-	main()
-
+drone.takeoff()
+drone.fly_sequence(Sequence.TRIANGLE)   # Fly triangle shape
+drone.fly_sequence(Sequence.SPIRAL)     # Fly spiral shape
+drone.fly_sequence(Sequence.SQUARE)     # Fly square shape
+drone.land()
+drone.close()
 ```
+
 ###### Arduino
+
 ```c
 //Arduino code
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 
-	CoDrone.takeoff();
-	CoDrone.flySequence(ZIGZAG);	// Fly zigzag  (move left and right 2 times each while move forward)
-	CoDrone.flySequence(SPIRAL);	// Fly spiral shape
-	CoDrone.flySequence(SQUARE);	// Fly square (right -> forward -> left -> backward)	
+    CoDrone.takeoff();
+    CoDrone.flySequence(TRIANGLE);  // Fly triangle shape
+    CoDrone.flySequence(SPIRAL);    // Fly spiral shape
+    CoDrone.flySequence(SQUARE);    // Fly square (right -> forward -> left -> backward)
+    CoDrone.land();
 }
 
 void loop(){
-	
+
 }
-
-
 ```

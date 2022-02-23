@@ -34,4 +34,5 @@ drone.pair()
 # print the pressure
 pressure = drone.get_pressure()
 print(pressure)
+drone.close()
 ```

@@ -35,4 +35,5 @@ drone.flip(Direction.FORWARD)
 time.sleep(3) # recommended wait time between flips
 drone.flip(Direction.LEFT)	
 drone.land()
+drone.close()
 ```

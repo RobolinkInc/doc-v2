@@ -34,4 +34,5 @@ drone.pair()
 
 altitude = drone.get_altitude()
 print(altitude)
+drone.close()
 ```

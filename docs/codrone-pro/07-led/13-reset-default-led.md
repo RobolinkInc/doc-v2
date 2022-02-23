@@ -30,32 +30,28 @@ None
 #Python code
 import CoDrone
 
-def main():
-	drone = CoDrone.CoDrone()
-	drone.pair()
+drone = CoDrone.CoDrone()
+drone.pair()
 
-	drone.reset_default_led()
-	
-if __name__ == '__main__':
-	main()
-
+drone.reset_default_led()
+drone.close()
 ```
+
 ###### Arduino
 ```c
 //Arduino code
-#include<CoDrone.h>		//header
+#include<CoDrone.h>     //header
 
 void setup(){
-	//open serial and connect
-	CoDrone.begin(115200);
-	CoDrone.pair(Nearest);
+    //open serial and connect
+    CoDrone.begin(115200);
+    CoDrone.pair(Nearest);
 
-	// Reset Drone’s LED to holding the Red color 
-	CoDrone.resetDefaultLED();	
+    // Reset Drone’s LED to holding the Red color 
+    CoDrone.resetDefaultLED();  
 }
 
 void loop(){
-	
-}
 
+}
 ```
