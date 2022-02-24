@@ -41,7 +41,7 @@ These are the functions that you can use to control the CoDrone mini. The functi
         <a href="/doc-v2/docs/codrone-mini/LED/led-pattern">LED_pattern()</a>
         <a href="/doc-v2/docs/codrone-mini/LED/play-note">play_note()</a>
         <a href="/doc-v2/docs/codrone-mini/LED/reset-led">reset_LED()</a>
-        <a href="/doc-v2/docs/codrone-mini/LED/turn-off-led">turn_off_LED()()</a>
+        <a href="/doc-v2/docs/codrone-mini/LED/turn-off-led">turn_off_LED()</a>
   </div>
   </div>
   <div  class="parentContainer">

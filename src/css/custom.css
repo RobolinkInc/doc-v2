@@ -573,3 +573,7 @@ input:checked + .slider{
   font-size: 16px;
   
 }
+
+.box-reference-shadow > h3 {
+  padding-top: 16px;
+}
