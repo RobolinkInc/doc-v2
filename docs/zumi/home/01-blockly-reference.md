@@ -6,6 +6,7 @@ id: blockly-reference
 sidebar_label: Senior reference
 hide_table_of_contents: true
 ---
+
 <h3 class="homeDocLandingVersion">version 1.61 (<a class="orange-link" href="/doc-v2/docs/zumi/home/zumi-changelog">Changelog</a>)</h3>
 These are the Blockly functions that you can use to control the Zumi. Example code is provided in each function definition.
 
@@ -14,11 +15,12 @@ These are the Blockly functions that you can use to control the Zumi. Example co
 <label onClick={function hi(){if(document.getElementById("juniorSeniorSelector").checked){window.location.href = "/doc-v2/docs/zumi/home/blockly-reference-senior"}}} class="switch">
  <input id="juniorSeniorSelector" type="checkbox" />
   <span class="slider round"></span> 
-</label>   <span class="label-toggle">Senior</span>
+</label><span class="label-toggle">Senior</span>
 </div>
 
 <div class="boxLanding">
   <div class="parentContainer">
+  <div class="box-reference-shadow">
   <h3>Lights</h3>
     <a href="#">take off</a>
     <img src="/doc-v2/img/takeoff.png"></img>
@@ -35,26 +37,27 @@ These are the Blockly functions that you can use to control the Zumi. Example co
     <a href="#">hover for [ ] seconds</a>
       <img src="/doc-v2/img/hover.png"></img>  
   </div>
+  </div>
   <div  class="parentContainer">
+    <div class="box-reference-shadow">
     <h3> Flight Sequences</h3>
+    <br />
     <div class="boxLandingColumn2">
-      
         <img src="/doc-v2/img/flips.png"></img>
-      
     </div>
- 
+    </div>
   </div>
     <div  class="parentContainer">
+     <div class="box-reference-shadow">
     <h3> Status Checkers</h3>
-    <div class="boxLandingColumn2">
-      
+    <div class="boxLandingColumn2"> 
         <img src="/doc-v2/img/code_is_running.png"></img>
-  
     </div>
- 
+    </div>
   </div>
 </div>
 <div class="boxLanding marginTop25">
+ <div class="box-reference-shadow">
   <div class="parentContainer">
     <h3>Logic</h3>
     <a href="#">all_lights_off()</a>
@@ -71,7 +74,9 @@ These are the Blockly functions that you can use to control the Zumi. Example co
     <a href="#">signal_right_off() </a>
     <a href="#">signal_right_on()</a>
   </div>
+  </div>
   <div class="parentContainer">
+   <div class="box-reference-shadow">
     <h3>Camera</h3>
     <a href="#">all_lights_off()</a>
     <a href="#">all_lights_on()</a>
@@ -87,7 +92,9 @@ These are the Blockly functions that you can use to control the Zumi. Example co
     <a href="#">signal_right_off()</a>
     <a href="#">signal_right_on()</a>
   </div>
+  </div>
   <div class="parentContainer">
+   <div class="box-reference-shadow">
   <h3>Loops</h3>
     <a href="#">all_lights_off()</a> 
     <a href="#">all_lights_on()</a>
@@ -98,5 +105,6 @@ These are the Blockly functions that you can use to control the Zumi. Example co
     <a href="#">headlights_off() </a>
     <a href="#">headlights_on()</a>
   </div>
-
+  </div>
 </div>
+

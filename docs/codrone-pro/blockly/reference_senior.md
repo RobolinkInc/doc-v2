@@ -19,7 +19,8 @@ These are the Blockly functions that you can use to control the CoDrone Pro. Exa
 
 <div class="boxLanding">
   <div class="parentContainer">
-  <h3>Lights Senior</h3>
+  <div class="box-reference-shadow">
+  <h3>Lights</h3>
     <a href="#">take off</a>
     <img src="/doc-v2/img/takeoff.png"></img>
     <a href="#">land</a>
@@ -35,26 +36,27 @@ These are the Blockly functions that you can use to control the CoDrone Pro. Exa
     <a href="#">hover for [ ] seconds</a>
       <img src="/doc-v2/img/hover.png"></img>  
   </div>
+  </div>
   <div  class="parentContainer">
+    <div class="box-reference-shadow">
     <h3> Flight Sequences</h3>
+    <br />
     <div class="boxLandingColumn2">
-      
         <img src="/doc-v2/img/flips.png"></img>
-      
     </div>
- 
+    </div>
   </div>
     <div  class="parentContainer">
+     <div class="box-reference-shadow">
     <h3> Status Checkers</h3>
-    <div class="boxLandingColumn2">
-      
+    <div class="boxLandingColumn2"> 
         <img src="/doc-v2/img/code_is_running.png"></img>
-  
     </div>
- 
+    </div>
   </div>
 </div>
 <div class="boxLanding marginTop25">
+ <div class="box-reference-shadow">
   <div class="parentContainer">
     <h3>Logic</h3>
     <a href="#">all_lights_off()</a>
@@ -71,7 +73,9 @@ These are the Blockly functions that you can use to control the CoDrone Pro. Exa
     <a href="#">signal_right_off() </a>
     <a href="#">signal_right_on()</a>
   </div>
+  </div>
   <div class="parentContainer">
+   <div class="box-reference-shadow">
     <h3>Camera</h3>
     <a href="#">all_lights_off()</a>
     <a href="#">all_lights_on()</a>
@@ -87,7 +91,9 @@ These are the Blockly functions that you can use to control the CoDrone Pro. Exa
     <a href="#">signal_right_off()</a>
     <a href="#">signal_right_on()</a>
   </div>
+  </div>
   <div class="parentContainer">
+   <div class="box-reference-shadow">
   <h3>Loops</h3>
     <a href="#">all_lights_off()</a> 
     <a href="#">all_lights_on()</a>
@@ -98,5 +104,5 @@ These are the Blockly functions that you can use to control the CoDrone Pro. Exa
     <a href="#">headlights_off() </a>
     <a href="#">headlights_on()</a>
   </div>
-
+  </div>
 </div>

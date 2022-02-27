@@ -23,6 +23,32 @@ module.exports = {
       items: [
         {
           position: 'right',
+          label: 'CoDrone EDU',
+          items: [
+            {
+              label: 'Blockly',
+              href: '/doc-v2/docs/codrone-edu/blockly/reference',
+            },
+            {
+              label: 'Python',
+              href: '/doc-v2/docs/codrone-edu/python/home/python-reference',
+            },
+          ]}, 
+          {
+            position: 'right',
+            label: 'CoDrone Mini',
+            items: [
+              {
+                label: 'Blockly',
+                href: '/doc-v2/docs/codrone-mini/blockly/reference_blockly',
+              },
+              {
+                label: 'Python',
+                href: '/doc-v2/docs/codrone-mini/home/cdm',
+              },
+            ]}, 
+        {
+          position: 'right',
           label: 'CoDrone Pro/Lite',
           items: [
             {
@@ -38,20 +64,7 @@ module.exports = {
               href: '/doc-v2/docs/codrone-pro/home/arduino-ref',
             },
           
-          ]},
-          {
-            position: 'right',
-            label: 'CoDrone Mini',
-            items: [
-              {
-                label: 'Blockly',
-                href: '/doc-v2/docs/codrone-mini/blockly/reference_blockly',
-              },
-              {
-                label: 'Python',
-                href: '/doc-v2/docs/codrone-mini/home/cdm',
-              },
-            ]},  
+          ]}, 
             {
               position: 'right',
               label: 'Zumi',
@@ -83,9 +96,11 @@ module.exports = {
     excludeRoutes: [
       'docs/zumi/home/**/*', // exclude changelogs from indexing
       'docs/codrone-mini/home/**/*', // exclude changelogs from indexing
+      'docs/codrone-edu/python/home/**/*', // exclude changelogs from indexing
       'docs/codrone-pro/home/**/*', // exclude changelogs from indexing
       'docs/codrone-pro/blockly/**/*', // exclude changelogs from indexing
       'docs/codrone-mini/blockly/**/*', // exclude changelogs from indexing
+      'docs/codrone-edu/blockly/**/*', // exclude changelogs from indexing
   ]
   }]],
   presets: [
