@@ -34,25 +34,42 @@ function CmdProButtons() {
       <button onClick={goUrlCodronePro}>Blockly</button>
    </div>
    <div className={styles.column }>
-   <button onClick={goUrlCodronePro}>Python</button>
+   <button onClick={goUrlCodroneProPython}>Python</button>
 
   </div>
   <div className={styles.column }>
-  <button onClick={goUrlCodronePro}>Arduino</button>
+  <button onClick={goUrlCodroneProArduino}>Arduino</button>
   </div>
 </div>
   );
 }
 
 function goUrlCodronePro(e) {
-  window.location.href = 'docs/codrone-pro/home' ;
+  window.location.href = 'docs/codrone-pro/blockly/reference_blockly';
+}
+
+function goUrlCodroneProPython(e) {
+  window.location.href = 'docs/codrone-pro/home/python-ref';
+}
+
+function goUrlCodroneProArduino(e) {
+  window.location.href = 'docs/codrone-pro/home/arduino-ref';
 }
 
 function goUrlCmd(e) {
-  window.location.href = 'docs/codrone-mini/cdm' ;
+  window.location.href = 'docs/codrone-mini/blockly/reference_blockly';
 }
+
+function goUrlCmdPython(e) {
+  window.location.href = 'docs/codrone-mini/home/cdm';
+}
+
 function goUrlZumi(e) {
-  window.location.href = 'docs/zumi/home/home' ;
+  window.location.href = 'docs/zumi/home/blockly-reference';
+}
+
+function goUrlZumiPython(e) {
+  window.location.href = 'docs/zumi/home/home';
 }
 
 function CmdTwoButtons() {
@@ -62,7 +79,7 @@ function CmdTwoButtons() {
       <button onClick={goUrlCmd}>Blockly</button>
    </div>
   <div className={styles.columnHalf }>
-  <button onClick={goUrlCmd}>Python</button>
+  <button onClick={goUrlCmdPython}>Python</button>
   </div>
 </div>
   );
@@ -75,7 +92,7 @@ function ZumiTwoButtons() {
       <button onClick={goUrlZumi}>Blockly</button>
    </div>
   <div className={styles.columnHalf }>
-  <button onClick={goUrlZumi}>Python</button>
+  <button onClick={goUrlZumiPython}>Python</button>
   </div>
 </div>
   );

@@ -6,7 +6,6 @@ id: reference_senior
 sidebar_label: Junior reference
 hide_table_of_contents: true
 ---
-<h3 class="homeDocLandingVersion">version 0.1.3 (<a class="orange-link" href="/doc-v2/docs/codrone-pro/home/codrone-pro-changelog">Changelog</a>)</h3>
 These are the Blockly functions that you can use to control the CoDrone Pro. Example code is provided in each function definition.
 
 <div class="center">

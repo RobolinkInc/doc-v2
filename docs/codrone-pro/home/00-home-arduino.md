@@ -5,8 +5,6 @@ title: CoDrone Pro Library Reference
 hide_table_of_contents: true
 ---
 
-<h3 class="homeDocLandingVersion">version 1.1.3 (<a class="orange-link" href="/doc-v2/docs/codrone-pro/home/codrone-pro-changelog">Changelog</a>)</h3>
-
 These are the functions that you can use to control the CoDrone Pro. The functions are available in Arduino library. Example code is provided in each function definition.
 
 <div class="boxLanding">
