@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: zumi-blockly-changelog
+id: changelog
 title: Zumi Library Changelog
 
 ---

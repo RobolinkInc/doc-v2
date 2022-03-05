@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: cdm-mini-changelog
+id: changelog
 title: CoDrone Mini Library Changelog
 
 ---

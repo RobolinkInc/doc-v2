@@ -1,21 +1,20 @@
 ---
 custom_edit_url: null
-title: "Zumi Library Reference"
-menu: "Zumi"
-id: blockly-reference
+title: "CoDrone EDU Library Reference"
+menu: "Codrone EDU"
+id: library-junior
 sidebar_label: Senior reference
 hide_table_of_contents: true
 ---
-
-<h3 class="homeDocLandingVersion">version 1.61 (<a class="orange-link" href="/doc-v2/docs/zumi/home/zumi-changelog">Changelog</a>)</h3>
-These are the Blockly functions that you can use to control the Zumi. Example code is provided in each function definition.
+<h3 class="homeDocLandingVersion">version 1.1.3 (<a class="orange-link" href="/doc-v2/docs/codrone-mini/blockly/changelog">Changelog</a>)</h3>
+These are the Blockly functions that you can use to control the CoDrone Mini. Example code is provided in each function definition.
 
 <div class="center">
     <span class="label-toggle">Junior</span>
-<label onClick={function hi(){if(document.getElementById("juniorSeniorSelector").checked){window.location.href = "/doc-v2/docs/zumi/home/blockly-reference-senior"}}} class="switch">
+<label onClick={function hi(){if(document.getElementById("juniorSeniorSelector").checked){window.location.href = "/doc-v2/docs/codrone-mini/blockly/reference/library-senior"}}} class="switch">
  <input id="juniorSeniorSelector" type="checkbox" />
   <span class="slider round"></span> 
-</label><span class="label-toggle">Senior</span>
+</label>   <span class="label-toggle">Senior</span>
 </div>
 
 <div class="boxLanding">
@@ -107,4 +106,3 @@ These are the Blockly functions that you can use to control the Zumi. Example co
   </div>
   </div>
 </div>
-

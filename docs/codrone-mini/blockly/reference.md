@@ -6,7 +6,7 @@ id: reference_blockly
 sidebar_label: Senior reference
 hide_table_of_contents: true
 ---
-<h3 class="homeDocLandingVersion">version 1.1.3 (<a class="orange-link" href="/doc-v2/docs/codrone-mini/home/cdm-mini-changelog">Changelog</a>)</h3>
+<h3 class="homeDocLandingVersion">version 1.1.3 (<a class="orange-link" href="/doc-v2/docs/codrone-mini/blockly/changelog">Changelog</a>)</h3>
 These are the Blockly functions that you can use to control the CoDrone Mini. Example code is provided in each function definition.
 
 <div class="center">

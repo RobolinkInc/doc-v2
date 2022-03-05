@@ -27,11 +27,11 @@ module.exports = {
           items: [
             {
               label: 'Blockly',
-              href: '/doc-v2/docs/codrone-edu/blockly/reference',
+              href: '/doc-v2/docs/codrone-edu/blockly/reference/library-junior',
             },
             {
               label: 'Python',
-              href: '/doc-v2/docs/codrone-edu/python/home/python-reference',
+              href: '/doc-v2/docs/codrone-edu/python/reference/library',
             },
           ]}, 
           {
@@ -44,7 +44,7 @@ module.exports = {
               },
               {
                 label: 'Python',
-                href: '/doc-v2/docs/codrone-mini/home/cdm',
+                href: '/doc-v2/docs/codrone-mini/python/reference/library',
               },
             ]}, 
         {
@@ -57,11 +57,11 @@ module.exports = {
             },
             {
               label: 'Python',
-              href: '/doc-v2/docs/codrone-pro/home/python-ref',
+              href: '/doc-v2/docs/codrone-pro/python/reference/library',
             },
             {
               label: 'Arduino',
-              href: '/doc-v2/docs/codrone-pro/home/arduino-ref',
+              href: '/doc-v2/docs/codrone-pro/arduino/reference/library',
             },
           
           ]}, 
@@ -71,11 +71,11 @@ module.exports = {
               items: [
                 {
                   label: 'Blockly',
-                  href: '/doc-v2/docs/zumi/home/blockly-reference',
+                  href: '/doc-v2/docs/zumi/blockly/reference/library-junior',
                 },
                 {
                   label: 'Python',
-                  href: '/doc-v2/docs/zumi/home/home',
+                  href: '/doc-v2/docs/zumi/python/reference/library',
                   //doc-v2/docs/zumi/home/home
                 },
               ]},      
@@ -94,12 +94,16 @@ module.exports = {
   plugins: [[path.resolve(__dirname, './node_modules/docusaurus-lunr-search/'),{
     languages:['en', 'de'],
     excludeRoutes: [
-      'docs/zumi/home/**/*', // exclude changelogs from indexing
-      'docs/codrone-mini/home/**/*', // exclude changelogs from indexing
-      'docs/codrone-edu/python/home/**/*', // exclude changelogs from indexing
-      'docs/codrone-pro/home/**/*', // exclude changelogs from indexing
-      'docs/codrone-pro/blockly/**/*', // exclude changelogs from indexing
+      'docs/zumi/python/reference/*', // exclude changelogs from indexing
+      'docs/zumi/blockly/reference/*', // exclude changelogs from indexing
+      'docs/codrone-mini/python/reference/*', // exclude changelogs from indexing
       'docs/codrone-mini/blockly/**/*', // exclude changelogs from indexing
+      'docs/codrone-mini/blockly/*', // exclude changelogs from indexing
+      'docs/codrone-pro/python/reference/*', // exclude changelogs from indexing
+      'docs/codrone-pro/arduino/reference/*', // exclude changelogs from indexing
+      'docs/codrone-pro/blockly/**/*', // exclude changelogs from indexing
+      'docs/codrone-pro/blockly/*', // exclude changelogs from indexing    
+      'docs/codrone-edu/python/reference/**/*', // exclude changelogs from indexing
       'docs/codrone-edu/blockly/**/*', // exclude changelogs from indexing
   ]
   }]],

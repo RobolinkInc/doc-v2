@@ -49,11 +49,11 @@ function goUrlCodronePro(e) {
 }
 
 function goUrlCodroneProPython(e) {
-  window.location.href = 'docs/codrone-pro/home/python-ref';
+  window.location.href = 'docs/codrone-pro/python/reference/library';
 }
 
 function goUrlCodroneProArduino(e) {
-  window.location.href = 'docs/codrone-pro/home/arduino-ref';
+  window.location.href = 'docs/codrone-pro/arduino/reference/library';
 }
 
 function goUrlCmd(e) {
@@ -61,15 +61,15 @@ function goUrlCmd(e) {
 }
 
 function goUrlCmdPython(e) {
-  window.location.href = 'docs/codrone-mini/home/cdm';
+  window.location.href = 'docs/codrone-mini/python/reference/library';
 }
 
 function goUrlZumi(e) {
-  window.location.href = 'docs/zumi/home/blockly-reference';
+  window.location.href = 'docs/zumi/blockly/reference/library-junior';
 }
 
 function goUrlZumiPython(e) {
-  window.location.href = 'docs/zumi/home/home';
+  window.location.href = 'docs/zumi/python/reference/library';
 }
 
 function CmdTwoButtons() {

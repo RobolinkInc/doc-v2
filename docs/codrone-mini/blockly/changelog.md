@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: codrone-edu-changelog
+id: changelog
 title: CoDrone Mini Library Changelog
 
 ---
