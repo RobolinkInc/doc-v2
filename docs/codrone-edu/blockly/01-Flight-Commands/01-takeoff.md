@@ -5,7 +5,7 @@ title: takeoff()
 ---
 
 ![takeoff image](takeoff.PNG)
-Moves the drone in a direction for a given duration and a percentage power.
+Makes the drone take off.
 
 ##### Parameters
 
