@@ -4,7 +4,7 @@ id: 03-emergency-stop
 title: emergency_stop()
 ---
 
-![emergency stop image](emergency_stop.PNG)
+![emergency stop image](emergencystop.PNG)
 Makes the drone perform an emergency stop.
 
 ##### Parameters
