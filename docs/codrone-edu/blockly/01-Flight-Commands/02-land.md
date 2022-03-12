@@ -4,7 +4,7 @@ id: 02-land
 title: land()
 ---
 
-![go for seconds block image](land.PNG)
+![land image](land.PNG)
 Makes the drone land.
 
 ##### Parameters
@@ -17,4 +17,4 @@ None
 
 ##### Example
 
-![go at power example](takeoff_hover_land_example.png)
+![land example](takeoff_hover_land_example.PNG)
