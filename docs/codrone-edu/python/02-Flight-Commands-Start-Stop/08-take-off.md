@@ -1,14 +1,13 @@
 ---
 custom_edit_url: null
-id: take-off
+id: 08-take_off
 title: takeoff()
 ---
 
 ##### Description
 
 This function makes the drone takeoff and hover.<br />
-The drone will always hover for 3 seconds in order to stabilize before it executes the next command.<br />
-If it receives no command for 8 seconds, it will automatically land.
+The drone will always hover for 1 second in order to stabilize before it executes the next command.<br />
 
 ##### Syntax
 ```takeoff()```
@@ -25,9 +24,9 @@ None
 ###### Python
 ```python
 #Python code
-import CoDrone_mini
+from codrone_edu.drone import *
 
-drone = CoDrone_mini.CoDrone()
+drone = Drone()
 drone.pair()
 drone.takeoff()
 	
