@@ -8,7 +8,7 @@ title: flip()
 Makes the drone flip in a specified direction.
 
 ##### Parameters
-![flip param image](flip_paramters.PNG)
+![flip param image](flip_parameters.PNG)
 **direction**: back,front, left, right <br /> 
 
 ##### Returns
