@@ -5,7 +5,7 @@ title: hover()
 ---
 
 ![hover image](hover.PNG)
-Moves the drone in a direction for a given duration and a percentage power.
+Has the drone hover for a specified amount of seconds.
 
 ##### Parameters
 
