@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: set-trim
+id: 04-set_trim
 title: set_trim()
 ---
 
@@ -27,13 +27,13 @@ None
 ###### Python
 ```python
 #Python code
-import CoDrone_mini
+from codrone_edu.drone import *
 import time
 
-drone = CoDrone_mini.CoDrone()
+drone = Drone()
 drone.pair()
 
-drone.set_trim(-1, 0) # example: drone is drifting right, so trim to roll left a little bit
+drone.set_trim(-5, 0) # example: drone is drifting right, so trim to roll left a little bit
 
 time.sleep(1)       # Add a time.sleep(1) before takeoff if you're planning to set the trim before takeoff
 drone.takeoff()

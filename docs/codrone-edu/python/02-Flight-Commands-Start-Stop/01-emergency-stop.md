@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: emergency_stop
+id: 01-emergency_stop
 title: emergency_stop()
 
 ---
