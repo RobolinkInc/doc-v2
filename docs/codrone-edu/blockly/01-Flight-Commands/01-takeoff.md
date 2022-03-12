@@ -17,4 +17,4 @@ None
 
 ##### Example
 
-![takeoff example](takeoff_hover_land.PNG)
+![takeoff example](takeoff_hover_land_example.PNG)
