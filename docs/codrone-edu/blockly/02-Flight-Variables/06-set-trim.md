@@ -1,20 +1,16 @@
 ---
 custom_edit_url: null
-title: go [ ] for [ ] seconds at [ ] % power
-menu: go()
-taxonomy:
-
-	category: flight-command-movement
+id: 06-set-trim
+title: set_trim()
 ---
 
-![go for seconds block image](go_for_seconds_at_power.png)
-Moves the drone in a direction for a given duration and a percentage power.
+![set trim block image](set_trim.PNG)
+Sets the trim values of the CoDrone EDU to adjust drifting.
 
 ##### Parameters
-![go for seconds block image](go_at_power_params.png)
-**direction**: forward, backward, up, down, left, right <br /> 
-**power**: Integer between -100 and 100 <br /> 
-**seconds**: any integer (from -infinity to +inifnity)
+![set trim block param image](set_trim_params.PNG)
+**roll**: Integer between -100 and 100 <br /> 
+**pitch**: Integer between -100 and 100 <br /> 
 
 ##### Returns
 
@@ -22,4 +18,4 @@ None
 
 ##### Example
 
-![go at power example](go_at_power_example.png)
+![set trim example](set_trim_example.PNG)
