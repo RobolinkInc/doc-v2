@@ -1,20 +1,15 @@
 ---
 custom_edit_url: null
-title: go [ ] for [ ] seconds at [ ] % power
-menu: go()
-taxonomy:
-
-	category: flight-command-movement
+id: 01-set-roll
+title: set_roll()
 ---
 
-![go for seconds block image](go_for_seconds_at_power.png)
-Moves the drone in a direction for a given duration and a percentage power.
+![set roll block image](set_roll.PNG)
+Sets the roll value of the CoDrone EDU.
 
 ##### Parameters
-![go for seconds block image](go_at_power_params.png)
-**direction**: forward, backward, up, down, left, right <br /> 
+![set roll block param image](set_roll_params.PNG)
 **power**: Integer between -100 and 100 <br /> 
-**seconds**: any integer (from -infinity to +inifnity)
 
 ##### Returns
 
@@ -22,4 +17,4 @@ None
 
 ##### Example
 
-![go at power example](go_at_power_example.png)
+![set roll example](set_roll_example.PNG)
