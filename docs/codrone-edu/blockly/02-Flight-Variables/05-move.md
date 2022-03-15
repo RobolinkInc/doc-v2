@@ -1,19 +1,14 @@
 ---
 custom_edit_url: null
-title: go [ ] for [ ] seconds at [ ] % power
-menu: go()
-taxonomy:
-
-	category: flight-command-movement
+id: 05-move
+title: move()
 ---
 
-![go for seconds block image](go_for_seconds_at_power.png)
-Moves the drone in a direction for a given duration and a percentage power.
+![move block image](move.PNG)
+Moves the CoDrone EDU for a specific duration of time after flight variables have been set. Use the block without a paramter to have the CoDrone EDU move indefinitely.
 
 ##### Parameters
-![go for seconds block image](go_at_power_params.png)
-**direction**: forward, backward, up, down, left, right <br /> 
-**power**: Integer between -100 and 100 <br /> 
+![move block param image](move_params.PNG)
 **seconds**: any integer (from -infinity to +inifnity)
 
 ##### Returns
@@ -22,4 +17,4 @@ None
 
 ##### Example
 
-![go at power example](go_at_power_example.png)
+![move example](move_example.PNG)
