@@ -1,25 +1,20 @@
 ---
 custom_edit_url: null
-title: go [ ] for [ ] seconds at [ ] % power
-menu: go()
-taxonomy:
-
-	category: flight-command-movement
+id: 07-get-trim
+title: get_trim()
 ---
 
-![go for seconds block image](go_for_seconds_at_power.png)
-Moves the drone in a direction for a given duration and a percentage power.
+![get trim block image](get_trim.PNG)
+Gets the current trim values of the CoDrone EDU.
 
 ##### Parameters
-![go for seconds block image](go_at_power_params.png)
-**direction**: forward, backward, up, down, left, right <br /> 
-**power**: Integer between -100 and 100 <br /> 
-**seconds**: any integer (from -infinity to +inifnity)
+ 
+None
 
 ##### Returns
 
-None
+Roll, Pitch trim values
 
 ##### Example
 
-![go at power example](go_at_power_example.png)
+![get trim example](get_trim_example.PNG)
