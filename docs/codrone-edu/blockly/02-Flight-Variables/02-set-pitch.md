@@ -1,20 +1,15 @@
 ---
 custom_edit_url: null
-title: go [ ] for [ ] seconds at [ ] % power
-menu: go()
-taxonomy:
-
-	category: flight-command-movement
+id: 02-set-pitch
+title: set_pitch()
 ---
 
-![go for seconds block image](go_for_seconds_at_power.png)
-Moves the drone in a direction for a given duration and a percentage power.
+![set pitch block image](set_pitch.PNG)
+Sets the pitch value of the CoDrone EDU.
 
 ##### Parameters
-![go for seconds block image](go_at_power_params.png)
-**direction**: forward, backward, up, down, left, right <br /> 
+![set pitch block param image](set_pitch_params.PNG)
 **power**: Integer between -100 and 100 <br /> 
-**seconds**: any integer (from -infinity to +inifnity)
 
 ##### Returns
 
@@ -22,4 +17,4 @@ None
 
 ##### Example
 
-![go at power example](go_at_power_example.png)
+![set pitch example](set_pitch_example.PNG)
