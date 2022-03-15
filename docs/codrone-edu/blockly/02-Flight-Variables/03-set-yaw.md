@@ -1,20 +1,15 @@
 ---
 custom_edit_url: null
-title: go [ ] for [ ] seconds at [ ] % power
-menu: go()
-taxonomy:
-
-	category: flight-command-movement
+id: 03-set-yaw
+title: set_yaw()
 ---
 
-![go for seconds block image](go_for_seconds_at_power.png)
-Moves the drone in a direction for a given duration and a percentage power.
+![set yaw block image](set_yaw.PNG)
+Sets the yaw value of the CoDrone EDU.
 
 ##### Parameters
-![go for seconds block image](go_at_power_params.png)
-**direction**: forward, backward, up, down, left, right <br /> 
+![set yaw block param image](set_yaw_params.PNG)
 **power**: Integer between -100 and 100 <br /> 
-**seconds**: any integer (from -infinity to +inifnity)
 
 ##### Returns
 
@@ -22,4 +17,4 @@ None
 
 ##### Example
 
-![go at power example](go_at_power_example.png)
+![set yaw example](set_yaw_example.PNG)
