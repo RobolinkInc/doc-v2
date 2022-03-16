@@ -1,25 +1,22 @@
 ---
 custom_edit_url: null
-title: go [ ] for [ ] seconds at [ ] % power
-menu: go()
-taxonomy:
-
-	category: flight-command-movement
+id: 05-get-pos
+title: get_pos()
 ---
 
-![go for seconds block image](go_for_seconds_at_power.png)
-Moves the drone in a direction for a given duration and a percentage power.
+![get pos block image](get_pos.PNG)<br />
+Gets the current position of the CoDrone EDU.
 
 ##### Parameters
-![go for seconds block image](go_at_power_params.png)
-**direction**: forward, backward, up, down, left, right <br /> 
-**power**: Integer between -100 and 100 <br /> 
-**seconds**: any integer (from -infinity to +inifnity)
+![get pos image](get_pos_params1.PNG)
+![get pos image](get_pos_params2.PNG) <br />
+**type**: x, y, z <br />
+**unit**: mm, cm, in, m <br />
 
 ##### Returns
 
-None
+Position value
 
 ##### Example
 
-![go at power example](go_at_power_example.png)
+![get pos example](get_pos_example.PNG)
