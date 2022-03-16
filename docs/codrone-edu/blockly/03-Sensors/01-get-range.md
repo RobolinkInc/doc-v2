@@ -8,7 +8,8 @@ title: get_range()
 Gets the data from the CoDrone EDU's distnace sensors.
 
 ##### Parameters
-![controller draw line block image](get_range_params.PNG) <br />
+![controller draw line block image 1](get_range_params1.PNG) 
+![controller draw line block image 2](get_range_params2.PNG) <br />
 **type**: bottom, front <br />
 **unit**: mm, cm, in, m <br />
 
