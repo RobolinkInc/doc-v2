@@ -16,6 +16,14 @@
   .heroBanner {
     padding: 2rem;
   }
+
+  .hero__title {
+    font-size: 18px;
+  }
+
+  .hero__subtitle {
+    display: none;
+  }
 }
 
 .buttons {

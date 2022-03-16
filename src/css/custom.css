@@ -615,7 +615,7 @@ input:checked + .slider{
 }
 
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 997px) {
   .col.col--6:first-child>div {
     margin: 0 auto;
   }
