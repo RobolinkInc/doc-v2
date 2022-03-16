@@ -1,25 +1,19 @@
 ---
 custom_edit_url: null
-title: go [ ] for [ ] seconds at [ ] % power
-menu: go()
-taxonomy:
-
-	category: flight-command-movement
+id: 09-get-temperature
+title: get_temperature()
 ---
 
-![go for seconds block image](go_for_seconds_at_power.png)
-Moves the drone in a direction for a given duration and a percentage power.
+![get temperature block image](get_temperature.PNG)<br />
+Gets the temperature data from the CoDrone EDU's temperature sensor.
 
 ##### Parameters
-![go for seconds block image](go_at_power_params.png)
-**direction**: forward, backward, up, down, left, right <br /> 
-**power**: Integer between -100 and 100 <br /> 
-**seconds**: any integer (from -infinity to +inifnity)
+**unit**: fahrenheit, celsius <br />
 
 ##### Returns
 
-None
+temperature value from sensor
 
 ##### Example
 
-![go at power example](go_at_power_example.png)
+![get temperature example](get_temperature_example.PNG)
