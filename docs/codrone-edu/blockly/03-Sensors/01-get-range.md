@@ -5,7 +5,7 @@ title: get_range()
 ---
 
 ![controller draw line block image](get_range.PNG)<br />
-Gets the data from the CoDrone EDU's distnace sensors.
+Gets the data from the CoDrone EDU's distance sensors.
 
 ##### Parameters
 ![controller draw line block image 1](get_range_params1.PNG) 
