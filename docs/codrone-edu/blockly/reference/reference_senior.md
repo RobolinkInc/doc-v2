@@ -23,7 +23,7 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
   <h3>Lights</h3>
     <a href="/doc-v2/docs/codrone-edu/blockly/Flight-Commands/01-takeoff">take off</a>
     <img src="/doc-v2/img/takeoff.png"></img>
-    <a href="#">land</a>
+    <a href="#">land </a>
       <img src="/doc-v2/img/land.png"></img>
     <a href="#">emergency stop</a>
       <img src="/doc-v2/img/emergency_stop.png"></img>
