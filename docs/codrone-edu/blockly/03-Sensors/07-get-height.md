@@ -1,25 +1,19 @@
 ---
 custom_edit_url: null
-title: go [ ] for [ ] seconds at [ ] % power
-menu: go()
-taxonomy:
-
-	category: flight-command-movement
+id: 07-get-height
+title: get_height()
 ---
 
-![go for seconds block image](go_for_seconds_at_power.png)
-Moves the drone in a direction for a given duration and a percentage power.
+![get height block image](get_height.PNG)<br />
+Gets the height data from the CoDrone EDU's barometer sensor.
 
 ##### Parameters
-![go for seconds block image](go_at_power_params.png)
-**direction**: forward, backward, up, down, left, right <br /> 
-**power**: Integer between -100 and 100 <br /> 
-**seconds**: any integer (from -infinity to +inifnity)
+**type**: cm, in, mm, m <br />
 
 ##### Returns
 
-None
+height value from sensor
 
 ##### Example
 
-![go at power example](go_at_power_example.png)
+![get height example](get_height_example.PNG)
