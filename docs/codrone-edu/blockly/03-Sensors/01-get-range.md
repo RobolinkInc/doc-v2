@@ -15,7 +15,7 @@ Gets the data from the CoDrone EDU's distnace sensors.
 
 ##### Returns
 
-None
+Distance value from sensor
 
 ##### Example
 
