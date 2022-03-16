@@ -4,7 +4,7 @@ id: 01-drone-buzzer
 title: drone_buzzer()
 ---
 
-![drone buzzer block image](drone_buzzer.PNG)
+![drone buzzer block image](drone_buzzer.PNG) <br />
 Plays a note for a specified amount of time in milliseconds using the CoDrone EDU.
 
 ##### Parameters
