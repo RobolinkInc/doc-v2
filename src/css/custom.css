@@ -613,3 +613,22 @@ input:checked + .slider{
     margin-left: 20%;
   }
 }
+
+
+@media screen and (max-width: 1600px) {
+  .col.col--6:first-child>div {
+    margin: 0 auto;
+  }
+
+  .col.col--6:nth-child(2)>div {
+    margin: 0 auto;
+  }
+
+  .col.col--6:nth-child(3)>div {
+    margin: 0 auto;
+  }
+
+  .col.col--6:nth-child(4)>div {
+    margin: 0 auto;
+  }
+}
