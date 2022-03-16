@@ -1,20 +1,18 @@
 ---
 custom_edit_url: null
-title: go [ ] for [ ] seconds at [ ] % power
-menu: go()
-taxonomy:
-
-	category: flight-command-movement
+id: 03-set-controller-led
+title: set_controller_LED()
 ---
 
-![go for seconds block image](go_for_seconds_at_power.png)
-Moves the drone in a direction for a given duration and a percentage power.
+![set drone led block image](set_controller_led.PNG)
+Sets the color of the CoDrone EDU's controller LED.
 
 ##### Parameters
-![go for seconds block image](go_at_power_params.png)
-**direction**: forward, backward, up, down, left, right <br /> 
-**power**: Integer between -100 and 100 <br /> 
-**seconds**: any integer (from -infinity to +inifnity)
+![set drone led block param image](set_controller_led_params.PNG)
+**red**: Integer between 0 and 255 <br /> 
+**green**: Integer between 0 and 255 <br /> 
+**blue**: Integer between 0 and 255 <br /> 
+**brightness**: Integer between 0 and 100 <br /> 
 
 ##### Returns
 
@@ -22,4 +20,4 @@ None
 
 ##### Example
 
-![go at power example](go_at_power_example.png)
+![set drone led example](set_controller_led_example.PNG)
