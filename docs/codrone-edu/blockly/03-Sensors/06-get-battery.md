@@ -1,25 +1,20 @@
 ---
 custom_edit_url: null
-title: go [ ] for [ ] seconds at [ ] % power
-menu: go()
-taxonomy:
-
-	category: flight-command-movement
+id: 06-get-battery
+title: get_battery()
 ---
 
-![go for seconds block image](go_for_seconds_at_power.png)
-Moves the drone in a direction for a given duration and a percentage power.
+![get battery block image](get_battery.PNG)<br />
+Gets the battery percentage data from the CoDrone EDU's battery sensor.
 
 ##### Parameters
-![go for seconds block image](go_at_power_params.png)
-**direction**: forward, backward, up, down, left, right <br /> 
-**power**: Integer between -100 and 100 <br /> 
-**seconds**: any integer (from -infinity to +inifnity)
-
-##### Returns
 
 None
 
+##### Returns
+
+Battery value from sensor
+
 ##### Example
 
-![go at power example](go_at_power_example.png)
+![get battery example](get_battery_example.PNG)
