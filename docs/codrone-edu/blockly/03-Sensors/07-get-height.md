@@ -8,6 +8,7 @@ title: get_height()
 Gets the height data from the CoDrone EDU's barometer sensor.
 
 ##### Parameters
+![get height block image](get_height_params.PNG)
 **type**: cm, in, mm, m <br />
 
 ##### Returns
