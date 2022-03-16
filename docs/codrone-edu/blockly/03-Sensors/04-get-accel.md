@@ -1,25 +1,20 @@
 ---
 custom_edit_url: null
-title: go [ ] for [ ] seconds at [ ] % power
-menu: go()
-taxonomy:
-
-	category: flight-command-movement
+id: 04-get-accel
+title: get_accel()
 ---
 
-![go for seconds block image](go_for_seconds_at_power.png)
-Moves the drone in a direction for a given duration and a percentage power.
+![get accel block image](get_accel.PNG)<br />
+Gets the angular acceleration data from the CoDrone EDU's gyroscope sensor.
 
 ##### Parameters
-![go for seconds block image](go_at_power_params.png)
-**direction**: forward, backward, up, down, left, right <br /> 
-**power**: Integer between -100 and 100 <br /> 
-**seconds**: any integer (from -infinity to +inifnity)
+![get accel image](get_accel_params.PNG) <br />
+**type**: x, y, z <br />
 
 ##### Returns
 
-None
+Acceleration value from sensor
 
 ##### Example
 
-![go at power example](go_at_power_example.png)
+![get accel example](get_accel_example.PNG)
