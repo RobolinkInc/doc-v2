@@ -1,25 +1,20 @@
 ---
 custom_edit_url: null
-title: go [ ] for [ ] seconds at [ ] % power
-menu: go()
-taxonomy:
-
-	category: flight-command-movement
+id: 03-get-gyro
+title: get_gyro()
 ---
 
-![go for seconds block image](go_for_seconds_at_power.png)
-Moves the drone in a direction for a given duration and a percentage power.
+![get gyro block image](get_gyro.PNG)<br />
+Gets the gyroscope data from the CoDrone EDU's gyroscope sensor.
 
 ##### Parameters
-![go for seconds block image](go_at_power_params.png)
-**direction**: forward, backward, up, down, left, right <br /> 
-**power**: Integer between -100 and 100 <br /> 
-**seconds**: any integer (from -infinity to +inifnity)
+![get gyro image](get_gyro_params.PNG) <br />
+**type**: x, y, z <br />
 
 ##### Returns
 
-None
+gyro value from sensor
 
 ##### Example
 
-![go at power example](go_at_power_example.png)
+![get gyro example](get_gyro_example.PNG)
