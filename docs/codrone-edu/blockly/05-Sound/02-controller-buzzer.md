@@ -4,7 +4,7 @@ id: 02-controller-buzzer
 title: controller_buzzer()
 ---
 
-![controller buzzer block image](controller_buzzer.PNG)
+![controller buzzer block image](controller_buzzer.PNG) <br />
 Plays a note for a specified amount of time in milliseconds using the CoDrone EDU controller.
 
 ##### Parameters
