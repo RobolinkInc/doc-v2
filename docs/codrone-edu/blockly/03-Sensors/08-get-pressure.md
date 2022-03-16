@@ -1,25 +1,20 @@
 ---
 custom_edit_url: null
-title: go [ ] for [ ] seconds at [ ] % power
-menu: go()
-taxonomy:
-
-	category: flight-command-movement
+id: 08-get-pressure
+title: get_pressure()
 ---
 
-![go for seconds block image](go_for_seconds_at_power.png)
-Moves the drone in a direction for a given duration and a percentage power.
+![get pressure block image](get_pressure.PNG)<br />
+Gets the pressure data from the CoDrone EDU's barometer sensor.
 
 ##### Parameters
-![go for seconds block image](go_at_power_params.png)
-**direction**: forward, backward, up, down, left, right <br /> 
-**power**: Integer between -100 and 100 <br /> 
-**seconds**: any integer (from -infinity to +inifnity)
-
-##### Returns
 
 None
 
+##### Returns
+
+Pressure value from sensor
+
 ##### Example
 
-![go at power example](go_at_power_example.png)
+![get pressure example](get_pressure_example.PNG)
