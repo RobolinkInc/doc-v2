@@ -1,25 +1,20 @@
 ---
 custom_edit_url: null
-title: go [ ] for [ ] seconds at [ ] % power
-menu: go()
-taxonomy:
-
-	category: flight-command-movement
+id: 11-get-color
+title: get_color()
 ---
 
-![go for seconds block image](go_for_seconds_at_power.png)
-Moves the drone in a direction for a given duration and a percentage power.
+![get color block image](get_color.PNG)<br />
+Gets the color data from the CoDrone EDU's color sensors.
 
 ##### Parameters
-![go for seconds block image](go_at_power_params.png)
-**direction**: forward, backward, up, down, left, right <br /> 
-**power**: Integer between -100 and 100 <br /> 
-**seconds**: any integer (from -infinity to +inifnity)
+![get color block image](get_color_params.PNG)
+**type**: front, back <br />
 
 ##### Returns
 
-None
+color value from sensor
 
 ##### Example
 
-![go at power example](go_at_power_example.png)
+![get color example](get_color_example.PNG)
