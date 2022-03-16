@@ -13,7 +13,7 @@ Gets the gyroscope data from the CoDrone EDU's gyroscope sensor.
 
 ##### Returns
 
-gyro value from sensor
+Gyro value from sensor
 
 ##### Example
 
