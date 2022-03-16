@@ -8,6 +8,7 @@ title: get_temperature()
 Gets the temperature data from the CoDrone EDU's temperature sensor.
 
 ##### Parameters
+![get temperature block image](get_temperature_params.PNG)
 **unit**: fahrenheit, celsius <br />
 
 ##### Returns
