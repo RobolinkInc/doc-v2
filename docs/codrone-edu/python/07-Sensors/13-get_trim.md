@@ -1,10 +1,7 @@
 ---
 custom_edit_url: null
+id: 13-get_trim
 title: get_trim()
-taxonomy:
-    tag: CDE-library
-    category: sensors
-menu: get_trim()
 ---
 
 ##### Description

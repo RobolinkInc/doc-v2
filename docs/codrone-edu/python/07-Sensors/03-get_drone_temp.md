@@ -1,10 +1,7 @@
 ---
 custom_edit_url: null
+id: 03-get_drone_temp
 title: get_drone_temp()
-taxonomy:
-    tag: CDE-library
-    category: sensors
-menu: get_drone_temp()
 ---
 
 ##### Description

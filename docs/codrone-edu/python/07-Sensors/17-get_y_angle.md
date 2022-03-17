@@ -1,10 +1,7 @@
 ---
 custom_edit_url: null
+id: 17-get_y_angle
 title: get_y_angle()
-taxonomy:
-    tag: CDE-library
-    category: sensors
-menu: get_y_angle()
 ---
 
 ##### Description

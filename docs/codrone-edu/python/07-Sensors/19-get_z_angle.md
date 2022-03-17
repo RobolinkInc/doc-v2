@@ -1,10 +1,7 @@
 ---
 custom_edit_url: null
+id: 19-get_z_angle
 title: get_z_angle()
-taxonomy:
-    tag: CDE-library
-    category: sensors
-menu: get_z_angle()
 ---
 
 ##### Description

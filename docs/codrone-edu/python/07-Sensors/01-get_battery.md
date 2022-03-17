@@ -1,10 +1,7 @@
 ---
 custom_edit_url: null
+id: 01-get_battery
 title: get_battery()
-taxonomy:
-    tag: CDE-library
-    category: sensors
-menu: get_battery()
 ---
 
 ##### Description

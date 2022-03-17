@@ -1,10 +1,7 @@
 ---
 custom_edit_url: null
+id: 12-get_pressure
 title: get_pressure()
-taxonomy:
-    tag: CDE-library
-    category: sensors
-menu: get_pressure()
 ---
 
 ##### Description

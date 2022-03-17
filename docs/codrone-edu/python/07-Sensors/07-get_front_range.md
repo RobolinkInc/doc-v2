@@ -1,10 +1,7 @@
 ---
 custom_edit_url: null
+id: 07-get_front_range
 title: get_front_range()
-taxonomy:
-    tag: CDE-library
-    category: sensors
-menu: get_front_range()
 ---
 
 ##### Description

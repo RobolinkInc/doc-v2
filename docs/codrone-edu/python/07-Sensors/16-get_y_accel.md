@@ -1,18 +1,15 @@
 ---
 custom_edit_url: null
-title: get_x_accel()
-taxonomy:
-    tag: CDE-library
-    category: sensors
-menu: get_x_accel()
+id: 16-get_y_accel
+title: get_y_accel()
 ---
 
 ##### Description
 
-Getter function that gets the x acceleration of the drone. <br />
+Getter function that gets the y acceleration of the drone. <br />
 
 ##### Syntax
-```get_x_accel()```<br />
+```get_y_accel()```<br />
 
 
 ##### Parameters
@@ -21,7 +18,7 @@ None
 
 ##### Returns
 
-The current x acceleration of the drone.
+The current y acceleration of the drone.
 
 ##### Example Code
 ###### Python
@@ -32,7 +29,7 @@ from codrone_edu.drone import *
 drone = Drone()
 drone.pair()
 drone.takeoff()
-print(drone.get_x_accel())
+print(drone.get_y_accel())
 drone.land()
 drone.close()
 ```

@@ -1,19 +1,16 @@
 ---
 custom_edit_url: null
-title: get_pos_x()
-taxonomy:
-    tag: CDE-library
-    category: sensors
-menu: get_pos_x()
+id: 09-get_pos_y
+title: get_pos_y()
 ---
 
 ##### Description
 
-Getter function that gets the x position of the drone. <br />
+Getter function that gets the y position of the drone. <br />
 
 ##### Syntax
-```get_pos_x()```<br />
-```get_pos_x(unit="<cm, in, mm, m>)```<br />
+```get_pos_y()```<br />
+```get_pos_y(unit="<cm, in, mm, m>)```<br />
 
 
 ##### Parameters
@@ -22,7 +19,7 @@ Getter function that gets the x position of the drone. <br />
 
 ##### Returns
 
-The current x position of the drone.
+The current y position of the drone.
 
 ##### Example Code
 ###### Python
@@ -33,7 +30,7 @@ from codrone_edu.drone import *
 drone = Drone()
 drone.pair()
 drone.takeoff()
-print(drone.get_pos_x())
+print(drone.get_pos_y())
 drone.land()
 drone.close()
 ```

@@ -1,19 +1,16 @@
 ---
 custom_edit_url: null
-title: get_flow_y()
-taxonomy:
-    tag: CDE-library
-    category: sensors
-menu: get_flow_y()
+id: 05-get_flow_x
+title: get_flow_x()
 ---
 
 ##### Description
 
-This getter function gets the relative position value calculated by the optical flow sensor from the y direction (left and right). <br />
+This getter function gets the relative position value calculated by the optical flow sensor from the x direction (forward and reverse). <br />
 
 ##### Syntax
-```get_flow_y()```<br />
-```get_flow_y(unit="<cm, in, mm, m>)"```<br />
+```get_flow_x()```<br />
+```get_flow_x(unit="<cm, in, mm, m>)"```<br />
 
 ##### Parameters
 **unit**: The unit of measurement that is chosen for the distance. Available units are "m" (meter), "cm" (centimeter), "mm" (millimeter), or "in" (inch). If a parameter is not specified "cm" is chosen by default.
@@ -32,9 +29,9 @@ from codrone_edu.drone import *
 drone = Drone()
 drone.pair()
 drone.takeoff()
-drone.set_roll(50)
+drone.set_pitch(50)
 drone.move(1)
-print(drone.get_flow_y())
+print(drone.get_flow_x())
 drone.land()
 drone.close()
 
