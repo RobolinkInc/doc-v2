@@ -18,7 +18,7 @@ These are the functions that you can use to control the CoDrone EDU. The functio
     <div class="box-reference-shadow margin-top-30"> 
         <h3>Flight Commands (Start/Stop)</h3>
             <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Start-Stop/01-emergency_stop">emergency_stop()</a>
-            <a href="/docs/codrone-mini/python/Flight-Commands-Start-Stop/headless-off">headless_off()</a>
+            <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Start-Stop/02-land">land()</a>
             <a href="/docs/codrone-mini/python/Flight-Commands-Start-Stop/headless-on">headless_on()</a>
             <a href="/doc-v2/docs/codrone-mini/python/Flight-Commands-Start-Stop/land">land()</a>
             <a href="/doc-v2/docs/codrone-mini/python/Flight-Commands-Start-Stop/reset-sensor">reset_sensor()</a>
