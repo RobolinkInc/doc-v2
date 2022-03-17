@@ -12,7 +12,7 @@ These are the functions that you can use to control the CoDrone EDU. The functio
   <div class="parentContainer">
   <div class="box-reference-shadow">
   <h3>Functions</h3>
-    <a href="/doc-v2/docs/codrone-edu/python/Connection/01-pair">pair()</a>
+    <a href="/doc-v2/docs/codrone-mini/python/Connection/01-pair">pair()</a>
     <br />
    </div>
     <div class="box-reference-shadow margin-top-30"> 
