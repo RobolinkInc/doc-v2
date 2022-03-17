@@ -36,7 +36,11 @@ These are the functions that you can use to control the CoDrone EDU. The functio
         <a href="/doc-v2/docs/codrone-mini/python/Flight-Commands-Movement/turn">turn()</a>
   </div>
     <div class="box-reference-shadow margin-top-30"> 
-        <h3>LED and Buzzer</h3>
+        <h3>Buzzer</h3>
+        
+  </div>
+    <div class="box-reference-shadow margin-top-30"> 
+        <h3>LED</h3>
         <a href="/doc-v2/docs/codrone-mini/python/LED/led-color">LED_color()</a>
         <a href="/doc-v2/docs/codrone-mini/python/LED/led-pattern">LED_pattern()</a>
         <a href="/doc-v2/docs/codrone-mini/python/LED/play-note">play_note()</a>
