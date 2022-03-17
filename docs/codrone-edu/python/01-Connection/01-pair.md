@@ -1,5 +1,6 @@
 ---
 custom_edit_url: null
+id: 01-pair
 title: pair()
 taxonomy:
     tag: CDE-library
