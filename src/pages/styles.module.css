@@ -12,20 +12,6 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-
-  .hero__title {
-    font-size: 18px;
-  }
-
-  .hero__subtitle {
-    display: none;
-  }
-}
-
 .buttons {
   display: flex;
   align-items: center;

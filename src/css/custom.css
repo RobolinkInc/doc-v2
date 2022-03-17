@@ -604,7 +604,7 @@ input:checked + .slider{
   }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1599px) {
   .col.col--6:first-child>div {
     margin-left: 20%;
   }
@@ -618,6 +618,7 @@ input:checked + .slider{
 @media screen and (max-width: 997px) {
   .col.col--6:first-child>div {
     margin: 0 auto;
+    margin-bottom: 25px;
   }
 
   .col.col--6:nth-child(2)>div {
@@ -630,5 +631,21 @@ input:checked + .slider{
 
   .col.col--6:nth-child(4)>div {
     margin: 0 auto;
+  }
+}
+
+
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+
+  .hero__title {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .hero__subtitle {
+    display: none;
   }
 }
