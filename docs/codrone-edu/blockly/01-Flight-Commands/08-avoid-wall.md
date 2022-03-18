@@ -8,7 +8,7 @@ title: avoid_wall()
 Allows the CoDrone EDU to avoid walls that are a certain distance away (in millimeters) for a specific amount of time (in seconds).
 
 ##### Parameters
-**timeout**: any positive integer <br \>
+**timeout**: any positive integer <br />
 **distance**: any positive integer
 
 ##### Returns
