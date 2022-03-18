@@ -21,19 +21,19 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
   <div class="parentContainer">
   <div class="box-reference-shadow">
   <h3>Lights</h3>
-    <a href="#">take off</a>
+    <a href="https://robolinkinc.github.io/doc-v2/docs/codrone-edu/blockly/Junior/01-Flight-Commands/01-takeoff/">take off</a>
     <img src="/doc-v2/img/takeoff.png"></img>
-    <a href="#">land</a>
+    <a href="https://robolinkinc.github.io/doc-v2/docs/codrone-edu/blockly/Junior/01-Flight-Commands/02-land/">land</a>
       <img src="/doc-v2/img/land.png"></img>
-    <a href="#">emergency stop</a>
+    <a href="https://robolinkinc.github.io/doc-v2/docs/codrone-edu/blockly/Junior/01-Flight-Commands/03-emergency-stop/">emergency stop</a>
       <img src="/doc-v2/img/emergency_stop.png"></img>
-    <a href="#"> go [ ] for [ ] seconds</a>
+    <a href="https://robolinkinc.github.io/doc-v2/docs/codrone-edu/blockly/Junior/01-Flight-Commands/05-go/"> go [ ] for [ ] seconds</a>
       <img src="/doc-v2/img/go_for_seconds.png"></img>
-    <a href="#">go [ ] for [ ] seconds at [ ] % power</a>
+    <a href="https://robolinkinc.github.io/doc-v2/docs/codrone-edu/blockly/Junior/01-Flight-Commands/05-go/">go [ ] for [ ] seconds at [ ] % power</a>
       <img src="/doc-v2/img/go_for_seconds_at_power.png"></img>
-    <a href="#">turn [ ] for [ ] seconds at [ ] % power</a>
+    <a href="https://robolinkinc.github.io/doc-v2/docs/codrone-edu/blockly/Junior/01-Flight-Commands/06-turn-to/">turn [ ] for [ ] seconds at [ ] % power</a>
       <img src="/doc-v2/img/turn_for_seconds_at_power.png"></img>
-    <a href="#">hover for [ ] seconds</a>
+    <a href="https://robolinkinc.github.io/doc-v2/docs/codrone-edu/blockly/Junior/01-Flight-Commands/04-hover/">hover for [ ] seconds</a>
       <img src="/doc-v2/img/hover.png"></img>  
   </div>
   </div>
@@ -42,7 +42,8 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
     <h3> Flight Sequences</h3>
     <br />
     <div class="boxLandingColumn2">
-        <img src="/doc-v2/img/flips.png"></img>
+	<a href="https://robolinkinc.github.io/doc-v2/docs/codrone-edu/blockly/Junior/02-Flight-Sequences/01-flip/">flip</a>
+        <img src="/doc-v2/img/flip.png"></img>
     </div>
     </div>
   </div>
