@@ -152,7 +152,7 @@ function Home() {
       description="Description will go into a meta tag in <head />">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">Welcome to Robolink Library Documentation</h1>
+          <h1 className="hero__title">Robolink Library Documentation</h1>
           <h4 className="hero__subtitle">Learn about how to use the library functions and blocks for the coding platforms of our robots</h4>
           <div className={styles.buttons}>
         
