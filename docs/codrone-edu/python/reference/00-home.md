@@ -25,11 +25,28 @@ These are the functions that you can use to control the CoDrone EDU. The functio
     </div>
     <div class="box-reference-shadow margin-top-30"> 
         <h3>Flight Commands (Movement)</h3>
-        <a href="/doc-v2/docs/codrone-mini/python/Flight-Commands-Movement/flip">flip()</a>
-        <a href="/doc-v2/docs/codrone-mini/python/Flight-Commands-Movement/fly-sequence">fly_sequence()</a>
-        <a href="/doc-v2/docs/codrone-mini/python/Flight-Commands-Movement/go">go()</a>
-        <a href="/doc-v2/docs/codrone-mini/python/Flight-Commands-Movement/hover">hover()</a>
-        <a href="/doc-v2/docs/codrone-mini/python/Flight-Commands-Movement/turn">turn()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/01-avoid_wall">avoid_wall()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/02-circle">circle()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/03-detect_wall">detect_wall()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/04-flip">flip()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/05-hover">hover()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/06-keep_distance">keep_distance()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/07-move">move()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/08-print_move_values">print_move_values()</a>  
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/09-reset_move">reset_move()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/10-sendControl">sendControl()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/11-sendControlWhile">sendControlWhile()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/12-set_pitch">set_pitch()</a>  
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/13-set_roll">set_roll()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/14-set_throttle">set_throttle()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/15-set_yaw">set_yaw()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/16-spiral">spiral()</a>    
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/17-square">square()</a>  
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/18-sway">sway()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/19-triangle">triangle()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/20-turn_degree">turn_degree()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/21-turn_left">turn_left()</a>  
+        <a href="/doc-v2/docs/codrone-edu/python/Flight-Commands-Movement/22-turn_right">turn_right()</a>     
   </div>
     <div class="box-reference-shadow margin-top-30"> 
         <h3>Buzzer</h3>
@@ -48,7 +65,7 @@ These are the functions that you can use to control the CoDrone EDU. The functio
     <div class="boxLanding">
        <div class="box-reference-shadow"> 
             <h3> Flight Variables</h3>
-            <a href="#">set_pitch()</a>
+            <a href="#">n/a()</a>
         </div>
     </div>
      <div class="box-reference-shadow margin-top-30"> 
