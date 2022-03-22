@@ -64,13 +64,25 @@ These are the functions that you can use to control the CoDrone EDU. The functio
     </div>
      <div class="box-reference-shadow margin-top-30"> 
             <h3>Sensor</h3>
-                <a href="/doc-v2/docs/codrone-mini/python/Sensors/get-altitude">get_altitude()</a>
-                <a href="/doc-v2/docs/codrone-mini/python/Sensors/get-angle">get_angle()</a>
-                <a href="/doc-v2/docs/codrone-mini/python/Sensors/get-battery-percentage">get_battery_percentage()</a>
-                <a href="/doc-v2/docs/codrone-mini/python/Sensors/get-drone-temp">get_drone_temp()</a>
-                <a href="/doc-v2/docs/codrone-mini/python/Sensors/get-height">get_height()</a>
-                <a href="/doc-v2/docs/codrone-mini/python/Sensors/get-pressure">get_pressure()</a>
-                <a href="/doc-v2/docs/codrone-mini/python/Sensors/get-trim">get_trim()</a> 
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/01-get_battery">get_battery()</a>
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/02-get_bottom_range">get_bottom_range()</a>
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/03-get_drone_temp">get_drone_temp()</a>
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/05-get_flow_x">get_flow_x()</a>
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/06-get_flow_y">get_flow_y()</a>
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/07-get_front_range">get_front_range()</a>
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/08-get_pos_x">get_pos_x()</a>
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/09-get_pos_y">get_pos_y()</a>
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/10-get_pos_z">get_pos_z()</a>
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/11-get_position_data">get_position_data()</a> 
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/12-get_pressure">get_pressure()</a>
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/13-get_trim">get_trim()</a>
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/14-get_x_accel">get_x_accel()</a> 
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/15-get_x_angle">get_x_angle()</a> 
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/16-get_y_accel">get_y_accel()</a>   
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/17-get_y_angle">get_y_angle()</a> 
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/18-get_z_accel">get_z_accel()</a> 
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/19-get_z_angle">get_z_angle()</a>
+                <a href="/doc-v2/docs/codrone-edu/python/Sensors/20-get_height">get_height()</a>                
         </div>
   </div>
 </div>
