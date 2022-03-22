@@ -48,14 +48,11 @@ These are the functions that you can use to control the CoDrone EDU. The functio
     <div class="boxLanding">
        <div class="box-reference-shadow"> 
             <h3> Flight Variables</h3>
-            <a href="/doc-v2/docs/codrone-mini/python/Flight-Variables/get-roll">get_roll()</a>
-            <a href="/doc-v2/docs/codrone-mini/python/Flight-Variables/get-throttle">get_throttle()</a>
-            <a href="/doc-v2/docs/codrone-mini/python/Flight-Variables/get-yaw">get_yaw()</a>
-            <a href="/doc-v2/docs/codrone-mini/python/Flight-Variables/move">move()</a>
-            <a href="/doc-v2/docs/codrone-mini/python/Flight-Variables/get-pitch">set_pitch()</a>
-            <a href="/doc-v2/docs/codrone-mini/python/Flight-Variables/set-roll">set_roll()</a>
-            <a href="/doc-v2/docs/codrone-mini/python/Flight-Variables/get-throttle">set_throttle()</a>
-            <a href="/doc-v2/docs/codrone-mini/python/Flight-Variables/get-yaw">set_yaw()</a>
+            <a href="/doc-v2/docs/codrone-edu/python/Flight-Variables/01-set_pitch">set_pitch()</a>
+            <a href="/doc-v2/docs/codrone-edu/python/Flight-Variables/02-set_roll">set_roll()</a>
+            <a href="/doc-v2/docs/codrone-edu/python/Flight-Variables/03-set_throttle">set_throttle()</a>
+            <a href="/doc-v2/docs/codrone-edu/python/Flight-Variables/04-set_yaw">set_yaw()</a>
+            <a href="/doc-v2/docs/codrone-edu/python/Flight-Variables/05-move">move()</a>
         </div>
     </div>
      <div class="box-reference-shadow margin-top-30"> 
