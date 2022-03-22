@@ -37,7 +37,8 @@ These are the functions that you can use to control the CoDrone EDU. The functio
   </div>
     <div class="box-reference-shadow margin-top-30"> 
         <h3>Buzzer</h3>
-        
+         <a href="/doc-v2/docs/codrone-edu/python/Buzzer/01-controller_buzzer/">controller_buzzer()</a>
+         <a href="/doc-v2/docs/codrone-edu/python/Buzzer/02-drone_buzzer/">drone_buzzer()</a>      
   </div>
     <div class="box-reference-shadow margin-top-30"> 
         <h3>LED</h3>
