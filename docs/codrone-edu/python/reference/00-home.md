@@ -11,7 +11,7 @@ These are the functions that you can use to control the CoDrone EDU. The functio
 <div class="boxLanding">
   <div class="parentContainer">
   <div class="box-reference-shadow">
-  <h3>Functions</h3>
+  <h3>Connection</h3>
     <a href="/doc-v2/docs/codrone-edu/python/Connection/01-pair">pair()</a>
     <br />
    </div>
@@ -42,11 +42,10 @@ These are the functions that you can use to control the CoDrone EDU. The functio
   </div>
     <div class="box-reference-shadow margin-top-30"> 
         <h3>LED</h3>
-        <a href="/doc-v2/docs/codrone-mini/python/LED/led-color">LED_color()</a>
-        <a href="/doc-v2/docs/codrone-mini/python/LED/led-pattern">LED_pattern()</a>
-        <a href="/doc-v2/docs/codrone-mini/python/LED/play-note">play_note()</a>
-        <a href="/doc-v2/docs/codrone-mini/python/LED/reset-led">reset_LED()</a>
-        <a href="/doc-v2/docs/codrone-mini/python/LED/turn-off-led">turn_off_LED()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/LED/01-controller_LED_off">controller_LED_off()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/LED/02-drone_LED_off">drone_LED_off()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/LED/03-set_controller_LED">set_controller_LED()</a>
+        <a href="/doc-v2/docs/codrone-edu/python/LED/04-set_drone_LED">set_drone_LED()</a>
   </div>
   </div>
   <div  class="parentContainer">
