@@ -9,9 +9,9 @@ Plays a note for a specified amount of time in milliseconds using the CoDrone ED
 
 ##### Parameters
 ![controller draw square block image](controller_draw_square_params.PNG) <br />
-**xStart**: any integer (from 0 to +inifnity) <br />
-**yStart**: any integer (from 0 to +inifnity) <br />
-**width**: any integer (from 0 to +inifnity) <br />
+**xStart**: any integer (from 0 to 128) <br />
+**yStart**: any integer (from 0 to 64) <br />
+**width**: any integer (from 0 to 128) <br />
 **flagFill**: true or false
 
 ##### Returns
