@@ -9,8 +9,8 @@ Plays a note for a specified amount of time in milliseconds using the CoDrone ED
 
 ##### Parameters
 ![controller draw point block image](controller_draw_point_params.PNG) <br />
-**x**: any integer (from 0 to +inifnity) <br />
-**y**: any integer (from 0 to +inifnity) <br />
+**x**: any integer (from 0 to 128) <br />
+**y**: any integer (from 0 to 64) <br />
 
 ##### Returns
 
