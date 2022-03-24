@@ -1,12 +1,7 @@
 ---
 custom_edit_url: null
+id: 03-get_drone_temp
 title: get_drone_temp()
-taxonomy:
-    category:
-        - sensors
-    tag:
-        - CDM-library
-menu: get_drone_temp()
 ---
 
 ##### Description
@@ -23,21 +18,17 @@ None
 
 ##### Returns
 
-The temperature in Celsius as an integer.
+The temperature in Celsius as a float.
 
 ##### Example Code
 ###### Python
 ```python
 #Python code
-import CoDrone_mini
-import time
+from codrone_edu.drone import *
 
-drone = CoDrone_mini.CoDrone()
+drone = Drone()
 drone.pair()
-
-# print the temperature
-time.sleep(1) # to prevent skipping for an accurate reading
-temperature  = drone.get_drone_temp()
+temperature = drone.get_drone_temp()
 print(temperature)
 drone.close()
 ```

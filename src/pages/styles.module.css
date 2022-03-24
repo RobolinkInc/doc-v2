@@ -12,12 +12,6 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
 .buttons {
   display: flex;
   align-items: center;
@@ -28,8 +22,7 @@
   display: flex;
   align-items: center;
   padding: 2rem 0;
-  width: 100%;
-  
+  width: 100%;  
 }
 
 .featureInner {
@@ -37,20 +30,43 @@
   box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   padding-bottom: 11px;
+  width: 80%;
 }
+
 
 @media screen and (min-width: 1600px) {
   .featureInner  {
     height: 100%;
+    width: 100%;
   }
+
+  .feature:nth-child(3){
+    margin-top: 0px;
+  }
+
+  .feature:nth-child(4){
+    margin-top: 0px;
+  }
+
+  .moreMargin{
+    padding-top: 7px;
+  }
+  
   .featureImagePic {
     display: block;
     margin: auto;
   }
+  
 }
 
 .feature:nth-child(3){
   margin-right: 0px;
+  margin-top: 30px;
+}
+
+.feature:nth-child(4){
+  margin-right: 0px;
+  margin-top: 30px;
 }
 
 .featureImage {
@@ -117,3 +133,9 @@ section.features_src-pages->div.container  {
 div.col:first-child img:nth-child(2){
   height: 112px;
 }
+
+.featureImagePic {
+  display: block;
+  margin: auto;
+}
+ 

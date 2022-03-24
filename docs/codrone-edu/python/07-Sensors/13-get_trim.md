@@ -1,12 +1,7 @@
 ---
 custom_edit_url: null
+id: 13-get_trim
 title: get_trim()
-taxonomy:
-    category:
-        - sensors
-    tag:
-        - CDM-library
-menu: get_trim()
 ---
 
 ##### Description
@@ -22,20 +17,21 @@ None
 
 ##### Returns
 
-It returns a Trim class in Python
+A list of trim data
 
 ##### Example Code
 ###### Python
 ```python
 #Python code
-import CoDrone_mini
+from codrone_edu.drone import *
 
-drone = CoDrone_mini.CoDrone()
+drone = Drone()
 drone.pair()
 
 # print the pressure
 trim  = drone.get_trim()
 print(trim)
-print(trim.ROLL, trim.PITCH, trim.YAW, trim.THROTTLE)
+print(trim[0])
+print(trim[1])
 drone.close()
 ```

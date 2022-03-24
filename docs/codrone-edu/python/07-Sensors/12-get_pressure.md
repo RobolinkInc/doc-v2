@@ -1,10 +1,7 @@
 ---
 custom_edit_url: null
+id: 12-get_pressure
 title: get_pressure()
-taxonomy:
-    tag: CDM-library
-    category: sensors
-menu: get_pressure()
 ---
 
 ##### Description
@@ -26,9 +23,9 @@ Float that represents air pressure in Pascals.
 ###### Python
 ```python
 #Python code
-import CoDrone_mini
+from codrone_edu.drone import *
 
-drone = CoDrone_mini.CoDrone()
+drone = Drone()
 drone.pair()
 
 # print the pressure
