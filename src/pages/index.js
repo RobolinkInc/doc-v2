@@ -8,12 +8,6 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'coDroneEdu',
-    imageUrl: 'img/coDroneEduLogo.png',
-    imageUrl2: 'img/codroneEduPic.png',
-    cardClassName: <CoDroneEduTwoButtons />
-  },
-  {
     title: 'coDronePro',
     imageUrl: 'img/codroneProLogo.png',
     imageUrl2: 'img/codroneProPic.png',
@@ -78,30 +72,9 @@ function goUrlZumiPython(e) {
   window.location.href = 'docs/zumi/python/reference/library';
 }
 
-function goUrlCoDroneEduBlockly(e) {
-  window.location.href = 'docs/codrone-edu/blockly/reference/library-junior';
-}
-
-function goUrlCoDroneEduPython(e) {
-  window.location.href = 'docs/codrone-edu/python/reference/library';
-}
-
-function CoDroneEduTwoButtons() {
-  return (
-    <div className={styles.columns }>
-   <div className={styles.columnHalf }>
-      <button onClick={goUrlCoDroneEduBlockly}>Blockly</button>
-   </div>
-  <div className={styles.columnHalf }>
-  <button onClick={goUrlCoDroneEduPython}>Python</button>
-  </div>
-</div>
-  );
-}
-
 function CmdTwoButtons() {
   return (
-    <div className={[styles.columns, styles.moreMargin].join(' ') }>
+    <div className={styles.columns }>
    <div className={styles.columnHalf }>
       <button onClick={goUrlCmd}>Blockly</button>
    </div>
@@ -114,7 +87,7 @@ function CmdTwoButtons() {
 
 function ZumiTwoButtons() {
   return (
-    <div className={[styles.columns, styles.moreMargin].join(' ')}>
+    <div className={styles.columns }>
    <div className={styles.columnHalf }>
       <button onClick={goUrlZumi}>Blockly</button>
    </div>
@@ -129,7 +102,7 @@ function Feature({imageUrl, imageUrl2, title, cardClassName}) {
   const imgUrl = useBaseUrl(imageUrl);
   const imgUrl2 = useBaseUrl(imageUrl2);
   return (
-    <div className={classnames('col col--6', styles.feature)}>
+    <div className={classnames('col col--4', styles.feature)}>
       <div className={styles.featureInner }  >
       {imgUrl && (
         <div className="text--center">
@@ -152,7 +125,7 @@ function Home() {
       description="Description will go into a meta tag in <head />">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">Robolink Library Documentation</h1>
+          <h1 className="hero__title">Welcome to Robolink Docs</h1>
           <h4 className="hero__subtitle">Learn about how to use the library functions and blocks for the coding platforms of our robots</h4>
           <div className={styles.buttons}>
         
