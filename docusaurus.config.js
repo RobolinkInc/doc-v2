@@ -7,6 +7,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'RobolinkInc', // Usually your GitHub org/user name.
   projectName: 'doc-v2', // Usually your repo name.
+  onBrokenLinks: 'warn',
   themeConfig: {
     prism: {
       theme: require('prism-react-renderer/themes/github')
