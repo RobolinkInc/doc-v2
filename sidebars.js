@@ -240,7 +240,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Reference',
-      items: [  'codrone-edu/blockly/reference/library-junior', 'codrone-edu/blockly/reference/library-senior',
+      items: [ 
       ],
     },
     {

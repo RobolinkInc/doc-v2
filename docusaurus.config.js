@@ -40,10 +40,6 @@ module.exports = {
             label: 'CoDrone Mini',
             items: [
               {
-                label: 'Blockly',
-                href: '/doc-v2/docs/codrone-mini/blockly/reference_blockly',
-              },
-              {
                 label: 'Python',
                 href: '/doc-v2/docs/codrone-mini/python/reference/library',
               },
@@ -52,10 +48,6 @@ module.exports = {
           position: 'right',
           label: 'CoDrone Pro/Lite',
           items: [
-            {
-              label: 'Blockly',
-              href: '/doc-v2/docs/codrone-pro/blockly/reference_blockly',
-            },
             {
               label: 'Python',
               href: '/doc-v2/docs/codrone-pro/python/reference/library',
@@ -70,10 +62,6 @@ module.exports = {
               position: 'right',
               label: 'Zumi',
               items: [
-                {
-                  label: 'Blockly',
-                  href: '/doc-v2/docs/zumi/blockly/reference/library-junior',
-                },
                 {
                   label: 'Python',
                   href: '/doc-v2/docs/zumi/python/reference/library',
