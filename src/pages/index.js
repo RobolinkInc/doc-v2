@@ -37,9 +37,6 @@ function CmdProButtons() {
   return (
     <div className={styles.columns }>
    <div className={styles.column }>
-      <button onClick={goUrlCodronePro}>Blockly</button>
-   </div>
-   <div className={styles.column }>
    <button onClick={goUrlCodroneProPython}>Python</button>
 
   </div>
@@ -102,11 +99,8 @@ function CoDroneEduTwoButtons() {
 function CmdTwoButtons() {
   return (
     <div className={[styles.columns, styles.moreMargin].join(' ') }>
-   <div className={styles.columnHalf }>
-      <button onClick={goUrlCmd}>Blockly</button>
-   </div>
   <div className={styles.columnHalf }>
-  <button onClick={goUrlCmdPython}>Python</button>
+  <button className={styles.oneButton} onClick={goUrlCmdPython}>Python</button>
   </div>
 </div>
   );
@@ -115,11 +109,8 @@ function CmdTwoButtons() {
 function ZumiTwoButtons() {
   return (
     <div className={[styles.columns, styles.moreMargin].join(' ')}>
-   <div className={styles.columnHalf }>
-      <button onClick={goUrlZumi}>Blockly</button>
-   </div>
   <div className={styles.columnHalf }>
-  <button onClick={goUrlZumiPython}>Python</button>
+  <button className={styles.oneButton} onClick={goUrlZumiPython}>Python</button>
   </div>
 </div>
   );

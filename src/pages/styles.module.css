@@ -109,6 +109,11 @@
   
 }
 
+.oneButton {
+  margin-left: 4% !important;
+ 
+}
+
 .column:nth-child(1) {
   margin-left: -4px;
 }
@@ -118,7 +123,7 @@
 }
 
 .column:nth-child(3) {
-  margin-right: 3px;
+  margin-left: 3px;
 }
 
 button:hover {
