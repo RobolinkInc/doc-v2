@@ -3,7 +3,7 @@ module.exports = {
   title: 'Robolink Documentation',
   tagline: 'Robolink docs',
   url: 'https://github.com/RobolinkInc/doc-v2',
-  baseUrl: '/doc-v2/',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'RobolinkInc', // Usually your GitHub org/user name.
   projectName: 'doc-v2', // Usually your repo name.
@@ -28,11 +28,11 @@ module.exports = {
           items: [
             {
               label: 'Blockly',
-              href: '/doc-v2/docs/codrone-edu/blockly/reference/library-junior',
+              href: '/docs/codrone-edu/blockly/reference/library-junior',
             },
             {
               label: 'Python',
-              href: '/doc-v2/docs/codrone-edu/python/reference/library',
+              href: '/docs/codrone-edu/python/reference/library',
             },
           ]}, 
           {
@@ -41,7 +41,7 @@ module.exports = {
             items: [
               {
                 label: 'Python',
-                href: '/doc-v2/docs/codrone-mini/python/reference/library',
+                href: '/docs/codrone-mini/python/reference/library',
               },
             ]}, 
         {
@@ -50,11 +50,11 @@ module.exports = {
           items: [
             {
               label: 'Python',
-              href: '/doc-v2/docs/codrone-pro/python/reference/library',
+              href: '/docs/codrone-pro/python/reference/library',
             },
             {
               label: 'Arduino',
-              href: '/doc-v2/docs/codrone-pro/arduino/reference/library',
+              href: '/docs/codrone-pro/arduino/reference/library',
             },
           
           ]}, 
@@ -64,8 +64,8 @@ module.exports = {
               items: [
                 {
                   label: 'Python',
-                  href: '/doc-v2/docs/zumi/python/reference/library',
-                  //doc-v2/docs/zumi/home/home
+                  href: '/docs/zumi/python/reference/library',
+                  //docs/zumi/home/home
                 },
               ]},      
          {
@@ -77,7 +77,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `<div id="footerBox1"> <img id="imgFooter" src="/doc-v2/img/footer-logo.svg" />  <a href="#"> Robolink Help</a> | <a href="#"> Terms of use</a> | <a href="#"> Privacy</a></div><div id="box" ></div>`,
+      copyright: `<div id="footerBox1"> <img id="imgFooter" src="/img/footer-logo.svg" />  <a href="#"> Robolink Help</a> | <a href="#"> Terms of use</a> | <a href="#"> Privacy</a></div><div id="box" ></div>`,
      },
   },
   plugins: [[path.resolve(__dirname, './node_modules/docusaurus-lunr-search/'),{
@@ -104,13 +104,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/RobolinkInc/doc-v2/edit/documentation/',
+            'https://github.com/RobolinkInc/edit/documentation/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/RobolinkInc/doc-v2/edit/master/website/blog/',
+            'https://github.com/RobolinkInc/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

@@ -15,7 +15,7 @@ hide_table_of_contents: true
   <div class="box-reference-shadow">
   <h3>Under Construction</h3>
     
-      <img class="container-center" src="/doc-v2/img/underConstruction.png"></img>
+      <img class="container-center" src="/img/underConstruction.png"></img>
     <br />
    <span class="container-center">Pardon! The Zumi Blockly reference page is currently under construction.</span>
   </div>
