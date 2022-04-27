@@ -17,7 +17,7 @@ hide_table_of_contents: true
     
       <img class="container-center" src="/img/underConstruction.png"></img>
     <br />
-   <span class="container-center">Pardon! The Zumi Blockly reference page is currently under construction.</span>
+   <span class="container-center">Pardon! The CoDrone EDU reference page is currently under construction.</span>
   </div>
   </div>
 </div>
