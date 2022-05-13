@@ -10,7 +10,7 @@ hide_table_of_contents: true
 These are the Blockly functions that you can use to control the CoDrone Mini. Example code is provided in each function definition.
 
 <div class="center">
-    <span class="label-toggle">Senior</span>
+    <span class="label-toggle">Junior</span>
 <label onClick={function hi(){if(!document.getElementById("juniorSeniorSelector").checked){window.location.href = "/docs/codrone-mini/blockly/reference/library-junior"}}} class="switch">
  <input id="juniorSeniorSelector" type="checkbox"  checked="true" />
   <span class="slider round"></span> 
@@ -53,56 +53,5 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
         <img src="/img/code_is_running.png"></img>
     </div>
     </div>
-  </div>
-</div>
-<div class="boxLanding marginTop25">
- <div class="box-reference-shadow">
-  <div class="parentContainer">
-    <h3>Logic</h3>
-    <a href="#">all_lights_off()</a>
-    <a href="#">all_lights_on()</a>
-    <a href="#">brake_lights_off()</a>
-    <a href="#">brake_lights_on()</a>
-    <a href="#">hazard_lights_off()</a>
-    <a href="#">hazard_lights_on() </a>
-    <a href="#">headlights_off() </a>
-    <a href="#">headlights_on()</a>
-    <a href="#">play_note() </a>
-    <a href="#">signal_left_off()</a> 
-    <a href="#">signal_left_on() </a>
-    <a href="#">signal_right_off() </a>
-    <a href="#">signal_right_on()</a>
-  </div>
-  </div>
-  <div class="parentContainer">
-   <div class="box-reference-shadow">
-    <h3>Camera</h3>
-    <a href="#">all_lights_off()</a>
-    <a href="#">all_lights_on()</a>
-    <a href="#">brake_lights_off() </a>
-    <a href="#">brake_lights_on()</a>
-    <a href="#">hazard_lights_off()</a>
-    <a href="#">hazard_lights_on()</a>
-    <a href="#">headlights_off() </a>
-    <a href="#">headlights_on()</a>
-    <a href="#">play_note()</a>
-    <a href="#">signal_left_off()</a> 
-    <a href="#">signal_left_on() </a>
-    <a href="#">signal_right_off()</a>
-    <a href="#">signal_right_on()</a>
-  </div>
-  </div>
-  <div class="parentContainer">
-   <div class="box-reference-shadow">
-  <h3>Loops</h3>
-    <a href="#">all_lights_off()</a> 
-    <a href="#">all_lights_on()</a>
-    <a href="#">brake_lights_off()</a>
-    <a href="#">brake_lights_on()</a>
-    <a href="#">hazard_lights_off() </a>
-    <a href="#">hazard_lights_on()</a>
-    <a href="#">headlights_off() </a>
-    <a href="#">headlights_on()</a>
-  </div>
   </div>
 </div>
