@@ -64,11 +64,6 @@ These are the functions that you can use to control the CoDrone EDU. The functio
   <div  class="parentContainer">
     <div class="boxLanding">
        <div class="box-reference-shadow"> 
-            <h3> Flight Variables</h3>
-            <a href="#">n/a()</a>
-        </div>
-    </div>
-     <div class="box-reference-shadow margin-top-30"> 
             <h3>Sensor</h3>
                 <a href="/docs/codrone-edu/python/Sensors/01-get_battery">get_battery()</a>
                 <a href="/docs/codrone-edu/python/Sensors/02-get_bottom_range">get_bottom_range()</a>
@@ -88,8 +83,10 @@ These are the functions that you can use to control the CoDrone EDU. The functio
                 <a href="/docs/codrone-edu/python/Sensors/17-get_y_angle">get_y_angle()</a> 
                 <a href="/docs/codrone-edu/python/Sensors/18-get_z_accel">get_z_accel()</a> 
                 <a href="/docs/codrone-edu/python/Sensors/19-get_z_angle">get_z_angle()</a>
-                <a href="/docs/codrone-edu/python/Sensors/20-get_height">get_height()</a>                
+                <a href="/docs/codrone-edu/python/Sensors/20-get_height">get_height()</a>    
         </div>
+    </div>
+    
   </div>
 </div>
 <div class="boxLanding marginTop25">
