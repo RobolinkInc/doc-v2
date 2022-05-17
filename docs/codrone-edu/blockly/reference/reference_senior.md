@@ -20,7 +20,7 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
 <div class="boxLanding">
   <div class="parentContainer">
   <div class="box-reference-shadow">
-  <h3>Lights</h3>
+  <h3>Flight Commands</h3>
     <a href="/docs/codrone-edu/blockly/Flight-Commands/01-takeoff">take off</a>
     <img src="/img/takeoff.png"></img>
     <a href="/docs/codrone-edu/blockly/Flight-Commands/02-land">land </a>
