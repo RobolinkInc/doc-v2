@@ -25,15 +25,19 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
     <img src="/img/takeoff.png"></img>
     <a href="/docs/codrone-edu/blockly/Flight-Commands/02-land">land </a>
       <img src="/img/land.png"></img>
-    <a href="#">emergency stop</a>
+    <a href="/docs/codrone-edu/blockly/Flight-Commands/03-emergency-stop">emergency stop</a>
       <img src="/img/emergency_stop.png"></img>
-    <a href="#"> go [ ] for [ ] seconds</a>
-      <img src="/img/go_for_seconds.png"></img>
-    <a href="#">go [ ] for [ ] seconds at [ ] % power</a>
+    <a href="/docs/codrone-edu/blockly/Flight-Commands/04-hover">hover</a>
+      <img src="/img/hover.png"></img>
+    <a href="/docs/codrone-edu/blockly/Flight-Commands/05-flip">flip</a>
       <img src="/img/go_for_seconds_at_power.png"></img>
-    <a href="#">turn [ ] for [ ] seconds at [ ] % power</a>
+    <a href="/docs/codrone-edu/blockly/Flight-Commands/06-turn_degree">turn degree</a>
       <img src="/img/turn_for_seconds_at_power.png"></img>
-    <a href="#">hover for [ ] seconds</a>
+    <a href="/docs/codrone-edu/blockly/Flight-Commands/07-avoid_wall">avoid wall</a>
+      <img src="/img/hover.png"></img>  
+    <a href="/docs/codrone-edu/blockly/Flight-Commands/08-go">go</a>
+      <img src="/img/hover.png"></img>  
+    <a href="/docs/codrone-edu/blockly/Flight-Commands/09-turn-to"> turn to</a>
       <img src="/img/hover.png"></img>  
   </div>
   </div>
