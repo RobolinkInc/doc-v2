@@ -31,9 +31,9 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
       <img src="/img/hover.png"></img>
     <a href="/docs/codrone-edu/blockly/Flight-Commands/05-flip">flip</a>
       <img src="/img/go_for_seconds_at_power.png"></img>
-    <a href="/docs/codrone-edu/blockly/Flight-Commands/06-turn_degree">turn degree</a>
+    <a href="/docs/codrone-edu/blockly/Flight-Commands/06-turn-degree">turn degree</a>
       <img src="/img/turn_for_seconds_at_power.png"></img>
-    <a href="/docs/codrone-edu/blockly/Flight-Commands/07-avoid_wall">avoid wall</a>
+    <a href="/docs/codrone-edu/blockly/Flight-Commands/07-avoid-wall">avoid wall</a>
       <img src="/img/hover.png"></img>  
     <a href="/docs/codrone-edu/blockly/Flight-Commands/08-go">go</a>
       <img src="/img/hover.png"></img>  
