@@ -19,8 +19,10 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
 
 <div class="boxLanding">
   <div class="parentContainer">
-  <div class="box-reference-shadow">
-  <h3>Flight Commands</h3>
+  </div>
+  <div  class="parentContainer">
+    <div class="box-reference-shadow">
+    <h3>Flight Commands</h3>
     <a href="/docs/codrone-edu/blockly/Flight-Commands/01-takeoff">take off</a>
     <img src="/img/takeoff.png"></img>
     <a href="/docs/codrone-edu/blockly/Flight-Commands/02-land">land </a>
@@ -39,23 +41,8 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
       <img src="/img/hover.png"></img>  
     <a href="/docs/codrone-edu/blockly/Flight-Commands/09-turn-to"> turn to</a>
       <img src="/img/hover.png"></img>  
-  </div>
-  </div>
-  <div  class="parentContainer">
-    <div class="box-reference-shadow">
-    <h3> Flight Sequences</h3>
-    <br />
-    <div class="boxLandingColumn2">
-        <img src="/img/flips.png"></img>
-    </div>
     </div>
   </div>
     <div  class="parentContainer">
-     <div class="box-reference-shadow">
-    <h3> Status Checkers</h3>
-    <div class="boxLandingColumn2"> 
-        <img src="/img/code_is_running.png"></img>
-    </div>
-    </div>
   </div>
 </div>
