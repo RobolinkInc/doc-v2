@@ -1,69 +1,201 @@
 ---
 custom_edit_url: null
 id: changelog
-title: CoDrone Mini Library Changelog
+title: CoDrone EDU Library Changelog
 
 ---
 # Changelog
 
+##### May 17, 2022
 
-##### Aug 14, 2018
+**CoDrone EDU Version 1.1**
 
-**CoDrone mini Version 1.1.3**
 
-New Function:<br />
-pair() : Updated to a new function for pairing with the CoDrone. Pair will pair with the nearest, then save your drone info to your project folder and use the next time you pair with no parameters.<br />
-calibrate() : you can reset and calibrate drone programmatically.<br />
-
-move() function updated.  It can take 4 parameters move(roll,pitch,yaw,throttle) to move indefinitely
-
+Fixed screen error on controller
 
 ---
 
-##### May 21, 2018
+##### Mar 17, 2022
 
-**CoDrone Version 1.1.2**
+**CoDrone EDU Version 1.0**
 
-Print port name and drone name at the start of the program.
+Speed defaults to 2 when starting a program
 
-Solve setAllRGB() function error (couldn't change the colors when repeated it too fast).
+Added speed_change() and get_control_speed() functions
 
+Pillow library added as dependency
 
----
+Added error message if serial library is not detected
 
-
-##### Mar 28, 2018
-
-**CoDrone Version 1.1.1**
-
-Change the Mode name
-
-Change the default value in flight command
-
-Add some error messages for debugging mode
+Added error handling when calling load_classifier()
 
 ---
 
+##### Mar 17, 2022
 
-##### Mar 16, 2018
+**CoDrone EDU Version 0.9**
 
-**CoDrone Version 1.1.0**
-
-Remove "time." in protocol.py
-
-Add legacy functions
-
-Fix functions about degrees.
-
+Added Swarm class
 
 ---
 
+##### Mar 1, 2022
 
-##### Dec 16, 2017
+**CoDrone EDU Version 0.8**
 
-**CoDrone Version 0.2**
+Added movement as a state in the state list
 
-The first CoDrone library release for the Python Package Index
+Added temperature_convert()
 
+---
+
+##### Feb 18, 2022
+
+**CoDrone EDU Version 0.7**
+
+Fixed turn_degree() to be absolute and smoother and turn 180 degrees
+
+Fixed turn_right()
+
+Fixed turn_left()
+
+Added luminosity to knn.fit for a fourth data point
+
+Added controller screen drawing functions
+---
+
+##### Feb 4, 2022
+
+**CoDrone EDU Version 0.6**
+
+All distance sensors now return in centimeter by default
+
+Fixed all functions effected by centimeter being returned by default
+
+drone.turn_degree() is now absolute and division by 0 is fixed
+
+drone.get_height() now uses time of flight instead of barometer
+
+drone.get_flow_x, y converted from m to cm
+
+Fixed drone.avoid_wall()
+
+Added and fixed sendMotor
+
+Added and fixed sendMotorSingle
+
+Fixed buzzer functions
+
+Added buzzer flip warning when battery is less than 50%
+
+convert_meter can now return meter
+
+Added drone.append_color_data() - appends data to an existing text file
+
+Added error handling when load_classifier is empty
+
+Changed dir variable in add_color()
+
+Fixed issue when adding to a dataset that already exists
+
+Updated set_trim() to only change roll and pitch
+
+Updated get_trim_data() to return only roll and pitch
+
+---
+
+##### Jan 10, 2022
+
+**CoDrone EDU Version 0.5**
+
+Added drone.flip()
+
+Added convert_millimeter() and convert_meter() to return centimeter by default for all positional functions
+
+Added error handling in the color classifier
+
+Added docstrings
+
+---
+
+##### Dec 15, 2021
+
+**CoDrone EDU Version 0.4**
+
+Added drone.get_drone_temp()
+
+Added drone.get_pressure()
+
+Added drone.drone_buzzer()
+
+Added drone.controller_buzzer()
+
+Added drone.set_trim()
+
+Added drone.get_height
+
+Added drone.get_pressure()
+
+Added the flight sequences square, triangle, spiral, and sway.
+
+Improved takeoff command
+
+Improved port connection
+
+---
+
+##### Nov 23, 2021
+
+**CoDrone EDU Version 0.3**
+
+Added drone.avoid_wall() - Obstacle avoidance command. is similar to zumi.forward_avoid_collision()
+
+Added drone.detect_wall() - Uses front range sensor to detect a wall
+
+Added drone.keep_distance() - Keep distance command makes the drone maintain a distance to an obstacle
+
+Added drone.turn_left() - Can be given a degree and the drone will turn to the left
+
+Added drone.turn_right() - Can be given a degree and the drone will turn to the right
+
+Added drone.turn_degrees() - Can take an absolute degree command and will turn to that degree.
+
+Added drone.hover() - Will make the drone hover.
+
+Added reset_YPRT() - Resets the yaw pitch roll and throttle and sends the command to the drone.
+
+Added drone.keep_height() - Keep height command. A single command that is looped.
+
+Added get_colors() - returns a list [1, 2]
+
+Added get_front_color() - gets first color in get_colors() list
+
+Added get_back_color() -  gets second color in get_colors() list
+
+Added predict_color() - predicts a color if you have trained the model and there is an existing file
+
+Finished basic LEDs
+
+---
+
+##### Oct 10, 2021
+
+**CoDrone EDU Version (0.1 - 0.2)**
+
+Added Drone.acceleration_x, y, z
+
+Added Drone.angle_roll, yaw, pitch
+
+Added Drone.range_front()
+
+Added Drone.range_bottom()
+
+Added Drone.get_battery()
+
+Added Drone.open()
+
+Added Drone.takeoff()
+
+Added Drone.land()
 
 ---
