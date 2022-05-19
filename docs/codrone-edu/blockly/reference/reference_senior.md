@@ -9,14 +9,6 @@ hide_table_of_contents: true
 <h3 class="homeDocLandingVersion">version 1.1.3 (<a class="orange-link" href="/docs/codrone-edu/blockly/changelog">Changelog</a>)</h3>
 These are the Blockly functions that you can use to control the CoDrone EDU. Example code is provided in each function definition.
 
-<div class="center">
-    <span class="label-toggle">Junior</span>
-<label onClick={function hi(){if(!document.getElementById("juniorSeniorSelector").checked){window.location.href = "/docs/codrone-mini/blockly/reference/library-junior"}}} class="switch">
- <input id="juniorSeniorSelector" type="checkbox"  checked="true" />
-  <span class="slider round"></span> 
-</label>   <span class="label-toggle">Senior</span>
-</div>
-
 <div class="boxLanding">
   <div class="parentContainer">
   </div>
