@@ -49,6 +49,8 @@ jobs:
           fi
           npx docusaurus build
           echo "docs.robolink.com" >./build/CNAME
+          mkdir ./build/zumi-library
+          echo echo '<meta http-equiv="refresh" content="0; URL=https://docs.robolink.com/docs/zumi/python/reference/library/" />'>./build/zumi-library/index.html
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
