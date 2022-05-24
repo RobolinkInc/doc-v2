@@ -37,8 +37,47 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
   </div>
   <div class="parentContainer">
    <div class="box-reference-shadow">
+    <h3>Flight Variables</h3>
+    <a href="/docs/codrone-edu/blockly/Flight-Variables/01-set-roll">set roll</a>
+    <a href="/docs/codrone-edu/blockly/Flight-Variables/02-set-pitch">set pitch</a>
+    <a href="/docs/codrone-edu/blockly/Flight-Variables/03-set-yaw">set yaw</a>
+    <a href="/docs/codrone-edu/blockly/Flight-Variables/04-set-throttle">set throttle</a>
+    <a href="/docs/codrone-edu/blockly/Flight-Variables/05-move">move</a>
+    <a href="/docs/codrone-edu/blockly/Flight-Variables/06-set-trim">set trim</a>
+    <a href="/docs/codrone-edu/blockly/Flight-Variables/07-get-trim">set roll</a>
+  </div>
+  </div>
+    <div class="parentContainer">
+   <div class="box-reference-shadow">
     <h3>Status Checkers</h3>
     <a href="/docs/codrone-edu/blockly/Status-Checkers/01-code-is-running">code is running</a>
+  </div>
+  </div>
+    <div class="parentContainer">
+   <div class="box-reference-shadow">
+    <h3>Lights</h3>
+    <a href="/docs/codrone-edu/blockly/Lights/01-set-drone-led">set drone led</a>
+    <a href="/docs/codrone-edu/blockly/Lights/02-drone-led-off">drone led off</a>
+    <a href="/docs/codrone-edu/blockly/Lights/03-set-controller-led">set controller led</a>
+    <a href="/docs/codrone-edu/blockly/Lights/04-controller-led-off">controller led off</a>
+  </div>
+  </div>
+      <div class="parentContainer">
+   <div class="box-reference-shadow">
+    <h3>Sensors</h3>
+    <a href="/docs/codrone-edu/blockly/Sensors/01-get-range">get range</a>
+    <a href="/docs/codrone-edu/blockly/Sensors/02-get-angle">get angle</a>
+    <a href="/docs/codrone-edu/blockly/Sensors/03-get-gyro">get gyro</a>
+    <a href="/docs/codrone-edu/blockly/Sensors/04-get-accel">get accel</a>
+    <a href="/docs/codrone-edu/blockly/Sensors/05-get-pos">get pos</a>
+    <a href="/docs/codrone-edu/blockly/Sensors/06-get-battery">get battery</a>
+    <a href="/docs/codrone-edu/blockly/Sensors/07-get-height">get height</a>
+    <a href="/docs/codrone-edu/blockly/Sensors/08-get-pressure">get pressure</a>
+    <a href="/docs/codrone-edu/blockly/Sensors/09-get-temperature">get temperature</a>
+    <a href="/docs/codrone-edu/blockly/Sensors/10-get-altitude">get altitude</a>
+    <a href="/docs/codrone-edu/blockly/Sensors/11-get-color">get color</a>
+    <a href="/docs/codrone-edu/blockly/Sensors/12-get-hsvl">get hsvl</a>
+    <a href="/docs/codrone-edu/blockly/Sensors/13-get-state-data">get state data</a>
   </div>
   </div>
   <div  class="parentContainer">
