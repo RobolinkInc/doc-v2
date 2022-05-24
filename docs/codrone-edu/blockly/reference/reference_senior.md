@@ -24,7 +24,7 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
         <a href="/docs/codrone-edu/blockly/Flight-Commands/04-hover">hover</a>
             <img src="/img/hover.png"></img>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/05-flip">flip</a>
-            <img src="/img/go_for_seconds_at_power.png"></img>
+            <img src="/img/flip.png"></img>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/06-turn-degree">turn degree</a>
             <img src="/img/turn_for_seconds_at_power.png"></img>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/07-avoid-wall">avoid wall</a>
