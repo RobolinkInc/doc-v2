@@ -80,6 +80,24 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
     <a href="/docs/codrone-edu/blockly/Sensors/13-get-state-data">get state data</a>
   </div>
   </div>
+        <div class="parentContainer">
+   <div class="box-reference-shadow">
+    <h3>Sound</h3>
+    <a href="/docs/codrone-edu/blockly/Sound/01-drone-buzzer">drone buzzer</a>
+    <a href="/docs/codrone-edu/blockly/Sound/02-controller-buzzer">controller buzzer</a>
+  </div>
+  </div>
+          <div class="parentContainer">
+   <div class="box-reference-shadow">
+    <h3>Screen</h3>
+    <a href="/docs/codrone-edu/blockly/Screen/01-controller-draw-line">controller draw line</a>
+    <a href="/docs/codrone-edu/blockly/Screen/02-controller-draw-string">controller draw string</a>
+    <a href="/docs/codrone-edu/blockly/Screen/03-controller-draw-rectangle">controller draw rectangle</a>
+    <a href="/docs/codrone-edu/blockly/Screen/04-controller-draw-square">controller draw square</a>
+    <a href="/docs/codrone-edu/blockly/Screen/05-controller-draw-point">controller draw point</a>
+    <a href="/docs/codrone-edu/blockly/Screen/06-controller-draw-clear-screen">controller draw clear screen</a>
+  </div>
+  </div>
   <div  class="parentContainer">
   </div>
 </div>
