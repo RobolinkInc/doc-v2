@@ -9,7 +9,7 @@ Makes the drone perform an emergency stop.
 
 ##### Parameters
 
- None
+None
 
 ##### Returns
 

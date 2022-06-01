@@ -5,10 +5,9 @@ title: hover()
 ---
 
 ![hover image](hover.PNG)
-Has the drone hover for a specified amount of seconds.
+Has the CoDrone EDU hover in place for a specified amount of time.
 
 ##### Parameters
-
 **seconds**: any integer (from -infinity to +inifnity)
 
 ##### Returns
