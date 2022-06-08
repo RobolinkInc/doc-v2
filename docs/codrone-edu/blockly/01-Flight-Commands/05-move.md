@@ -9,7 +9,7 @@ Moves the drone in a direction for a given duration and a percentage power.
 
 ##### Parameters
 ![move image](move_params.PNG)
-**duration**: any integer (from -100 to +100)
+**duration**: any integer or decimal value (from -100 to +100)
 **roll**: any integer (from -100 to +100)
 **pitch**: any integer (from -100 to +100)
 **yaw**: any integer (from -100 to +100)
