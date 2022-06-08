@@ -5,14 +5,14 @@ title: controller_draw_rectangle()
 ---
 
 ![controller draw rectangle block image](controller_draw_rectangle.PNG)<br />
-Plays a note for a specified amount of time in milliseconds using the CoDrone EDU.
+Draws a rectangle at a specific location on the CoDrone EDU LED screen.
 
 ##### Parameters
 ![controller draw rectangle block image](controller_draw_rectangle_params.PNG) <br />
-**xStart**: any integer (from 0 to 128) <br />
-**yStart**: any integer (from 0 to 64) <br />
-**width**: any integer (from 0 to 128) <br />
-**height**: any integer (from 0 to 64) <br />
+**xStart**: any integer (from 0 to +inifnity) <br />
+**yStart**: any integer (from 0 to +inifnity) <br />
+**width**: any integer (from 0 to +inifnity) <br />
+**height**: any integer (from 0 to +inifnity) <br />
 **flagFill**: true or false
 
 ##### Returns

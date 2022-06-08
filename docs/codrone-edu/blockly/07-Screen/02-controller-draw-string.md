@@ -5,12 +5,12 @@ title: controller_draw_string()
 ---
 
 ![controller draw string block image](controller_draw_string.PNG)<br />
-Plays a note for a specified amount of time in milliseconds using the CoDrone EDU.
+Draws a text string at a specific location on the CoDrone EDU LED screen.
 
 ##### Parameters
 ![controller draw string block image](controller_draw_string_params.PNG) <br />
-**xStart**: any integer (from 0 to 128) <br />
-**yStart**: any integer (from 0 to 64) <br />
+**xStart**: any integer (from 0 to +inifnity) <br />
+**yStart**: any integer (from 0 to +inifnity) <br />
 **text**: any string input
 
 ##### Returns

@@ -5,12 +5,12 @@ title: controller_draw_point()
 ---
 
 ![controller draw point block image](controller_draw_point.PNG)<br />
-Plays a note for a specified amount of time in milliseconds using the CoDrone EDU.
+Draws a point on the CoDrone EDU LED screen.
 
 ##### Parameters
 ![controller draw point block image](controller_draw_point_params.PNG) <br />
-**x**: any integer (from 0 to 128) <br />
-**y**: any integer (from 0 to 64) <br />
+**x**: any integer (from 0 to +inifnity) <br />
+**y**: any integer (from 0 to +inifnity) <br />
 
 ##### Returns
 
