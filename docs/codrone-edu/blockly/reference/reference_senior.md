@@ -16,21 +16,21 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
     <div class="box-reference-shadow">
         <h3>Flight Commands</h3>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/01-takeoff">take off</a>
-            <img src="/img/takeoff.PNG"></img>
+            <img src="/img/codrone-edu/blockly/takeoff.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/02-land">land </a>
-            <img src="/img/land.PNG"></img>
+            <img src="/img/codrone-edu/blockly/land.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/03-emergency-stop">emergency stop</a>
-            <img src="/img/emergency_stop.PNG"></img>
+            <img src="/img/codrone-edu/blockly/emergencystop.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/04-hover">hover</a>
-            <img src="/img/hover.PNG"></img>
+            <img src="/img/codrone-edu/blockly/hover.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/05-move">move</a>
-            <img src="/docs/codrone-edu/blockly/Flight-Commands/move.PNG"></img>
+            <img src="/img/codrone-edu/blockly/move.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/06-flip">flip</a>
-            <img src="/docs/codrone-edu/blockly/Flight-Commands/flip.PNG"></img>
+            <img src="/img/codrone-edu/blockly/flip.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/07-turn-degree">turn degree</a>
-            <img src="/img/turn_degree.PNG"></img>
+            <img src="/img/codrone-edu/blockly/turn_degree.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/08-avoid-wall">avoid wall</a>
-            <img src="/img/avoid_wall.PNG"></img>  
+            <img src="/img/codrone-edu/blockly/avoid_wall.PNG"></img>  
   </div>
   </div>
   <div class="parentContainer">
