@@ -78,37 +78,59 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
    <div class="box-reference-shadow">
     <h3>Sensors</h3>
     <a href="/docs/codrone-edu/blockly/Sensors/01-get-range">get range</a>
+        <img src="/img/codrone-edu/blockly/Sensors/get_range.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Sensors/02-get-angle">get angle</a>
+        <img src="/img/codrone-edu/blockly/Sensors/get_angle.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Sensors/03-get-gyro">get gyro</a>
+        <img src="/img/codrone-edu/blockly/Sensors/get_gyro.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Sensors/04-get-accel">get accel</a>
+        <img src="/img/codrone-edu/blockly/Sensors/get_accel.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Sensors/05-get-pos">get pos</a>
+        <img src="/img/codrone-edu/blockly/Sensors/get_pos.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Sensors/06-get-battery">get battery</a>
+        <img src="/img/codrone-edu/blockly/Sensors/get_battery.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Sensors/07-get-height">get height</a>
+        <img src="/img/codrone-edu/blockly/Sensors/get_height.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Sensors/08-get-pressure">get pressure</a>
+        <img src="/img/codrone-edu/blockly/Sensors/get_pressure.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Sensors/09-get-temperature">get temperature</a>
+        <img src="/img/codrone-edu/blockly/Sensors/get_temperature.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Sensors/10-get-altitude">get altitude</a>
+        <img src="/img/codrone-edu/blockly/Sensors/get_altitude.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Sensors/11-get-color">get color</a>
+        <img src="/img/codrone-edu/blockly/Sensors/get_color.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Sensors/12-get-hsvl">get hsvl</a>
+        <img src="/img/codrone-edu/blockly/Sensors/get_hsvl.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Sensors/13-get-state-data">get state data</a>
+        <img src="/img/codrone-edu/blockly/Sensors/get_state_data.PNG"></img>
   </div>
   </div>
         <div class="parentContainer">
    <div class="box-reference-shadow">
     <h3>Sound</h3>
     <a href="/docs/codrone-edu/blockly/Sound/01-drone-buzzer">drone buzzer</a>
+        <img src="/img/codrone-edu/blockly/Sound/drone_buzzer.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Sound/02-controller-buzzer">controller buzzer</a>
+        <img src="/img/codrone-edu/blockly/Sound/controller_buzzer.PNG"></img>
   </div>
   </div>
           <div class="parentContainer">
    <div class="box-reference-shadow">
     <h3>Screen</h3>
     <a href="/docs/codrone-edu/blockly/Screen/01-controller-draw-line">controller draw line</a>
+        <img src="/img/codrone-edu/blockly/Screen/controller_draw_line.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Screen/02-controller-draw-string">controller draw string</a>
+        <img src="/img/codrone-edu/blockly/Screen/controller_draw_string.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Screen/03-controller-draw-rectangle">controller draw rectangle</a>
+        <img src="/img/codrone-edu/blockly/Screen/controller_draw_rectangle.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Screen/04-controller-draw-square">controller draw square</a>
+        <img src="/img/codrone-edu/blockly/Screen/controller_draw_square.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Screen/05-controller-draw-point">controller draw point</a>
+        <img src="/img/codrone-edu/blockly/Screen/controller_draw_point.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Screen/06-controller-draw-image">controller draw image</a>
-    <a href="/docs/codrone-edu/blockly/Screen/06-controller-clear-screen">controller draw clear screen</a>
+        <img src="/img/codrone-edu/blockly/Screen/controller_draw_image.PNG"></img>
+    <a href="/docs/codrone-edu/blockly/Screen/06-controller-clear-screen">controller clear screen</a>
+        <img src="/img/codrone-edu/blockly/Screen/controller_clear_screen.PNG"></img>
   </div>
   </div>
   <div  class="parentContainer">
