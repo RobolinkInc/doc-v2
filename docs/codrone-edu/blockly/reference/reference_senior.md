@@ -16,49 +16,62 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
     <div class="box-reference-shadow">
         <h3>Flight Commands</h3>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/01-takeoff">take off</a>
-            <img src="/img/codrone-edu/blockly/takeoff.PNG"></img>
+            <img src="/img/codrone-edu/blockly/Flight-Commands/takeoff.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/02-land">land </a>
-            <img src="/img/codrone-edu/blockly/land.PNG"></img>
+            <img src="/img/codrone-edu/blockly/Flight-Commands/land.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/03-emergency-stop">emergency stop</a>
-            <img src="/img/codrone-edu/blockly/emergencystop.PNG"></img>
+            <img src="/img/codrone-edu/blockly/Flight-Commands/emergencystop.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/04-hover">hover</a>
-            <img src="/img/codrone-edu/blockly/hover.PNG"></img>
+            <img src="/img/codrone-edu/blockly/Flight-Commands/hover.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/05-move">move</a>
-            <img src="/img/codrone-edu/blockly/move.PNG"></img>
+            <img src="/img/codrone-edu/blockly/Flight-Commands/move.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/06-flip">flip</a>
-            <img src="/img/codrone-edu/blockly/flip.PNG"></img>
+            <img src="/img/codrone-edu/blockly/Flight-Commands/flip.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/07-turn-degree">turn degree</a>
-            <img src="/img/codrone-edu/blockly/turn_degree.PNG"></img>
+            <img src="/img/codrone-edu/blockly/Flight-Commands/turn_degree.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/08-avoid-wall">avoid wall</a>
-            <img src="/img/codrone-edu/blockly/avoid_wall.PNG"></img>  
+            <img src="/img/codrone-edu/blockly/Flight-Commands/avoid_wall.PNG"></img>  
   </div>
   </div>
   <div class="parentContainer">
    <div class="box-reference-shadow">
     <h3>Flight Variables</h3>
     <a href="/docs/codrone-edu/blockly/Flight-Variables/01-set-roll">set roll</a>
+       <img src="/img/codrone-edu/blockly/Flight-Variables/set_roll.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Flight-Variables/02-set-pitch">set pitch</a>
+        <img src="/img/codrone-edu/blockly/Flight-Variables/set_pitch.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Flight-Variables/03-set-yaw">set yaw</a>
+        <img src="/img/codrone-edu/blockly/Flight-Variables/set_yaw.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Flight-Variables/04-set-throttle">set throttle</a>
+        <img src="/img/codrone-edu/blockly/Flight-Variables/set_throttle.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Flight-Variables/05-move">move</a>
+        <img src="/img/codrone-edu/blockly/Flight-Variables/move.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Flight-Variables/06-set-trim">set trim</a>
+        <img src="/img/codrone-edu/blockly/Flight-Variables/set_trim.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Flight-Variables/07-get-trim">get trim</a>
+        <img src="/img/codrone-edu/blockly/Flight-Variables/get_trim.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Flight-Variables/08-reset-trim">reset trim</a>
+        <img src="/img/codrone-edu/blockly/Flight-Variables/reset_trim.PNG"></img>
   </div>
   </div>
     <div class="parentContainer">
    <div class="box-reference-shadow">
     <h3>Status Checkers</h3>
     <a href="/docs/codrone-edu/blockly/Status-Checkers/01-code-is-running">code is running</a>
+       <img src="/img/codrone-edu/blockly/Status-Checkers/code_is_running.PNG"></img>
   </div>
   </div>
     <div class="parentContainer">
    <div class="box-reference-shadow">
     <h3>Lights</h3>
     <a href="/docs/codrone-edu/blockly/Lights/01-set-drone-led">set drone led</a>
+       <img src="/img/codrone-edu/blockly/Lights/set_drone_led.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Lights/02-drone-led-off">drone led off</a>
+        <img src="/img/codrone-edu/blockly/Lights/drone_led_off.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Lights/03-set-controller-led">set controller led</a>
+        <img src="/img/codrone-edu/blockly/Lights/set_controller_led.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Lights/04-controller-led-off">controller led off</a>
+        <img src="/img/codrone-edu/blockly/Lights/controller_led_off.PNG"></img>
   </div>
   </div>
       <div class="parentContainer">
