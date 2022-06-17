@@ -74,6 +74,13 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
         <img src="/img/codrone-edu/blockly/Lights/controller_led_off.PNG"></img>
   </div>
   </div>
+  <div  class="parentContainer">
+  </div>
+</div>
+
+<div class="boxLanding">
+    <div class="parentContainer">
+    </div>
       <div class="parentContainer">
    <div class="box-reference-shadow">
     <h3>Sensors</h3>

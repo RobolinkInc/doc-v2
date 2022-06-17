@@ -28,7 +28,7 @@ module.exports = {
           items: [
             {
               label: 'Blockly',
-              href: '/docs/codrone-edu/blockly/reference/library-junior',
+              href: '/docs/codrone-edu/blockly/reference/library-senior',
             },
             {
               label: 'Python',
