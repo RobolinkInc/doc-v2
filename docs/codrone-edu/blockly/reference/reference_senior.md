@@ -6,6 +6,7 @@ id: library-senior
 sidebar_label: Junior reference
 hide_table_of_contents: true
 ---
+
 <h3 class="homeDocLandingVersion">version 1.1.3 (<a class="orange-link" href="/docs/codrone-edu/blockly/changelog">Changelog</a>)</h3>
 These are the Blockly functions that you can use to control the CoDrone EDU. Example code is provided in each function definition.
 
@@ -13,7 +14,7 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
     <div class="parentContainer">
     </div>
     <div  class="parentContainer">
-    <div class="box-reference-shadow">
+    <div class="box-reference-shadow margin-bottom-20">
         <h3>Flight Commands</h3>
         <a href="/docs/codrone-edu/blockly/Flight-Commands/01-takeoff">take off</a>
             <img src="/img/codrone-edu/blockly/Flight-Commands/takeoff.PNG"></img>
@@ -32,9 +33,7 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
         <a href="/docs/codrone-edu/blockly/Flight-Commands/08-avoid-wall">avoid wall</a>
             <img src="/img/codrone-edu/blockly/Flight-Commands/avoid_wall.PNG"></img>  
   </div>
-  </div>
-  <div class="parentContainer">
-   <div class="box-reference-shadow">
+   <div class="box-reference-shadow margin-bottom-20">
     <h3>Flight Variables</h3>
     <a href="/docs/codrone-edu/blockly/Flight-Variables/01-set-roll">set roll</a>
        <img src="/img/codrone-edu/blockly/Flight-Variables/set_roll.PNG"></img>
@@ -53,16 +52,12 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
     <a href="/docs/codrone-edu/blockly/Flight-Variables/08-reset-trim">reset trim</a>
         <img src="/img/codrone-edu/blockly/Flight-Variables/reset_trim.PNG"></img>
   </div>
-  </div>
-    <div class="parentContainer">
-   <div class="box-reference-shadow">
+   <div class="box-reference-shadow margin-bottom-20">
     <h3>Status Checkers</h3>
     <a href="/docs/codrone-edu/blockly/Status-Checkers/01-code-is-running">code is running</a>
        <img src="/img/codrone-edu/blockly/Status-Checkers/code_is_running.PNG"></img>
   </div>
-  </div>
-    <div class="parentContainer">
-   <div class="box-reference-shadow">
+  <div class="box-reference-shadow margin-bottom-20">
     <h3>Lights</h3>
     <a href="/docs/codrone-edu/blockly/Lights/01-set-drone-led">set drone led</a>
        <img src="/img/codrone-edu/blockly/Lights/set_drone_led.PNG"></img>
@@ -74,15 +69,9 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
         <img src="/img/codrone-edu/blockly/Lights/controller_led_off.PNG"></img>
   </div>
   </div>
-  <div  class="parentContainer">
-  </div>
-</div>
-
-<div class="boxLanding">
+ 
     <div class="parentContainer">
-    </div>
-      <div class="parentContainer">
-   <div class="box-reference-shadow">
+   <div class="box-reference-shadow margin-bottom-20">
     <h3>Sensors</h3>
     <a href="/docs/codrone-edu/blockly/Sensors/01-get-range">get range</a>
         <img src="/img/codrone-edu/blockly/Sensors/get_range.PNG"></img>
@@ -111,18 +100,14 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
     <a href="/docs/codrone-edu/blockly/Sensors/13-get-state-data">get state data</a>
         <img src="/img/codrone-edu/blockly/Sensors/get_state_data.PNG"></img>
   </div>
-  </div>
-        <div class="parentContainer">
-   <div class="box-reference-shadow">
+   <div class="box-reference-shadow margin-bottom-20">
     <h3>Sound</h3>
     <a href="/docs/codrone-edu/blockly/Sound/01-drone-buzzer">drone buzzer</a>
         <img src="/img/codrone-edu/blockly/Sound/drone_buzzer.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Sound/02-controller-buzzer">controller buzzer</a>
         <img src="/img/codrone-edu/blockly/Sound/controller_buzzer.PNG"></img>
   </div>
-  </div>
-          <div class="parentContainer">
-   <div class="box-reference-shadow">
+  <div class="box-reference-shadow margin-bottom-20">
     <h3>Screen</h3>
     <a href="/docs/codrone-edu/blockly/Screen/01-controller-draw-line">controller draw line</a>
         <img src="/img/codrone-edu/blockly/Screen/controller_draw_line.PNG"></img>
@@ -142,4 +127,8 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
   </div>
   <div  class="parentContainer">
   </div>
+</div>
+
+<div class="boxLanding">
+   
 </div>
