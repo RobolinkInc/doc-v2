@@ -21,6 +21,10 @@
   --ifm-code-font-size: 95%;
 }
 
+.markdown img {
+  display: block;
+}
+
 .navbar {
   background-color: #00adee !important;
 }
