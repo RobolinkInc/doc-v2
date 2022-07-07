@@ -8,9 +8,9 @@ title: controller_draw_image()
 Draws an uploaded image to the CoDrone EDU controller's LED screen.
 
 ##### Parameters
-![controller draw point block image pt1](controller_draw_image_param1.PNG)
-![controller draw point block image pt2](controller_draw_image_param2.PNG)
-![controller draw point block image pt3](controller_draw_image_param3.PNG) <br />
+![controller draw point block image pt1](controller_draw_image_param1.PNG =x200)
+![controller draw point block image pt2](controller_draw_image_param2.PNG =x200)
+![controller draw point block image pt3](controller_draw_image_param3.PNG =x200) <br />
 **Image name**: Image file name. The image file format must be .png, .jpg, or .jpeg <br />
 
 ##### Returns
