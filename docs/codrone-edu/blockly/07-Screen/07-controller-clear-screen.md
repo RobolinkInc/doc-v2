@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: 06-controller-clear-screen
+id: 07-controller-clear-screen
 title: controller_clear_screen()
 ---
 

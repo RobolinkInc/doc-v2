@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: 07-controller-draw-image
+id: 06-controller-draw-image
 title: controller_draw_image()
 ---
 
