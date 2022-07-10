@@ -62,6 +62,7 @@ Fixed turn_left()
 Added luminosity to knn.fit for a fourth data point
 
 Added controller screen drawing functions
+
 ---
 
 ##### Feb 4, 2022
