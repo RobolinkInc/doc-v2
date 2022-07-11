@@ -11,8 +11,7 @@ hide_table_of_contents: true
 These are the Blockly functions that you can use to control the CoDrone EDU. Example code is provided in each function definition.
 
 <div class="boxLanding">
-    <div class="parentContainer">
-    </div>
+  
     <div  class="parentContainer">
     <div class="box-reference-shadow margin-bottom-20">
         <h3>Flight Commands</h3>
@@ -124,8 +123,6 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
     <a href="/docs/codrone-edu/blockly/Screen/07-controller-clear-screen">controller clear screen</a>
         <img src="/img/codrone-edu/blockly/Screen/controller_clear_screen.PNG"></img>
   </div>
-  </div>
-  <div  class="parentContainer">
   </div>
 </div>
 
