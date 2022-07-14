@@ -6,10 +6,39 @@ title: CoDrone EDU Library Changelog
 ---
 # Changelog
 
+##### June 27, 2022
+
+**CoDrone EDU Version 1.3**
+
+Added virtual ceiling to the background of the drone class
+
+Motor diagnostic integrated as motor_test()
+
+---
+
+##### June 10, 2022
+
+**CoDrone EDU Version 1.2**
+
+Added move() command with input parameters
+
+Added hyperlink to “drone may not be paired” message.
+
+Added floor test as a method test_floor()
+
+Added a motor test that uses all 4 motors individually to determine if one is faulty. motor_test()
+
+Added waypoint system
+
+Added joystick and button functions
+
+---
+
 ##### May 17, 2022
 
 **CoDrone EDU Version 1.1**
 
+removed serial library
 
 Fixed screen error on controller
 
@@ -62,7 +91,6 @@ Fixed turn_left()
 Added luminosity to knn.fit for a fourth data point
 
 Added controller screen drawing functions
-
 ---
 
 ##### Feb 4, 2022
