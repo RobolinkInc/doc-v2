@@ -28,7 +28,7 @@ module.exports = {
           items: [
             {
               label: 'Blockly',
-              href: '/docs/codrone-edu/blockly/reference/library-junior',
+              href: '/docs/codrone-edu/blockly/reference/library-senior',
             },
             {
               label: 'Python',
@@ -77,7 +77,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `<div id="footerBox1"> <img id="imgFooter" src="/img/footer-logo.svg" />  <a href="#"> Robolink Help</a> | <a href="#"> Terms of use</a> | <a href="#"> Privacy</a></div><div id="box" ></div>`,
+      copyright: `<div id="footerBox1"> <img id="imgFooter" src="/img/footer-logo.svg" />  <a href="https://robolink.helpdocs.io/"> Robolink Help</a> | <a href="#"> Terms of use</a> | <a href="#"> Privacy</a></div><div id="box" ></div>`,
      },
   },
   plugins: [[path.resolve(__dirname, './node_modules/docusaurus-lunr-search/'),{

@@ -21,6 +21,10 @@
   --ifm-code-font-size: 95%;
 }
 
+.markdown img {
+  display: block;
+}
+
 .navbar {
   background-color: #00adee !important;
 }
@@ -234,6 +238,10 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   border-radius: 10px;
   padding-left: 10px;
   width: 97%;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
 }
 
 .margin-top-30 {
