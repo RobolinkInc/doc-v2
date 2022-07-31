@@ -8,7 +8,7 @@ title: set_controller_LED()
 Sets the color of the CoDrone EDU's controller LED.
 
 ##### Parameters
-![set drone led block param image](set_controller_LED_params.PNG)
+![set drone led block param image](set_controller_led_params.PNG)
 **red**: Integer between 0 and 255 <br /> 
 **green**: Integer between 0 and 255 <br /> 
 **blue**: Integer between 0 and 255 <br /> 
