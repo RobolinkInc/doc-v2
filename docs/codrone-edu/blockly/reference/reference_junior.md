@@ -24,9 +24,9 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
         <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/04-hover">hover for [seconds] seconds</a>
             <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/hover.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/05-go">go [direction] for [seconds] seconds at [power] % power</a>
-            <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/go_at_power_params.PNG"></img>
+            <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/go.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/06-turn-to">turn [direction] [degrees] degrees</a>
-            <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/turn_to.PNG"></img>
+            <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/turn.PNG"></img>
   </div>
    <div class="box-reference-shadow margin-bottom-20">
     <h3>Flight Sequences</h3>
