@@ -15,17 +15,17 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
     <div  class="parentContainer">
     <div class="box-reference-shadow margin-bottom-20">
         <h3>Flight Commands</h3>
-        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/01-takeoff">take_off()</a>
+        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/01-takeoff">take off</a>
             <img src="/img/codrone-edu/blockly/Flight-Commands/takeoff.PNG"></img>
-        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/02-land">land()</a>
+        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/02-land">land</a>
             <img src="/img/codrone-edu/blockly/Flight-Commands/land.PNG"></img>
-        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/03-emergency-stop">emergency_stop()</a>
+        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/03-emergency-stop">emergency stop</a>
             <img src="/img/codrone-edu/blockly/Flight-Commands/emergencystop.PNG"></img>
-        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/04-hover">hover()</a>
+        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/04-hover">hover for [seconds] seconds</a>
             <img src="/img/codrone-edu/blockly/Flight-Commands/hover.PNG"></img>
-        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/05-go">go()</a>
+        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/05-go">go [direction] for [seconds] seconds at [power] % power</a>
             <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/go_at_power_params.PNG"></img>
-        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/06-turn-to">turn_to()</a>
+        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/06-turn-to">turn [direction] [degrees] degrees</a>
             <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/turn_to.PNG"></img>
   </div>
    <div class="box-reference-shadow margin-bottom-20">
