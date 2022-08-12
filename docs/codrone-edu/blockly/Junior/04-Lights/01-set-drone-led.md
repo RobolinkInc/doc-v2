@@ -1,7 +1,7 @@
 ---
 custom_edit_url: null
 id: 01-set-drone-led
-title: set_drone_LED()
+title: set drone LED color to [color], with a brightness of [brightness]
 ---
 
 ![set drone led block image](set_drone_led.PNG)

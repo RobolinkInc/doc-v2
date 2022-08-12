@@ -1,7 +1,7 @@
 ---
 custom_edit_url: null
 id: 03-set-controller-led
-title: set_controller_LED()
+title: set controller LED to [color], with a brightness of [brightness]
 ---
 
 ![set drone led block image](set_controller_led.PNG)
