@@ -1,7 +1,7 @@
 ---
 custom_edit_url: null
 id: 02-play-note-controller
-title: play_note_controller()
+title: play this note [note] for [duration] seconds on controller
 ---
 
 ![controller buzzer block image](play_note_controller.PNG)<br />

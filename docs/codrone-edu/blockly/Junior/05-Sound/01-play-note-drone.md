@@ -1,7 +1,7 @@
 ---
 custom_edit_url: null
 id: 01-play-note-drone
-title: play_note_drone()
+title: play this note [note] for [duration] seconds on drone
 ---
 
 ![drone buzzer block image](play_note_drone.PNG)<br />
