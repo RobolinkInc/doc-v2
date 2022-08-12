@@ -1,7 +1,7 @@
 ---
 custom_edit_url: null
 id: 03-emergency-stop
-title: emergency_stop()
+title: emergency stop
 ---
 
 ![emergency stop image](emergencystop.PNG)

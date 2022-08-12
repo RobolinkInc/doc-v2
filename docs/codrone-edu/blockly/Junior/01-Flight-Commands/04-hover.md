@@ -1,7 +1,7 @@
 ---
 custom_edit_url: null
 id: 04-hover
-title: hover()
+title: hover for [seconds] seconds
 ---
 
 ![hover image](hover.PNG)

@@ -1,7 +1,7 @@
 ---
 custom_edit_url: null
 id: 06-turn-to
-title: turn_to()
+title: turn [direction] [degrees] degrees
 ---
 
 ![turn to image](turn_to.PNG)

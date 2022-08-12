@@ -1,7 +1,7 @@
 ---
 custom_edit_url: null
 id: 02-land
-title: land()
+title: land
 ---
 
 ![land image](land.PNG)
