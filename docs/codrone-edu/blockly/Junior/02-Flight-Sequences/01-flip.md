@@ -1,7 +1,7 @@
 ---
 custom_edit_url: null
 id: 01-flip
-title: flip()
+title: flip [direction]
 ---
 
 ![flip image](flip.PNG)<br /> 
