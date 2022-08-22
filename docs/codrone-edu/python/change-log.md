@@ -6,6 +6,18 @@ title: CoDrone EDU Library Changelog
 ---
 # Changelog
 
+##### August 17, 2022
+
+**CoDrone EDU Version 1.4**
+
+Virtual ceiling method integrated
+
+added height_from_pressure() function
+
+Changed yaw directional values (positive yaw now turns left)
+
+---
+
 ##### June 27, 2022
 
 **CoDrone EDU Version 1.3**
