@@ -85,6 +85,9 @@ These are the functions that you can use to control the CoDrone EDU. The functio
                 <a href="/docs/codrone-edu/python/Sensors/19-get_z_angle">get_z_angle()</a>
                 <a href="/docs/codrone-edu/python/Sensors/20-get_height">get_height()</a>    
         </div>
+            <div class="box-reference-shadow margin-top-30"> 
+        <h3>Controller</h3>
+            <a href="/docs/codrone-edu/python/Controller/01-down_arrow_pressed">down_arrow_pressed()</a>
     </div>
     
   </div>
