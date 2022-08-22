@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: 04-get_right_joystick_x
+id: 17-get_right_joystick_x
 title: get_right_joystick_x()
 ---
 
