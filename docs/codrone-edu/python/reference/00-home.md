@@ -47,6 +47,9 @@ These are the functions that you can use to control the CoDrone EDU. The functio
         <a href="/docs/codrone-edu/python/Flight-Commands-Movement/20-turn_degree">turn_degree()</a>
         <a href="/docs/codrone-edu/python/Flight-Commands-Movement/21-turn_left">turn_left()</a>  
         <a href="/docs/codrone-edu/python/Flight-Commands-Movement/22-turn_right">turn_right()</a>     
+        <a href="/docs/codrone-edu/python/Flight-Commands-Movement/23-goto_waypoint">goto_waypoint()</a>
+        <a href="/docs/codrone-edu/python/Flight-Commands-Movement/24-set_waypoint">set_waypoint()</a>
+        <a href="/docs/codrone-edu/python/Flight-Commands-Movement/25-go">go()</a>
   </div>
     <div class="box-reference-shadow margin-top-30"> 
         <h3>Buzzer</h3>
