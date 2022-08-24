@@ -85,6 +85,15 @@ These are the functions that you can use to control the CoDrone EDU. The functio
                 <a href="/docs/codrone-edu/python/Sensors/19-get_z_angle">get_z_angle()</a>
                 <a href="/docs/codrone-edu/python/Sensors/20-get_height">get_height()</a>    
                 <a href="/docs/codrone-edu/python/Sensors/21-get_back_color">get_back_color()</a>
+                <a href="/docs/codrone-edu/python/Sensors/22-get_color_data">get_color_data()</a>
+                <a href="/docs/codrone-edu/python/Sensors/23-get_front_color">get_front_color()</a>
+                <a href="/docs/codrone-edu/python/Sensors/24-load_classifier">load_classifier()</a>
+                <a href="/docs/codrone-edu/python/Sensors/25-predict_colors">predict_colors()</a>
+                <a href="/docs/codrone-edu/python/Sensors/26-get_colors">get_colors()</a>
+                <a href="/docs/codrone-edu/python/Sensors/27-new_color_data">new_color_data()</a>
+                <a href="/docs/codrone-edu/python/Sensors/28-append_color_data">append_color_data()</a>
+                <a href="/docs/codrone-edu/python/Sensors/29-height_from_pressure">height_from_pressure()</a>
+                <a href="/docs/codrone-edu/python/Sensors/30-set_initial_pressure">set_initial_pressure()</a>
         </div>
     </div>
     
