@@ -98,8 +98,54 @@ These are the functions that you can use to control the CoDrone EDU. The functio
                 <a href="/docs/codrone-edu/python/Sensors/29-height_from_pressure">height_from_pressure()</a>
                 <a href="/docs/codrone-edu/python/Sensors/30-set_initial_pressure">set_initial_pressure()</a>
         </div>
+        
+    </div>
+     <div class="boxLanding">
+       <div class="box-reference-shadow"> 
+            <h3>Controller</h3>
+                <a href="/docs/codrone-edu/python/Controller/01-down_arrow_pressed">down_arrow_pressed()</a>
+                <a href="/docs/codrone-edu/python/Controller/02-get_button_data">get_button_data()</a>
+                <a href="/docs/codrone-edu/python/Controller/03-h_pressed">h_pressed()</a>
+                <a href="/docs/codrone-edu/python/Controller/04-l1_pressed">l1_pressed()</a>
+                <a href="/docs/codrone-edu/python/Controller/05-l2_pressed">l2_pressed()</a>
+                <a href="/docs/codrone-edu/python/Controller/06-left_arrow_pressed">left_arrow_pressed()</a>
+                <a href="/docs/codrone-edu/python/Controller/07-p_pressed">p_pressed()</a>
+                <a href="/docs/codrone-edu/python/Controller/08-power_pressed">power_pressed()</a>
+                <a href="/docs/codrone-edu/python/Controller/09-r1_pressed">r1_pressed()</a>
+                <a href="/docs/codrone-edu/python/Controller/10-r2_pressed">r2_pressed()</a> 
+                <a href="/docs/codrone-edu/python/Controller/11-right_arrow_pressed">right_arrow_pressed()</a>
+                <a href="/docs/codrone-edu/python/Controller/12-s_pressed">s_pressed()</a>
+                <a href="/docs/codrone-edu/python/Controller/13-up_arrow_pressed">up_arrow_pressed()</a> 
+                <a href="/docs/codrone-edu/python/Controller/14-get_joystick_data">get_joystick_data()</a> 
+                <a href="/docs/codrone-edu/python/Controller/15-get_left_joystick_x">get_left_joystick_x()</a>   
+                <a href="/docs/codrone-edu/python/Controller/16-get_left_joystick_y">get_left_joystick_y()</a> 
+                <a href="/docs/codrone-edu/python/Controller/17-get_right_joystick_x">get_right_joystick_x()</a> 
+                <a href="/docs/codrone-edu/python/Controller/18-get_right_joystick_y">get_right_joystick_y()</a>
+        </div>
+        
     </div>
     
+      <div class="boxLanding">
+       <div class="box-reference-shadow"> 
+            <h3>Screen</h3>
+                <a href="/docs/codrone-edu/python/Screen/01-controller_clear_screen">controller_clear_screen()</a>
+                <a href="/docs/codrone-edu/python/Screen/02-controller_create_canvas">controller_create_canvas()</a>
+                <a href="/docs/codrone-edu/python/Screen/03-controller_draw_arc">controller_draw_arc()</a>
+                <a href="/docs/codrone-edu/python/Screen/04-controller_draw_canvas">controller_draw_canvas()</a>
+                <a href="/docs/codrone-edu/python/Screen/05-controller_draw_chord">controller_draw_chord()</a>
+                <a href="/docs/codrone-edu/python/Screen/06-controller_draw_ellipse">controller_draw_ellipse()</a>
+                <a href="/docs/codrone-edu/python/Screen/07-controller_draw_image">controller_draw_image()</a>
+                <a href="/docs/codrone-edu/python/Screen/08-controller_draw_line">controller_draw_line()</a>
+                <a href="/docs/codrone-edu/python/Screen/09-controller_draw_point">controller_draw_point()</a>
+                <a href="/docs/codrone-edu/python/Screen/10-controller_draw_polygon">controller_draw_polygon()</a> 
+                <a href="/docs/codrone-edu/python/Screen/11-controller_draw_rectangle">controller_draw_rectangle()</a>
+                <a href="/docs/codrone-edu/python/Screen/12-controller_draw_square">controller_draw_square()</a>
+                <a href="/docs/codrone-edu/python/Screen/13-controller_draw_string_align">controller_draw_string_align()</a> 
+                <a href="/docs/codrone-edu/python/Screen/14-controller_draw_string">controller_draw_string()</a> 
+                <a href="/docs/codrone-edu/python/Screen/15-controller_preview_canvas">controller_preview_canvas()</a>   
+        </div>
+        
+    </div>
   </div>
 </div>
 <div class="boxLanding marginTop25">
