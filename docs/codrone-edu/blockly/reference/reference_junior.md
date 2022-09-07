@@ -37,6 +37,8 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
             <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/go.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/06-turn-to">turn [direction] [degrees] degrees</a>
             <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/turn.PNG"></img>
+        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/07-turn-direction-seconds-power">turn [direction] for [seconds] seconds at [power]% power</a>
+            <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/turn_direction_seconds_power.PNG"></img>   
   </div>
    <div class="box-reference-shadow margin-bottom-20">
     <h3>Flight Sequences</h3>
