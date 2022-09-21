@@ -118,6 +118,9 @@ These are the functions that you can use to control the Zumi. The functions are 
     <a href="/docs/zumi/python/Camera/save-photo">save_photo()</a>
     <a href="/docs/zumi/python/Camera/show-image">show_image()</a>
     <a href="/docs/zumi/python/Camera/start-camera">start_camera()</a>
+    <a href="/docs/zumi/python/Camera/predict">predict()</a>
+    <a href="/docs/zumi/python/Camera/fit">fit()</a>
+    <a href="/docs/zumi/python/Camera/load_model">load_model()</a>
   </div>
   </div>
   <div class="parentContainer">
