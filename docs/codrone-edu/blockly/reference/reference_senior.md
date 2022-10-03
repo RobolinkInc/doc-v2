@@ -14,7 +14,7 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
 <br />
     <span class="label-toggle">Junior</span>
 <label onClick={function hi(){if(!document.getElementById("juniorSeniorSelector").checked){window.location.href = "/docs/codrone-edu/blockly/reference/library-junior"}}} class="switch">
- <input id="juniorSeniorSelector" type="checkbox"  checked="true" />
+ <input id="juniorSeniorSelector" type="checkbox"  checked="false" />
   <span class="slider round"></span> 
 </label>   <span class="label-toggle">Senior</span>
 </div>
