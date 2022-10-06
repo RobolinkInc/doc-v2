@@ -76,7 +76,7 @@ function goUrlZumiPython(e) {
 }
 
 function goUrlCoDroneEduBlockly(e) {
-  window.location.href = 'docs/codrone-edu/blockly/reference/library-senior';
+  window.location.href = 'docs/codrone-edu/blockly/reference/library-junior';
 }
 
 function goUrlCoDroneEduPython(e) {
