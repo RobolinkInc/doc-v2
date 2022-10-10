@@ -11,7 +11,7 @@ menu: LED_pattern()
 
 ##### Description
 
-This function sets the color of the arm LED lights to flash in a particular pre-set pattern at a given speed.
+This function sets the color of CoDrone mini LED light and makes it flash in a particular pre-set pattern at a given speed.
 
 ##### Syntax
 Python:<br/>
