@@ -17,9 +17,9 @@ This function takes two parameters. The first is the note or frequency desired. 
 ```play_note(frequency, duration)```
 
 ##### Parameters
-note: An enum type from the Note class from Note.C3 to Note.B7<br/>
-frequency: An integer representing the note's frequency in Hertz<br/>
-duration: A float type that represents the duration of the note in seconds<br/>
+**note**: An enum type from the Note class from Note.C3 to Note.B7<br/>
+**frequency**: An integer representing the note's frequency in Hertz<br/>
+**duration**: A float type that represents the duration of the note in seconds<br/>
 
 ##### Returns
 None
