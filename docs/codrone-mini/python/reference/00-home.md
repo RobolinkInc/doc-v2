@@ -26,6 +26,7 @@ These are the functions that you can use to control the CoDrone mini. The functi
             <a href="#">front_right_detect()</a>
             <a href="/docs/codrone-mini/python/Flight-Commands-Start-Stop/set-trim">set_trim()</a>
             <a href="/docs/codrone-mini/python/Flight-Commands-Start-Stop/take-off">takeoff()</a>
+            <a href="/docs/codrone-mini/python/Sensors/get-trim">get_trim()</a>
     </div>
     <div class="box-reference-shadow margin-top-30"> 
         <h3>Flight Commands (Movement)</h3>
@@ -65,8 +66,7 @@ These are the functions that you can use to control the CoDrone mini. The functi
                 <a href="/docs/codrone-mini/python/Sensors/get-battery-percentage">get_battery_percentage()</a>
                 <a href="/docs/codrone-mini/python/Sensors/get-drone-temp">get_drone_temp()</a>
                 <a href="/docs/codrone-mini/python/Sensors/get-height">get_height()</a>
-                <a href="/docs/codrone-mini/python/Sensors/get-pressure">get_pressure()</a>
-                <a href="/docs/codrone-mini/python/Sensors/get-trim">get_trim()</a> 
+                <a href="/docs/codrone-mini/python/Sensors/get-pressure">get_pressure()</a> 
         </div>
   </div>
 </div>
