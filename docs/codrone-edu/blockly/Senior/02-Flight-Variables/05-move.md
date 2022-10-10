@@ -5,10 +5,10 @@ title: move()
 ---
 
 ![move block image](move.PNG)
-Moves the CoDrone EDU for a specific duration of time after flight variables have been set. Use the version without a paramter to have the CoDrone EDU move indefinitely.
+Moves the CoDrone EDU for a specific duration of time after flight variables have been set. Use the version without a parameter to have the CoDrone EDU move indefinitely.
 
 ##### Parameters
-**seconds**: any integer or decimal value (from -infinity to +inifnity)
+**duration**: any positive integer in seconds
 
 ##### Returns
 
