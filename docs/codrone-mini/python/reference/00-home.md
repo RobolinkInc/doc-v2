@@ -49,6 +49,7 @@ These are the functions that you can use to control the CoDrone mini. The functi
     <div class="boxLanding">
        <div class="box-reference-shadow"> 
             <h3> Flight Variables</h3>
+            <a href="/docs/codrone-mini/python/Flight-Variables/get-pitch">get_pitch()</a>
             <a href="/docs/codrone-mini/python/Flight-Variables/get-roll">get_roll()</a>
             <a href="/docs/codrone-mini/python/Flight-Variables/get-throttle">get_throttle()</a>
             <a href="/docs/codrone-mini/python/Flight-Variables/get-yaw">get_yaw()</a>
