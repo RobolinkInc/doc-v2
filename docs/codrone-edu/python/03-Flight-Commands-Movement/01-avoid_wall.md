@@ -17,7 +17,7 @@ A looped method that makes the drone fly forward until it reaches a desired dist
 ```avoid_wall(timeout, distance)```
 
 ##### Parameters
-**timeout**: timeout is an optional paramaeter that is the duration in seconds that the function will run. the default value is 2
+**timeout**: timeout is an optional paramaeter that is the duration in seconds that the function will run. the default value is 2 <br />
 **distance**: distance is an optional parameter that is the  distance in millimeters the drone will stop in front of an object. the default value is 700
 
 ##### Returns
