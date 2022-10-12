@@ -10,13 +10,13 @@ title: controller_draw_line()
 
 ##### Description
 
-Draws a line at a specific location on the CoDrone EDU LED screen.
+        (x1,y1) \
+                 \
+                  \
+                   \ (x2,y2)
+        draws a line between points (x1, y1) and (x2, y2)
 
-(x1,y1) \
-             \
-              \
-               \ (x2,y2)
-    draws a line between points (x1, y1) and (x2, y2)
+
 
 ##### Parameters
 ![controller draw line block image](controller_draw_line_params.PNG) <br />
