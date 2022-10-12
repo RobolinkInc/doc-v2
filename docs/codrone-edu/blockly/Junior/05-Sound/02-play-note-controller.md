@@ -4,11 +4,11 @@ id: 02-play-note-controller
 title: play this note [note] for [duration] seconds on controller
 ---
 
-### Block
+##### Block
 
 ![controller buzzer block image](play_note_controller.PNG)<br />
 
-### Description
+##### Description
 
 Plays a note for a specified amount of time in milliseconds using the CoDrone EDU controller.
 

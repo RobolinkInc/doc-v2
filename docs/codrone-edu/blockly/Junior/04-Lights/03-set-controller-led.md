@@ -4,11 +4,11 @@ id: 03-set-controller-led
 title: set controller LED to [color], with a brightness of [brightness]
 ---
 
-### Block
+##### Block
 
 ![set drone led block image](set_controller_led.PNG)
 
-### Description
+##### Description
 
 Sets the color of the CoDrone EDU's controller LED.
 

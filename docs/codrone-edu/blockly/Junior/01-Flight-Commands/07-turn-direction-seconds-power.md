@@ -4,11 +4,11 @@ id: 07-turn-direction-seconds-power
 title: turn [direction] for [seconds] seconds at [power]% power
 ---
 
-### Block
+##### Block
 
 ![turn direction seconds power image](turn_direction_seconds_power.PNG)
 
-### Description
+##### Description
 
 Turns the CoDrone EDU in the specified direction for the specified number of seconds at the specified percentage of power.
 
