@@ -17,8 +17,8 @@ Turns the drone left using the built in gyroscope. The default degree is 90
 ```turn_left(degree, timeout)```
 
 ##### Parameters
-**degree**: optional parameter that turns the drone in the given degree. default value is 90.
-**timeout**: optional parameter that is duration in seconds that drone will try to turn. default value is 3
+**degree**: optional parameter that turns the drone in the given degree. default value is 90. <br /> 
+**timeout**: optional parameter that is duration in seconds that drone will try to turn. default value is 3 <br /> 
 
 ##### Returns
 

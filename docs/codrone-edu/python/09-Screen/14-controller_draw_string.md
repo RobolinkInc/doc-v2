@@ -13,11 +13,11 @@ Draws a string from the given x_start, x_end and y positions. The string can be 
 
 ##### Parameters
 
-**x**: starting x position
-**y**: starting y position
-**string**: the string to write
-**string_font**: optional parameter that is the font of the string to be written. default value is LiberationMono5x8
-**pixel_color**: optional parameter that is the pixel color of the written string. default value is Black
+**x**: starting x position <br />
+**y**: starting y position <br />
+**string**: the string to write <br />
+**string_font**: optional parameter that is the font of the string to be written. default value is LiberationMono5x8 <br />
+**pixel_color**: optional parameter that is the pixel color of the written string. default value is Black <br />
 
 ##### Returns
 

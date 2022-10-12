@@ -13,8 +13,8 @@ Plays a note using the drone's buzzer. <br />
 
 
 ##### Parameters
-**note**: Integer frequency in Hz or a Note object.<br />
 
+**note**: Integer frequency in Hz or a Note object.<br />
 **duration**: Duration of the note in milliseconds<br />
 
 

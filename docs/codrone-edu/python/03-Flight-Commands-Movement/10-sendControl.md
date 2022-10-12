@@ -13,14 +13,14 @@ Send roll, pitch, yaw, and throttle values to the drone.
 
 ##### Parameters
 
-**roll**: An int from -100 to 100 that sets the roll variable. negative is left, positive is right
-**pitch**: An int from -100 to 100 that sets the pitch variable. negative is backwards, positive is forwards
-**yaw**: An int from -100 to 100 that sets the yaw variable. negative is left, positive is right
-**throttle**: An int from -100 to 100 that sets the throttle variable. negative is down, positive is up
+**roll**: An int from -100 to 100 that sets the roll variable. negative is left, positive is right <br />
+**pitch**: An int from -100 to 100 that sets the pitch variable. negative is backwards, positive is forwards <br />
+**yaw**: An int from -100 to 100 that sets the yaw variable. negative is left, positive is right <br />
+**throttle**: An int from -100 to 100 that sets the throttle variable. negative is down, positive is up <br />
 
 ##### Returns
 
-#TODO
+None
 
 ##### Example Code
 ###### Python

@@ -13,10 +13,10 @@ This function sets the LED color and brightness of the CoDrone EDU controller's 
 
 
 ##### Parameters
-**red**: int value from 0 -255
-**green**: int value from 0 -255
-**blue**: int value from 0 -255
-**brightness**: int value from 0 - 100
+**red**: int value from 0 -255 <br /> 
+**green**: int value from 0 -255 <br /> 
+**blue**: int value from 0 -255 <br /> 
+**brightness**: int value from 0 - 100 <br /> 
 
 
 

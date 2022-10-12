@@ -18,7 +18,7 @@ The range of front sensor is from 0mm-1000mm (0cm-100cm)
 ```keep_distance(timeout, distance)```
 
 ##### Parameters
-**timeout**: timeout is an optional paramaeter that is the duration in seconds that the function will run. The default value is 2
+**timeout**: timeout is an optional paramaeter that is the duration in seconds that the function will run. The default value is 2 <br />
 **distance**: distance is an optional parameter that is the distance in millimeters the drone will stop and maintin distance in front of an object. The default value is 500
 
 ##### Returns

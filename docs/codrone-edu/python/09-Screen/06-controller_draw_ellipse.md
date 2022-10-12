@@ -13,10 +13,10 @@ Draws an ellipse inside the given bounding box.
 
 ##### Parameters
 
-**ellipse_list**: Two points to define the bounding box. Sequence of [(x0, y0), (x1, y1)] where x1 >= x0 and y1 >= y0.
-**image**: image object created from create_image_canvas()
-**fill_in**: optional parameter. None by default. 0 will fill with black
-**pixel_width**: optional parameter that is the line width, in pixels. default value is 1
+**ellipse_list**: Two points to define the bounding box. Sequence of [(x0, y0), (x1, y1)] where x1 >= x0 and y1 >= y0. <br />
+**image**: image object created from create_image_canvas() <br />
+**fill_in**: optional parameter. None by default. 0 will fill with black <br />
+**pixel_width**: optional parameter that is the line width, in pixels. default value is 1 <br />
 
 ##### Returns
 

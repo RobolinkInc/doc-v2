@@ -14,8 +14,8 @@ title: goto_waypoint()
 
 ##### Parameters
 
-**waypoint**: The waypoint to go to selected from the drone.waypoint_data list
-**velocity**: The velocity in m/s. 0.5 ~ 2.0 m/s should be used
+**waypoint**: The waypoint to go to selected from the drone.waypoint_data list <br /> 
+**velocity**: The velocity in m/s. 0.5 ~ 2.0 m/s should be used <br /> 
 
 ##### Returns
 

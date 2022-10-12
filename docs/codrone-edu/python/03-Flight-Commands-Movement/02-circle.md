@@ -16,7 +16,7 @@ Flies the drone in the shape of a circle.
 
 
 ##### Parameters
-**speed**: optional parameter that is the speed the drone will move. integer from 0 - 100. default value is 75.
+**speed**: optional parameter that is the speed the drone will move. integer from 0 - 100. default value is 75. <br />
 **direction**: optional parameter that determines the direction of the circle. 1 is right, -1 is left. default value is 1.
 
 

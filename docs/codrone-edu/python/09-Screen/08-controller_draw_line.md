@@ -17,12 +17,12 @@ title: controller_draw_line()
 
 ##### Parameters
 
-**x1**: point 1 x coordinate
-**y1**: point 1 y coordinate
-**x2**: point 2 x coordinate
-**y2**: point 2 y coordinate
-**pixel**: optional parameter that changes the pixel color of the line. default value is Black
-**line_type**: optional parameter that is the type of line drawn. default is Solid
+**x1**: point 1 x coordinate <br />
+**y1**: point 1 y coordinate <br />
+**x2**: point 2 x coordinate <br />
+**y2**: point 2 y coordinate <br />
+**pixel**: optional parameter that changes the pixel color of the line. default value is Black <br />
+**line_type**: optional parameter that is the type of line drawn. default is Solid <br />
 
 ##### Returns
 

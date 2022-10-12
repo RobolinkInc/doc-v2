@@ -14,9 +14,9 @@ Turns right or left with absolute referemce frame to drone's initial heading. Po
 ```turn_degree(degree, timeout, p_value)```
 
 ##### Parameters
-**degree**: integer from -180->180 degrees
-**timeout**: optional parameter that is duration in seconds that drone will try to turn. default value is 3
-**p_value**: optional parameter that is the gain of the proportional controller, if this increased CDE will turn quicker, the smaller the slower. default value is 10
+**degree**: integer from -180->180 degrees <br /> 
+**timeout**: optional parameter that is duration in seconds that drone will try to turn. default value is 3 <br /> 
+**p_value**: optional parameter that is the gain of the proportional controller, if this increased CDE will turn quicker, the smaller the slower. default value is 10 <br /> 
 
 ##### Returns
 

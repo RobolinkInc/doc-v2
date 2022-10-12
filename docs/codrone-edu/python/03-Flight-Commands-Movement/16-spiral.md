@@ -16,9 +16,9 @@ Flies the drone in the shape of a downward spiral.
 
 
 ##### Parameters
-**speed**: optional parameter that is the speed the drone will move. integer from 0 - 100. default value is 50.
-**seconds**: optional parameter that is the duration in seconds the drone flies in a downward spiral. default value is 5.
-**direction**: optional parameter that determines the direction of the spiral. 1 is right, -1 is left. default value is 1.
+**speed**: optional parameter that is the speed the drone will move. integer from 0 - 100. default value is 50. <br /> 
+**seconds**: optional parameter that is the duration in seconds the drone flies in a downward spiral. default value is 5. <br /> 
+**direction**: optional parameter that determines the direction of the spiral. 1 is right, -1 is left. default value is 1. <br />
 
 
 ##### Returns

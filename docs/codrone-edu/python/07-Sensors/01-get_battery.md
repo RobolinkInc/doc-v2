@@ -13,7 +13,7 @@ This function returns the current battery level percentage of the drone. <br />
 
 ##### Parameters
 
-NONE
+None
 
 
 ##### Returns

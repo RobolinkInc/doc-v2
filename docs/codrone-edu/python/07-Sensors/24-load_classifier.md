@@ -15,8 +15,8 @@ There is also an option to show the color set as a graph.
 
 
 ##### Parameters
-**dataset**: An optional parameter to load a custom color set. If no color set is given then the default color set will be used.
-**show_graph**: An optional boolean parameter that will show a graph of the color set data. The default value is False.
+**dataset**: An optional parameter to load a custom color set. If no color set is given then the default color set will be used. <br /> 
+**show_graph**: An optional boolean parameter that will show a graph of the color set data. The default value is False. <br />
 
 
 ##### Returns

@@ -16,9 +16,9 @@ Flies the drone in a swaying motion.
 
 
 ##### Parameters
-**speed**: optional parameter that is the speed the drone will move. integer from 0 - 100. default value is 30.
-**seconds**: optional parameter that is the duration in seconds the drone will fly in each "sway" motion. default value is 2
-**direction**: optional parameter that determines the direction of the sway. 1 is right, -1 is left. default value is 1.
+**speed**: optional parameter that is the speed the drone will move. integer from 0 - 100. default value is 30. <br /> 
+**seconds**: optional parameter that is the duration in seconds the drone will fly in each "sway" motion. default value is 2 <br /> 
+**direction**: optional parameter that determines the direction of the sway. 1 is right, -1 is left. default value is 1. <br /> 
 
 
 ##### Returns

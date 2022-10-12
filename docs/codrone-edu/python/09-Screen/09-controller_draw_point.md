@@ -13,9 +13,9 @@ draws a single pixel at the point (x,y)
 
 ##### Parameters
 
-**x**: x coordinate
-**y**: y coordinate
-**pixel**: optional parameter that changes the pixel color of the line. default value is Black
+**x**: x coordinate <br />
+**y**: y coordinate <br />
+**pixel**: optional parameter that changes the pixel color of the line. default value is Black <br />
 
 ##### Returns
 
