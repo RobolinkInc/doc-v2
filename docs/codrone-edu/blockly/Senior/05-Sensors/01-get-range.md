@@ -4,7 +4,12 @@ id: 01-get-range
 title: get_range()
 ---
 
+##### Block
+
 ![get range block image](get_range.PNG)<br />
+
+##### Description
+
 Gets the data from the CoDrone EDU's distance sensors.
 
 ##### Parameters

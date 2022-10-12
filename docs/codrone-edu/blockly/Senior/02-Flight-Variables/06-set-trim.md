@@ -4,7 +4,12 @@ id: 06-set-trim
 title: set_trim()
 ---
 
+##### Block
+
 ![set trim block image](set_trim.PNG)
+
+##### Description
+
 Sets the trim values of the CoDrone EDU to adjust drifting.
 
 ##### Parameters

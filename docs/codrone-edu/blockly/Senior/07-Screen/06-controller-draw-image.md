@@ -4,7 +4,12 @@ id: 06-controller-draw-image
 title: controller_draw_image()
 ---
 
+##### Block
+
 ![controller draw image block image](controller_draw_image.PNG)<br />
+
+##### Description
+
 Draws an uploaded image to the CoDrone EDU controller's LED screen.
 
 ##### Parameters

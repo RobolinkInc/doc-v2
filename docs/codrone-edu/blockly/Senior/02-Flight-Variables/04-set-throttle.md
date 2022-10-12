@@ -4,7 +4,12 @@ id: 04-set-throttle
 title: set_throttle()
 ---
 
+##### Block
+
 ![set throttle block image](set_throttle.PNG)
+
+##### Description
+
 Sets the throttle value of the CoDrone EDU.
 
 ##### Parameters

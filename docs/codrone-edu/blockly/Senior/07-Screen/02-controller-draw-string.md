@@ -4,13 +4,18 @@ id: 02-controller-draw-string
 title: controller_draw_string()
 ---
 
+##### Block
+
 ![controller draw string block image](controller_draw_string.PNG)<br />
-Draws a text string at a specific location on the CoDrone EDU LED screen.
+
+##### Description
+
+Draws a string from the given x_start, x_end and y positions. The string can be aligned along the x_start and x_end positions
 
 ##### Parameters
 ![controller draw string block image](controller_draw_string_params.PNG) <br />
-**xStart**: any integer (from 0 to +inifnity) <br />
-**yStart**: any integer (from 0 to +inifnity) <br />
+**xStart**: starting x position <br />
+**yStart**: starting y position <br />
 **text**: any string input
 
 ##### Returns

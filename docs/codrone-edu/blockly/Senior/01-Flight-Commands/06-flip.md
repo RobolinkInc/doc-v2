@@ -4,7 +4,12 @@ id: 06-flip
 title: flip()
 ---
 
+##### Block
+
 ![flip image](flip.PNG)
+
+##### Description
+
 Makes the drone flip in a specified direction.
 
 ##### Parameters

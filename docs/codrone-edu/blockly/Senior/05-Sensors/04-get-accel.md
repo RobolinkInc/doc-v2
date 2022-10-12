@@ -4,7 +4,12 @@ id: 04-get-accel
 title: get_accel()
 ---
 
+##### Block
+
 ![get accel block image](get_accel.PNG)<br />
+
+##### Description
+
 Gets the angular acceleration data from the CoDrone EDU's gyroscope sensor.
 
 ##### Parameters

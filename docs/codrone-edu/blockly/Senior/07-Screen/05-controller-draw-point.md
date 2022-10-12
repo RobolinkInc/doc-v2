@@ -4,13 +4,18 @@ id: 05-controller-draw-point
 title: controller_draw_point()
 ---
 
+##### Block
+
 ![controller draw point block image](controller_draw_point.PNG)<br />
-Draws a point on the CoDrone EDU LED screen.
+
+##### Description
+
+Draws a point on the CoDrone EDU LED screen at point (x, y).
 
 ##### Parameters
 ![controller draw point block image](controller_draw_point_params.PNG) <br />
-**x**: any integer (from 0 to +inifnity) <br />
-**y**: any integer (from 0 to +inifnity) <br />
+**x**: x coordinate <br />
+**y**: y coordinate <br />
 
 ##### Returns
 

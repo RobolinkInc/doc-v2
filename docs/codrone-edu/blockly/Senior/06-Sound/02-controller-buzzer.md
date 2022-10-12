@@ -4,13 +4,18 @@ id: 02-controller-buzzer
 title: controller_buzzer()
 ---
 
+##### Block
+
 ![controller buzzer block image](controller_buzzer.PNG)<br />
+
+##### Description
+
 Plays a note for a specified amount of time in milliseconds using the CoDrone EDU controller.
 
 ##### Parameters
 ![controller buzzer block image](controller_buzzer_params.PNG) <br />
 **note**: note range from C3 to B7, EndOfType, Mute, Fin <br />
-**duration**: any integer (from 0 to +inifnity)
+**duration**: the duration of the note in milliseconds. any positive integer
 
 ##### Returns
 

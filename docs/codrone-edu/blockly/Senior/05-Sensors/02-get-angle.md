@@ -4,7 +4,12 @@ id: 02-get-angle
 title: get_angle()
 ---
 
+##### Block
+
 ![get angle block image](get_angle.PNG)<br />
+
+##### Description
+
 Gets the angle data from the CoDrone EDU's gyroscope sensor.
 
 ##### Parameters

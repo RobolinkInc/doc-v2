@@ -4,7 +4,12 @@ id: 07-get-trim
 title: get_trim()
 ---
 
+##### Block
+
 ![get trim block image](get_trim.PNG)
+
+##### Description
+
 Gets the current trim values of the CoDrone EDU.
 
 ##### Parameters

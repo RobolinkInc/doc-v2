@@ -4,7 +4,12 @@ id: 03-set-yaw
 title: set_yaw()
 ---
 
+##### Block
+
 ![set yaw block image](set_yaw.PNG)
+
+##### Description
+
 Sets the yaw value of the CoDrone EDU.
 
 ##### Parameters

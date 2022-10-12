@@ -4,7 +4,12 @@ id: 01-set-roll
 title: set_roll()
 ---
 
+##### Block
+
 ![set roll block image](set_roll.PNG)
+
+##### Description
+
 Sets the roll value of the CoDrone EDU.
 
 ##### Parameters

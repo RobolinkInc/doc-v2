@@ -4,7 +4,12 @@ id: 02-land
 title: land()
 ---
 
+##### Block
+
 ![land image](land.PNG)
+
+##### Description
+
 Makes the drone land.
 
 ##### Parameters

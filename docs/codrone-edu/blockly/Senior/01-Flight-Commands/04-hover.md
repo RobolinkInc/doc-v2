@@ -4,11 +4,16 @@ id: 04-hover
 title: hover()
 ---
 
+##### Block
+
 ![hover image](hover.PNG)
+
+##### Description
+
 Has the CoDrone EDU hover in place for a specified amount of time.
 
 ##### Parameters
-**seconds**: any integer or decimal value (from -infinity to +inifnity)
+**duration**: The duration of the hover in seconds. Any positive integer.
 
 ##### Returns
 

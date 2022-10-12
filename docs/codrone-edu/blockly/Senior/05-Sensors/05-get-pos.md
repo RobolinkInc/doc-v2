@@ -4,7 +4,12 @@ id: 05-get-pos
 title: get_pos()
 ---
 
+##### Block
+
 ![get pos block image](get_pos.PNG)<br />
+
+##### Description
+
 Gets the current position of the CoDrone EDU.
 
 ##### Parameters

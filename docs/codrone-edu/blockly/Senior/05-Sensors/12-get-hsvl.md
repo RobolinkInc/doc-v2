@@ -4,7 +4,12 @@ id: 12-get-hsvl
 title: get_hsvl()
 ---
 
+##### Block
+
 ![get hsvl block image](get_hsvl.PNG)<br />
+
+##### Description
+
 Gets the HSVL data from the CoDrone EDU's color sensors.
 
 ##### Parameters

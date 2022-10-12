@@ -4,7 +4,12 @@ id: 11-get-color
 title: get_color()
 ---
 
+##### Block
+
 ![get color block image](get_color.PNG)<br />
+
+##### Description
+
 Gets the color data from the CoDrone EDU's color sensors.
 
 ##### Parameters

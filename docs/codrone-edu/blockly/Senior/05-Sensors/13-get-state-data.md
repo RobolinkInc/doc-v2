@@ -4,7 +4,12 @@ id: 13-get-state-data
 title: get_state_data()
 ---
 
+##### Block
+
 ![get state data block image](get_state_data.PNG)<br />
+
+##### Description
+
 Gets the current state of the CoDrone EDU.
 
 ##### Parameters

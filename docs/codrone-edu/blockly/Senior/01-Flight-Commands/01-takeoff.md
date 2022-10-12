@@ -4,7 +4,12 @@ id: 01-takeoff
 title: takeoff()
 ---
 
+##### Block
+
 ![takeoff image](takeoff.PNG)
+
+##### Description
+
 Makes the drone take off.
 
 ##### Parameters

@@ -4,11 +4,16 @@ id: 07-turn-degree
 title: turn_degree()
 ---
 
+##### Block
+
 ![turn degree image](turn_degree.PNG)
-Rotates the drone a specific amount of degrees.
+
+##### Description
+
+Turns right or left with absolute reference frame to drone's initial heading. Positive degrees turn to right and negative degrees turn to the left.
 
 ##### Parameters
-**seconds**: any integer (from -180 to +180)
+**degrees**: the degrees to turn. any integer (from -180 to +180)
 
 ##### Returns
 

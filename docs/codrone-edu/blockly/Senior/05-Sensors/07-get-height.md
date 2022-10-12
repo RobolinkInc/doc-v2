@@ -4,7 +4,12 @@ id: 07-get-height
 title: get_height()
 ---
 
+##### Block
+
 ![get height block image](get_height.PNG)<br />
+
+##### Description
+
 Gets the height data from the CoDrone EDU's barometer sensor.
 
 ##### Parameters

@@ -4,7 +4,12 @@ id: 09-get-temperature
 title: get_temperature()
 ---
 
+##### Block
+
 ![get temperature block image](get_temperature.PNG)<br />
+
+##### Description
+
 Gets the temperature data from the CoDrone EDU's temperature sensor.
 
 ##### Parameters
