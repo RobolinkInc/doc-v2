@@ -4,7 +4,12 @@ id: 03-emergency-stop
 title: emergency stop
 ---
 
+### Block
+
 ![emergency stop image](emergencystop.PNG)
+
+### Description
+
 Makes the drone perform an emergency stop.
 
 ##### Parameters

@@ -4,7 +4,12 @@ id: 02-drone-led-off
 title: turn drone LED off
 ---
 
+### Block
+
 ![drone led off block image](drone_led_off.PNG)
+
+### Description
+
 Turns the CoDrone EDU's LED off.
 
 ##### Parameters

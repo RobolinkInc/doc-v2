@@ -4,13 +4,18 @@ id: 01-play-note-drone
 title: play this note [note] for [duration] seconds on drone
 ---
 
+### Block
+
 ![drone buzzer block image](play_note_drone.PNG)<br />
+
+### Description
+
 Plays a note for a specified amount of time using the CoDrone EDU.
 
 ##### Parameters
 ![drone buzzer block image](play_note_drone_params.PNG) <br />
 **note**: note range from C3 to B7, EndOfType, Mute, Fin <br />
-**duration**: any integer (from 0 to +inifnity)
+**duration**: duration of the note in seconds. any positive integer
 
 ##### Returns
 

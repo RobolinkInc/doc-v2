@@ -4,12 +4,17 @@ id: 04-hover
 title: hover for [seconds] seconds
 ---
 
+### Block
+
 ![hover image](hover.PNG)
-Moves the drone in a direction for a given duration and a percentage power.
+
+### Description
+
+This function makes the drone hover for a given amount of time.
 
 ##### Parameters
 
-**seconds**: any integer (from -infinity to +inifnity)
+**duration**: The duration of the hover in seconds. Any positive integer
 
 ##### Returns
 
