@@ -10,14 +10,12 @@ title: controller_draw_square()
 
 ##### Description
 
-Draws a square at a specific location on the CoDrone EDU LED screen.
-
-width
-    (x,y)|------|
-         |      | width
-         |______|
-    
-    draws a square on the controller screen starting from point (x,y) and will extend to the given width
+       width
+        (x,y)|------|
+             |      | width
+             |______|
+        
+        draws a square on the controller screen starting from point (x,y) and will extend to the given width
 
 ##### Parameters
 ![controller draw square block image](controller_draw_square_params.PNG) <br />

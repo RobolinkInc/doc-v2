@@ -10,14 +10,12 @@ title: controller_draw_rectangle()
 
 ##### Description
 
-Draws a rectangle at a specific location on the CoDrone EDU LED screen.
+            width
+        (x,y)|---------------|
+             |               | height
+             |_______________|
 
-   width
-    (x,y)|---------------|
-         |               | height
-         |_______________|
-
-    draws a rectangle onto the controller screen starting from point (x,y) and extends to given height and width
+        draws a rectangle onto the controller screen starting from point (x,y) and extends to given height and width
 
 ##### Parameters
 ![controller draw rectangle block image](controller_draw_rectangle_params.PNG) <br />
