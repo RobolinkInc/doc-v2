@@ -23,7 +23,7 @@ const features = [
     title: 'coDroneMini',
     imageUrl: 'img/cdmLogo.png',
     imageUrl2: 'img/cmdPic.png',
-    cardClassName: <CmdTwoButtons />
+    cardClassName: <CmdTwoButtonsTemp />
   },
   {
     title: 'coDronezumi',
@@ -99,6 +99,16 @@ function CmdTwoButtons() {
    </div>
  </div>
   );
+}
+
+function CmdTwoButtonsTemp() {
+    return (
+      <div className={[styles.columns, styles.moreMargin].join(' ')}>
+    <div className={styles.columnHalf }>
+    <button className={styles.oneButton} onClick={goUrlCmdPython}>Python</button>
+    </div>
+  </div>
+    );
 }
 
 function ZumiTwoButtons() {
