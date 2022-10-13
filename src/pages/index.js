@@ -47,10 +47,6 @@ function CmdProButtons() {
   );
 }
 
-function goUrlCodronePro(e) {
-  window.location.href = 'docs/codrone-pro/blockly/reference_blockly';
-}
-
 function goUrlCodroneProPython(e) {
   window.location.href = 'docs/codrone-pro/python/reference/library';
 }
@@ -59,16 +55,12 @@ function goUrlCodroneProArduino(e) {
   window.location.href = 'docs/codrone-pro/arduino/reference/library';
 }
 
-function goUrlCmd(e) {
-  window.location.href = 'docs/codrone-mini/blockly/reference_blockly';
+function goUrlCdmBlockly(e) {
+  window.location.href = 'docs/codrone-mini/blockly/reference/library-junior';
 }
 
 function goUrlCmdPython(e) {
   window.location.href = 'docs/codrone-mini/python/reference/library';
-}
-
-function goUrlZumi(e) {
-  window.location.href = 'docs/zumi/blockly/reference/library-junior';
 }
 
 function goUrlZumiPython(e) {
@@ -98,11 +90,14 @@ function CoDroneEduTwoButtons() {
 
 function CmdTwoButtons() {
   return (
-    <div className={[styles.columns, styles.moreMargin].join(' ') }>
-  <div className={styles.columnHalf }>
-  <button className={styles.oneButton} onClick={goUrlCmdPython}>Python</button>
-  </div>
-</div>
+    <div className={styles.columns }>
+    <div className={styles.columnHalf }>
+       <button onClick={goUrlCdmBlockly}>Blockly</button>
+    </div>
+   <div className={styles.columnHalf }>
+   <button onClick={goUrlCmdPython}>Python</button>
+   </div>
+ </div>
   );
 }
 

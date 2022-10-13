@@ -40,6 +40,10 @@ module.exports = {
             label: 'CoDrone Mini',
             items: [
               {
+                label: 'Blockly',
+                href: '/docs/codrone-mini/blockly/reference/library-junior',
+              },
+              {
                 label: 'Python',
                 href: '/docs/codrone-mini/python/reference/library',
               },
