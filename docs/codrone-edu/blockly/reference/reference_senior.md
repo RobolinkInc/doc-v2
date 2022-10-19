@@ -52,12 +52,14 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
     <a href="/docs/codrone-edu/blockly/Senior/Flight-Variables/04-set-throttle">set_throttle()</a>
         <img src="/img/codrone-edu/blockly/Flight-Variables/set_throttle.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Senior/Flight-Variables/05-move">move()</a>
-        <img src="/img/codrone-edu/blockly/Flight-Variables/move.PNG"></img>
-    <a href="/docs/codrone-edu/blockly/Senior/Flight-Variables/06-set-trim">set_trim()</a>
+        <img src="/img/codrone-edu/blockly/Flight-Variables/move_no_params.PNG"></img>
+        <a href="/docs/codrone-edu/blockly/Senior/Flight-Variables/06-move">move(duration)</a>
+        <img src="/img/codrone-edu/blockly/Flight-Variables/move_with_params.PNG"></img>
+    <a href="/docs/codrone-edu/blockly/Senior/Flight-Variables/07-set-trim">set_trim()</a>
         <img src="/img/codrone-edu/blockly/Flight-Variables/set_trim.PNG"></img>
-    <a href="/docs/codrone-edu/blockly/Senior/Flight-Variables/07-get-trim">get_trim()</a>
+    <a href="/docs/codrone-edu/blockly/Senior/Flight-Variables/08-get-trim">get_trim()</a>
         <img src="/img/codrone-edu/blockly/Flight-Variables/get_trim.PNG"></img>
-    <a href="/docs/codrone-edu/blockly/Senior/Flight-Variables/08-reset-trim">reset_trim()</a>
+    <a href="/docs/codrone-edu/blockly/Senior/Flight-Variables/09-reset-trim">reset_trim()</a>
         <img src="/img/codrone-edu/blockly/Flight-Variables/reset_trim.PNG"></img>
   </div>
    <div class="box-reference-shadow margin-bottom-20">

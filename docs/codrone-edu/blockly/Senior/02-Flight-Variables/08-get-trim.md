@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: 07-get-trim
+id: 08-get-trim
 title: get_trim()
 ---
 

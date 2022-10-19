@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: 08-set-trim
+id: 07-set-trim
 title: set_trim()
 ---
 
