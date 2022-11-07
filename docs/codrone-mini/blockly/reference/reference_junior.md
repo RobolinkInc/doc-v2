@@ -13,7 +13,7 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
 <div class="center">
 <br />
     <span class="label-toggle">Junior</span>
-<label onClick={function hi(){if(!document.getElementById("juniorSeniorSelector").checked){window.location.href = "/docs/codrone-edu/blockly/reference/library-senior"}}} class="switch">
+<label onClick={function hi(){if(!document.getElementById("juniorSeniorSelector").checked){window.location.href = "/docs/codrone-mini/blockly/reference/library-senior"}}} class="switch">
  <input id="juniorSeniorSelector" type="checkbox"  />
   <span class="slider round"></span> 
 </label>   <span class="label-toggle">Senior</span>
