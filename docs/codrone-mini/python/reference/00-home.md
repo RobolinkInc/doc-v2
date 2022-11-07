@@ -54,10 +54,10 @@ These are the functions that you can use to control the CoDrone mini. The functi
             <a href="/docs/codrone-mini/python/Flight-Variables/get-throttle">get_throttle()</a>
             <a href="/docs/codrone-mini/python/Flight-Variables/get-yaw">get_yaw()</a>
             <a href="/docs/codrone-mini/python/Flight-Variables/move">move()</a>
-            <a href="/docs/codrone-mini/python/Flight-Variables/get-pitch">set_pitch()</a>
+            <a href="/docs/codrone-mini/python/Flight-Variables/set-pitch">set_pitch()</a>
             <a href="/docs/codrone-mini/python/Flight-Variables/set-roll">set_roll()</a>
-            <a href="/docs/codrone-mini/python/Flight-Variables/get-throttle">set_throttle()</a>
-            <a href="/docs/codrone-mini/python/Flight-Variables/get-yaw">set_yaw()</a>
+            <a href="/docs/codrone-mini/python/Flight-Variables/set-throttle">set_throttle()</a>
+            <a href="/docs/codrone-mini/python/Flight-Variables/set-yaw">set_yaw()</a>
         </div>
     </div>
      <div class="box-reference-shadow margin-top-30"> 
