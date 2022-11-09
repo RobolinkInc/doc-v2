@@ -43,7 +43,7 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
    <div class="box-reference-shadow margin-bottom-20">
     <h3>Flight Sequences</h3>
     <a href="/docs/codrone-edu/blockly/Junior/Flight-Sequences/01-flip">flip [direction]</a>
-       <img src="/img/codrone-edu/blockly/Junior/Flight-Sequences/flip_params.PNG"></img>
+       <img src="/img/codrone-edu/blockly/Junior/Flight-Sequences/flip.PNG"></img>
   </div>
   </div>
  
