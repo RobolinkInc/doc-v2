@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: 06-reset-sensor
+id: 06-reset_sensor
 title: reset_sensor()
 ---
 
