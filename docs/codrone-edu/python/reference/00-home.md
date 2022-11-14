@@ -22,6 +22,7 @@ These are the functions that you can use to control the CoDrone EDU. The functio
             <a href="/docs/codrone-edu/python/Flight-Commands-Start-Stop/03-reset_trim/">reset_trim()</a>
             <a href="/docs/codrone-edu/python/Flight-Commands-Start-Stop/04-set_trim">set_trim()</a>
             <a href="/docs/codrone-edu/python/Flight-Commands-Start-Stop/05-take_off">takeoff()</a>
+            <a href="/docs/codrone-edu/python/Flight-Commands-Start-Stop/06-reset-sensor">reset_sensor()</a>
     </div>
     <div class="box-reference-shadow margin-top-30"> 
         <h3>Flight Commands (Movement)</h3>
