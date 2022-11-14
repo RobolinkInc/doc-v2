@@ -7,7 +7,7 @@ title: avoid_wall()
 
 ##### Description
 
-A looped method that makes the drone fly forward until it reaches a desired distance based on the front range sensor. The range of front sensor is from 0mm-1000mm (0cm-100cm)
+A looped method that makes the drone fly forward until it reaches a desired distance based on the front range sensor. The range of front sensor is from 0cm-100cm
 
 
 ##### Syntax
@@ -18,7 +18,7 @@ A looped method that makes the drone fly forward until it reaches a desired dist
 
 ##### Parameters
 **timeout**: timeout is an optional paramaeter that is the duration in seconds that the function will run. the default value is 2 <br />
-**distance**: distance is an optional parameter that is the  distance in millimeters the drone will stop in front of an object. the default value is 700
+**distance**: distance is an optional parameter that is the distance in centimeters the drone will stop at in front of an object. the default value is 70
 
 ##### Returns
 
