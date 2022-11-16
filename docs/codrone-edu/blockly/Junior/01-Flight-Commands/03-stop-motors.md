@@ -10,7 +10,7 @@ title: stop motors
 
 ##### Description
 
-stops all commands and motors, so the drone will stop flying immediately.
+Stops all commands and motors, so the drone will stop flying immediately. Formerly, this command was emergency stop.
 
 ##### Parameters
 

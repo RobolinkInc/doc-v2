@@ -10,7 +10,7 @@ title: stop_motors()
 
 ##### Description
 
-stops all commands and motors, so the drone will stop flying immediately.
+stops all commands and motors, so the drone will stop flying immediately. Formerly, this command was emergency stop.
 
 ##### Parameters
 
