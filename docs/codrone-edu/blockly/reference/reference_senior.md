@@ -28,8 +28,8 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
             <img src="/img/codrone-edu/blockly/Flight-Commands/takeoff.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Senior/Flight-Commands/02-land">land()</a>
             <img src="/img/codrone-edu/blockly/Flight-Commands/land.PNG"></img>
-        <a href="/docs/codrone-edu/blockly/Senior/Flight-Commands/03-emergency-stop">emergency_stop()</a>
-            <img src="/img/codrone-edu/blockly/Flight-Commands/emergencystop.PNG"></img>
+        <a href="/docs/codrone-edu/blockly/Senior/Flight-Commands/03-stop-motors">stop_motors()</a>
+            <img src="/img/codrone-edu/blockly/Flight-Commands/sr_stop_motors.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Senior/Flight-Commands/04-hover">hover()</a>
             <img src="/img/codrone-edu/blockly/Flight-Commands/hover.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Senior/Flight-Commands/05-move">move()</a>
