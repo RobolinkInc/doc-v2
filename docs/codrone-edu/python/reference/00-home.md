@@ -23,9 +23,10 @@ These are the functions that you can use to control the CoDrone EDU. The functio
             <a href="/docs/codrone-edu/python/Flight-Commands-Start-Stop/04-set_trim">set_trim()</a>
             <a href="/docs/codrone-edu/python/Flight-Commands-Start-Stop/05-take_off">takeoff()</a>
             <a href="/docs/codrone-edu/python/Flight-Commands-Start-Stop/06-reset_sensor">reset_sensor()</a>
+            <a href="/docs/codrone-edu/python/Flight-Commands-Start-Stop/07-stop_motors">stop_motors()</a>
     </div>
     <div class="box-reference-shadow margin-top-30"> 
-        <h3>Flight Commands (Movement)</h3>
+        <h3>Flight Commands (Movement)</h3>s
         <a href="/docs/codrone-edu/python/Flight-Commands-Movement/01-avoid_wall">avoid_wall()</a>
         <a href="/docs/codrone-edu/python/Flight-Commands-Movement/02-circle">circle()</a>
         <a href="/docs/codrone-edu/python/Flight-Commands-Movement/03-detect_wall">detect_wall()</a>
