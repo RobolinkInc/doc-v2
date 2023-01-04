@@ -26,7 +26,7 @@ These are the functions that you can use to control the CoDrone EDU. The functio
             <a href="/docs/codrone-edu/python/Flight-Commands-Start-Stop/07-stop_motors">stop_motors()</a>
     </div>
     <div class="box-reference-shadow margin-top-30"> 
-        <h3>Flight Commands (Movement)</h3>s
+        <h3>Flight Commands (Movement)</h3>
         <a href="/docs/codrone-edu/python/Flight-Commands-Movement/01-avoid_wall">avoid_wall()</a>
         <a href="/docs/codrone-edu/python/Flight-Commands-Movement/02-circle">circle()</a>
         <a href="/docs/codrone-edu/python/Flight-Commands-Movement/03-detect_wall">detect_wall()</a>
@@ -52,6 +52,8 @@ These are the functions that you can use to control the CoDrone EDU. The functio
         <a href="/docs/codrone-edu/python/Flight-Commands-Movement/23-goto_waypoint">goto_waypoint()</a>
         <a href="/docs/codrone-edu/python/Flight-Commands-Movement/24-set_waypoint">set_waypoint()</a>
         <a href="/docs/codrone-edu/python/Flight-Commands-Movement/25-go">go()</a>
+        <a href="/docs/codrone-edu/python/Flight-Commands-Movement/26-move_forward">move_forward()</a>
+
   </div>
     <div class="box-reference-shadow margin-top-30"> 
         <h3>Buzzer</h3>
