@@ -53,12 +53,17 @@ These are the functions that you can use to control the CoDrone EDU. The functio
         <a href="/docs/codrone-edu/python/Flight-Commands-Movement/24-set_waypoint">set_waypoint()</a>
         <a href="/docs/codrone-edu/python/Flight-Commands-Movement/25-go">go()</a>
         <a href="/docs/codrone-edu/python/Flight-Commands-Movement/26-move_forward">move_forward()</a>
+        <a href="/docs/codrone-edu/python/Flight-Commands-Movement/27-move_backward">move_backward()</a>
+        <a href="/docs/codrone-edu/python/Flight-Commands-Movement/28-move_left">move_left()</a>
+        <a href="/docs/codrone-edu/python/Flight-Commands-Movement/29-move_right">move_right()</a>
 
   </div>
     <div class="box-reference-shadow margin-top-30"> 
         <h3>Buzzer</h3>
          <a href="/docs/codrone-edu/python/Buzzer/01-controller_buzzer/">controller_buzzer()</a>
-         <a href="/docs/codrone-edu/python/Buzzer/02-drone_buzzer/">drone_buzzer()</a>      
+         <a href="/docs/codrone-edu/python/Buzzer/02-drone_buzzer/">drone_buzzer()</a>
+         <a href="/docs/codrone-edu/python/Buzzer/03-start_drone_buzzer/">start_drone_buzzer()</a>
+         <a href="/docs/codrone-edu/python/Buzzer/04-stop_drone_buzzer/">stop_drone_buzzer()</a>      
   </div>
     <div class="box-reference-shadow margin-top-30"> 
         <h3>LED</h3>
