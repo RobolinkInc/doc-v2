@@ -109,6 +109,8 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
         <img src="/img/codrone-edu/blockly/Sensors/get_hsvl.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Senior/Sensors/13-get-state-data">get_state_data()</a>
         <img src="/img/codrone-edu/blockly/Sensors/get_state_data.PNG"></img>
+    <a href="/docs/codrone-edu/blockly/Senior/Sensors/14-reset-sensor">reset_sensor()</a>
+        <img src="/img/codrone-edu/blockly/Sensors/reset_sensor.PNG"></img>
   </div>
    <div class="box-reference-shadow margin-bottom-20">
     <h3>Sound</h3>
