@@ -21,7 +21,7 @@ None
 
 ##### Returns
 
-The temperature of the given unit as a float. Default unit is Celcius.
+The temperature of the drone in the given unit as a float. Default unit is Celcius.
 
 ##### Example Code
 ###### Python
