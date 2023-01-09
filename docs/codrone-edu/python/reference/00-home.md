@@ -5,7 +5,7 @@ title: CoDrone EDU Library Reference
 hide_table_of_contents: true
 ---
 
-<h3 class="homeDocLandingVersion">version 1.3 (<a class="orange-link" href="/docs/codrone-edu/python/changelog">Changelog</a>)</h3>
+<h3 class="homeDocLandingVersion">version 1.6 (<a class="orange-link" href="/docs/codrone-edu/python/changelog">Changelog</a>)</h3>
 These are the functions that you can use to control the CoDrone EDU. The functions are available in Python library. Example code is provided in each function definition.
 
 <div class="boxLanding">
