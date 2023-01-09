@@ -7,13 +7,51 @@ title: CoDrone EDU Library Changelog
 # Changelog
 ---
 
+##### December 28, 2022
+
+**CoDrone EDU Version 1.6**
+
+added start_buzzer()
+
+added stop_buzzer()
+
+added get_temperature()
+
+added move_forward()
+
+added move_left()
+
+added move_right()
+
+added move_backward()
+
+updated send_absolute_position()
+
+---
+
+##### November 14, 2022
+
+**CoDrone EDU Version 1.5**
+
+avoid wall default unit changed from mm to cm
+
+added reset_sensor()
+
+get_pressure() and get_drone_temp() have been modified
+
+added stop_motors()
+
+---
+
 ##### August 17, 2022
 
 **CoDrone EDU Version 1.4**
 
-Virtual ceiling method integrated
+added error checking to load_classifier() method
 
-added height_from_pressure() function
+added height_from_pressure()
+
+Virtual ceiling method integrated
 
 Changed yaw directional values (positive yaw now turns left)
 
@@ -23,9 +61,19 @@ Changed yaw directional values (positive yaw now turns left)
 
 **CoDrone EDU Version 1.3**
 
-Added virtual ceiling to the background of the drone class
+added go()
+
+added 'ESC' key kill switch
+
+waypoints now support multiple takeoffs
 
 Motor diagnostic integrated as motor_test()
+
+Added virtual ceiling to the background of the drone class
+
+turn_degree() method improved
+
+added turn()
 
 ---
 
