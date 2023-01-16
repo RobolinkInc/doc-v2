@@ -118,6 +118,10 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
         <img src="/img/codrone-edu/blockly/Sound/drone_buzzer.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Senior/Sound/02-controller-buzzer">controller_buzzer()</a>
         <img src="/img/codrone-edu/blockly/Sound/controller_buzzer.PNG"></img>
+    <a href="/docs/codrone-edu/blockly/Senior/Sound/03-drone-buzzer-hertz">drone_buzzer_hertz()</a>
+        <img src="/img/codrone-edu/blockly/Sound/drone_buzzer_hertz.PNG"></img>
+    <a href="/docs/codrone-edu/blockly/Senior/Sound/04-controller-buzzer-hertz">controller_buzzer_hertz()</a>
+        <img src="/img/codrone-edu/blockly/Sound/controller_buzzer_hertz.PNG"></img>
   </div>
   <div class="box-reference-shadow margin-bottom-20">
     <h3>Screen</h3>
