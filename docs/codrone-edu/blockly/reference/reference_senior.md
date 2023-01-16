@@ -101,6 +101,8 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
         <img src="/img/codrone-edu/blockly/Sensors/get_pressure.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Senior/Sensors/09-get-temperature">get_temperature()</a>
         <img src="/img/codrone-edu/blockly/Sensors/get_temperature.PNG"></img>
+    <a href="/docs/codrone-edu/blockly/Senior/Sensors/10-get-elevation">get_elevation()</a>
+        <img src="/img/codrone-edu/blockly/Sensors/get_elevation.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Senior/Sensors/11-get-color">get_color()</a>
         <img src="/img/codrone-edu/blockly/Sensors/get_color.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Senior/Sensors/12-get-hsvl">get_hsvl()</a>
