@@ -20,6 +20,8 @@ This function uses the bottom range sensor to measure distance from the drone to
 ##### Returns
 
 The current height calculated by the bottom range sensor (cm default).
+0 when the result is null
+999 when then the detected object is greater than 2 meters away.
 
 ##### Example Code
 ###### Python

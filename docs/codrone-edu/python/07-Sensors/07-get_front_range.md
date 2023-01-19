@@ -9,6 +9,7 @@ title: get_front_range()
 This is a getter function which returns the current **Range** from the front range sensor. The default unit of measurement is centimeters. <br />
 This function uses the front range sensor to measure distance from the drone to the surface in front of the drone. <br />
 
+
 ##### Syntax
 ```get_front_range()```<br />
 ```get_front_range(unit="<cm, in, mm, m>)"```<br />
@@ -20,6 +21,8 @@ This function uses the front range sensor to measure distance from the drone to 
 ##### Returns
 
 The current range calculated by the front range sensor (cm default).
+0 when the result is null
+999 when then the detected object is greater than 2 meters away.
 
 ##### Example Code
 ###### Python
