@@ -80,6 +80,7 @@ These are the functions that you can use to control the CoDrone EDU. The functio
                 <a href="/docs/codrone-edu/python/Sensors/01-get_battery">get_battery()</a>
                 <a href="/docs/codrone-edu/python/Sensors/02-get_bottom_range">get_bottom_range()</a>
                 <a href="/docs/codrone-edu/python/Sensors/03-get_temperature">get_temperature()</a>
+                <a href="/docs/codrone-edu/python/Sensors/04-get_flight_state">get_flight_state()</a>
                 <a href="/docs/codrone-edu/python/Sensors/05-get_flow_x">get_flow_x()</a>
                 <a href="/docs/codrone-edu/python/Sensors/06-get_flow_y">get_flow_y()</a>
                 <a href="/docs/codrone-edu/python/Sensors/07-get_front_range">get_front_range()</a>
