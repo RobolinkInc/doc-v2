@@ -15,7 +15,7 @@ This function uses the front range sensor to measure distance from the drone to 
 ```get_front_range(unit="<cm, in, mm, m>")```<br />
 
 ##### Parameters
-**unit**: The unit of measurement that is chosen for the range distance. Available units are "m" (meter), "cm" (centimeter), "mm" (millimeter), or "in" (inch). If a parameter is not specified "cm" is chosen by default.
+**unit**: A string for the unit of measurement that is chosen for the range distance. Available units are "m" (meter), "cm" (centimeter), "mm" (millimeter), or "in" (inch). If a parameter is not specified "cm" is chosen by default.
 
 
 ##### Returns

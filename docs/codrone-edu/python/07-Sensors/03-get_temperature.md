@@ -15,7 +15,7 @@ The sensor reads the drone’s temperature, not the air around it. Default unit 
 
 ##### Parameters
 
-**unit**: The unit of temperature of the drone. Available units are "C" (Celcius), "F" (Fahrenheit), and "K" (Kelvin).
+**unit**: A string for the unit of temperature of the drone. Available units are "C" (Celcius), "F" (Fahrenheit), and "K" (Kelvin).
 
 ##### Returns
 
