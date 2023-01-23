@@ -56,6 +56,7 @@ These are the functions that you can use to control the CoDrone EDU. The functio
         <a href="/docs/codrone-edu/python/Flight-Commands-Movement/27-move_backward">move_backward()</a>
         <a href="/docs/codrone-edu/python/Flight-Commands-Movement/28-move_left">move_left()</a>
         <a href="/docs/codrone-edu/python/Flight-Commands-Movement/29-move_right">move_right()</a>
+        <a href="/docs/codrone-edu/python/Flight-Commands-Movement/30-send_absolute_position">send_absolute_position()</a>
 
   </div>
     <div class="box-reference-shadow margin-top-30"> 
