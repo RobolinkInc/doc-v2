@@ -15,7 +15,7 @@ Moves the drone forward for the given distance and unit for that distance.
 ##### Parameters
 
 **distance**: the numerical value of the value to move <br /> 
-**unit**: can either be in inches (in), centimeters (cm), meters (m), feet (ft). Default value is centimeters <br /> 
+**unit**: The unit of measurement for the distance flown. Available units are "cm" (centimeter), "ft" (feet), "in" (inches), "m" (meter). <br /> 
 **speed**: default 1 meter per second. Max is 2 meters/second <br /> 
 
 ##### Returns

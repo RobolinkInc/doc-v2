@@ -10,14 +10,12 @@ This is a getter function gets the drone's **temperature** from the barometer.<b
 The sensor reads the drone’s temperature, not the air around it. Default unit is Celcius.
 
 ##### Syntax
-```get_temperature()```
-```get_temperature(C)```
-```get_temperature(F)```
-```get_temperature(K)```
+```get_temperature()```<br />
+```get_temperature(unit)```
 
 ##### Parameters
 
-None
+**unit**: The unit of temperature of the drone. Available units are "C" (Celcius), "F" (Fahrenheit), and "K" (Kelvin).
 
 ##### Returns
 

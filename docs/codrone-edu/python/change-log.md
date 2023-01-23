@@ -11,9 +11,9 @@ title: CoDrone EDU Library Changelog
 
 **CoDrone EDU Version 1.6**
 
-added start_buzzer()
+added start_drone_buzzer()
 
-added stop_buzzer()
+added stop_drone_buzzer()
 
 added get_temperature()
 
