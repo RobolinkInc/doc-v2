@@ -13,12 +13,12 @@ title: move()
 Moves the drone in a direction for a given duration and given power percentage.
 
 ##### Parameters
-![move image](move_params.PNG)
-**duration**: the duration of the movement. any positive integer in seconds. <br />
+
 **roll**: any integer (from -100 to +100) <br /> 
 **pitch**: any integer (from -100 to +100) <br />
 **yaw**: any integer (from -100 to +100) <br /> 
 **throttle**: any integer (from -100 to +100) <br />
+**duration**: the duration of the movement. any positive integer in seconds. <br />
 
 ##### Returns
 
