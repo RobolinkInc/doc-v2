@@ -135,8 +135,6 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
         <img src="/img/codrone-edu/blockly/Screen/controller_draw_square.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Senior/Screen/05-controller-draw-point">controller_draw_point()</a>
         <img src="/img/codrone-edu/blockly/Screen/controller_draw_point.PNG"></img>
-    <a href="/docs/codrone-edu/blockly/Senior/Screen/06-controller-draw-image">controller_draw_image()</a>
-        <img src="/img/codrone-edu/blockly/Screen/controller_draw_image.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Senior/Screen/07-controller-clear-screen">controller_clear_screen()</a>
         <img src="/img/codrone-edu/blockly/Screen/controller_clear_screen.PNG"></img>
   </div>
