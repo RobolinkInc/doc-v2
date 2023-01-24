@@ -20,9 +20,9 @@ This function uses the front range sensor to measure distance from the drone to 
 
 ##### Returns
 
-The current range calculated by the front range sensor (cm default). <br />
-0 when the result is null. <br />
-999 when then the detected object is greater than 2 meters away.
+The current range calculated by the front range sensor (cm by default).<br />
+-10 or 0 when the sensor returns an error value.<br />
+999 when the detected object is out of range (1.5 meters) or the sensor timed out.
 
 ##### Example Code
 ###### Python
