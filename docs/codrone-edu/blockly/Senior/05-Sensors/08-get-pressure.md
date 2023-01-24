@@ -14,7 +14,8 @@ Gets the pressure data from the CoDrone EDU's barometer sensor.
 
 ##### Parameters
 
-None
+![Alt text](get_pressure_params.PNG)
+**unit**: pascal or millibar <br />
 
 ##### Returns
 
