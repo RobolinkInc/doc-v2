@@ -6,15 +6,17 @@ title: stop
 
 ##### Block
 
-<!-- image -->
+![Alt text](stop.png)
 
 ##### Description
 
-<!-- description -->
+Stops Zumi's motors.
+
+Note: Required to stop some movement commands from running indefintiely such as the senior move_forward() block.
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +24,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![Alt text](stop_example.png)

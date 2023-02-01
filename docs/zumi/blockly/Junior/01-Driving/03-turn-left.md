@@ -6,15 +6,15 @@ title: turn left
 
 ##### Block
 
-<!-- image -->
+![Alt text](turn_left.png)
 
 ##### Description
 
-<!-- description -->
+Turns Zumi to the left for the given degree
 
 ##### Parameters
 
-None <!-- image -->
+**degrees**: The number in degrees that Zumi turns left <br /> 
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![Alt text](turn_left_right_example.png)

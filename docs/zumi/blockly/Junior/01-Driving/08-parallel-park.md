@@ -6,15 +6,15 @@ title: parallel park
 
 ##### Block
 
-<!-- image -->
+![Alt text](parallel_park.png)
 
 ##### Description
 
-<!-- description -->
+Moves Zumi backwards to perform a parallel park maneuver. 
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![Alt text](parallel_park_example.png)

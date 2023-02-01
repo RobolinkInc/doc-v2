@@ -6,15 +6,15 @@ title: left u turn
 
 ##### Block
 
-<!-- image -->
+![Alt text](left_u_turn.png)
 
 ##### Description
 
-<!-- description -->
+Turns Zumi to the left to perform a "U-turn". 
 
 ##### Parameters
 
-None <!-- image -->
+**speed**: An integer (0 - 100) for the speed of the movement.
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![Alt text](u_turn_example.png)

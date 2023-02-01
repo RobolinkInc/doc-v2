@@ -6,15 +6,16 @@ title: calibrate gyro
 
 ##### Block
 
-<!-- image -->
+![Alt text](calibrate_gyro.png)
 
 ##### Description
 
-<!-- description -->
+Recalibrates Zumi's gyroscope. This should only be used if the gyroscope is giving inaccurate results. <br />
+Zumi needs to be on a flat surface and should not be moved while recalibrating the gyroscope.
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +23,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![Alt text](calibrate_gyro.png)

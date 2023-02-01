@@ -6,15 +6,16 @@ title: forward
 
 ##### Block
 
-<!-- image -->
+![Alt text](forward.png)
 
 ##### Description
 
-<!-- description -->
+Moves Zumi forward for the given duration and speed
 
 ##### Parameters
 
-None <!-- image -->
+**seconds**: An integer for the duration of the movement <br /> 
+**speed**: An integer (0 - 100) for the speed of the movement.
 
 ##### Returns
 
@@ -22,4 +23,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![Alt text](forward_reverse_example.png)
