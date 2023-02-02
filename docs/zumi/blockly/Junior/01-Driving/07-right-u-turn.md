@@ -6,7 +6,7 @@ title: right u turn
 
 ##### Block
 
-![Alt text](right-u-turn.png)
+![right u turn image](right-u-turn.png)
 
 ##### Description
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-![Alt text](u_turn_example.png)
+![right u turn example](u_turn_example.png)

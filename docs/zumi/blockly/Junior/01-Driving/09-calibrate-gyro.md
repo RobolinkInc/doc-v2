@@ -6,7 +6,7 @@ title: calibrate gyro
 
 ##### Block
 
-![Alt text](calibrate_gyro.png)
+![calibrate gyro image](calibrate_gyro.png)
 
 ##### Description
 
@@ -23,4 +23,4 @@ None
 
 ##### Example
 
-![Alt text](calibrate_gyro.png)
+![calibrate gyro example](calibrate_gyro.png)

@@ -6,7 +6,7 @@ title: parallel park
 
 ##### Block
 
-![Alt text](parallel_park.png)
+![parallel park image](parallel_park.png)
 
 ##### Description
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-![Alt text](parallel_park_example.png)
+![parallel park example](parallel_park_example.png)

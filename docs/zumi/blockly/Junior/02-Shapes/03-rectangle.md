@@ -6,15 +6,17 @@ title: rectangle
 
 ##### Block
 
-<!-- image -->
+![rectangle image](rectangle.png)
 
 ##### Description
 
-<!-- description -->
+Moves Zumi in the shape of a rectangle using either left or right turns.
 
 ##### Parameters
 
-None <!-- image -->
+![rectangle parameters](rectangle_params.png)
+**left**: Makes a rectangle turning to the left <br /> 
+**right**: Makes a rectangle turning to the right <br /> 
 
 ##### Returns
 
@@ -22,4 +24,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![rectangle example](rectangle_example.png)

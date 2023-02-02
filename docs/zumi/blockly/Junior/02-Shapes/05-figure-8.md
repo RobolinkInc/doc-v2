@@ -6,15 +6,15 @@ title: figure 8
 
 ##### Block
 
-<!-- image -->
+![figure8 image](figure8.png)
 
 ##### Description
 
-<!-- description -->
+Moves Zumi in the shape of a figure 8.
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![figure8 example](figure8_example.png)

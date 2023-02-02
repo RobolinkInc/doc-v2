@@ -6,15 +6,17 @@ title: circle
 
 ##### Block
 
-<!-- image -->
+![circle image](circle.png)
 
 ##### Description
 
-<!-- description -->
+Moves Zumi in the shape of a circle using either left or right turns.
 
 ##### Parameters
 
-None <!-- image -->
+![circle parameters](circle_params.png)
+**left**: Makes a circle turning to the left <br /> 
+**right**: Makes a circle turning to the right <br /> 
 
 ##### Returns
 
@@ -22,4 +24,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![circle example](circle_example.png)

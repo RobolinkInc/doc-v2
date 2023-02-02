@@ -6,15 +6,17 @@ title: square
 
 ##### Block
 
-<!-- image -->
+![square image](square.png)
 
 ##### Description
 
-<!-- description -->
+Moves Zumi in the shape of a square using either left or right turns.
 
 ##### Parameters
 
-None <!-- image -->
+![square parameters](square_params.png)
+**left**: Makes a square turning to the left <br /> 
+**right**: Makes a square turning to the right <br /> 
 
 ##### Returns
 
@@ -22,4 +24,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![square example](square_example.png)

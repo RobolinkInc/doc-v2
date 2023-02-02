@@ -6,7 +6,7 @@ title: forward
 
 ##### Block
 
-![Alt text](forward.png)
+![forward image](forward.png)
 
 ##### Description
 
@@ -23,4 +23,4 @@ None
 
 ##### Example
 
-![Alt text](forward_reverse_example.png)
+![forward example](forward_reverse_example.png)

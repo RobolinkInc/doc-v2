@@ -6,7 +6,7 @@ title: stop
 
 ##### Block
 
-![Alt text](stop.png)
+![stop image](stop.png)
 
 ##### Description
 
@@ -24,4 +24,4 @@ None
 
 ##### Example
 
-![Alt text](stop_example.png)
+![stop example](stop_example.png)

@@ -6,7 +6,7 @@ title: turn left
 
 ##### Block
 
-![Alt text](turn_left.png)
+![turn left image](turn_left.png)
 
 ##### Description
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-![Alt text](turn_left_right_example.png)
+![turn left example](turn_left_right_example.png)

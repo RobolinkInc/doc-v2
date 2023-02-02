@@ -6,7 +6,7 @@ title: reverse
 
 ##### Block
 
-![Alt text](reverse.png)
+![reverse image](reverse.png)
 
 ##### Description
 
@@ -23,4 +23,4 @@ None
 
 ##### Example
 
-![Alt text](forward_reverse_example.png)
+![reverse example](forward_reverse_example.png)

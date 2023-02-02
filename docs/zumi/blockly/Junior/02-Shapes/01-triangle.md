@@ -6,15 +6,17 @@ title: triangle
 
 ##### Block
 
-<!-- image -->
+![triangle image](triangle.png)
 
 ##### Description
 
-<!-- description -->
+Moves Zumi in the shape of a triangle using either left or right turns.
 
 ##### Parameters
 
-None <!-- image -->
+![triangle paramaters](triangle_params.png)
+**left**: Makes a triangle turning to the left <br /> 
+**right**: Makes a triangle turning to the right <br /> 
 
 ##### Returns
 
@@ -22,4 +24,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![triangle example](triangle_example.png)
