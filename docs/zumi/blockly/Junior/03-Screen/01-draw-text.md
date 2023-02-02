@@ -6,15 +6,15 @@ title: draw text
 
 ##### Block
 
-<!-- image -->
+![drawtext image](drawtext.png)
 
 ##### Description
 
-<!-- description -->
+Writes a string onto Zumi's screen
 
 ##### Parameters
 
-None <!-- image -->
+**string**: The string to write onto Zumi's screen <br /> 
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![drawtext example](drawtext_example.png)

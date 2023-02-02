@@ -6,15 +6,15 @@ title: sleepy
 
 ##### Block
 
-<!-- image -->
+![sleepy image](sleepy.png)
 
 ##### Description
 
-<!-- description -->
+Displays a face with sleepy eyes on Zumi's screen
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![sleepy example](sad_closed_sleepy_happy_example.png)

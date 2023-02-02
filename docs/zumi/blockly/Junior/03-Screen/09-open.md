@@ -6,15 +6,15 @@ title: open
 
 ##### Block
 
-<!-- image -->
+![open image](open.png)
 
 ##### Description
 
-<!-- description -->
+Displays a face with open eyes on Zumi's screen
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![open example](glimmer_blinking_angry_open_example.png)

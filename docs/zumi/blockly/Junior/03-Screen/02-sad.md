@@ -6,15 +6,15 @@ title: sad
 
 ##### Block
 
-<!-- image -->
+![sad image](sad.png)
 
 ##### Description
 
-<!-- description -->
+Displays a face with sad eyes on Zumi's screen
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![sad example](sad_closed_sleepy_happy_example.png)

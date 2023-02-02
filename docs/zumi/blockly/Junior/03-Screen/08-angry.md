@@ -6,15 +6,15 @@ title: angry
 
 ##### Block
 
-<!-- image -->
+![angry image](angry.png)
 
 ##### Description
 
-<!-- description -->
+Displays a face with angry eyes on Zumi's screen
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![angry example](glimmer_blinking_angry_open_example.png)

@@ -6,15 +6,15 @@ title: closed
 
 ##### Block
 
-<!-- image -->
+![closed image](closed.png)
 
 ##### Description
 
-<!-- description -->
+Displays a face with closed eyes on Zumi's screen
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![closed example](sad_closed_sleepy_happy_example.png)

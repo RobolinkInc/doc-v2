@@ -6,15 +6,15 @@ title: happy
 
 ##### Block
 
-<!-- image -->
+![happy image](happy.png)
 
 ##### Description
 
-<!-- description -->
+Displays a face with happy eyes on Zumi's screen
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![happy example](sad_closed_sleepy_happy_example.png)

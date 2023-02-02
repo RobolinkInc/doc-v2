@@ -6,15 +6,15 @@ title: blinking
 
 ##### Block
 
-<!-- image -->
+![blinking image](blinking.png)
 
 ##### Description
 
-<!-- description -->
+Displays a face with blinking eyes on Zumi's screen
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![blinking example](glimmer_blinking_angry_open_example.png)
