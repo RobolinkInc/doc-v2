@@ -6,15 +6,15 @@ title: oops front
 
 ##### Block
 
-<!-- image -->
+![oopsfront image](oopsfront.png)
 
 ##### Description
 
-<!-- description -->
+Plays Zumi's front accident sound.
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![oopsfront example](oopsfront_example.png)

@@ -6,15 +6,15 @@ title: blink
 
 ##### Block
 
-<!-- image -->
+![blink image](blink.png)
 
 ##### Description
 
-<!-- description -->
+Plays Zumi's blink noise
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![blink example](blink_example.png)

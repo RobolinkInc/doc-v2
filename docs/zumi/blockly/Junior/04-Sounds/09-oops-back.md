@@ -6,15 +6,15 @@ title: oops back
 
 ##### Block
 
-<!-- image -->
+![oopsback image](oopsback.png)
 
 ##### Description
 
-<!-- description -->
+Plays Zumi's back accident sound.
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![oopsback example](oopsback_example.png)

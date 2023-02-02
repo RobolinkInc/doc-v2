@@ -6,15 +6,15 @@ title: happy
 
 ##### Block
 
-<!-- image -->
+![happy image](happy.png)
 
 ##### Description
 
-<!-- description -->
+Plays Zumi's happy noise
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![happy example](happy_example.png)

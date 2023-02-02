@@ -6,15 +6,15 @@ title: celebrate
 
 ##### Block
 
-<!-- image -->
+![celebrate image](celebrate.png)
 
 ##### Description
 
-<!-- description -->
+Plays Zumi's celebration noise
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![celebrate example](celebrate_example.png)

@@ -6,15 +6,15 @@ title: wakeup
 
 ##### Block
 
-<!-- image -->
+![wakeup image](wakeup.png)
 
 ##### Description
 
-<!-- description -->
+Plays Zumi's wake up noise
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![wake up example](wakeup_example.png)

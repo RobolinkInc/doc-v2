@@ -6,15 +6,17 @@ title: play note
 
 ##### Block
 
-<!-- image -->
+![play note image](playnote.png)
 
 ##### Description
 
-<!-- description -->
+Plays a single note for a specified duration in milliseconds
 
 ##### Parameters
 
-None <!-- image -->
+![play note paramters](playnote_params.png)
+**note**: The note frequency that is played. Ranging from C2 to B6 <br /> 
+**duration**: The duration the note is played in milliseconds <br /> 
 
 ##### Returns
 
@@ -22,4 +24,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![play note example](playnote_example.png)

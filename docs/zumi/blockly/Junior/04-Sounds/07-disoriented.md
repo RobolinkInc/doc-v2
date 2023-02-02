@@ -6,15 +6,15 @@ title: disoriented
 
 ##### Block
 
-<!-- image -->
+![disoriented image](disoriented.png)
 
 ##### Description
 
-<!-- description -->
+Plays Zumi's disoriented noise
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![disoriented example](disoriented_example.png)

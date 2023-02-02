@@ -6,15 +6,15 @@ title: angry
 
 ##### Block
 
-<!-- image -->
+![angry image](angry.png)
 
 ##### Description
 
-<!-- description -->
+Plays Zumi's angry noise
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![angry example](angry_example.png)
