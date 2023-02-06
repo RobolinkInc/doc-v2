@@ -6,7 +6,7 @@ title: drive over markers
 
 ##### Block
 
-<!-- image -->
+![drive over markers block image](drive_over_markers.png)
 
 ##### Description
 

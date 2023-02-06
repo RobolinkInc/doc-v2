@@ -6,7 +6,7 @@ title: forward step
 
 ##### Block
 
-<!-- image -->
+![forward step block image](forward_step.png)
 
 ##### Description
 

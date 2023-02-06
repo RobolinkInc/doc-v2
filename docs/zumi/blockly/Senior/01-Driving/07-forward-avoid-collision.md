@@ -6,7 +6,7 @@ title: forward avoid collision
 
 ##### Block
 
-<!-- image -->
+![foward avoid collision block image](forward_avoid_collision.png)
 
 ##### Description
 

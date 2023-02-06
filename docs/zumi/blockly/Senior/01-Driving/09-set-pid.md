@@ -6,7 +6,7 @@ title: set pid
 
 ##### Block
 
-<!-- image -->
+![set PID block image](set_PID.png)
 
 ##### Description
 

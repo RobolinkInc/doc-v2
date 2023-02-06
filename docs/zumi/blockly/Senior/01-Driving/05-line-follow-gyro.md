@@ -6,7 +6,7 @@ title: line follow gyro
 
 ##### Block
 
-<!-- image -->
+![line follow gyro block image](line_follow_gyro.png)
 
 ##### Description
 

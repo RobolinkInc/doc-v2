@@ -6,7 +6,7 @@ title: reverse avoid collision
 
 ##### Block
 
-<!-- image -->
+![reverse avoid collision block image](reverse_avoid_collision.png)
 
 ##### Description
 

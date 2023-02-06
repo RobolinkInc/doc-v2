@@ -6,7 +6,7 @@ title: set speed prediction
 
 ##### Block
 
-<!-- image -->
+![set speed prediction block image](set_speed_prediction.png)
 
 ##### Description
 

@@ -6,7 +6,7 @@ title: reset pid error
 
 ##### Block
 
-<!-- image -->
+![reset PID error block image](reset_PID_error.png)
 
 ##### Description
 

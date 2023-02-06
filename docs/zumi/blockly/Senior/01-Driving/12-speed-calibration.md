@@ -6,7 +6,7 @@ title: speed calibration
 
 ##### Block
 
-<!-- image -->
+![speed calibration block image](speed_calibration.png)
 
 ##### Description
 

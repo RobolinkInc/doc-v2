@@ -6,7 +6,7 @@ title: move to coordinate
 
 ##### Block
 
-<!-- image -->
+![move to coordinates block image](move_to_coordinate.png)
 
 ##### Description
 

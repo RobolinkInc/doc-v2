@@ -6,7 +6,7 @@ title: reset coordinate
 
 ##### Block
 
-<!-- image -->
+![reset coordiante block image](reset_coordinate.png)
 
 ##### Description
 

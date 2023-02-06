@@ -6,7 +6,7 @@ title: reverse step
 
 ##### Block
 
-<!-- image -->
+![reverse step block image](reverse_step.png)
 
 ##### Description
 

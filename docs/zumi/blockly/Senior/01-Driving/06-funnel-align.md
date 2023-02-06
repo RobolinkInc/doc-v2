@@ -6,7 +6,7 @@ title: funnel align
 
 ##### Block
 
-<!-- image -->
+![funnel align block image](funnel_align.png)
 
 ##### Description
 
