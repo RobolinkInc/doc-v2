@@ -10,11 +10,12 @@ title: forward step
 
 ##### Description
 
-<!-- description -->
+Takes one drive "step" at a time moving Zumi forward. This block must be used in a loop and a stop block must be used to stop Zumi.
 
 ##### Parameters
 
-None <!-- image -->
+**speed**: Drive speed between 0 and 127; must be below the max_speed <br /> 
+**angle**: Heading (0 degrees is defined when the Zumi object is created.)
 
 ##### Returns
 
@@ -22,4 +23,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![forward step example](forward_step_example.png)

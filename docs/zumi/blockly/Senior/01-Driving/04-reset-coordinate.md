@@ -10,7 +10,7 @@ title: reset coordinate
 
 ##### Description
 
-<!-- description -->
+Resets Zumi's coordinates to (0,0).
 
 ##### Parameters
 
@@ -22,4 +22,6 @@ None
 
 ##### Example
 
-<!-- image -->
+In this example Zumi moves 5 inches in the x direction.
+After resetting the coordinates Zumi will move another 5 inches in the x direction.
+![reset coordinate example](reset_coordinate_example.png)
