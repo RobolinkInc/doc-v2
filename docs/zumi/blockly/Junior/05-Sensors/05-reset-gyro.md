@@ -6,11 +6,11 @@ title: reset gyro
 
 ##### Block
 
-<!-- image -->
+![reset gyro block image](resetgyro.png)
 
 ##### Description
 
-<!-- description -->
+Resets Zumi's Gyroscope angles to 0
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![reset gyro example](resetgyro_example.png)

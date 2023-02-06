@@ -6,15 +6,15 @@ title: get ir reading
 
 ##### Block
 
-<!-- image -->
+![IR reading block image](getIRreading.png)
 
 ##### Description
 
-<!-- description -->
+Get's the current IR reading from Zumi's sensors. This reading tells how far away an object is from the chosen sensor.
 
 ##### Parameters
 
-None <!-- image -->
+![IR reading parameters](getIRreading_params.png)
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![IR reading example](getIRreading_example.png)

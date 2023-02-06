@@ -6,11 +6,11 @@ title: get battery percentage
 
 ##### Block
 
-<!-- image -->
+![battery percentage block image](get_battery_percentage.png)
 
 ##### Description
 
-<!-- description -->
+Gets the current battery percentage from Zumi's battery
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![battery percentage example](get_battery_percentage_example.png)

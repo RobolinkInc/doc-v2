@@ -6,11 +6,11 @@ title: get battery voltage
 
 ##### Block
 
-<!-- image -->
+![battery voltage block image](get_battery_voltage.png)
 
 ##### Description
 
-<!-- description -->
+Gets the current voltage from Zumi's battery
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![battery voltage example](get_battery_voltage_example.png)

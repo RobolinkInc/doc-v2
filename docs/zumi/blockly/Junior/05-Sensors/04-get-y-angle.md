@@ -6,11 +6,11 @@ title: get y angle
 
 ##### Block
 
-<!-- image -->
+![Y angle block image](getYangle.png)
 
 ##### Description
 
-<!-- description -->
+Gets the current Y angle from Zumi's gyroscope
 
 ##### Parameters
 
@@ -22,4 +22,5 @@ None
 
 ##### Example
 
-<!-- image -->
+With this example, tilt Zumi with your hands to see the Y angle change!
+![Alt text](getYangle_example.png)

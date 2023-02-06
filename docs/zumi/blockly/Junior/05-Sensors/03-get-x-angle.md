@@ -6,11 +6,11 @@ title: get x angle
 
 ##### Block
 
-<!-- image -->
+![X angle block image](getXangle.png)
 
 ##### Description
 
-<!-- description -->
+Gets the current X angle from Zumi's gyroscope
 
 ##### Parameters
 
@@ -22,4 +22,5 @@ None
 
 ##### Example
 
-<!-- image -->
+With this example, tilt Zumi with your hands to see the X angle change!
+![X angle example](getXangle_example.png)

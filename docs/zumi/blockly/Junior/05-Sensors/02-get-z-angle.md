@@ -6,15 +6,15 @@ title: get z angle
 
 ##### Block
 
-<!-- image -->
+![Z angle block image](getZangle.png)
 
 ##### Description
 
-<!-- description -->
+Gets the current Z angle from Zumi's gyroscope
 
 ##### Parameters
 
-None <!-- image -->
+None
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![Z angle example](getZangle_example.png)
