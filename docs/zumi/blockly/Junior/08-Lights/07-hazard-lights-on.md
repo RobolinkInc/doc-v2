@@ -6,11 +6,11 @@ title: hazard lights on
 
 ##### Block
 
-<!-- image -->
+![hazard lights on block image](hazard_lights_on.png)
 
 ##### Description
 
-<!-- description -->
+Turns on Zumi's hazard lights.
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![hazard lights example](hazard_lights_example.png)

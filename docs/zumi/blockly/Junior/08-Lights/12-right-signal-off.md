@@ -6,11 +6,11 @@ title: right signal off
 
 ##### Block
 
-<!-- image -->
+![right signal off block image](right_signal_off.png)
 
 ##### Description
 
-<!-- description -->
+Turns off Zumi's right turn signal.
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![right turn signal example](right_signal_example.png)

@@ -6,11 +6,11 @@ title: right signal on
 
 ##### Block
 
-<!-- image -->
+![right signal on block image](right_signal_on.png)
 
 ##### Description
 
-<!-- description -->
+Turns on Zumi's right turn signal
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![right signal example](right_signal_example.png)

@@ -6,11 +6,11 @@ title: left signal off
 
 ##### Block
 
-<!-- image -->
+![left signal off block image](left_signal_off.png)
 
 ##### Description
 
-<!-- description -->
+Turns off Zumi's left turn signal.
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![left signal example](left_signal_example.png)

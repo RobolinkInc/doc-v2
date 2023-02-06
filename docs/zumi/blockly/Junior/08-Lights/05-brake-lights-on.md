@@ -6,11 +6,11 @@ title: brake lights on
 
 ##### Block
 
-<!-- image -->
+![brake lights on block image](brake_lights_on.png)
 
 ##### Description
 
-<!-- description -->
+Turn's on Zumi's brake lights.
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![brake lights on example](brake_lights_example.png)

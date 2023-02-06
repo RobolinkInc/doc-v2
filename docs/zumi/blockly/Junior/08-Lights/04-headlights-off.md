@@ -6,11 +6,11 @@ title: headlights off
 
 ##### Block
 
-<!-- image -->
+![headlights off block image](headlights_off.png)
 
 ##### Description
 
-<!-- description -->
+Turns off Zumi's headlights.
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![headlights off example](headlights_example.png)

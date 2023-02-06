@@ -6,11 +6,11 @@ title: lights off
 
 ##### Block
 
-<!-- image -->
+![lights off block image](lights_off.png)
 
 ##### Description
 
-<!-- description -->
+Turns off Zumi's headlights and brake lights.
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![lights off example](lights_example.png)

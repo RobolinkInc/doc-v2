@@ -6,11 +6,11 @@ title: lights on
 
 ##### Block
 
-<!-- image -->
+![lights on block image](lights_on.png)
 
 ##### Description
 
-<!-- description -->
+Turns on Zumi's headlights and brake lights.
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![lights on example](lights_example.png)

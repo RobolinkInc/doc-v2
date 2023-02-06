@@ -6,11 +6,11 @@ title: left signal on
 
 ##### Block
 
-<!-- image -->
+![left signal on block image](left_signal_on.png)
 
 ##### Description
 
-<!-- description -->
+Turns on Zumi's left turn signal
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![left signal example](left_signal_example.png)

@@ -6,11 +6,11 @@ title: brake lights off
 
 ##### Block
 
-<!-- image -->
+![brake lights off block image](brake_lights_off.png)
 
 ##### Description
 
-<!-- description -->
+Turns off Zumi's brake lights.
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![brake lights off example](brake_lights_example.png)
