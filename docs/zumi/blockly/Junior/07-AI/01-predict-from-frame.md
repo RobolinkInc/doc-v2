@@ -6,15 +6,15 @@ title: prediction from frame
 
 ##### Block
 
-<!-- image -->
+![predict from frame block image](predict_from_frame.png)
 
 ##### Description
 
-<!-- description -->
+Predicts what color the given image is. This prediction is based upon the chosen KNN model.
 
 ##### Parameters
 
-None <!-- image -->
+**image**: The image used when searching for a color.
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![predict from frame example](predict_from_frame_example.png)
