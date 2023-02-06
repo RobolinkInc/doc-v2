@@ -6,11 +6,11 @@ title: import camera
 
 ##### Block
 
-<!-- image -->
+![import camera block image](import_camera.png)
 
 ##### Description
 
-<!-- description -->
+Imports all necessary code to give commands to Zumi's camera.
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![import camera example](show_image_example.png)

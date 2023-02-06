@@ -6,15 +6,15 @@ title: find stop sign
 
 ##### Block
 
-<!-- image -->
+![find stop sign block image](find_stop_sign.png)
 
 ##### Description
 
-<!-- description -->
+Searches an image for a stop sign.
 
 ##### Parameters
 
-None <!-- image -->
+**image**: The image used when searching for a stop sign.
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![find stop sign example](find_stop_sign_example.png)

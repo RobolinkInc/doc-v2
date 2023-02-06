@@ -6,11 +6,11 @@ title: take picture
 
 ##### Block
 
-<!-- image -->
+![take picture block image](take_picture.png)
 
 ##### Description
 
-<!-- description -->
+Takes a picture with Zumi's camera
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![take picture example](show_image_example.png)

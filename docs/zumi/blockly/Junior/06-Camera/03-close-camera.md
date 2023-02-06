@@ -6,11 +6,11 @@ title: close camera
 
 ##### Block
 
-<!-- image -->
+![close camera block image](close_camera.png)
 
 ##### Description
 
-<!-- description -->
+Turns off Zumi's camera
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![close camera exmaple](show_image_example.png)

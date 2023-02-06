@@ -6,15 +6,15 @@ title: find face
 
 ##### Block
 
-<!-- image -->
+![find face block image](find_face.png)
 
 ##### Description
 
-<!-- description -->
+Searches an image for a face.
 
 ##### Parameters
 
-None <!-- image -->
+**image**: The image used when searching for a face.
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![find face example](find_face_example.png)

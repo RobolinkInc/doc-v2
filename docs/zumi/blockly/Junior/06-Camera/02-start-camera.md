@@ -6,11 +6,11 @@ title: start camera
 
 ##### Block
 
-<!-- image -->
+![start camera block image](start_camera.png)
 
 ##### Description
 
-<!-- description -->
+Turns on Zumi's camera.
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![start camera example](show_image_example.png)

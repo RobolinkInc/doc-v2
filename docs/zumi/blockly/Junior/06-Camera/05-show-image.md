@@ -6,11 +6,11 @@ title: show image
 
 ##### Block
 
-<!-- image -->
+![show image block image](show_image.png)
 
 ##### Description
 
-<!-- description -->
+Show an image that was taken with Zumi's camera
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![show image example](show_image_example.png)

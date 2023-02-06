@@ -6,15 +6,15 @@ title: get qr code
 
 ##### Block
 
-<!-- image -->
+![get qr code block image](get_qr_code.png)
 
 ##### Description
 
-<!-- description -->
+Searches an image for a QR code message.
 
 ##### Parameters
 
-None <!-- image -->
+**image**: The image used when searching for a QR code message
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-<!-- image -->
+![get qr code example](get_qr_code_example.png)
