@@ -7,7 +7,7 @@ title: get_flow_x()
 ##### Description
 
 This getter function gets the relative position value calculated by the optical flow sensor from the x direction (forward and reverse). <br />
-![x position image](xyz.jpg)
+![x position image](topdown_xy.png)
 
 ##### Syntax
 ```get_flow_x()```<br />
