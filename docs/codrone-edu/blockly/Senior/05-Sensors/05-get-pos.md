@@ -11,6 +11,11 @@ title: get_pos()
 ##### Description
 
 Gets the current position of the CoDrone EDU.
+The 'x' position of the drone is forwards and reverse. <br />
+The 'y' position of the drone is left and right. <br />
+The 'z' position of the drone is up and down. <br />
+![Alt text](topdown_xy.png) <br />
+![Alt text](xyz.jpg) <br />
 
 ##### Parameters
 ![get pos image](get_pos_params1.PNG)
