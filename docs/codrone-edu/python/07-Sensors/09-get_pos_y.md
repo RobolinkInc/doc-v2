@@ -6,7 +6,8 @@ title: get_pos_y()
 
 ##### Description
 
-Getter function that gets the y position of the drone. <br />
+Getter function that gets the y position of the drone. (y is left and right) <br />
+![y position image](topdown_xy.png)
 
 ##### Syntax
 ```get_pos_y()```<br />

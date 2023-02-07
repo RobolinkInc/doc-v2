@@ -6,7 +6,8 @@ title: get_pos_x()
 
 ##### Description
 
-Getter function that gets the x position of the drone. <br />
+Getter function that gets the x position of the drone. (x is forwards and backwards) <br />
+![xy position image](topdown_xy.png)
 
 ##### Syntax
 ```get_pos_x()```<br />

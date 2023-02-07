@@ -8,6 +8,8 @@ title: get_position_data()
 ##### Description
 
 get_position_data is a getter function that retuns a list of position data for the drone.
+![top down image](topdown_xy.png)
+![xyz image](xyz.jpg)
 
 
 ##### Syntax

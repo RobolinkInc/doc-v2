@@ -7,6 +7,11 @@ title: send_absolute_position()
 ##### Description
 
 Sends a movement command to the drone based on its absolute position from its takeoff location. Note: A sleep command for the length of the movement may be needed after using this movement command.
+The 'x' position of the drone is forwards and reverse.
+The 'y' position of the drone is left and right.
+The 'z' position of the drone is up and down.
+![xy position image](topdown_xy.png)
+![xyz position image](xyz.jpg)
 
 ##### Syntax
 ```send_absolute_position(positionX, positionY, positionZ, velocity, heading, rotationalVelocity)```

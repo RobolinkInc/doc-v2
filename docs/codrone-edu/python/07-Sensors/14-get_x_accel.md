@@ -6,7 +6,8 @@ title: get_x_accel()
 
 ##### Description
 
-Getter function that gets the x acceleration of the drone. <br />
+Getter function that gets the x acceleration of the drone. (x is forwards and backwards) <br />
+![x position image](topdown_xy.png)
 
 ##### Syntax
 ```get_x_accel()```<br />

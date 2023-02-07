@@ -6,7 +6,8 @@ title: get_pos_z()
 
 ##### Description
 
-Getter function that gets the z position of the drone. <br />
+Getter function that gets the z position of the drone. (z is up and down) <br />
+![z position image](xyz.jpg)
 
 ##### Syntax
 ```get_pos_z()```<br />

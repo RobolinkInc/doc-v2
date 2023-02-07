@@ -6,7 +6,8 @@ title: get_z_accel()
 
 ##### Description
 
-Getter function that gets the z acceleration of the drone. <br />
+Getter function that gets the z acceleration of the drone. (z is up and down)<br />
+![z position image](xyz.jpg)
 
 ##### Syntax
 ```get_z_accel()```<br />
