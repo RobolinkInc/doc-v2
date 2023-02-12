@@ -10,13 +10,13 @@ title: square
 
 ##### Description
 
-Moves Zumi in the shape of a square using either left or right turns.
+Drives Zumi in the shape of a square using either left or right turns.
 
 ##### Parameters
 
 ![square parameters](square_params.png)
-**left**: Makes a square turning to the left <br /> 
-**right**: Makes a square turning to the right <br /> 
+**left**: Makes a square with left turns. <br /> 
+**right**: Makes a square with right turns. <br /> 
 
 ##### Returns
 

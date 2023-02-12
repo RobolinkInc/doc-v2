@@ -10,7 +10,7 @@ title: sleepy
 
 ##### Description
 
-Displays a face with sleepy eyes on Zumi's screen
+Displays Zumi's sleepy eyes on the screen.
 
 ##### Parameters
 

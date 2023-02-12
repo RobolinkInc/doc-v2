@@ -10,7 +10,7 @@ title: closed
 
 ##### Description
 
-Displays a face with closed eyes on Zumi's screen
+Displays Zumi's closed eyes on the screen.
 
 ##### Parameters
 

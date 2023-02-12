@@ -10,7 +10,7 @@ title: angry
 
 ##### Description
 
-Displays a face with angry eyes on Zumi's screen
+Displays Zumi's angry eyes on the screen.
 
 ##### Parameters
 

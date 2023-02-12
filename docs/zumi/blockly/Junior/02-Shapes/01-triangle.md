@@ -10,13 +10,13 @@ title: triangle
 
 ##### Description
 
-Moves Zumi in the shape of a triangle using either left or right turns.
+Drives Zumi in the shape of a triangle using either left or right turns.
 
 ##### Parameters
 
 ![triangle paramaters](triangle_params.png)
-**left**: Makes a triangle turning to the left <br /> 
-**right**: Makes a triangle turning to the right <br /> 
+**left**: Makes a triangle with left turns <br /> 
+**right**: Makes a triangle with right turns <br /> 
 
 ##### Returns
 

@@ -10,7 +10,7 @@ title: calibrate gyro
 
 ##### Description
 
-Recalibrates Zumi's gyroscope. Use when the gyroscope returns values with high error values due to drift. During recalibration, Zumi should be stationary on a flat surface. <br />
+Recalibrates Zumi's gyroscope. Use when the gyroscope returns values with high error due to drift. During recalibration, Zumi should be stationary on a flat surface. <br />
 
 ##### Parameters
 

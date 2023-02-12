@@ -10,7 +10,7 @@ title: happy
 
 ##### Description
 
-Displays a face with happy eyes on Zumi's screen
+Displays Zumi's happy eye animation on the screen.
 
 ##### Parameters
 

@@ -10,7 +10,7 @@ title: j turn
 
 ##### Description
 
-Moves Zumi in the shape of a J turn.
+Drives Zumi in the shape of a J turn. Zumi will start by driving forward.
 
 ##### Parameters
 

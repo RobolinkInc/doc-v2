@@ -10,7 +10,7 @@ title: sad
 
 ##### Description
 
-Displays a face with sad eyes on Zumi's screen
+Displays Zumi's sad eyes on the screen.
 
 ##### Parameters
 

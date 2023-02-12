@@ -10,11 +10,11 @@ title: draw text
 
 ##### Description
 
-Writes a string onto Zumi's screen
+Draws a string of letters and characters and centers them on Zumi's screen. The screen can draw a maximum of three lines of text, each around 14 characters long.
 
 ##### Parameters
 
-**string**: The string to write onto Zumi's screen <br /> 
+**string**: string of characters to display <br /> 
 
 ##### Returns
 

@@ -10,7 +10,7 @@ title: blink
 
 ##### Description
 
-Plays Zumi's blink noise
+Plays Zumi's blinking sound effect.
 
 ##### Parameters
 

@@ -10,7 +10,7 @@ title: oops front
 
 ##### Description
 
-Plays Zumi's front accident sound.
+Plays Zumi's front sensor detect sound effect.
 
 ##### Parameters
 

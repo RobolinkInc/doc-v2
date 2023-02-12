@@ -10,7 +10,7 @@ title: angry
 
 ##### Description
 
-Plays Zumi's angry noise
+Plays Zumi's angry sound effect.
 
 ##### Parameters
 

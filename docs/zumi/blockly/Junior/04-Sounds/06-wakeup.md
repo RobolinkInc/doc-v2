@@ -10,7 +10,7 @@ title: wakeup
 
 ##### Description
 
-Plays Zumi's wake up noise
+Plays Zumi's wake up sound effect.
 
 ##### Parameters
 

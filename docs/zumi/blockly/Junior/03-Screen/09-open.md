@@ -10,7 +10,7 @@ title: open
 
 ##### Description
 
-Displays a face with open eyes on Zumi's screen
+Displays Zumi's open eyes on the screen.
 
 ##### Parameters
 

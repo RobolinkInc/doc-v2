@@ -10,7 +10,7 @@ title: oops back
 
 ##### Description
 
-Plays Zumi's back accident sound.
+Plays Zumi's back sensor detect sound effect.
 
 ##### Parameters
 

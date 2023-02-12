@@ -10,7 +10,7 @@ title: happy
 
 ##### Description
 
-Plays Zumi's happy noise
+Plays Zumi's happy sound effect.
 
 ##### Parameters
 

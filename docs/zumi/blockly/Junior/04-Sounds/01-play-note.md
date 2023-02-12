@@ -10,13 +10,13 @@ title: play note
 
 ##### Description
 
-Plays a single note for a specified duration in milliseconds
+Plays a single note for a specified duration in milliseconds.
 
 ##### Parameters
 
 ![play note paramters](playnote_params.png)
-**note**: The note frequency that is played. Ranging from C2 to B6 <br /> 
-**duration**: The duration the note is played in milliseconds <br /> 
+**note**: The note that is played. Ranging from C2 to B6 <br /> 
+**duration**: An integer in milliseconds <br /> 
 
 ##### Returns
 

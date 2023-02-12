@@ -10,7 +10,7 @@ title: disoriented
 
 ##### Description
 
-Plays Zumi's disoriented noise
+Plays Zumi's disoriented sound effect.
 
 ##### Parameters
 

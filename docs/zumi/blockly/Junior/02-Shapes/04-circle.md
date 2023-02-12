@@ -10,13 +10,13 @@ title: circle
 
 ##### Description
 
-Moves Zumi in the shape of a circle using either left or right turns.
+Drives Zumi in the shape of a circle using either left or right turns.
 
 ##### Parameters
 
 ![circle parameters](circle_params.png)
-**left**: Makes a circle turning to the left <br /> 
-**right**: Makes a circle turning to the right <br /> 
+**left**: Makes a circle turning to the left. <br /> 
+**right**: Makes a circle turning to the right. <br /> 
 
 ##### Returns
 

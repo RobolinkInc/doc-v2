@@ -10,7 +10,7 @@ title: figure 8
 
 ##### Description
 
-Moves Zumi in the shape of a figure 8.
+Drives Zumi in the shape of a figure 8. Zumi does a full circle to the right, and then a full circle to the left.
 
 ##### Parameters
 

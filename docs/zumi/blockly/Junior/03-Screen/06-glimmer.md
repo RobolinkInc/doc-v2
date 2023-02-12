@@ -10,7 +10,7 @@ title: glimmer
 
 ##### Description
 
-Displays a face with glimmer eyes on Zumi's screen
+Displays Zumi's glimmer eye animation on the screen.
 
 ##### Parameters
 

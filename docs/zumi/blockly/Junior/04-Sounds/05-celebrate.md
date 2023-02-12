@@ -10,7 +10,7 @@ title: celebrate
 
 ##### Description
 
-Plays Zumi's celebration noise
+Plays Zumi's celebration sound effect.
 
 ##### Parameters
 

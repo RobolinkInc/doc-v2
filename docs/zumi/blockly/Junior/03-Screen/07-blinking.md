@@ -10,7 +10,7 @@ title: blinking
 
 ##### Description
 
-Displays a face with blinking eyes on Zumi's screen
+Displays Zumi's blinking eye animation on the screen.
 
 ##### Parameters
 
