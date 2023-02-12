@@ -24,7 +24,7 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
     <div  class="parentContainer">
     <div class="box-reference-shadow margin-bottom-20">
         <h3>Flight Commands</h3>
-        <a href="/docs/codrone-edu/blockly/Senior/Flight-Commands/01-takeoff">take_off()</a>
+        <a href="/docs/codrone-edu/blockly/Senior/Flight-Commands/01-takeoff">takeoff()</a>
             <img src="/img/codrone-edu/blockly/Flight-Commands/takeoff.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Senior/Flight-Commands/02-land">land()</a>
             <img src="/img/codrone-edu/blockly/Flight-Commands/land.PNG"></img>
