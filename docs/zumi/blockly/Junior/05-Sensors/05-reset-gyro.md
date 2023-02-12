@@ -10,11 +10,11 @@ title: reset gyro
 
 ##### Description
 
-Resets Zumi's Gyroscope angles to 0
+Resets Zumi's gyroscope x, y, and z angles to 0. Use this function to reset Zumi's heading.
 
 ##### Parameters
 
-None <!-- image -->
+None 
 
 ##### Returns
 

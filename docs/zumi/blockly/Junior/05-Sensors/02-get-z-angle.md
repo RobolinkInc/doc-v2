@@ -10,7 +10,7 @@ title: get z angle
 
 ##### Description
 
-Gets the current Z angle from Zumi's gyroscope
+Gets the current Z angle from Zumi's gyroscope.
 
 ##### Parameters
 
@@ -18,7 +18,7 @@ None
 
 ##### Returns
 
-None
+**angle**: An integer ranging from 0 to 360.
 
 ##### Example
 

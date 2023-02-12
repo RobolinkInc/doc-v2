@@ -10,7 +10,7 @@ title: get ir reading
 
 ##### Description
 
-Get's the current IR reading from Zumi's sensors. This reading tells how far away an object is from the chosen sensor.
+Gets the current IR reading from Zumi's sensors. The closer the value is to 0, the more IR light is being detected. Used commonly when detecting objects since an object or obstacle nearby will reflect IR light back to the receiver.
 
 ##### Parameters
 
@@ -18,7 +18,7 @@ Get's the current IR reading from Zumi's sensors. This reading tells how far awa
 
 ##### Returns
 
-None
+**IR sensor value**: An integer from 0-255
 
 ##### Example
 

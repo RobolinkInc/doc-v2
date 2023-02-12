@@ -10,15 +10,15 @@ title: get battery percentage
 
 ##### Description
 
-Gets the current battery percentage from Zumi's battery
+Gets the current battery percentage from Zumi's battery when not connected over USB power. The percentage will vary while driving since it is dependent on battery voltage.
 
 ##### Parameters
 
-None <!-- image -->
+None 
 
 ##### Returns
 
-None
+**percentt**: An integer value from 0 to 100
 
 ##### Example
 

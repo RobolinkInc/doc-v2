@@ -10,11 +10,11 @@ title: get y angle
 
 ##### Description
 
-Gets the current Y angle from Zumi's gyroscope
+Gets the current Y angle from Zumi's gyroscope.
 
 ##### Parameters
 
-None <!-- image -->
+None 
 
 ##### Returns
 
@@ -22,5 +22,5 @@ None
 
 ##### Example
 
-With this example, tilt Zumi with your hands to see the Y angle change!
-![Alt text](getYangle_example.png)
+With this example, rock Zumi forward and backward with your hands to see the Y angle change!
+![Alt text](get_y_angle_example.png)
