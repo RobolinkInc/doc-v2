@@ -10,11 +10,11 @@ title: turn left
 
 ##### Description
 
-Turns Zumi to the left for the given degree
+Turns Zumi to the left a number of specified degrees.
 
 ##### Parameters
 
-**degrees**: The number in degrees that Zumi turns left <br /> 
+**degrees**: An integer in degrees <br /> 
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-![turn left example](turn_left_right_example.png)
+![turn left example](turn_left_example.png)

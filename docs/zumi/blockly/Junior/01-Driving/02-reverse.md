@@ -14,7 +14,7 @@ Moves Zumi backwards for the given duration and speed
 
 ##### Parameters
 
-**seconds**: An integer for the duration of the movement <br /> 
+**seconds**: A float value for the duration of the movement. <br /> 
 **speed**: An integer (0 - 100) for the speed of the movement.
 
 ##### Returns
@@ -23,4 +23,4 @@ None
 
 ##### Example
 
-![reverse example](forward_reverse_example.png)
+![reverse example](reverse_example.png)

@@ -10,11 +10,11 @@ title: right u turn
 
 ##### Description
 
-Turns Zumi to the right to perform a "U-turn". 
+Makes Zumi perform a right "U-turn". As the speed increases, the turn radius gets larger.
 
 ##### Parameters
 
-**speed**: An integer (0 - 100) for the speed of the movement.
+**speed**: An integer (0 - 100)
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-![right u turn example](u_turn_example.png)
+![right u turn example](right_u_turn_example.png)

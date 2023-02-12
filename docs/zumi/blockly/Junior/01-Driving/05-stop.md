@@ -10,9 +10,7 @@ title: stop
 
 ##### Description
 
-Stops Zumi's motors.
-
-Note: Required to stop some movement commands from running indefintiely such as the senior move_forward() block.
+Stops Zumi's motors when running indefinite move commands such as the Senior forward_step() block.
 
 ##### Parameters
 

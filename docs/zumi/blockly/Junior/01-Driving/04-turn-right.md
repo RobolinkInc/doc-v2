@@ -10,11 +10,11 @@ title: turn right
 
 ##### Description
 
-Turns Zumi to the right for the given degree
+Turns Zumi to the right a number of specified degrees.
 
 ##### Parameters
 
-**degrees**: The number in degrees that Zumi turns right <br /> 
+**degrees**: An integer in degrees. <br /> 
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-![turn right example](turn_left_right_example.png)
+![turn right example](turn_right_example.png)

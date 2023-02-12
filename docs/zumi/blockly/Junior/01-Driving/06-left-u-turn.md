@@ -10,11 +10,11 @@ title: left u turn
 
 ##### Description
 
-Turns Zumi to the left to perform a "U-turn". 
+Makes Zumi perform a left "U-turn". As the speed increases, the turn radius gets larger.
 
 ##### Parameters
 
-**speed**: An integer (0 - 100) for the speed of the movement.
+**speed**: An integer (0 - 100)
 
 ##### Returns
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-![left u turn example](u_turn_example.png)
+![left u turn example](left_u_turn_example.png)

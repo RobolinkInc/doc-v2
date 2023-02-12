@@ -10,7 +10,7 @@ title: parallel park
 
 ##### Description
 
-Moves Zumi backwards to perform a parallel park maneuver. 
+Drives Zumi in reverse into a parallel park.
 
 ##### Parameters
 
