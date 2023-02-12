@@ -10,11 +10,11 @@ title: left signal on
 
 ##### Description
 
-Turns on Zumi's left turn signal
+Turns on Zumi's left turn signal. This function flashes Zumi's back left red LED until turned off.
 
 ##### Parameters
 
-None <!-- image -->
+None 
 
 ##### Returns
 

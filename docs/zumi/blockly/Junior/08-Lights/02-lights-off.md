@@ -10,7 +10,7 @@ title: lights off
 
 ##### Description
 
-Turns off Zumi's headlights and brake lights.
+Turns off both Zumi's headlights and brake lights.
 
 ##### Parameters
 

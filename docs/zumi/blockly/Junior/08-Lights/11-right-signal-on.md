@@ -10,11 +10,11 @@ title: right signal on
 
 ##### Description
 
-Turns on Zumi's right turn signal
+Turns on Zumi's right turn signal. This function flashes Zumi's back right red LED until turned off.
 
 ##### Parameters
 
-None <!-- image -->
+None 
 
 ##### Returns
 

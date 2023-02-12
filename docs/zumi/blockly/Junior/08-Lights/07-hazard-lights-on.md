@@ -10,11 +10,11 @@ title: hazard lights on
 
 ##### Description
 
-Turns on Zumi's hazard lights.
+Turns on Zumi's flashing hazard lights. They will flash indefinitely until turned off.
 
 ##### Parameters
 
-None <!-- image -->
+None 
 
 ##### Returns
 

@@ -14,7 +14,7 @@ Turns off Zumi's brake lights.
 
 ##### Parameters
 
-None <!-- image -->
+None 
 
 ##### Returns
 

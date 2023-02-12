@@ -10,11 +10,11 @@ title: hazard lights off
 
 ##### Description
 
-Turns off Zumi's hazard lights.
+Turns off Zumi's flashing hazard lights.
 
 ##### Parameters
 
-None <!-- image -->
+None 
 
 ##### Returns
 

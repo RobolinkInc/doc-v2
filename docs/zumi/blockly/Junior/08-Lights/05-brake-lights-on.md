@@ -10,11 +10,11 @@ title: brake lights on
 
 ##### Description
 
-Turn's on Zumi's brake lights.
+Turns on Zumi's brake lights.
 
 ##### Parameters
 
-None <!-- image -->
+None 
 
 ##### Returns
 

@@ -10,11 +10,11 @@ title: right signal off
 
 ##### Description
 
-Turns off Zumi's right turn signal.
+Turns off Zumi's flashing right turn signal.
 
 ##### Parameters
 
-None <!-- image -->
+None 
 
 ##### Returns
 

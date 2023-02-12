@@ -14,7 +14,7 @@ Turns on Zumi's headlights.
 
 ##### Parameters
 
-None <!-- image -->
+None 
 
 ##### Returns
 

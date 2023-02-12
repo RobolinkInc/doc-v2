@@ -10,11 +10,11 @@ title: lights on
 
 ##### Description
 
-Turns on Zumi's headlights and brake lights.
+Turns on both Zumi's headlights and brake lights.
 
 ##### Parameters
 
-None <!-- image -->
+None 
 
 ##### Returns
 

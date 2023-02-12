@@ -10,15 +10,15 @@ title: prediction from frame
 
 ##### Description
 
-Predicts what color the given image is. This prediction is based upon the chosen KNN model.
+Predicts a label from an image based on a previously trained color model. A KNN color model needs to be trained and loaded into the program to use predict_from_frame(). 
 
 ##### Parameters
 
-**image**: The image used when searching for a color.
+**image**: A frame object composed of an array of pixels.
 
 ##### Returns
 
-None
+**string**: A string containing the predicted label.
 
 ##### Example
 

@@ -10,11 +10,11 @@ title: left signal off
 
 ##### Description
 
-Turns off Zumi's left turn signal.
+Turns off Zumi's flashing left turn signal.
 
 ##### Parameters
 
-None <!-- image -->
+None 
 
 ##### Returns
 
