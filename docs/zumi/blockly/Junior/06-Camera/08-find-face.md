@@ -10,15 +10,16 @@ title: find face
 
 ##### Description
 
-Searches an image for a face.
+Searches an image for a face. Returns True if a face was detected
 
 ##### Parameters
 
-**image**: The image used when searching for a face.
+**image**: A frame object composed of an array of pixels.
 
 ##### Returns
 
-None
+**boolean**: Returns True if a face was detected. Otherwise, returns False.
+
 
 ##### Example
 

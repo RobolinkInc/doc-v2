@@ -10,11 +10,11 @@ title: import camera
 
 ##### Description
 
-Imports all necessary code to give commands to Zumi's camera.
+Imports the camera library. This block must be included at the top of any code that uses camera functions.
 
 ##### Parameters
 
-None <!-- image -->
+None 
 
 ##### Returns
 

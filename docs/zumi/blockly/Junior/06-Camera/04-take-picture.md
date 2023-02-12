@@ -10,15 +10,15 @@ title: take picture
 
 ##### Description
 
-Takes a picture with Zumi's camera
+Captures a color image with Zumi's camera and stores the array as a frame object. Use the image object with show_image() to display in Blockly. This block cannot be used without importing and starting the camera.
 
 ##### Parameters
 
-None <!-- image -->
+None 
 
 ##### Returns
 
-None
+**image**: A frame object composed of a 160x128 array of pixels.
 
 ##### Example
 

@@ -10,11 +10,11 @@ title: show image
 
 ##### Description
 
-Show an image that was taken with Zumi's camera
+Show an image that was taken with Zumi's camera in Blockly.
 
 ##### Parameters
 
-None <!-- image -->
+**image**: A frame object composed of an array of pixels.
 
 ##### Returns
 

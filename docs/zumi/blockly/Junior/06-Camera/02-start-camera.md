@@ -10,11 +10,11 @@ title: start camera
 
 ##### Description
 
-Turns on Zumi's camera.
+Turns on Zumi's camera. A red LED will turn on next to the camera to indicate the camera is on. The camera needs to turn on before taking any pictures and will stay on until it is manually turned off with the close_camera() block.
 
 ##### Parameters
 
-None <!-- image -->
+None 
 
 ##### Returns
 

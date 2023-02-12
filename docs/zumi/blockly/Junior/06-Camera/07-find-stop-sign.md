@@ -10,15 +10,15 @@ title: find stop sign
 
 ##### Description
 
-Searches an image for a stop sign.
+Searches an image for a stop sign. Returns True if a stop sign was found.
 
 ##### Parameters
 
-**image**: The image used when searching for a stop sign.
+**image**: A frame object composed of an array of pixels.
 
 ##### Returns
 
-None
+**boolean**: Returns True if a stop sign was detected. Otherwise, returns False.
 
 ##### Example
 
