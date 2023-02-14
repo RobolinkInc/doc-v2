@@ -10,15 +10,15 @@ title: line follow gyro
 
 ##### Description
 
-Drives Zumi forward at a default speed of 20 for 1 second in the direction Zumi is currently facing. Zumi will stop when the duration or timeout is over. If the bottom IR sensors detect a black line, Zumi will continue to drive. If one or the other sensor detects white, Zumi will auto-adjust to stay on the line. If both sensors detect white, Zumi will stop even if the duration has not been met.
+Uses the bottom IR sensors so that Zumi can execute a line following program for the duration of the timeout. If the bottom IR sensors detect a black line, Zumi will continue to drive forward. If one of the sensors detects white, Zumi will turn left or right to stay on the line. If both sensors detect white, Zumi will automatically stop, regardless of the timeout.The speed is capped to 80.
 
 ##### Parameters
 
 **speed**: Positive integer value for speed between 0 and 80 <br /> 
-**duration**: Number of seconds Zumi will drive on the line <br /> 
-**angle_adj**: The number of degrees Zumi will turn if one IR sensor detects white.
-**left_IR**: threshold of the bottom left IR sensor. <br /> 
-**right_IR**: threshold of the bottom right IR sensor. <br /> 
+**duration**: Float value timeout in seconds <br /> 
+**angle_adj**: Integer number of degrees Zumi will turn if one IR sensor detects white.<br/>
+**left_IR**: Integer threshold of the bottom left IR sensor. <br /> 
+**right_IR**: Integer threshold of the bottom right IR sensor. <br /> 
 
 
 ##### Returns

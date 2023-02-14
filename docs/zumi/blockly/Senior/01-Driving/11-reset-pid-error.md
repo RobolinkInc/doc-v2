@@ -10,7 +10,7 @@ title: reset pid error
 
 ##### Description
 
-Resets the sum of the gyro error to zero as well as the PID error sum. Use for driving straight or turning accurately. This does not reset the P, I, and D values of the Zumi PID control.
+Resets the sum of the gyro error and integral error that accumulated over. Reset the PID error after using ```forward_step()``` to drive more accurately. This does not reset the P, I, and D values of the Zumi PID control. To set those parameters use ```set_PID()```.
 
 ##### Parameters
 

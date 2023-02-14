@@ -10,11 +10,11 @@ title: reset coordinate
 
 ##### Description
 
-Resets Zumi's coordinates to (0,0).
+Resets Zumi's coordinates to (0,0). The origin will be reference point when using the ```move_to_coordinate()``` block.
 
 ##### Parameters
 
-None <!-- image -->
+None 
 
 ##### Returns
 
@@ -22,6 +22,5 @@ None
 
 ##### Example
 
-In this example Zumi moves 5 inches in the x direction.
-After resetting the coordinates Zumi will move another 5 inches in the x direction.
+In this example, Zumi moves 5 inches in the x-direction. After resetting the coordinates Zumi will move another 5 inches in the x-direction since the origin has been reset.
 ![reset coordinate example](reset_coordinate_example.png)

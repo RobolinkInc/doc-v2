@@ -10,16 +10,21 @@ title: set pid
 
 ##### Description
 
-<!-- description -->
+Sets the proportional, integral and derivative terms in a PID control system. These parameters help Zumi drive straight and make accurate turns. The default values are recommended, but can be adjusted to see how the control system works.
+
+Proportional: the output is proportional to the error
+Integral: compensates for the sums of the error over time
+Derivative: compensates for sudden changes in the error
 
 ##### Parameters
 
-None <!-- image -->
-
+**P**: float value for proportional control <br/>
+**I**: float value for integral control <br/>
+**D**: float value for derivative control <br/>
 ##### Returns
 
 None
 
 ##### Example
 
-<!-- image -->
+![set PID block image](set_PID.png)
