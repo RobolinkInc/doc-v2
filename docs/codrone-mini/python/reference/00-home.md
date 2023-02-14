@@ -39,7 +39,6 @@ These are the functions that you can use to control the CoDrone mini. The functi
     <div class="box-reference-shadow margin-top-30"> 
         <h3>LED and Buzzer</h3>
         <a href="/docs/codrone-mini/python/LED/led-color">LED_color()</a>
-        <a href="/docs/codrone-mini/python/LED/led-pattern">LED_pattern()</a>
         <a href="/docs/codrone-mini/python/LED/play-note">play_note()</a>
         <a href="/docs/codrone-mini/python/LED/reset-led">reset_LED()</a>
         <a href="/docs/codrone-mini/python/LED/turn-off-led">turn_off_LED()</a>
