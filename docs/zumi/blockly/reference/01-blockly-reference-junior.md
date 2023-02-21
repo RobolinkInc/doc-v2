@@ -62,9 +62,9 @@ hide_table_of_contents: true
     <a href="/docs/zumi/blockly/Junior/Sensors/02-get-z-angle">get z angle</a>
         <img src="/img/zumi/blockly/Junior/Sensors/getZangle.png"></img> 
     <a href="/docs/zumi/blockly/Junior/Sensors/03-get-x-angle">get x angle</a>
-        <img src="/img/zumi/blockly/Junior/Sensors/getXAngle.png"></img>     
+        <img src="/img/zumi/blockly/Junior/Sensors/getXangle.png"></img>     
      <a href="/docs/zumi/blockly/Junior/Sensors/04-get-y-angle">get y angle</a>
-        <img src="/img/zumi/blockly/Junior/Sensors/getYAngle.png"></img>          
+        <img src="/img/zumi/blockly/Junior/Sensors/getYangle.png"></img>          
      <a href="/docs/zumi/blockly/Junior/Sensors/05-reset-gyro">reset gyro</a>
         <img src="/img/zumi/blockly/Junior/Sensors/resetgyro.png"></img>  
      <a href="/docs/zumi/blockly/Junior/Sensors/06-get-battery-voltage">get battery voltage</a>
