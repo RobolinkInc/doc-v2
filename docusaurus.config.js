@@ -71,6 +71,10 @@ module.exports = {
                   href: '/docs/zumi/python/reference/library',
                   //docs/zumi/home/home
                 },
+                {
+                  label: 'Blockly',
+                  href: '/docs/zumi/blockly/reference/library-junior',
+                },
               ]},      
          {
           href: 'https://robolink.com',
