@@ -75,6 +75,12 @@ function goUrlCoDroneEduPython(e) {
   window.location.href = 'docs/codrone-edu/python/reference/library';
 }
 
+function goUrlZumiBlockly(e) {
+  window.location.href = 'docs/zumi/blockly/reference/library-junior';
+}
+
+
+
 function CoDroneEduTwoButtons() {
   return (
     <div className={styles.columns }>
@@ -93,7 +99,7 @@ function CmdTwoButtons() {
     <div className={styles.columns }>
     <div className={styles.columnHalf }>
        <button onClick={goUrlCdmBlockly}>Blockly</button>
-    </div>
+     </div>
    <div className={styles.columnHalf }>
    <button onClick={goUrlCmdPython}>Python</button>
    </div>
@@ -113,8 +119,11 @@ function CmdTwoButtonsTemp() {
 
 function ZumiTwoButtons() {
   return (
-    <div className={[styles.columns, styles.moreMargin].join(' ')}>
-  <div className={styles.columnHalf }>
+    <div className={styles.columns }>
+    <div className={styles.columnHalf }>
+      <button onClick={goUrlZumiBlockly}>Blockly</button>
+    </div>
+   <div className={styles.columnHalf }>
   <button className={styles.oneButton} onClick={goUrlZumiPython}>Python</button>
   </div>
 </div>
