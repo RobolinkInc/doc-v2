@@ -23,54 +23,7 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
 <div class="boxLanding">
   
     <div  class="parentContainer">
-    <div class="box-reference-shadow margin-bottom-20">
-        <h3>Flight Commands</h3>
-        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/01-takeoff">take off</a>
-            <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/takeoff.PNG"></img>
-        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/02-land">land</a>
-            <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/land.PNG"></img>
-        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/03-emergency-stop">emergency stop</a>
-            <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/emergencystop.PNG"></img>
-        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/04-hover">hover for [seconds] seconds</a>
-            <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/hover.PNG"></img>
-        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/05-go">go [direction] for [seconds] seconds at [power] % power</a>
-            <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/go.PNG"></img>
-        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/06-turn-to">turn [direction] [degrees] degrees</a>
-            <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/turn.PNG"></img>
-        <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/07-turn-direction-seconds-power">turn [direction] for [seconds] seconds at [power]% power</a>
-            <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/turn_direction_seconds_power.PNG"></img>   
-  </div>
-   <div class="box-reference-shadow margin-bottom-20">
-    <h3>Flight Sequences</h3>
-    <a href="/docs/codrone-edu/blockly/Junior/Flight-Sequences/01-flip">flip [direction]</a>
-       <img src="/img/codrone-edu/blockly/Junior/Flight-Sequences/flip_params.PNG"></img>
-  </div>
-  </div>
  
-    <div class="parentContainer">
-   <div class="box-reference-shadow margin-bottom-20">
-    <h3>Status Checkers</h3>
-    <a href="/docs/codrone-edu/blockly/Junior/Status-Checkers/01-code-is-running">code is running</a>
-        <img src="/img/codrone-edu/blockly/Junior/Status-Checkers/code_is_running.PNG"></img>
-  </div>
-   <div class="box-reference-shadow margin-bottom-20">
-    <h3>Lights</h3>
-    <a href="/docs/codrone-edu/blockly/Junior/Lights/01-set-drone-led">set drone LED color to [color], with brightness of [brightness]</a>
-        <img src="/img/codrone-edu/blockly/Junior/Lights/set_drone_led.PNG"></img>
-    <a href="/docs/codrone-edu/blockly/Junior/Lights/02-drone-led-off">turn drone LED off</a>
-        <img src="/img/codrone-edu/blockly/Junior/Lights/drone_led_off.PNG"></img>
-    <a href="/docs/codrone-edu/blockly/Junior/Lights/03-set-controller-led">set controller LED color to [color], with brightness of [brightness]</a>
-        <img src="/img/codrone-edu/blockly/Junior/Lights/set_controller_led.PNG"></img>   
-     <a href="/docs/codrone-edu/blockly/Junior/Lights/04-controller-led-off">turn controller LED off</a>
-        <img src="/img/codrone-edu/blockly/Junior/Lights/controller_led_off.PNG"></img>     
-  </div>
-  <div class="box-reference-shadow margin-bottom-20">
-    <h3>Sound</h3>
-    <a href="/docs/codrone-edu/blockly/Junior/Sound/01-play-note-drone">play this note [note] for [duration] seconds on drone</a>
-        <img src="/img/codrone-edu/blockly/Junior/Sound/play_note_drone.PNG"></img>
-    <a href="/docs/codrone-edu/blockly/Junior/Sound/02-play-note-controller">play this note [note] for [duration] seconds on controller</a>
-        <img src="/img/codrone-edu/blockly/Junior/Sound/play_note_controller.PNG"></img>
-  </div>
   </div>
 </div>
 
