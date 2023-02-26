@@ -172,8 +172,19 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 #box {
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 15px;
+  color: #ffffff;
   justify-content: center;
+}
+
+@media (max-width: 800px) {
+  #box {
+    display: block;
+  }
+}
+
+#box a{ 
+  color: #ffffff;
 }
 
 
@@ -188,12 +199,29 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 #imgFooter {
   float: left;
   width: 150px;
-  margin-top: -13px; 
+  margin-top: -4px; 
+}
+
+#footerBox1 {
+  position: absolute; 
+}
+
+@media (max-width: 800px) {
+  #footerBox1 {
+    display: block; 
+    position: relative;
+  }
+  #imgFooter {
+    margin: 0 auto;
+    float: none;
+    display: block; 
+  }
 }
 
 #footerBox1 a {
-  margin-bottom: 15px;
+  margin-bottom: 1px;
   color: white;
+  position: absolute;
 }
 
 #box div:nth-child(2) {
