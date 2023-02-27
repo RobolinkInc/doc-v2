@@ -6,7 +6,7 @@ title: set_roll()
 
 ##### Block
 
-##### ![set roll image](set_roll.png)
+![set roll image](set_roll.png)
 
 ##### Description
 
@@ -21,4 +21,4 @@ None
 
 ##### Example
 
-##### ![set roll example](set_roll_example.png)
+![set roll example](set_roll_example.png)
