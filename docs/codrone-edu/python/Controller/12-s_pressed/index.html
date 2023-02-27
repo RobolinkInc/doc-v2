@@ -6,17 +6,17 @@
 <meta name="generator" content="Docusaurus v2.0.0-alpha.73">
 <link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Robolink Documentation Blog RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Robolink Documentation Blog Atom Feed"><title data-react-helmet="true">s_pressed() | Robolink Documentation</title><meta data-react-helmet="true" property="og:url" content="https://github.com/RobolinkInc/doc-v2/docs/codrone-edu/python/Controller/12-s_pressed"><meta data-react-helmet="true" name="docusaurus_locale" content="en"><meta data-react-helmet="true" name="docusaurus_version" content="current"><meta data-react-helmet="true" name="docusaurus_tag" content="docs-default-current"><meta data-react-helmet="true" property="og:title" content="s_pressed() | Robolink Documentation"><meta data-react-helmet="true" name="description" content="Description"><meta data-react-helmet="true" property="og:description" content="Description"><link data-react-helmet="true" rel="shortcut icon" href="/img/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://github.com/RobolinkInc/doc-v2/docs/codrone-edu/python/Controller/12-s_pressed"><link data-react-helmet="true" rel="alternate" href="https://github.com/RobolinkInc/doc-v2/docs/codrone-edu/python/Controller/12-s_pressed" hreflang="en"><link data-react-helmet="true" rel="alternate" href="https://github.com/RobolinkInc/doc-v2/docs/codrone-edu/python/Controller/12-s_pressed" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.b1b4280d.css">
-<link rel="preload" href="/assets/js/styles.b4cdc71d.js" as="script">
-<link rel="preload" href="/assets/js/runtime~main.e4c59f48.js" as="script">
-<link rel="preload" href="/assets/js/main.06560695.js" as="script">
-<link rel="preload" href="/assets/js/1.03264c17.js" as="script">
-<link rel="preload" href="/assets/js/2.75dce76e.js" as="script">
-<link rel="preload" href="/assets/js/3.cc0fea76.js" as="script">
-<link rel="preload" href="/assets/js/1be78505.9723c459.js" as="script">
-<link rel="preload" href="/assets/js/529.c435474b.js" as="script">
-<link rel="preload" href="/assets/js/935f2afb.671a93b9.js" as="script">
-<link rel="preload" href="/assets/js/17896441.3f203a86.js" as="script">
-<link rel="preload" href="/assets/js/7c3d5071.579cd46d.js" as="script">
+<link rel="preload" href="/assets/js/styles.6352b52b.js" as="script">
+<link rel="preload" href="/assets/js/runtime~main.3174d9bd.js" as="script">
+<link rel="preload" href="/assets/js/main.cd9e9d4c.js" as="script">
+<link rel="preload" href="/assets/js/1.22de89fd.js" as="script">
+<link rel="preload" href="/assets/js/2.86454515.js" as="script">
+<link rel="preload" href="/assets/js/3.29ec9f7f.js" as="script">
+<link rel="preload" href="/assets/js/1be78505.8966228c.js" as="script">
+<link rel="preload" href="/assets/js/533.56e6bd28.js" as="script">
+<link rel="preload" href="/assets/js/935f2afb.3a909697.js" as="script">
+<link rel="preload" href="/assets/js/17896441.17b79985.js" as="script">
+<link rel="preload" href="/assets/js/7c3d5071.b13e87ca.js" as="script">
 </head>
 <body>
 <script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
@@ -24,16 +24,16 @@
 </span></div><div class="token-line" style="color:#393A34"><span class="token plain">drone </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> Drone</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">drone</span><span class="token punctuation" style="color:#393A34">.</span><span class="token builtin">open</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block">
 </span></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">while</span><span class="token plain"> </span><span class="token boolean" style="color:#36acaa">True</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">    time</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">sleep</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">0.1</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">if</span><span class="token plain"> drone</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">s_pressed</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">&quot;S button has been pressed!&quot;</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block">
 </span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_Ue-o">Copy</button></div></div></div></article><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Docs pages navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/docs/codrone-edu/python/Controller/11-right_arrow_pressed"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« right_arrow_pressed()</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/docs/codrone-edu/python/Controller/13-up_arrow_pressed"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">up_arrow_pressed() »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_35-E thin-scrollbar"></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="footer__bottom text--center"><div class="footer__copyright"><div id="footerBox1"> <img id="imgFooter" src="/img/footer-logo.png"></div><div id="box"><div><a href="https://robolink.helpdocs.io/"> Robolink Help</a> | <a href="#"> Terms of use</a> | <a href="#"> Privacy</a></div></div></div></div></div></footer></div>
-<script src="/assets/js/styles.b4cdc71d.js"></script>
-<script src="/assets/js/runtime~main.e4c59f48.js"></script>
-<script src="/assets/js/main.06560695.js"></script>
-<script src="/assets/js/1.03264c17.js"></script>
-<script src="/assets/js/2.75dce76e.js"></script>
-<script src="/assets/js/3.cc0fea76.js"></script>
-<script src="/assets/js/1be78505.9723c459.js"></script>
-<script src="/assets/js/529.c435474b.js"></script>
-<script src="/assets/js/935f2afb.671a93b9.js"></script>
-<script src="/assets/js/17896441.3f203a86.js"></script>
-<script src="/assets/js/7c3d5071.579cd46d.js"></script>
+<script src="/assets/js/styles.6352b52b.js"></script>
+<script src="/assets/js/runtime~main.3174d9bd.js"></script>
+<script src="/assets/js/main.cd9e9d4c.js"></script>
+<script src="/assets/js/1.22de89fd.js"></script>
+<script src="/assets/js/2.86454515.js"></script>
+<script src="/assets/js/3.29ec9f7f.js"></script>
+<script src="/assets/js/1be78505.8966228c.js"></script>
+<script src="/assets/js/533.56e6bd28.js"></script>
+<script src="/assets/js/935f2afb.3a909697.js"></script>
+<script src="/assets/js/17896441.17b79985.js"></script>
+<script src="/assets/js/7c3d5071.b13e87ca.js"></script>
 </body>
 </html>
