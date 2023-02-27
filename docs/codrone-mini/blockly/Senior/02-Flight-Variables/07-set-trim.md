@@ -6,7 +6,7 @@ title: set_trim()
 
 ##### Block
 
-
+![set trim image](set_trim.png)
 
 ##### Description
 
@@ -22,3 +22,4 @@ None
 
 ##### Example
 
+![set trim example](set_trim_example.png)
