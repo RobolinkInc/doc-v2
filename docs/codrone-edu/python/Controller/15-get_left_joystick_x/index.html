@@ -6,17 +6,17 @@
 <meta name="generator" content="Docusaurus v2.0.0-alpha.73">
 <link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Robolink Documentation Blog RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Robolink Documentation Blog Atom Feed"><title data-react-helmet="true">get_left_joystick_x() | Robolink Documentation</title><meta data-react-helmet="true" property="og:url" content="https://github.com/RobolinkInc/doc-v2/docs/codrone-edu/python/Controller/15-get_left_joystick_x"><meta data-react-helmet="true" name="docusaurus_locale" content="en"><meta data-react-helmet="true" name="docusaurus_version" content="current"><meta data-react-helmet="true" name="docusaurus_tag" content="docs-default-current"><meta data-react-helmet="true" property="og:title" content="get_left_joystick_x() | Robolink Documentation"><meta data-react-helmet="true" name="description" content="Description"><meta data-react-helmet="true" property="og:description" content="Description"><link data-react-helmet="true" rel="shortcut icon" href="/img/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://github.com/RobolinkInc/doc-v2/docs/codrone-edu/python/Controller/15-get_left_joystick_x"><link data-react-helmet="true" rel="alternate" href="https://github.com/RobolinkInc/doc-v2/docs/codrone-edu/python/Controller/15-get_left_joystick_x" hreflang="en"><link data-react-helmet="true" rel="alternate" href="https://github.com/RobolinkInc/doc-v2/docs/codrone-edu/python/Controller/15-get_left_joystick_x" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.b1b4280d.css">
-<link rel="preload" href="/assets/js/styles.41ce41a6.js" as="script">
-<link rel="preload" href="/assets/js/runtime~main.6aaf9e73.js" as="script">
-<link rel="preload" href="/assets/js/main.37ec64b6.js" as="script">
-<link rel="preload" href="/assets/js/1.542d6f17.js" as="script">
-<link rel="preload" href="/assets/js/2.9a9d6b00.js" as="script">
-<link rel="preload" href="/assets/js/3.b4983fb0.js" as="script">
-<link rel="preload" href="/assets/js/1be78505.32fc5ee2.js" as="script">
-<link rel="preload" href="/assets/js/543.a2ec9d4d.js" as="script">
-<link rel="preload" href="/assets/js/935f2afb.1ecd59ba.js" as="script">
-<link rel="preload" href="/assets/js/17896441.0a359ebd.js" as="script">
-<link rel="preload" href="/assets/js/3ea7316e.ae79a369.js" as="script">
+<link rel="preload" href="/assets/js/styles.e5450e57.js" as="script">
+<link rel="preload" href="/assets/js/runtime~main.b883cd65.js" as="script">
+<link rel="preload" href="/assets/js/main.2ef83d7d.js" as="script">
+<link rel="preload" href="/assets/js/1.a0f9dcdd.js" as="script">
+<link rel="preload" href="/assets/js/2.738a1e44.js" as="script">
+<link rel="preload" href="/assets/js/3.3a17d635.js" as="script">
+<link rel="preload" href="/assets/js/1be78505.05df1040.js" as="script">
+<link rel="preload" href="/assets/js/544.f2f7a3a9.js" as="script">
+<link rel="preload" href="/assets/js/935f2afb.3fe9fef9.js" as="script">
+<link rel="preload" href="/assets/js/17896441.43bc2030.js" as="script">
+<link rel="preload" href="/assets/js/3ea7316e.9b6104e5.js" as="script">
 </head>
 <body>
 <script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
@@ -24,16 +24,16 @@
 </span></div><div class="token-line" style="color:#393A34"><span class="token plain">drone </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> Drone</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">drone</span><span class="token punctuation" style="color:#393A34">.</span><span class="token builtin">open</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block">
 </span></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">while</span><span class="token plain"> </span><span class="token boolean" style="color:#36acaa">True</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">    time</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">sleep</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">0.1</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">drone</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">get_left_joystick_x</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block">
 </span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_Ue-o">Copy</button></div></div></div></article><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Docs pages navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/docs/codrone-edu/python/Controller/14-get_joystick_data"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« get_joystick_data()</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/docs/codrone-edu/python/Controller/16-get_left_joystick_y"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">get_left_joystick_y() »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_35-E thin-scrollbar"></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="footer__bottom text--center"><div class="footer__copyright"><div id="footerBox1"> <img id="imgFooter" src="/img/footer-logo.png"></div><div id="box"><div><a href="https://robolink.helpdocs.io/"> Robolink Help</a> | <a href="#"> Terms of use</a> | <a href="#"> Privacy</a></div></div></div></div></div></footer></div>
-<script src="/assets/js/styles.41ce41a6.js"></script>
-<script src="/assets/js/runtime~main.6aaf9e73.js"></script>
-<script src="/assets/js/main.37ec64b6.js"></script>
-<script src="/assets/js/1.542d6f17.js"></script>
-<script src="/assets/js/2.9a9d6b00.js"></script>
-<script src="/assets/js/3.b4983fb0.js"></script>
-<script src="/assets/js/1be78505.32fc5ee2.js"></script>
-<script src="/assets/js/543.a2ec9d4d.js"></script>
-<script src="/assets/js/935f2afb.1ecd59ba.js"></script>
-<script src="/assets/js/17896441.0a359ebd.js"></script>
-<script src="/assets/js/3ea7316e.ae79a369.js"></script>
+<script src="/assets/js/styles.e5450e57.js"></script>
+<script src="/assets/js/runtime~main.b883cd65.js"></script>
+<script src="/assets/js/main.2ef83d7d.js"></script>
+<script src="/assets/js/1.a0f9dcdd.js"></script>
+<script src="/assets/js/2.738a1e44.js"></script>
+<script src="/assets/js/3.3a17d635.js"></script>
+<script src="/assets/js/1be78505.05df1040.js"></script>
+<script src="/assets/js/544.f2f7a3a9.js"></script>
+<script src="/assets/js/935f2afb.3fe9fef9.js"></script>
+<script src="/assets/js/17896441.43bc2030.js"></script>
+<script src="/assets/js/3ea7316e.9b6104e5.js"></script>
 </body>
 </html>
