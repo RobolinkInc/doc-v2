@@ -6,7 +6,7 @@ title: get_trim()
 
 ##### Block
 
-
+![get trim image](get_trim.png)
 
 ##### Description
 
@@ -22,4 +22,4 @@ Roll, Pitch trim values
 
 ##### Example
 
-
+![get trim example](get_trim_example.png)
