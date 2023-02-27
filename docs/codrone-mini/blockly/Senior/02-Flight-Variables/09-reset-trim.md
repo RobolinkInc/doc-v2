@@ -6,7 +6,7 @@ title: reset_trim()
 
 ##### Block
 
-
+![reset trim image](reset_trim.png)
 
 ##### Description
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-
+![reset trim example](reset_trim_example.png)
