@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: 06-move-with-parameters
+id: 06-move-with-parameter
 title: move(duration)
 ---
 
