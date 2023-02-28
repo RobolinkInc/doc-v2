@@ -12,11 +12,11 @@ These are the Blockly functions that you can use to control the Zumi. Example co
 
 <div class="center">
 <br />
-    <span class="label-toggle">Senior</span>
+    <span class="label-toggle">Junior</span>
 <label onClick={function hi(){if(!document.getElementById("juniorSeniorSelector").checked){window.location.href = "/docs/zumi/blockly/reference/library-junior"}}} class="switch">
  <input id="juniorSeniorSelector" type="checkbox" checked="true"  />
   <span class="slider round"></span> 
-</label>   <span class="label-toggle">Junior</span>
+</label>   <span class="label-toggle">Senior</span>
 </div>
 
 <div class="boxLanding">
