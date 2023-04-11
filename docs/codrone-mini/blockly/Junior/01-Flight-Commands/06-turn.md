@@ -15,8 +15,8 @@ Turns the CoDrone mini a in a given direction for the given duration at the give
 ##### Parameters
 ![turn params](turn_params.png)
 **direction**: left, right <br /> 
-**power**: Integer between -100 and 100 <br /> 
-**duration**: any positive integer in seconds
+**power**: integer between 0 and 100 <br /> 
+**duration**: positive integer in seconds
 
 ##### Returns
 
