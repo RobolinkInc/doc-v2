@@ -15,7 +15,7 @@ Moves the drone in a direction for a given duration and a percentage power.
 ![go power params](go_power_params.png)
 **direction**: forward, backward, up, down, left, right <br /> 
 **power**: Integer between 0 and 100 <br /> 
-**duration**: any positive integer in seconds
+**duration**: positive integer in seconds
 
 ##### Returns
 

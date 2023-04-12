@@ -14,7 +14,7 @@ This function makes the drone hover for a given amount of time.
 
 ##### Parameters
 
-**duration**: Positive integer in seconds
+**duration**: positive integer in seconds
 
 ##### Returns
 
