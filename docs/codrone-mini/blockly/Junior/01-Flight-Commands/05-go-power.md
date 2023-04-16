@@ -9,7 +9,7 @@ title: go [direction] for [seconds] seconds at [power] % power
 ![go power image](go_power.png)
 
 ##### Description
-Moves the drone in a direction for a given duration and a percentage power.
+Moves the drone in a direction for a given duration and power percentage.
 
 ##### Parameters
 ![go power params](go_power_params.png)

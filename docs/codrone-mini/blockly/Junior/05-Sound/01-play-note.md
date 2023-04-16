@@ -10,12 +10,12 @@ title: play this note [note] for [duration] seconds
 
 ##### Description
 
-Plays a note for a specified amount of time using the CoDrone mini.
+Plays a note for a specified amount of time using the buzzer on the CoDrone Mini controller.
 
 ##### Parameters
 ![play note params](playnote_params.png)
-**note**: note range from C3 to B7, EndOfType, Mute, Fin <br />
-**duration**: duration of the note in seconds. any positive integer
+**note**: note range from C3 to B7 <br />
+**duration**: positive integer in seconds
 
 ##### Returns
 

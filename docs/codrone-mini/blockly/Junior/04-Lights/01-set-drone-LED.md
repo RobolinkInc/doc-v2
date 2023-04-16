@@ -10,12 +10,12 @@ title: set drone LED color to [color], with a brightness of [brightness]
 
 ##### Description
 
-Sets the color of the CoDrone mini's LED.
+Sets the color of CoDrone Mini's LED.
 
 ##### Parameters
 ![LED color params](LEDcolor_params.png)
-**color**: red, yellow, green, light blue, blue, purple, white, black <br />
-**brightness**: Integer between 0 and 100 <br /> 
+**color**: select a color from the color palette <br />
+**brightness**: positive integer between 0 and 255 <br /> 
 
 ##### Returns
 

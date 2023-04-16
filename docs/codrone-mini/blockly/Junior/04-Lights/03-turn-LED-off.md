@@ -10,7 +10,7 @@ title: turn LED off
 
 ##### Description
 
-Turns the CoDrone mini's LED off.
+Turns off CoDrone Mini's LED.
 
 ##### Parameters
 
