@@ -10,11 +10,11 @@ title: play_note(hertz, duration)
 
 ##### Description
 
-Plays a note for a specified amount of time using the CoDrone mini.
+Plays a note at a particular frequency for a specified amount of time using the controller buzzer.
 
 ##### Parameters
-**hertz**: The frequency in Hertz of the sound. Integer value. <br />
-**duration**: duration of the note in seconds. any positive integer
+**hertz**: positive integer in Hertz <br />
+**duration**: positive integer in seconds
 
 ##### Returns
 

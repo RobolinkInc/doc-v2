@@ -10,7 +10,7 @@ title: get_yaw()
 
 ##### Description
 
-Gets the yaw value of the CoDrone mini.
+Returns the current value for the yaw flight variable.
 
 ##### Parameters
 
@@ -18,7 +18,7 @@ None
 
 ##### Returns
 
-An integer that is the current yaw value
+**yaw**: integer between -100 and 100 <br /> 
 
 ##### Example
 

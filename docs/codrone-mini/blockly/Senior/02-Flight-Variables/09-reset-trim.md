@@ -10,7 +10,7 @@ title: reset_trim()
 
 ##### Description
 
-Resets the current trim values of the CoDrone mini.
+Resets the trim values to (0,0).
 
 ##### Parameters
  

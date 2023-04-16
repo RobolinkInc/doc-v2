@@ -10,8 +10,8 @@ title: get_height()
 
 ##### Description
 
-This is a getter function which returns the current **height** of the drone. <br />
-It checks sea level from the barometer sensor first and then the altitude from the floor right after it is paired. This function returns the distance between the drone's current position and the floor or any surface below from where it took off from. <br />
+This function returns the current estimated **height** of the drone from the altitude at the moment of pairing. This is calculated by the barometer (air pressure sensor).
+
 
 ##### Parameters
 
@@ -19,7 +19,7 @@ None
 
 ##### Returns
 
-The current height calculated by the difference between the current and the floor altitude(cm).
+**height**: estimated height in cm 
 
 ##### Example
 

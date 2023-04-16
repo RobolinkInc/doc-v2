@@ -10,7 +10,7 @@ title: get_angle()
 
 ##### Description
 
-This function gets the **roll, pitch, and yaw angles** from the gyrometer sensor.
+This function returns the **roll, pitch, and yaw angles** from the gyroscope. The 0 angle is set when pairing.
 
 ##### Parameters
 
@@ -18,7 +18,7 @@ This function gets the **roll, pitch, and yaw angles** from the gyrometer sensor
 
 ##### Returns
 
-The value of the selected angle from the gyrometer sensor.
+**angle**: integer in degrees from the starting position
 
 ##### Example
 For this example, manually turn your drone by hand to see the yaw angle change.

@@ -10,7 +10,7 @@ title: get_battery_percentage()
 
 ##### Description
 
-This function returns the current battery percentage of the drone
+This function returns the current battery percentage of the drone battery.
 
 ##### Parameters
 
@@ -18,7 +18,7 @@ None
 
 ##### Returns
 
-The current battery percentage of the drone
+**percentage**: positive integer from 0 to 100
 
 ##### Example
 

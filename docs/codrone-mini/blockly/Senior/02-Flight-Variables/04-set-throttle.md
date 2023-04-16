@@ -10,10 +10,11 @@ title: set_throttle()
 
 ##### Description
 
-Sets the throttle value of the CoDrone mini.
+This function sets the throttle direction variable but will not send a move command. Negative values will move the drone downward and positive values will move the drone upward.
+![pitch directions for CoDrone Mini](cdm_throttle.png)
 
 ##### Parameters
-**power**: Integer between -100 and 100 <br /> 
+**power**: integer between -100 and 100 <br /> 
 
 ##### Returns
 

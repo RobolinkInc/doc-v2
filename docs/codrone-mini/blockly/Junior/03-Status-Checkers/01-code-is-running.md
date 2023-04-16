@@ -18,7 +18,7 @@ None
 
 ##### Returns
 
-Boolean - True or False
+**Boolean**: returns true if program is running, false if user presses "Stop"
 
 ##### Example
 

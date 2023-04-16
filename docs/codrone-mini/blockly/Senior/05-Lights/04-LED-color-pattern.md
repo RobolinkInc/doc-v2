@@ -1,7 +1,7 @@
 ---
 custom_edit_url: null
-id: 01-LED-color
-title: LED_color()
+id: 01-LED-color-pattern
+title: LED_color(r,g,b,brightness)
 ---
 
 ##### Block

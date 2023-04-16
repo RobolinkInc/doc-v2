@@ -10,7 +10,7 @@ title: get_trim()
 
 ##### Description
 
-Gets the current trim values of the CoDrone mini.
+Returns the current trim values. Combine with a print statement to see the results printed to the console.
 
 ##### Parameters
  
@@ -18,7 +18,8 @@ None
 
 ##### Returns
 
-Roll, Pitch trim values
+**roll**: integer between -100 and 100 <br /> 
+**pitch**: integer between -100 and 100 <br /> 
 
 ##### Example
 

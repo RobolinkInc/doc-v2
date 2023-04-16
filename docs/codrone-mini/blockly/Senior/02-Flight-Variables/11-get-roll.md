@@ -10,7 +10,7 @@ title: get_roll()
 
 ##### Description
 
-Gets the roll value of the CoDrone mini.
+Returns the current value for the roll flight variable.
 
 ##### Parameters
 
@@ -18,7 +18,7 @@ None
 
 ##### Returns
 
-An integer that is the current roll value
+**roll**: integer between -100 and 100 <br /> 
 
 ##### Example
 

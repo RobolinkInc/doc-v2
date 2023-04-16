@@ -10,7 +10,7 @@ title: get_pitch()
 
 ##### Description
 
-Gets the pitch value of the CoDrone mini.
+Returns the current value for the pitch flight variable.
 
 ##### Parameters
 
@@ -18,7 +18,7 @@ None
 
 ##### Returns
 
-An integer that is the current pitch value
+**pitch**: integer between -100 and 100 <br /> 
 
 ##### Example
 

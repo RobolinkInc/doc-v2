@@ -10,7 +10,7 @@ title: get_throttle()
 
 ##### Description
 
-Gets the throttle value of the CoDrone mini.
+Returns the current value for the throttle flight variable.
 
 ##### Parameters
 
@@ -18,7 +18,7 @@ None
 
 ##### Returns
 
-An integer that is the current throttle value
+**throttle**: integer between -100 and 100 <br /> 
 
 ##### Example
 

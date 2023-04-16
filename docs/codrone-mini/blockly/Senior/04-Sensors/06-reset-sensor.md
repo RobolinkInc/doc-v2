@@ -10,7 +10,7 @@ title: reset_sensor()
 
 ##### Description
 
-Resets the gyroscope angles to 0. The drone will flash while the gyroscope is recalibrating. Once the light stops flashing the calibration is complete
+Resets the gyroscope angles to 0. The drone will flash while the gyroscope is recalibrating. Do not handle or move the drone during calibration.
 
 ##### Parameters
 
