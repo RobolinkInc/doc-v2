@@ -10,13 +10,13 @@ title: turn([direction] , [duration] seconds, [power] %)
 
 ##### Description
 
-Turns the CoDrone mini a in a given direction for the given duration at the given power.
+Turns CoDrone Mini left or right for a duration in seconds and at a power percentage from 0 to 100% speed.
 
 ##### Parameters
 ![turn params](turn_params.png)
 **direction**: left, right <br /> 
-**duration**: any positive integer in seconds <br />
-**power**: Integer between -100 and 100 <br /> 
+**duration**: positive integer in seconds <br />
+**power**: integer from 0 to 100 <br /> 
 
 ##### Returns
 

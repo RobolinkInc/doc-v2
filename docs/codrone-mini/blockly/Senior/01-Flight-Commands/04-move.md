@@ -10,15 +10,15 @@ title: move([duration] sec, [roll] %, [pitch] %, [yaw] %, [throttle] %)
 
 ##### Description
 
-Moves the drone for a certain amount of time with the given flight parameters.
+Moves the drone for a certain amount of time (in seconds) in a given direction determined by the flight parameters.
 
 ##### Parameters
 
-**duration**: The duration of the movement in seconds. Any positive integer.
-**roll**: The power of the roll flight direction. An integer value between 0 - 100
-**pitch**: The power of the pitch flight direction. An integer value between 0 - 100
-**yaw**: The power of the yaw flight direction. An integer value between 0 - 100
-**throttle**: The power of the throttle flight direction. An integer value between 0 - 100
+**duration**: positive integer in seconds
+**roll**: roll power percentage as an integer between -100 and +100 
+**pitch**: pitch power percentage as an integer between -100 and +100 
+**yaw**: yaw power percentage as an integer between -100 and +100 
+**throttle**: throttle power percentage as an integer between -100 and +100 
 
 ##### Returns
 

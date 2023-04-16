@@ -10,11 +10,11 @@ title: hover([seconds] sec)
 
 ##### Description
 
-This function makes the drone hover for a given amount of time.
+This function makes the drone hover for a duration in seconds.
 
 ##### Parameters
 
-**duration**: The duration of the hover in seconds. Any positive integer
+**duration**: positive integer in seconds
 
 ##### Returns
 
