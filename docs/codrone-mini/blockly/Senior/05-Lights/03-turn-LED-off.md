@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: 02-turn-LED-off
+id: 03-turn-LED-off
 title: turn LED off
 ---
 
@@ -10,7 +10,7 @@ title: turn LED off
 
 ##### Description
 
-Turns the CoDrone mini's LED off.
+Turns off CoDrone Mini's LED.
 
 ##### Parameters
 

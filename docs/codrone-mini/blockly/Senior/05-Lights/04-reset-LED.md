@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: 03-reset-LED
+id: 04-reset-LED
 title: reset LED
 ---
 
@@ -10,7 +10,7 @@ title: reset LED
 
 ##### Description
 
-Reset's the Codrone mini's LED to its default state.
+Reset's the Codrone mini's LED to its default state (solid red LED).
 
 ##### Parameters
 

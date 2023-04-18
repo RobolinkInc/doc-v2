@@ -10,7 +10,7 @@ title: get_drone_temp()
 
 ##### Description
 
-This block returns the current temperature of the drone in either Celcius or Fahrenheit.
+This block returns the current temperature of the drone in either Celsius or Fahrenheit.
 
 ##### Parameters
 

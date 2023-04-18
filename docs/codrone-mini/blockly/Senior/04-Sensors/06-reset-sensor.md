@@ -22,4 +22,6 @@ None
 
 ##### Example
 
+Rotate the drone with your hand on a flat surface. See the angles change by observing the printed values in the console. Stop moving the drone when the screen prints "resetting". After resetting, the gyroscope angles will return to 0. 
+
 ![reset sensor example](reset_sensor_example.png)
