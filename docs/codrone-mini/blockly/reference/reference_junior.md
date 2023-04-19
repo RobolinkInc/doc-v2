@@ -76,3 +76,6 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
     </div>
   </div>
 </div>
+
+<div class="boxLanding">
+</div>
