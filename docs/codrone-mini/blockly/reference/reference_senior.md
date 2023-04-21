@@ -34,7 +34,7 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
         <a href="/docs/codrone-mini/blockly/Senior/Flight-Commands/05-turn">turn(direction,seconds,power)</a>
         <img src="/img/codrone-mini/blockly/Senior/Flight-Commands/turn.png"></img>
         <a href="/docs/codrone-mini/blockly/Senior/Flight-Commands/06-hover">hover(seconds)</a>
-        <img src="/img/codrone-mini/blockly/Junior/Flight-Commands/hover.png"></img>
+        <img src="/img/codrone-mini/blockly/Senior/Flight-Commands/hover.png"></img>
     </div>
     <div class="box-reference-shadow margin-bottom-20">
       <h3>Flight Variables</h3>
@@ -70,7 +70,7 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
     <div class="box-reference-shadow margin-bottom-20">
       <h3>Status Checkers</h3>
       <a href="/docs/codrone-mini/blockly/Senior/Status-Checkers/01-code-is-running">code is running</a>
-      <img src="/img/codrone-mini/blockly/Senior/Status-Checkers/codeisrunning.png"></img>
+      <img src="/img/codrone-mini/blockly/Senior/Status-Checkers/code_is_running.png"></img>
     </div>
     <div class="box-reference-shadow margin-bottom-20">
       <h3>Sensors</h3>
@@ -103,7 +103,7 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
       <a href="/docs/codrone-mini/blockly/Senior/Sound/01-play-note">play_note(note,seconds)</a>
       <img src="/img/codrone-mini/blockly/Senior/Sound/play_note.png"></img>
       <a href="/docs/codrone-mini/blockly/Senior/Sound/02-play-note-hertz">play_note(hertz,seconds)</a>
-      <img src="/img/codrone-mini/blockly/Senior/Lights/play_note_hertz.png"></img>
+      <img src="/img/codrone-mini/blockly/Senior/Sound/play_note_hertz.png"></img>
     </div>
   </div>
 
