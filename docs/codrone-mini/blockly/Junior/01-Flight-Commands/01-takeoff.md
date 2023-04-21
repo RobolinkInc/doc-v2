@@ -10,7 +10,7 @@ title: take off
 
 ##### Description
 
-Makes the drone take off.
+This functions makes the drone take off. CoDrone EDU takes off at an average height of 1 meter off the ground.
 
 ##### Parameters
 
@@ -21,5 +21,6 @@ None
 None
 
 ##### Example
+
 
 ![takeoff example](takeoff_example.png)
