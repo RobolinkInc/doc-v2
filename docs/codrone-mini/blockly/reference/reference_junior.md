@@ -67,7 +67,7 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
       <a href="/docs/codrone-mini/blockly/Junior/Lights/03-turn-LED-off">turn LED off</a>
       <img src="/img/codrone-mini/blockly/Junior/Lights/LEDoff.png"></img>
       <a href="/docs/codrone-mini/blockly/Junior/Lights/04-reset-LED">reset LED</a>
-      <img src="/img/codrone-mini/blockly/Junior/Status-Checkers/resetLED.png"></img>
+      <img src="/img/codrone-mini/blockly/Junior/Lights/resetLED.png"></img>
     </div>
     <div class="box-reference-shadow margin-bottom-20">
       <h3>Sound</h3>
