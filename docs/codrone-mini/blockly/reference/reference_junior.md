@@ -45,11 +45,11 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
       <a href="/docs/codrone-mini/blockly/Junior/Flight-Sequences/01-flip-left">flip left</a>
         <img src="/img/codrone-mini/blockly/Junior/Flight-Sequences/flipleft.png"></img>
       <a href="/docs/codrone-mini/blockly/Junior/Flight-Sequences/02-flip-right">flip right</a>
-        <img src="/img/codrone-edu/blockly/Junior/Flight-Sequences/flipright.png"></img>
+        <img src="/img/codrone-mini/blockly/Junior/Flight-Sequences/flipright.png"></img>
       <a href="/docs/codrone-mini/blockly/Junior/Flight-Sequences/03-flip-backward">flip backward</a>
-        <img src="/img/codrone-edu/blockly/Junior/Flight-Sequences/flipbackward.png"></img>
+        <img src="/img/codrone-mini/blockly/Junior/Flight-Sequences/flipbackward.png"></img>
       <a href="/docs/codrone-mini/blockly/Junior/Flight-Sequences/04-flip-forward">flip forward</a>
-        <img src="/img/codrone-edu/blockly/Junior/Flight-Sequences/flipforward.png"></img>
+        <img src="/img/codrone-mini/blockly/Junior/Flight-Sequences/flipforward.png"></img>
     </div>
   </div>
   <div class="parentContainer">
