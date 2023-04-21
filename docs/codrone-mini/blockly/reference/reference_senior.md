@@ -84,7 +84,7 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
       <img src="/img/codrone-mini/blockly/Senior/Sensors/get_height.png"></img>
     <a href="/docs/codrone-mini/blockly/Senior/Sensors/05-get-pressure">get_pressure</a>
       <img src="/img/codrone-mini/blockly/Senior/Sensors/get_pressure.png"></img>
-      <a href="/docs/codrone-mini/blockly/Senior/Sensors/05-reset-sensor">reset_sensor()</a>
+      <a href="/docs/codrone-mini/blockly/Senior/Sensors/06-reset-sensor">reset_sensor()</a>
       <img src="/img/codrone-mini/blockly/Senior/Sensors/reset_sensor.png"></img>
     </div>
     <div class="box-reference-shadow margin-bottom-20">
