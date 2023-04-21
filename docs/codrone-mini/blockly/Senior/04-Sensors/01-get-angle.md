@@ -15,6 +15,7 @@ This function returns the **roll, pitch, and yaw angles** from the gyroscope. Th
 ##### Parameters
 
 ![get angle params](get_angle_params.png)
+**axis**: select roll, pitch or yaw
 
 ##### Returns
 

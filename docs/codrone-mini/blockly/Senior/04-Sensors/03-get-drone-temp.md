@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: 03-get-drone_temp
+id: 03-get-drone-temp
 title: get_drone_temp()
 ---
 

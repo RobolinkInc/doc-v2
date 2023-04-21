@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: 02-get-battery_percentage
+id: 02-get-battery-percentage
 title: get_battery_percentage()
 ---
 

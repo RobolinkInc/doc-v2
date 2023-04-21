@@ -69,24 +69,24 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
   <div class="parentContainer">
     <div class="box-reference-shadow margin-bottom-20">
       <h3>Status Checkers</h3>
-      <a href="/docs/codrone-mini/blockly/Senior/Status-Checkers/01-code-is-running">code is running</a>
+      <a href="/docs/codrone-mini/blockly/Senior/Status-Checkers/01-code-is-running">code_is_running</a>
       <img src="/img/codrone-mini/blockly/Senior/Status-Checkers/code_is_running.png"></img>
     </div>
     <div class="box-reference-shadow margin-bottom-20">
       <h3>Sensors</h3>
-      <a href="/docs/codrone-mini/blockly/Senior/Sensors/01-get_angle">get_angle(axis)</a>
+      <a href="/docs/codrone-mini/blockly/Senior/Sensors/01-get-angle">get_angle(axis)</a>
       <img src="/img/codrone-mini/blockly/Senior/Sensors/get_angle.png"></img>
-      <a href="/docs/codrone-mini/blockly/Senior/Sensors/02-get_battery_percentage">get_battery_percentage()</a>
+      <a href="/docs/codrone-mini/blockly/Senior/Sensors/02-get-battery-percentage">get_battery_percentage()</a>
       <img src="/img/codrone-mini/blockly/Senior/Sensors/get_battery_percentage.png"></img>
       <a href="/docs/codrone-mini/blockly/Senior/Sensors/03-get-drone-temp">get_drone_temp(units)</a>
       <img src="/img/codrone-mini/blockly/Senior/Sensors/get_drone_temp.png"></img>
       <a href="/docs/codrone-mini/blockly/Senior/Sensors/04-get-height">get_height()</a>
       <img src="/img/codrone-mini/blockly/Senior/Sensors/get_height.png"></img>
-    </div>
     <a href="/docs/codrone-mini/blockly/Senior/Sensors/05-get-pressure">get_pressure</a>
       <img src="/img/codrone-mini/blockly/Senior/Sensors/get_pressure.png"></img>
       <a href="/docs/codrone-mini/blockly/Senior/Sensors/05-reset-sensor">reset_sensor()</a>
       <img src="/img/codrone-mini/blockly/Senior/Sensors/reset_sensor.png"></img>
+    </div>
     <div class="box-reference-shadow margin-bottom-20">
       <h3>Lights</h3>
       <a href="/docs/codrone-mini/blockly/Senior/Lights/01-LED-color">LED_color(r,g,b,brightness)</a>
