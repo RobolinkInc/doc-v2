@@ -71,8 +71,8 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
     </div>
     <div class="box-reference-shadow margin-bottom-20">
       <h3>Sound</h3>
-      <a href="/docs/codrone-mini/blockly/Junior/Lights/01-play-note">play this note [note] for [seconds] seconds</a>
-      <img src="/img/codrone-mini/blockly/Junior/Lights/playnote.png"></img>
+      <a href="/docs/codrone-mini/blockly/Junior/Sound/01-play-note">play this note [note] for [seconds] seconds</a>
+      <img src="/img/codrone-mini/blockly/Junior/Sound/playnote.png"></img>
     </div>
   </div>
 </div>
