@@ -28,7 +28,7 @@ These are the Blockly functions that you can use to control the CoDrone Mini. Ex
         <a href="/docs/codrone-mini/blockly/Senior/Flight-Commands/02-land">land()</a>
         <img src="/img/codrone-mini/blockly/Senior/Flight-Commands/land.png"></img>
         <a href="/docs/codrone-mini/blockly/Senior/Flight-Commands/03-emergency-stop">emergency_stop()</a>
-        <img src="/img/codrone-mini/blockly/Senior/Flight-Commands/emergencystop.png"></img>
+        <img src="/img/codrone-mini/blockly/Senior/Flight-Commands/emergency_stop.png"></img>
         <a href="/docs/codrone-mini/blockly/Senior/Flight-Commands/04-move">move(seconds, roll, pitch, yaw, throttle)</a>
         <img src="/img/codrone-mini/blockly/Senior/Flight-Commands/move.png"></img>
         <a href="/docs/codrone-mini/blockly/Senior/Flight-Commands/05-turn">turn(direction,seconds,power)</a>
