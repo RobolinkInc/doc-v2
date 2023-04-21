@@ -11,7 +11,7 @@ These are the functions that you can use to control the CoDrone mini. The functi
 <div class="boxLanding">
   <div class="parentContainer">
   <div class="box-reference-shadow">
-  <h3>Functions</h3>
+  <h3>Pairing</h3>
     <a href="/docs/codrone-mini/python/Connection/01-pair">pair()</a>
     <br />
    </div>
