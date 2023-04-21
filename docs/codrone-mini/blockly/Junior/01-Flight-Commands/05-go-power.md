@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: 05-go
+id: 05-go-power
 title: go [direction] for [seconds] seconds at [power] % power
 ---
 
