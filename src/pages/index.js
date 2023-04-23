@@ -23,7 +23,7 @@ const features = [
     title: 'coDroneMini',
     imageUrl: 'img/cdmLogo.png',
     imageUrl2: 'img/cmdPic.png',
-    cardClassName: <CmdTwoButtonsTemp />
+    cardClassName: <CmdTwoButtons />
   },
   {
     title: 'coDronezumi',
