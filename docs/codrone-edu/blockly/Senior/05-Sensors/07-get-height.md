@@ -10,7 +10,7 @@ title: get_height()
 
 ##### Description
 
-Gets the height data from the CoDrone EDU's barometer sensor.
+Gets the height data from the CoDrone EDU's bottom range (infrared) sensor
 
 ##### Parameters
 ![get height block image](get_height_params.PNG)
@@ -18,7 +18,7 @@ Gets the height data from the CoDrone EDU's barometer sensor.
 
 ##### Returns
 
-height value from sensor
+**height**: float value in the units selected
 
 ##### Example
 
