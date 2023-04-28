@@ -10,7 +10,7 @@ title: take off
 
 ##### Description
 
-This functions makes the drone take off. CoDrone EDU takes off at an average height of 1 meter off the ground.
+This functions makes the drone take off. CoDrone Mini takes off at around 3-4 ft off the ground.
 
 ##### Parameters
 
