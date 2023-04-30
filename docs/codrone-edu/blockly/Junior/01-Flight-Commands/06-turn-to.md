@@ -10,12 +10,12 @@ title: turn [direction] [degrees] degrees
 
 ##### Description
 
-Turns the CoDrone EDU a spcefic amount of degrees.
+Turns CoDrone EDU to the left or to the right a given number of degrees.
 
 ##### Parameters
-![go for seconds block image](turn_to_params.PNG)
+![turn to parameters](turn_to_params.PNG)
 **direction**: left, right <br /> 
-**degrees**: any integer from -180 to +180
+**degrees**: integer from -180 to +180
 
 ##### Returns
 
@@ -23,4 +23,4 @@ None
 
 ##### Example
 
-![go at power example](turn_to_example.PNG)
+![turn to example](turn_to_example.PNG)

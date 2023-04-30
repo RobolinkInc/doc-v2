@@ -10,12 +10,12 @@ title: turn [direction] for [seconds] seconds at [power]% power
 
 ##### Description
 
-Turns the CoDrone EDU in the specified direction for the specified number of seconds at the specified percentage of power.
+Turns CoDrone EDU to the left or to the right for a duration in seconds at a percentange of power.
 
 ##### Parameters
 **direction**: left, right <br /> 
-**duration**: the duration of the turn in seconds. any positive integer. <br /> 
-**power**: Integer between -100 and 100
+**duration**: positive integer in seconds <br /> 
+**power**: integer between 0 and 100
 
 ##### Returns
 

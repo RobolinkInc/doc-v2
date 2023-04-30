@@ -10,7 +10,7 @@ title: land
 
 ##### Description
 
-Makes the drone land.
+This function makes the drone land by throttling down safely.
 
 ##### Parameters
 
