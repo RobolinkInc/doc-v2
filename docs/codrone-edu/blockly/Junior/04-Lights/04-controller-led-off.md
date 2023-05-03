@@ -10,7 +10,7 @@ title: turn controller LED off
 
 ##### Description
 
-Turns the CoDrone EDU's controller LED off.
+Turns off the CoDrone EDU controller LED.
 
 ##### Parameters
 

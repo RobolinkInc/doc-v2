@@ -10,12 +10,12 @@ title: set controller LED to [color], with a brightness of [brightness]
 
 ##### Description
 
-Sets the color of the CoDrone EDU's controller LED.
+Sets the color and brightness of the CoDrone EDU controller LED.
 
 ##### Parameters               
 ![set drone led block param image](set_controller_LED_params.PNG)<br />
-**color**: red, yellow, green, light blue, blue, purple, white, black <br />
-**brightness**: Integer between 0 and 100 <br /> 
+**color**:select a color from the color palette<br />
+**brightness**: positive integer between 0 and 255 <br /> 
 
 ##### Returns
 

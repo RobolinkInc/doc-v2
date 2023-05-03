@@ -10,7 +10,7 @@ title: turn drone LED off
 
 ##### Description
 
-Turns the CoDrone EDU's LED off.
+Turns off the CoDrone EDU drone LED.
 
 ##### Parameters
 
