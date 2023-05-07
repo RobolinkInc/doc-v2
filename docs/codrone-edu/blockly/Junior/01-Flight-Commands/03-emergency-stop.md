@@ -6,7 +6,7 @@ title: emergency stop
 
 ##### Block
 
-![stop motors image](emergencystop.PNG)
+![stop motors image](emergencystop.png)
 
 ##### Description
 
