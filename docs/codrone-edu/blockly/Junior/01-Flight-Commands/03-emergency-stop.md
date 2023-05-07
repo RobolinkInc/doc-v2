@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-![stop motors example](emergencystop_example.PNG)
+![stop motors example](emergencystop_example.png)
