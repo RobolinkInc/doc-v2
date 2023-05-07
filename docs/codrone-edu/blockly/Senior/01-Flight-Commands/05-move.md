@@ -10,20 +10,20 @@ title: move()
 
 ##### Description
 
-Moves the drone in a direction for a given duration and given power percentage.
+Moves the drone for a certain amount of time (in seconds) in a given direction determined by the flight parameters. 
 
 ##### Parameters
 
-**roll**: any integer (from -100 to +100) <br /> 
-**pitch**: any integer (from -100 to +100) <br />
-**yaw**: any integer (from -100 to +100) <br /> 
-**throttle**: any integer (from -100 to +100) <br />
-**duration**: the duration of the movement. any positive integer in seconds. <br />
+**roll**: roll power percentage as an integer between -100 and +100<br /> 
+**pitch**: pitch power percentage as an integer between -100 and +100<br />
+**yaw**:yaw power percentage as an integer between -100 and +100<br /> 
+**throttle**:  throttle power percentage as an integer between -100 and +100<br />
+**duration**: positive integer in seconds <br />
 
 ##### Returns
 
 None
 
 ##### Example
-
-![move example](move_example.PNG)
+In this example, roll and pitch are both set to positive 30% while yaw and throttle remain at 0%. CoDrone EDU will fly forward and to the right (diagonally) for 1 second at 30% speed.
+![move example](move_example.png)

@@ -10,16 +10,15 @@ title: avoid_wall()
 
 ##### Description
 
-Allows the CoDrone EDU to avoid walls that are a certain distance away (in millimeters) for a specific amount of time (in seconds).
-
+CoDrone EDU will fly forward and stop when an obstacle is detected a given distance away (in centimeters). The block will run until the timeout (in seconds) is finished or the obstacle is found, whichever comes first. The default timeout is 10 seconds for an obstacle detected 20cm away.
 ##### Parameters
-**timeout**: timeout is an optional paramaeter that is the duration in seconds that the function will run. the default value is 2 <br />
-**distance**: distance is an optional parameter that is the distance in millimeters the drone will stop in front of an object. the default value is 700 <br />
+**timeout**: positive integer timeout duration in seconds <br />
+**distance**: positive integer in centimeters<br />
 
 ##### Returns
 
 None
 
 ##### Example
-
-![go at power example](avoid_wall_example.PNG)
+Place the drone on the floor a few feet away from a wall. When you run the code, the drone will fly forward until the wall is detected 30 centimeters away. The next block will immediately execute. In this case, the drone will land.
+![go at power example](avoid_wall_example.png)

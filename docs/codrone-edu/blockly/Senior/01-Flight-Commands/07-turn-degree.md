@@ -13,7 +13,7 @@ title: turn_degree()
 Turns right or left with absolute reference frame to drone's initial heading. Positive degrees turn to right and negative degrees turn to the left.
 
 ##### Parameters
-**degrees**: the degrees to turn. any integer (from -180 to +180)
+**degrees**: integer from -180 to +180
 
 ##### Returns
 
