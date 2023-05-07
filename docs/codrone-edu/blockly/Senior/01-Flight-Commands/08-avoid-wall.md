@@ -22,3 +22,4 @@ None
 ##### Example
 Place the drone on the floor a few feet away from a wall. When you run the code, the drone will fly forward until the wall is detected 30 centimeters away. The next block will immediately execute. In this case, the drone will land.
 
+![avoid wall example](avoidwall_example.png)
