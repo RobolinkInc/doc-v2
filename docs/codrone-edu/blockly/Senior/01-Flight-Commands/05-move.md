@@ -26,4 +26,5 @@ None
 
 ##### Example
 In this example, roll and pitch are both set to positive 30% while yaw and throttle remain at 0%. CoDrone EDU will fly forward and to the right (diagonally) for 1 second at 30% speed.
+
 ![move example](move_example.png)
