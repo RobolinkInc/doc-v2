@@ -10,10 +10,10 @@ title: set_pitch()
 
 ##### Description
 
-Sets the pitch value of the CoDrone EDU.
+This function sets the pitch direction variable but will not send a move command. Negative values will move the drone backward and positive values will move the drone forward.
 
 ##### Parameters
-**power**: Integer between -100 and 100 <br /> 
+**power**: integer between -100 and 100 <br /> 
 
 ##### Returns
 

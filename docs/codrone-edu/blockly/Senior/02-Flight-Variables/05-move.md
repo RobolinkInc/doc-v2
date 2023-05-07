@@ -10,7 +10,7 @@ title: move()
 
 ##### Description
 
-Moves the CoDrone EDU for a specific duration of time after flight variables have been set. When using move with no parameter it will move the drone 0.1 seconds at a time. It's usually used inside of a loop to move the drone a certain number of 'steps'.
+Moves CoDrone EDU in the direction set by the flight variables with the smallest duration possible (about 0.01 seconds). Since it has no specified duration, it is often used inside of a loop to check sensors simultaneously.
 
 ##### Parameters
 
@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-![move example](move_no_params_example.PNG)
+![move example](move_example.PNG)

@@ -53,7 +53,7 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
         <img src="/img/codrone-edu/blockly/Flight-Variables/set_throttle.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Senior/Flight-Variables/05-move">move()</a>
         <img src="/img/codrone-edu/blockly/Flight-Variables/move_no_params.PNG"></img>
-        <a href="/docs/codrone-edu/blockly/Senior/Flight-Variables/06-move">move(duration)</a>
+        <a href="/docs/codrone-edu/blockly/Senior/Flight-Variables/06-move-seconds">move(duration)</a>
         <img src="/img/codrone-edu/blockly/Flight-Variables/move_with_params.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Senior/Flight-Variables/07-set-trim">set_trim()</a>
         <img src="/img/codrone-edu/blockly/Flight-Variables/set_trim.PNG"></img>

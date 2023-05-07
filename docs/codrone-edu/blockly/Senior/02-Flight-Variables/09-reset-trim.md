@@ -10,7 +10,7 @@ title: reset_trim()
 
 ##### Description
 
-Resets the current trim values of the CoDrone EDU.
+Resets the trim values to (0,0).
 
 ##### Parameters
  

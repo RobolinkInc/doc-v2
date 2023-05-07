@@ -10,10 +10,10 @@ title: set_yaw()
 
 ##### Description
 
-Sets the yaw value of the CoDrone EDU.
+This function sets the yaw direction variable but will not send a move command. Negative values will turn the drone to the right and positive values will turn the drone to the left.
 
 ##### Parameters
-**power**: Integer between -100 and 100 <br /> 
+**power**: integer between -100 and 100 <br /> 
 
 ##### Returns
 

@@ -10,10 +10,10 @@ title: set_roll()
 
 ##### Description
 
-Sets the roll value of the CoDrone EDU.
+This function sets the roll direction variable but will not send a move command. Negative values will move the drone to the left and positive values will move the drone to the right.
 
 ##### Parameters
-**power**: Integer between -100 and 100 <br /> 
+**power**: integer between -100 and 100 <br /> 
 
 ##### Returns
 

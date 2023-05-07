@@ -10,12 +10,13 @@ title: set_trim()
 
 ##### Description
 
-Sets the trim values of the CoDrone EDU to adjust drifting.
+Sets the trim values to adjust for any drifting while CoDrone EDU is flying. Set the trim values in the opposite direction of drift. For example, if the drone is drifting to the right, set roll to a negative value.
+
 
 ##### Parameters
 ![set trim block param image](set_trim_params.PNG)
-**roll**: Integer between -100 and 100 <br /> 
-**pitch**: Integer between -100 and 100 <br /> 
+**roll**: integer between -100 and 100 <br /> 
+**pitch**: integer between -100 and 100 <br /> 
 
 ##### Returns
 

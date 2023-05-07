@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: 06-move
+id: 06-move-seconds
 title: move(duration)
 ---
 
@@ -10,11 +10,12 @@ title: move(duration)
 
 ##### Description
 
-Moves the CoDrone EDU for a specific duration of time after flight variables have been set. 
+Moves CoDrone EDU for a duration in seconds in the direction set by the flight variables.
+
 
 ##### Parameters
 
-None
+**duration:** positive integer in seconds
 
 ##### Returns
 
