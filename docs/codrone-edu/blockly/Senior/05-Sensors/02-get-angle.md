@@ -10,16 +10,18 @@ title: get_angle()
 
 ##### Description
 
-Gets the angle data from the CoDrone EDU's gyroscope sensor.
+This function returns the current gyroscope angle measurement for either the x (roll),y (pitch),or z (yaw) axis. 
+
+![CoDrone EDU angles](xyz.jpg)
 
 ##### Parameters
 ![get angle image](get_angle_params.PNG) <br />
-**type**: x, y, z <br />
+**axis**: x, y, z <br />
 
 ##### Returns
 
-Angle value from sensor
+**angle**: integer in degrees
 
 ##### Example
 
-![get angle example](get_angle_example.PNG)
+![get angle example](get_angle_ex.PNG)

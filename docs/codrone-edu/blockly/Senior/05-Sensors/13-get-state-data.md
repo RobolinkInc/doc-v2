@@ -10,7 +10,7 @@ title: get_state_data()
 
 ##### Description
 
-Gets the current state of the CoDrone EDU.
+Returns the current state of the CoDrone EDU.
 
 ##### Parameters
 ![get state data block image](get_state_data_params.PNG)
@@ -18,8 +18,8 @@ Gets the current state of the CoDrone EDU.
 
 ##### Returns
 
-CoDrone EDU state data
+**state:** name of flight/movement state
 
 ##### Example
 
-![get state data example](get_state_data_example.PNG)
+![get state data example](get_state_ex.png)

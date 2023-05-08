@@ -10,7 +10,7 @@ title: drone_LED_off()
 
 ##### Description
 
-Turns the CoDrone EDU's LED off.
+Turns off CoDrone EDU's LED.
 
 ##### Parameters
 

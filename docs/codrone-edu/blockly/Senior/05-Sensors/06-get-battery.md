@@ -10,7 +10,7 @@ title: get_battery()
 
 ##### Description
 
-Gets the battery percentage data from the CoDrone EDU's battery sensor.
+This function returns the current battery percentage of the drone battery.
 
 ##### Parameters
 
@@ -18,7 +18,7 @@ None
 
 ##### Returns
 
-Battery value from sensor
+**battery percentage:** positive integer from 0 to 100
 
 ##### Example
 

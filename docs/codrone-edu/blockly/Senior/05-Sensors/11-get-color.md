@@ -10,7 +10,7 @@ title: get_color()
 
 ##### Description
 
-Gets the color data from the CoDrone EDU's color sensors.
+This functions reads the color data from either of the two bottom color sensors and returns one of the 8 pre-calibrated colors (provided in the color cards). The drone must be flat on a surface (not flying) for the color sensor to activate.
 
 ##### Parameters
 ![get color block image](get_color_params.PNG)
@@ -18,8 +18,8 @@ Gets the color data from the CoDrone EDU's color sensors.
 
 ##### Returns
 
-color value from sensor
+**color:** detected color as a string (Red, Green, Yellow, Blue, Cyan, Magenta, Black, White, Unknown)
 
 ##### Example
 
-![get color example](get_color_example.PNG)
+![get color example](get_color_ex.PNG)

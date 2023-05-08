@@ -10,7 +10,7 @@ title: get_elevation()
 
 ##### Description
 
-Gets the elevation data from the CoDrone EDU's barometer sensor.
+Returns the estimated elevation data from the CoDrone EDU's barometer.
 
 ##### Parameters
 
@@ -19,7 +19,7 @@ Gets the elevation data from the CoDrone EDU's barometer sensor.
 
 ##### Returns
 
-Elevation value from sensor
+**elevation:** float elevation value in units selected
 
 ##### Example
 

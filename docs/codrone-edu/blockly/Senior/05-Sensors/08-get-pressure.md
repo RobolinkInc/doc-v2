@@ -10,7 +10,10 @@ title: get_pressure()
 
 ##### Description
 
-Gets the pressure data from the CoDrone EDU's barometer sensor.
+This function returns barometer data in either pascals or millibars. <br/>
+**Note:** 1 mbar = 100 Pa
+
+
 
 ##### Parameters
 
@@ -19,8 +22,7 @@ Gets the pressure data from the CoDrone EDU's barometer sensor.
 
 ##### Returns
 
-Pressure value from sensor
-
+**pressure:** float value in either Pa or mbar
 ##### Example
 
 ![get pressure example](get_pressure_example.PNG)

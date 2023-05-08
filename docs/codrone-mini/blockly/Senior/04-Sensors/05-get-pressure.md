@@ -10,7 +10,7 @@ title: get_pressure()
 
 ##### Description
 
-This function return barometer data in Pascals. <br /> 
+This function returns barometer data in Pascals. <br /> 
 **Note:** 1atm = 101325 Pa
 
 ##### Parameters

@@ -1,7 +1,7 @@
 ---
 custom_edit_url: null
 id: 01-code-is-running
-title: code is running
+title: code_is_running()
 ---
 
 ##### Block
@@ -10,7 +10,9 @@ title: code is running
 
 ##### Description
 
-Returns a True value while your code is running.
+Returns a True value while your code is running. Use this block instead of "while True" when you want to run a "forever" loop. Use the "Stop" button in Blockly to stop the program.
+
+**Note:** There is no Python equivalent code_is_running() function. Use a while True loop in Python.
 
 ##### Parameters
 
@@ -18,7 +20,7 @@ None
 
 ##### Returns
 
-Boolean - True or False
+**Boolean:** returns true if program is running, false if user presses "Stop"
 
 ##### Example
 

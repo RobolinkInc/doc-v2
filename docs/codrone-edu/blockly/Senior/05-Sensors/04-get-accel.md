@@ -10,11 +10,9 @@ title: get_accel()
 
 ##### Description
 
-Gets the angular acceleration data from the CoDrone EDU's gyroscope sensor. <br />
-The 'x' position of the drone is forwards and reverse. <br />
-The 'y' position of the drone is left and right. <br />
-The 'z' position of the drone is up and down. <br />
-![Alt text](topdown_xy.png) <br />
+This function returns the current acceleration on either the x, y, or z axis in units of $m/s^ 2 * 10$ . <br/>
+**Note:** *1 g* = $9.8m/s^ 2$ 
+
 ![Alt text](xyz.jpg) <br />
 
 ##### Parameters
@@ -23,8 +21,8 @@ The 'z' position of the drone is up and down. <br />
 
 ##### Returns
 
-Acceleration value from sensor
+**acceleration:** positive or negative integer in $m/s^ 2 * 10$
 
 ##### Example
 
-![get accel example](get_accel_example.PNG)
+![get accel example](get_accel_ex.PNG)

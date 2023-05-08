@@ -10,7 +10,9 @@ title: get_gyro()
 
 ##### Description
 
-Gets the gyroscope data from the CoDrone EDU's gyroscope sensor.
+This function returns the current angular velocity in degrees per second for either the x (roll),y (pitch), or z (yaw) axis. 
+
+![CoDrone EDU angles](xyz.jpg)
 
 ##### Parameters
 ![get gyro image](get_gyro_params.PNG) <br />
@@ -18,8 +20,8 @@ Gets the gyroscope data from the CoDrone EDU's gyroscope sensor.
 
 ##### Returns
 
-Gyro value from sensor
+**angular velocity**: integer in degrees per second
 
 ##### Example
 
-![get gyro example](get_gyro_example.PNG)
+![get gyro example](get_gyro_ex.PNG)

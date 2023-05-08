@@ -10,17 +10,17 @@ title: get_range()
 
 ##### Description
 
-Gets the data from the CoDrone EDU's distance sensors.
+Returns the calculated distance from either the front or bottom infrared (IR) range sensor to the surface. The sensor range is up to 1.5m.
 
 ##### Parameters
 ![get range image 1](get_range_params1.PNG) 
 ![get range image 2](get_range_params2.PNG) <br />
-**type**: bottom, front <br />
+**type**: front, bottom<br />
 **unit**: mm, cm, in, m <br />
 
 ##### Returns
 
-Distance value from sensor
+**distance**: float value in the units selected
 
 ##### Example
 

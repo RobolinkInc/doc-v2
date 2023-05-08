@@ -10,15 +10,15 @@ title: get_temperature()
 
 ##### Description
 
-Gets the temperature data from the CoDrone EDU's temperature sensor.
+This block returns the current temperature of the drone in either Celsius or Fahrenheit.
 
 ##### Parameters
 ![get temperature block image](get_temperature_params.PNG)
-**unit**: fahrenheit, celsius <br />
+**unit**: Fahrenheit, Celsius, Kelvin <br />
 
 ##### Returns
 
-temperature value from sensor
+**temperature:** float value in degrees
 
 ##### Example
 

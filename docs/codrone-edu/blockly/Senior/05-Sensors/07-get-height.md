@@ -10,15 +10,15 @@ title: get_height()
 
 ##### Description
 
-Gets the height data from the CoDrone EDU's bottom range (infrared) sensor
+Returns the calculated distance from the bottom infrared (IR) range sensor to the surface. The sensor range is up to 1.5m. This is another name for the get_range("bottom") function.
 
 ##### Parameters
 ![get height block image](get_height_params.PNG)
-**type**: cm, in, mm, m <br />
+**units**: cm, in, mm, m <br />
 
 ##### Returns
 
-**height**: float value in the units selected
+**height**: float height value in the units selected
 
 ##### Example
 

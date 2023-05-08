@@ -10,14 +10,15 @@ title: set_drone_LED()
 
 ##### Description
 
-Sets the color of the CoDrone EDU's LED.
+Sets the color of CoDrone EDU's LED. Colors are set by using its RGB (red, green, blue) equivalent values.
+
 
 ##### Parameters
 ![set drone led block param image](set_drone_led_params.PNG)
-**red**: Integer between 0 and 255 <br /> 
-**green**: Integer between 0 and 255 <br /> 
-**blue**: Integer between 0 and 255 <br /> 
-**brightness**: Integer between 0 and 100 <br /> 
+**red**: positive integer between 0 and 255 <br /> 
+**green**: positive integer between 0 and 255 <br /> 
+**blue**: positive integer between 0 and 255 <br /> 
+**brightness**: positive between 0 and 255 <br /> 
 
 ##### Returns
 

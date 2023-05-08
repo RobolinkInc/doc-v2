@@ -10,7 +10,7 @@ title: get_hsvl()
 
 ##### Description
 
-Gets the HSVL data from the CoDrone EDU's color sensors.
+Returns the HSVL (hue, saturation, value, lightness) data from either of the CoDrone EDU's bottom color sensors. The drone must be flat on a surface (not flying) for the color sensor to activate.
 
 ##### Parameters
 ![get hsvl block image](get_hsvl_params1.PNG)
@@ -24,4 +24,4 @@ hsvl value from sensor
 
 ##### Example
 
-![get hsvl example](get_hsvl_example.PNG)
+![get hsvl example](get_hsvl_ex.png)
