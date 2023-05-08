@@ -10,12 +10,13 @@ title: drone_buzzer()
 
 ##### Description
 
-Plays a note for a specified amount of time in milliseconds using the CoDrone EDU.
+Plays a note for a duration in milliseconds using the CoDrone EDU drone buzzer.
+
 
 ##### Parameters
 ![drone buzzer block image](drone_buzzer_params.PNG) <br />
-**note**: note range from C3 to B7, EndOfType, Mute, Fin <br />
-**duration**: the duration of the note in milliseconds. any positive integer
+**note**: note range from C3 to B7, Mute, Fin<br />
+**duration**: positive integer in milliseconds
 
 ##### Returns
 

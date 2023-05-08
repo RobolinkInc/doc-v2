@@ -10,12 +10,12 @@ title: drone_buzzer_hertz()
 
 ##### Description
 
-Plays a sound frequency in Hertz for a specified amount of time in milliseconds using the CoDrone EDU.
+Plays a sound frequency for a duration in milliseconds using the CoDrone EDU drone buzzer.
 
 ##### Parameters
 
-**hertz**: The frequency in Hertz of the sound. Integer value. <br />
-**duration**: the duration of the note in milliseconds. any positive integer
+**hertz**: any positive integer in Hertz<br />
+**duration**: positive integer in milliseconds
 
 ##### Returns
 
