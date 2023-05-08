@@ -22,4 +22,4 @@ None
 
 ##### Example
 
-![move example](move_ex.PNG)
+![move no params example](move_ex.png)

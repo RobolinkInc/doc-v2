@@ -24,4 +24,4 @@ This function returns the current angular velocity in degrees per second for eit
 
 ##### Example
 
-![get gyro example](get_gyro_speed_ex.PNG)
+![get gyro example](get_gyro_speed_ex.png)

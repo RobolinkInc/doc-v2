@@ -6,7 +6,7 @@ title: get_state_data()
 
 ##### Block
 
-![get state data block image](get_state_data.PNG)<br />
+![get state data block image](get_state_data.png)<br />
 
 ##### Description
 

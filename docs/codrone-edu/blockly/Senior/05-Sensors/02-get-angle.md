@@ -24,4 +24,4 @@ This function returns the current gyroscope angle measurement for either the x (
 
 ##### Example
 
-![get angle example](get_gyro_angle_ex.PNG)
+![get angle example](get_gyro_angle_ex.png)
