@@ -22,4 +22,4 @@ This functions reads the color data from either of the two bottom color sensors 
 
 ##### Example
 
-![get color example](get_color_ex.PNG)
+![get color example](get_color_data_ex.PNG)

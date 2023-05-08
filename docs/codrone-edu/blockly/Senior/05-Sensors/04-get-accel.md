@@ -25,4 +25,4 @@ This function returns the current acceleration on either the x, y, or z axis in 
 
 ##### Example
 
-![get accel example](get_accel_ex.PNG)
+![get accel example](get_acceleration_example.png)

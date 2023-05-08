@@ -22,4 +22,4 @@ Returns the current state of the CoDrone EDU.
 
 ##### Example
 
-![get state data example](get_state_ex.png)
+![get state data example](get_state_data_ex.png)
