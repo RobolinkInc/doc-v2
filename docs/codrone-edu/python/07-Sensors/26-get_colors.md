@@ -6,7 +6,7 @@ title: get_colors()
 
 ##### Description
 
-get_colors() is a getter function that accesses color data by using the default ByRobot color prediction
+get_colors() is a getter function that returns one of the 8 pre-calibrated colors (provided in the color cards). 
 
 ##### Syntax
 ```get_colors()```<br />
@@ -18,7 +18,7 @@ None
 
 ##### Returns
 
-A list containing the front and back color sensor prediction.
+A list containing the front and back color sensor predictions as strings (Red, Green, Yellow, Blue, Cyan, Magenta, Black, White, Unknown)
 
 ##### Example Code
 ###### Python
