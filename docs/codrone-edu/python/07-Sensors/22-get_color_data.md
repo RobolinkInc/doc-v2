@@ -6,7 +6,7 @@ title: get_color_data()
 
 ##### Description
 
-Getter function that gets a list of color data from the drone <br />
+Getter function that gets a list of color data from the drone. <br />
 
 ##### Syntax
 ```get_color_data()```<br />
