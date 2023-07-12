@@ -23,4 +23,4 @@ None
 ##### Example
 Add a hover or delay block after the flip if you need to stabilize before your next command. The drone takes 3-4 seconds after a flip before it can do another flight command.
 
-![go at power example](flip_back_example.png)
+![Junior flip example](flip_example.png)
