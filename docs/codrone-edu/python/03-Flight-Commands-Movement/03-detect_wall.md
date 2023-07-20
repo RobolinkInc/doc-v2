@@ -7,7 +7,7 @@ title: detect_wall()
 
 ##### Description
 
-Returns True when a distance below the threshold is reached. The range of front sensor is from 0mm-1000mm (0cm-100cm)
+Returns True when a distance below the threshold is reached. The sensor range is up to 1.5 meters (150cm)
 
 
 ##### Syntax
@@ -15,7 +15,7 @@ Returns True when a distance below the threshold is reached. The range of front 
 ```detect_wall(distance)```
 
 ##### Parameters
-**distance**: An optional parameter that is the threshold in millimeters that will return True. The default value is 500
+**distance**: An optional parameter that is the threshold in centimeters that will return True. The default value is 50
 
 ##### Returns
 
