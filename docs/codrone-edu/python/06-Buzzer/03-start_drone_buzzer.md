@@ -25,6 +25,7 @@ None
 ```python
 #Python code
 from codrone_edu.drone import *
+import time
 
 distance = 50
 

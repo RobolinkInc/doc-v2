@@ -1,27 +1,3 @@
----
-custom_edit_url: null
-id: 30-set_initial_pressure
-title: set_initial_pressure()
----
-
-##### Description
-
-This function saves an initial pressure reading to the drone. This function is used in combination with other functions such as height_from_pressure()
-
-##### Syntax
-```set_initial_pressure()```
-
-##### Parameters
-
-None
-
-##### Returns
-
-None
-
-##### Example Code
-###### Python
-```python
 #Python code
 from codrone_edu.drone import *
 import time
@@ -36,4 +12,3 @@ drone.set_initial_pressure()
 for i in range(300):
     print(drone.height_from_pressure(), " millimeters")
     time.sleep(0.2)
-```

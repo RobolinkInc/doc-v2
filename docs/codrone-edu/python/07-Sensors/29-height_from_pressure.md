@@ -26,6 +26,7 @@ Height in centimeters
 ```python
 #Python code
 from codrone_edu.drone import *
+import time
 
 drone = Drone()
 drone.pair()
