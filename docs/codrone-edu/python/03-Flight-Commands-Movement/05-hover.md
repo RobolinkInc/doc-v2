@@ -28,8 +28,11 @@ from codrone_edu.drone import *
 
 drone = Drone()
 drone.pair()
-drone.takeoff()
-drone.hover(3)
-drone.land()
-drone.close()
+try:
+    drone.takeoff()
+    drone.hover(3)
+finally:
+    drone.land()
+    drone.emergency_stop()
+    drone.close()
 ```

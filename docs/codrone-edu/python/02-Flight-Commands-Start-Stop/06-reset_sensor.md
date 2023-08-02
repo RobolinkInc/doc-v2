@@ -25,6 +25,7 @@ None
 ###### Python
 ```python
 #Python code
+#Python code
 from codrone_edu.drone import *
 import time
 
@@ -34,18 +35,23 @@ print("Before")
 print("X angle:", drone.get_x_angle())
 print("Y angle:", drone.get_y_angle())
 print("Z angle:", drone.get_z_angle())
-drone.takeoff()
-drone.set_yaw(50)
-drone.move(1)
-drone.land()
-print("After")
-print("X angle:", drone.get_x_angle())
-print("Y angle:", drone.get_y_angle())
-print("Z angle:", drone.get_z_angle())
-drone.reset_sensor() 
-print("Reset")
-print("X angle:", drone.get_x_angle())
-print("Y angle:", drone.get_y_angle())
-print("Z angle:", drone.get_z_angle())
-drone.close()
+try:
+    drone.takeoff()
+    drone.set_yaw(50)
+    drone.move(1)
+    drone.land()
+    print("After")
+    print("X angle:", drone.get_x_angle())
+    print("Y angle:", drone.get_y_angle())
+    print("Z angle:", drone.get_z_angle())
+    drone.reset_sensor()
+    print("Reset")
+    print("X angle:", drone.get_x_angle())
+    print("Y angle:", drone.get_y_angle())
+    print("Z angle:", drone.get_z_angle())
+
+finally:
+    drone.land()
+    drone.emergency_stop()
+    drone.close()
 ```
