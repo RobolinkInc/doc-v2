@@ -8,7 +8,7 @@ title: keep_distance()
 ##### Description
 
 A looped method that makes the drone fly forward until it reaches a desired distance. Once the desired distance in reached the drone will maintin that distance.
-The range of front sensor is from 0mm-1000mm (0cm-100cm)
+The range of front sensor is from 0cm-100cm (0mm-1000mm)
 
 
 ##### Syntax
@@ -19,7 +19,7 @@ The range of front sensor is from 0mm-1000mm (0cm-100cm)
 
 ##### Parameters
 **timeout**: timeout is an optional paramaeter that is the duration in seconds that the function will run. The default value is 2 <br />
-**distance**: distance is an optional parameter that is the distance in millimeters the drone will stop and maintin distance in front of an object. The default value is 500
+**distance**: distance is an optional parameter that is the distance in centimeters the drone will stop and maintin distance in front of an object. The default value is 50
 
 ##### Returns
 
@@ -35,8 +35,8 @@ drone = Drone()
 drone.pair()
 try:
     drone.takeoff()
-    # fly forward until a wall is found. maintin a distance of 600mm (60cm) from an object once detected. run this loop for 10 seconds.
-    drone.keep_distance(10, 600)
+    # fly forward until a wall is found. maintin a distance of 60cm (600mm) from an object once detected. run this loop for 10 seconds.
+    drone.keep_distance(10, 60)
 finally:
     drone.land()
     drone.emergency_stop()
