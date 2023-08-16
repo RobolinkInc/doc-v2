@@ -7,6 +7,24 @@ title: CoDrone EDU Library Changelog
 # Changelog
 ---
 
+##### April 15, 2023
+**CoDrone EDU Version 1.8**
+
+* added get_sensor_data()
+* Fixed bug where sensor requests would return 0 right after takeoff
+* Removed *pynput* dependency
+
+##### February 16, 2023
+**CoDrone EDU Version 1.7**
+
+* added start_controller_buzzer()
+* added stop_controller_buzzer()
+* added get_error_data()
+* renamed get_x_gyro() -> get_angular_speed_x()
+* renamed get_y_gyro() -> get_angular_speed_y()
+* renamed get_z_gyro() -> get_angular_speed_z()
+* codrone-edu library version prints to console
+
 ##### December 28, 2022
 
 **CoDrone EDU Version 1.6**
