@@ -113,6 +113,8 @@ These are the functions that you can use to control the CoDrone EDU. The functio
                 <a href="/docs/codrone-edu/python/Sensors/31-get_angular_speed_x">get_angular_speed_x()</a>
                 <a href="/docs/codrone-edu/python/Sensors/32-get_angular_speed_y">get_angular_speed_y()</a>
                 <a href="/docs/codrone-edu/python/Sensors/33-get_angular_speed_z">get_angular_speed_z()</a>
+                <a href="/docs/codrone-edu/python/Sensors/34-get_sensor_data">get_sensor_data()</a>
+                <a href="/docs/codrone-edu/python/Sensors/35-get_error_data">get_error_data()</a>
         </div>   
     </div>
     <div class="parentContainer">

@@ -25,8 +25,6 @@ None
 #Python code
 from codrone_edu.drone import *
 
-distance = 50
-
 drone = Drone()
 drone.pair()
 
