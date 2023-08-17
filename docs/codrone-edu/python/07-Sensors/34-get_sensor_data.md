@@ -19,38 +19,38 @@ This functions returns a list of 31 values including time stamps and sensor valu
 
 ##### Returns
 A list of length 31.
-data[0] Altitude time stamp
-data[1] Temperature	in Celsius
-data[2] Pressure (Pascals)
-data[3] Elevation output from barometer (meters)
-data[4] Height value output from bottom range sensor (meters)
-data[5] Motion data time stamp 
-data[6] acceleration X            Int16	2 Byte	-1568 ~ 1568 (-156.8 ~ 156.8) m/s2 x 10 X
-data[7] acceleration Y            Int16	2 Byte	-1568 ~ 1568 (-156.8 ~ 156.8) m/s2 x 10 Y
-data[8] acceleration Z            Int16   2 Byte	-1568 ~ 1568 (-156.8 ~ 156.8) m/s2 x 10 Z
-data[9] gyroRoll:	Int16	2 Byte	-2000 ~ 2000	degree/second Roll
-data[10] gyroPitch	Int16	2 Byte	-2000 ~ 2000	degree/second Pitch
-data[11] gyroYaw  	Int16	2 Byte	-2000 ~ 2000	degree/second Yaw
-data[12] angleRoll	Int16	2 Byte	-180 ~ 180	degree Roll
-data[13] anglePitch	Int16	2 Byte	-180 ~ 180	degree Pitch
-data[14] angleYaw	Int16	2 Byte	-180 ~ 180	degree Yaw
-data[15] Position data time stamp
-data[16] x	Float32	4 Byte	-	X axis in meters
-data[17] y	Float32	4 Byte	-	Y axis in meters
-data[18] z	Float32	4 Byte	-	z axis in meters
-data[19] Range sensor data time stamp 
-data[20] Front range sensor (millimeters)
-data[21] Bottom range sensor (millimeters)
-data[22] Drone state time stamp 
-data[23] modeSystem	 (system operating mode)
-data[24] modeFlight  (flight controller operating mode)
-data[25] modeControlFlight  (flight control mode)
-data[26] modeMovement  (moving state)
-data[27] headless  (headless setting status)
-data[28] sensorOrientation  (sensor orientation)
-data[29] battery parcentage level
-data[30] current speed setting
-<br>
+
+* data[0] Altitude time stamp
+* data[1] Temperature	in Celsius
+* data[2] Pressure (Pascals)
+* data[3] Elevation output from barometer (meters)
+* data[4] Height value output from bottom range sensor (meters)
+* data[5] Motion data time stamp 
+* data[6] acceleration X            Int16	2 Byte	-1568 ~ 1568 (-156.8 ~ 156.8) m/s2 x 10 X
+* data[7] acceleration Y            Int16	2 Byte	-1568 ~ 1568 (-156.8 ~ 156.8) m/s2 x 10 Y
+* data[8] acceleration Z            Int16   2 Byte	-1568 ~ 1568 (-156.8 ~ 156.8) m/s2 x 10 Z
+* data[9] gyroRoll:	Int16	2 Byte	-2000 ~ 2000	degree/second Roll
+* data[10] gyroPitch	Int16	2 Byte	-2000 ~ 2000	degree/second Pitch
+* data[11] gyroYaw  	Int16	2 Byte	-2000 ~ 2000	degree/second Yaw
+* data[12] angleRoll	Int16	2 Byte	-180 ~ 180	degree Roll
+* data[13] anglePitch	Int16	2 Byte	-180 ~ 180	degree Pitch
+* data[14] angleYaw	Int16	2 Byte	-180 ~ 180	degree Yaw
+* data[15] Position data time stamp
+* data[16] x	Float32	4 Byte	-	X axis in meters
+* data[17] y	Float32	4 Byte	-	Y axis in meters
+* data[18] z	Float32	4 Byte	-	z axis in meters
+* data[19] Range sensor data time stamp 
+* data[20] Front range sensor (millimeters)
+* data[21] Bottom range sensor (millimeters)
+* data[22] Drone state time stamp 
+* data[23] modeSystem	 (system operating mode)
+* data[24] modeFlight  (flight controller operating mode)
+* data[25] modeControlFlight  (flight control mode)
+* data[26] modeMovement  (moving state)
+* data[27] headless  (headless setting status)
+* data[28] sensorOrientation  (sensor orientation)
+* data[29] battery parcentage level
+* data[30] current speed setting
 
 ##### Example Code
 ###### Python
