@@ -64,7 +64,9 @@ These are the functions that you can use to control the CoDrone EDU. The functio
          <a href="/docs/codrone-edu/python/Buzzer/01-controller_buzzer/">controller_buzzer()</a>
          <a href="/docs/codrone-edu/python/Buzzer/02-drone_buzzer/">drone_buzzer()</a>
          <a href="/docs/codrone-edu/python/Buzzer/03-start_drone_buzzer/">start_drone_buzzer()</a>
-         <a href="/docs/codrone-edu/python/Buzzer/04-stop_drone_buzzer/">stop_drone_buzzer()</a>      
+         <a href="/docs/codrone-edu/python/Buzzer/04-stop_drone_buzzer/">stop_drone_buzzer()</a>
+         <a href="/docs/codrone-edu/python/Buzzer/05-start_controller_buzzer/">stop_controller_buzzer()</a> 
+         <a href="/docs/codrone-edu/python/Buzzer/06-stop_controller_buzzer/">stop_controller_buzzer()</a>  
   </div>
     <div class="box-reference-shadow margin-top-30"> 
         <h3>LED</h3>
@@ -111,9 +113,9 @@ These are the functions that you can use to control the CoDrone EDU. The functio
                 <a href="/docs/codrone-edu/python/Sensors/31-get_angular_speed_x">get_angular_speed_x()</a>
                 <a href="/docs/codrone-edu/python/Sensors/32-get_angular_speed_y">get_angular_speed_y()</a>
                 <a href="/docs/codrone-edu/python/Sensors/33-get_angular_speed_z">get_angular_speed_z()</a>
-        </div>
-        
+        </div>   
     </div>
+    <div class="parentContainer">
      <div class="boxLanding">
        <div class="box-reference-shadow"> 
             <h3>Controller</h3>
@@ -136,11 +138,11 @@ These are the functions that you can use to control the CoDrone EDU. The functio
                 <a href="/docs/codrone-edu/python/Controller/17-get_right_joystick_x">get_right_joystick_x()</a> 
                 <a href="/docs/codrone-edu/python/Controller/18-get_right_joystick_y">get_right_joystick_y()</a>
         </div>
-        
+      </div>
     </div>
-    
+    <div class="parentContainer">
       <div class="boxLanding">
-       <div class="box-reference-shadow"> 
+         <div class="box-reference-shadow"> 
             <h3>Screen</h3>
                 <a href="/docs/codrone-edu/python/Screen/01-controller_clear_screen">controller_clear_screen()</a>
                 <a href="/docs/codrone-edu/python/Screen/02-controller_create_canvas">controller_create_canvas()</a>
@@ -158,7 +160,6 @@ These are the functions that you can use to control the CoDrone EDU. The functio
                 <a href="/docs/codrone-edu/python/Screen/14-controller_draw_string">controller_draw_string()</a> 
                 <a href="/docs/codrone-edu/python/Screen/15-controller_preview_canvas">controller_preview_canvas()</a>   
         </div>
-        
     </div>
   </div>
 </div>
