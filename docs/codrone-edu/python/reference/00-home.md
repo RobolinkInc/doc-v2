@@ -63,7 +63,7 @@ These are the functions that you can use to control the CoDrone EDU. The functio
          <a href="/docs/codrone-edu/python/Buzzer/02-drone_buzzer/">drone_buzzer()</a>
          <a href="/docs/codrone-edu/python/Buzzer/03-start_drone_buzzer/">start_drone_buzzer()</a>
          <a href="/docs/codrone-edu/python/Buzzer/04-stop_drone_buzzer/">stop_drone_buzzer()</a>
-         <a href="/docs/codrone-edu/python/Buzzer/05-start_controller_buzzer/">stop_controller_buzzer()</a> 
+         <a href="/docs/codrone-edu/python/Buzzer/05-start_controller_buzzer/">start_controller_buzzer()</a> 
          <a href="/docs/codrone-edu/python/Buzzer/06-stop_controller_buzzer/">stop_controller_buzzer()</a>  
     </div>
     <div class="box-reference-shadow margin-top-30"> 
@@ -75,8 +75,8 @@ These are the functions that you can use to control the CoDrone EDU. The functio
     </div>
   </div>
 </div>
-<div  class="parentContainer">
-  <div class="boxLanding">
+<div class="boxLanding">
+  <div  class="parentContainer">
     <div class="box-reference-shadow"> 
       <h3>Sensor</h3>
         <a href="/docs/codrone-edu/python/Sensors/01-get_battery">get_battery()</a>
@@ -119,7 +119,7 @@ These are the functions that you can use to control the CoDrone EDU. The functio
 </div>
 <div class="parentContainer">
   <div class="boxLanding">
-    <div class="box-reference-shadow"> 
+    <div class="box-reference-shadow margin-top-30"> 
         <h3>Controller</h3>
             <a href="/docs/codrone-edu/python/Controller/01-down_arrow_pressed">down_arrow_pressed()</a>
             <a href="/docs/codrone-edu/python/Controller/02-get_button_data">get_button_data()</a>
@@ -144,7 +144,7 @@ These are the functions that you can use to control the CoDrone EDU. The functio
 </div>
 <div class="parentContainer">
   <div class="boxLanding">
-      <div class="box-reference-shadow"> 
+      <div class="box-reference-shadow margin-top-30"> 
         <h3>Screen</h3>
             <a href="/docs/codrone-edu/python/Screen/01-controller_clear_screen">controller_clear_screen()</a>
             <a href="/docs/codrone-edu/python/Screen/02-controller_create_canvas">controller_create_canvas()</a>
