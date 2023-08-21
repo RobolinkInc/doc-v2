@@ -74,10 +74,10 @@ These are the functions that you can use to control the CoDrone EDU. The functio
         <a href="/docs/codrone-edu/python/LED/04-set_drone_LED">set_drone_LED()</a>
     </div>
   </div>
-</div>
-<div class="boxLanding">
+
   <div  class="parentContainer">
-    <div class="box-reference-shadow"> 
+    <div class="boxLanding">
+       <div class="box-reference-shadow"> 
       <h3>Sensor</h3>
         <a href="/docs/codrone-edu/python/Sensors/01-get_battery">get_battery()</a>
         <a href="/docs/codrone-edu/python/Sensors/02-get_bottom_range">get_bottom_range()</a>
@@ -114,11 +114,8 @@ These are the functions that you can use to control the CoDrone EDU. The functio
         <a href="/docs/codrone-edu/python/Sensors/33-get_angular_speed_z">get_angular_speed_z()</a>
         <a href="/docs/codrone-edu/python/Sensors/34-get_sensor_data">get_sensor_data()</a>
         <a href="/docs/codrone-edu/python/Sensors/35-get_error_data">get_error_data()</a>
-    </div>   
-  </div>
-</div>
-<div class="parentContainer">
-  <div class="boxLanding">
+    </div>  
+     </div> 
     <div class="box-reference-shadow margin-top-30"> 
         <h3>Controller</h3>
             <a href="/docs/codrone-edu/python/Controller/01-down_arrow_pressed">down_arrow_pressed()</a>
@@ -140,10 +137,6 @@ These are the functions that you can use to control the CoDrone EDU. The functio
             <a href="/docs/codrone-edu/python/Controller/17-get_right_joystick_x">get_right_joystick_x()</a> 
             <a href="/docs/codrone-edu/python/Controller/18-get_right_joystick_y">get_right_joystick_y()</a>
     </div>
-  </div>
-</div>
-<div class="parentContainer">
-  <div class="boxLanding">
       <div class="box-reference-shadow margin-top-30"> 
         <h3>Screen</h3>
             <a href="/docs/codrone-edu/python/Screen/01-controller_clear_screen">controller_clear_screen()</a>
@@ -161,6 +154,10 @@ These are the functions that you can use to control the CoDrone EDU. The functio
             <a href="/docs/codrone-edu/python/Screen/13-controller_draw_string_align">controller_draw_string_align()</a> 
             <a href="/docs/codrone-edu/python/Screen/14-controller_draw_string">controller_draw_string()</a> 
             <a href="/docs/codrone-edu/python/Screen/15-controller_preview_canvas">controller_preview_canvas()</a>   
-      </div>
-   </div>
+        </div>
+  </div>
+</div>
+<div class="boxLanding marginTop25">
+
+
 </div>
