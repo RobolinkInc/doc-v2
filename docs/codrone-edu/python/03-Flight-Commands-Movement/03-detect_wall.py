@@ -5,7 +5,7 @@ drone = Drone()
 drone.pair()
 try:
     drone.takeoff()
-    # if a wall is detected in less than 500mm true will be returned.
+    # if a wall is detected in less than 50cm true will be returned.
     if drone.detect_wall():
         print("wall detected!")
     else:
