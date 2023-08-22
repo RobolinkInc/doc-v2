@@ -33,7 +33,7 @@ import time
 drone = Drone()
 drone.pair()
 
-drone.set_trim(-5, 0) # example: drone is drifting right, so trim to roll left a little bit
+drone.set_trim(-100, 50) #example
 
 time.sleep(1)       # Add a time.sleep(1) before takeoff if you're planning to set the trim before takeoff
 try:
