@@ -3,8 +3,6 @@ import time
 
 drone = Drone()
 drone.pair()
-drone.open()
-
 try:
     drone.takeoff()
     drone.hover(1) # hovering before setting waypoint

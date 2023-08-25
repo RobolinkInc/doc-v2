@@ -4,7 +4,6 @@ import time
 
 drone = Drone()
 drone.pair()
-drone.open()
 
 try:
     drone.takeoff()

@@ -2,7 +2,6 @@ from codrone_edu.drone import *
 
 drone=Drone()
 drone.pair()
-drone.open()
 
 try:
     drone.set_trim(5, 0)
