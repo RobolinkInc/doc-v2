@@ -6,6 +6,10 @@ title: CoDrone EDU Library Changelog
 ---
 # Changelog
 ---
+##### October 8, 2023
+**CoDrone EDU Version 1.9**
+
+* Fixed a bug in returning controller button press data for the custom controller lesson
 
 ##### April 15, 2023
 **CoDrone EDU Version 1.8**
