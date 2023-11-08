@@ -5,12 +5,15 @@ title: CoDrone Mini Library Changelog
 
 ---
 # Changelog
+---
 
 ##### November 8, 2023
 
 **CoDrone mini Version 2.0.5**
 
-* * Completed backend refactoring to update Blockly infrastructure. These changes will not affect your user experience, but they will help deliver a smoother update process in the future.
+* Completed backend refactoring to update Blockly infrastructure. These changes will not affect your user experience, but they will help deliver a smoother update process in the future.
+
+---
 
 ##### Aug 14, 2018
 
