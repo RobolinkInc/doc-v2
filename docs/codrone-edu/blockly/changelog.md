@@ -7,15 +7,12 @@ title: CoDrone EDU Library Changelog
 # Changelog
 
 
-##### July 1, 2022
+##### November 8, 2023
 
-**CoDrone EDU Version 1.5.6**
+**CoDrone EDU Version 2.1.1**
 
-New Function:<br />
-pair() : Updated to a new function for pairing with the CoDrone. Pair will pair with the nearest, then save your drone info to your project folder and use the next time you pair with no parameters.<br />
-calibrate() : you can reset and calibrate drone programmatically.<br />
-
-move() function updated.  It can take 4 parameters move(roll,pitch,yaw,throttle) to move indefinitely
-
+* Completed backend refactoring to update Blockly infrastructure. These changes will not affect your user experience, but they will help deliver a smoother update process in the future.
+* Renamed get_gyro() Senior blocks to get_angular_speed()
+* Small changes in the Python generated code output to reflect the latest library
 
 ---
