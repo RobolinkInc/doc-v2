@@ -16,13 +16,6 @@ const Search = props => {
   const { siteConfig = {} } = useDocusaurusContext();
   const { baseUrl } = siteConfig;
 
-  let listRoutesExclude = [
-    '/codrone-edu',
-    '/codrone-edu/'
-  ]
-  if (listRoutesExclude.includes(history.location.pathname)) {
-    history.replace('/');
-  }
   const initAlgolia = (searchDocs, searchIndex, DocSearch) => {
     new DocSearch({
       searchDocs,
