@@ -1,16 +1,16 @@
 ---
 custom_edit_url: null
-id: 28-move_left
-title: move_left()
+id: 27-move_right
+title: move_right()
 ---
 
 ##### Description
 
-Moves the drone left for the given distance and unit for that distance.
+Moves the drone right for the given distance and unit for that distance.
 
 ##### Syntax
-```move_left(distance)```
-```move_left(distance, unit, speed)```
+```move_right(distance)```
+```move_right(distance, unit, speed)```
 
 ##### Parameters
 
@@ -29,12 +29,10 @@ None
 from codrone_edu.drone import *
 import time
 
-
-
 drone = Drone()
 drone.pair()
 drone.takeoff()
-drone.move_left(distance=50, units="cm", speed=1)
+drone.move_right(distance=50, units="cm", speed=1)
 time.sleep(3) # make sure to add a delay so the drone has enough time to fly
 drone.land()
 drone.close()

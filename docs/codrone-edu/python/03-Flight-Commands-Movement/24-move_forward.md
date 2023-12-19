@@ -1,16 +1,16 @@
 ---
 custom_edit_url: null
-id: 29-move_right
-title: move_right()
+id: 24-move_forward
+title: move_forward()
 ---
 
 ##### Description
 
-Moves the drone right for the given distance and unit for that distance.
+Moves the drone forward for the given distance and unit for that distance.
 
 ##### Syntax
-```move_right(distance)```
-```move_right(distance, unit, speed)```
+```move_forward(distance)```
+```move_forward(distance, unit, speed)```
 
 ##### Parameters
 
@@ -32,7 +32,7 @@ import time
 drone = Drone()
 drone.pair()
 drone.takeoff()
-drone.move_right(distance=50, units="cm", speed=1)
+drone.move_forward(distance=50, units="cm", speed=1)
 time.sleep(3) # make sure to add a delay so the drone has enough time to fly
 drone.land()
 drone.close()

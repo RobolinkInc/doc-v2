@@ -48,14 +48,12 @@ These are the functions that you can use to control the CoDrone EDU. The functio
             <a href="/docs/codrone-edu/python/Flight-Commands-Movement/20-turn_degree">turn_degree()</a>
             <a href="/docs/codrone-edu/python/Flight-Commands-Movement/21-turn_left">turn_left()</a>  
             <a href="/docs/codrone-edu/python/Flight-Commands-Movement/22-turn_right">turn_right()</a>     
-            <a href="/docs/codrone-edu/python/Flight-Commands-Movement/23-goto_waypoint">goto_waypoint()</a>
-            <a href="/docs/codrone-edu/python/Flight-Commands-Movement/24-set_waypoint">set_waypoint()</a>
-            <a href="/docs/codrone-edu/python/Flight-Commands-Movement/25-go">go()</a>
-            <a href="/docs/codrone-edu/python/Flight-Commands-Movement/26-move_forward">move_forward()</a>
-            <a href="/docs/codrone-edu/python/Flight-Commands-Movement/27-move_backward">move_backward()</a>
-            <a href="/docs/codrone-edu/python/Flight-Commands-Movement/28-move_left">move_left()</a>
-            <a href="/docs/codrone-edu/python/Flight-Commands-Movement/29-move_right">move_right()</a>
-            <a href="/docs/codrone-edu/python/Flight-Commands-Movement/30-send_absolute_position">send_absolute_position()</a>
+            <a href="/docs/codrone-edu/python/Flight-Commands-Movement/23-go">go()</a>
+            <a href="/docs/codrone-edu/python/Flight-Commands-Movement/24-move_forward">move_forward()</a>
+            <a href="/docs/codrone-edu/python/Flight-Commands-Movement/25-move_backward">move_backward()</a>
+            <a href="/docs/codrone-edu/python/Flight-Commands-Movement/26-move_left">move_left()</a>
+            <a href="/docs/codrone-edu/python/Flight-Commands-Movement/27-move_right">move_right()</a>
+            <a href="/docs/codrone-edu/python/Flight-Commands-Movement/28-send_absolute_position">send_absolute_position()</a>
     </div>
     <div class="box-reference-shadow margin-top-30"> 
         <h3>Buzzer</h3>

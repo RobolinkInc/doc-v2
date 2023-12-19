@@ -1,16 +1,16 @@
 ---
 custom_edit_url: null
-id: 26-move_forward
-title: move_forward()
+id: 25-move_backward
+title: move_backward()
 ---
 
 ##### Description
 
-Moves the drone forward for the given distance and unit for that distance.
+Moves the drone backward for the given distance and unit for that distance.
 
 ##### Syntax
-```move_forward(distance)```
-```move_forward(distance, unit, speed)```
+```move_backward(distance)```
+```move_backward(distance, unit, speed)```
 
 ##### Parameters
 
@@ -32,7 +32,7 @@ import time
 drone = Drone()
 drone.pair()
 drone.takeoff()
-drone.move_forward(distance=50, units="cm", speed=1)
+drone.move_backward(distance=50, units="cm", speed=1)
 time.sleep(3) # make sure to add a delay so the drone has enough time to fly
 drone.land()
 drone.close()
