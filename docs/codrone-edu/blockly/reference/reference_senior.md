@@ -88,8 +88,8 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
         <img src="/img/codrone-edu/blockly/Sensors/get_range.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Senior/Sensors/02-get-angle">get_angle()</a>
         <img src="/img/codrone-edu/blockly/Sensors/get_angle.PNG"></img>
-    <a href="/docs/codrone-edu/blockly/Senior/Sensors/03-get-gyro">get_gyro()</a>
-        <img src="/img/codrone-edu/blockly/Sensors/get_gyro.PNG"></img>
+    <a href="/docs/codrone-edu/blockly/Senior/Sensors/03-get-angular-speed">get_angular_speed()</a>
+        <img src="/img/codrone-edu/blockly/Sensors/get_angular_speed.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Senior/Sensors/04-get-accel">get_accel()</a>
         <img src="/img/codrone-edu/blockly/Sensors/get_accel.PNG"></img>
     <a href="/docs/codrone-edu/blockly/Senior/Sensors/05-get-pos">get_pos()</a>
