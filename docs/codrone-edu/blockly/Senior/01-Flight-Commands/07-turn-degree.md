@@ -10,7 +10,9 @@ title: turn_degree()
 
 ##### Description
 
-Turns right or left with absolute reference frame to drone's initial heading. Positive degrees turn to right and negative degrees turn to the left.
+Turns right or left with absolute reference frame to drone's initial heading. Positive degrees turn to right and negative degrees turn to the left. When the drone pairs after powering on, the current heading will be set as 0 degrees.
+
+![CoDrone EDU heading image](CDE_heading.jpg)
 
 ##### Parameters
 **degrees**: integer from -180 to +180

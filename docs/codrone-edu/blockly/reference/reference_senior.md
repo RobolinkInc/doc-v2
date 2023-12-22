@@ -20,7 +20,6 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
 </div>
 
 <div class="boxLanding">
-  
     <div  class="parentContainer">
     <div class="box-reference-shadow margin-bottom-20">
         <h3>Flight Commands</h3>
@@ -38,7 +37,9 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
             <img src="/img/codrone-edu/blockly/Flight-Commands/flip.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Senior/Flight-Commands/07-turn-degree">turn_degree()</a>
             <img src="/img/codrone-edu/blockly/Flight-Commands/turn_degree.PNG"></img>
-        <a href="/docs/codrone-edu/blockly/Senior/Flight-Commands/08-avoid-wall">avoid_wall()</a>
+        <a href="/docs/codrone-edu/blockly/Senior/Flight-Commands/08-turn-direction-degree">turn_left()/turn_right()</a>
+            <img src="/img/codrone-edu/blockly/Flight-Commands/turn_direction_degree.PNG"></img>
+        <a href="/docs/codrone-edu/blockly/Senior/Flight-Commands/09-avoid-wall">avoid_wall()</a>
             <img src="/img/codrone-edu/blockly/Flight-Commands/avoid_wall.PNG"></img>  
   </div>
    <div class="box-reference-shadow margin-bottom-20">

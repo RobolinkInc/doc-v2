@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: 08-avoid-wall
+id: 09-avoid-wall
 title: avoid_wall()
 ---
 
@@ -22,4 +22,4 @@ None
 ##### Example
 Place the drone on the floor a few feet away from a wall. When you run the code, the drone will fly forward until the wall is detected 30 centimeters away. The next block will immediately execute. In this case, the drone will land.
 
-![avoid wall example](avoidwall_example.png)
+![avoid wall example](avoid_wall_example.PNG)
