@@ -12,8 +12,8 @@ title: CoDrone EDU Library Changelog
 
 * Added ability to change the drone LED color from the connection window
 * Created a new senior block for turn_left() and turn_right() Python functions
-* Added a link to the release notes from the Blockly menu
-* Corrected the generated RGB values for the Junior set controller LED block
+* Added a link to the release notes in the Blockly menu
+* Corrected the generated RGB values for the Junior controller LED block
 * Updated missing blocks for Japanese-language Blockly
 * More small changes in Python generated code output and block parameters to reflect Python library
 
