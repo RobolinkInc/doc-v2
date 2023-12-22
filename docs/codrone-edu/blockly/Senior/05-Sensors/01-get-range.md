@@ -16,7 +16,7 @@ Returns the calculated distance from either the front or bottom infrared (IR) ra
 ![get range image 1](get_range_params1.PNG) 
 ![get range image 2](get_range_params2.PNG) <br />
 **type**: front, bottom<br />
-**unit**: mm, cm, in, m <br />
+**unit**: cm, mm, in, m <br />
 
 ##### Returns
 

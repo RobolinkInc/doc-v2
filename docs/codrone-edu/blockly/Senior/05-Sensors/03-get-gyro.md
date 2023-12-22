@@ -6,7 +6,7 @@ title: get_gyro()
 
 ##### Block
 
-![get gyro block image](get_gyro.PNG)<br />
+![get gyro block image](get_angular_speed.PNG)<br />
 
 ##### Description
 
@@ -15,7 +15,7 @@ This function returns the current angular velocity in degrees per second for eit
 ![CoDrone EDU angles](xyz.jpg)
 
 ##### Parameters
-![get gyro image](get_gyro_params.PNG) <br />
+![get gyro image](get_angular_speed_params.PNG) <br />
 **type**: x, y, z <br />
 
 ##### Returns
@@ -24,4 +24,4 @@ This function returns the current angular velocity in degrees per second for eit
 
 ##### Example
 
-![get gyro example](get_gyro_speed_ex.png)
+![get gyro example](get_angular_speed_example.png)
