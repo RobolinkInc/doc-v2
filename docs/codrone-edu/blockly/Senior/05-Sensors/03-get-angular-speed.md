@@ -1,7 +1,7 @@
 ---
 custom_edit_url: null
-id: 03-get-gyro
-title: get_gyro()
+id: 03-get-angular-speed
+title: get_angular_speed()
 ---
 
 ##### Block
@@ -24,4 +24,4 @@ This function returns the current angular velocity in degrees per second for eit
 
 ##### Example
 
-![get gyro example](get_angular_speed_example.png)
+![get gyro example](get_angular_speed_ex.PNG)
