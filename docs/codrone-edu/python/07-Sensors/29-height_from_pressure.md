@@ -6,7 +6,7 @@ title: height_from_pressure()
 
 ##### Description
 
-This function gets the drone's current height based on its pressure sensor reading. The height is returned in centimeters.
+This function gets the drone's current height in centimeters based on the initial pressure sensor reading. You must call set_initial_pressure() to establish a reference point.
 
 ##### Syntax
 ```height_from_pressure()```
@@ -14,12 +14,11 @@ This function gets the drone's current height based on its pressure sensor readi
 
 ##### Parameters
 
-**b**: slope intercept in PASCALS
-**m**: slope in millimeters/pascals
+**b**: slope intercept in pascals (default is set to 0)
+**m**: slope in centimeters/pascals (default is set to 9.34)
 
 ##### Returns
-
-Height in centimeters
+Estimated height in centimeters relative to starting position.
 
 ##### Example Code
 ###### Python
@@ -30,10 +29,9 @@ from codrone_edu.drone import *
 drone = Drone()
 drone.pair()
 
-drone.set_initial_pressure()
+drone.set_initial_pressure() # Take an initial pressure reading as a reference 
 
-# The drone will not take off in this example but by moving it up and down manually the resulting height will print
 for i in range(300):
-    print(drone.height_from_pressure(), " millimeters")
+    print(drone.height_from_pressure(), " centimeters")
     time.sleep(0.2)
 ```
