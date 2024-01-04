@@ -33,8 +33,7 @@ drone = Drone()
 drone.pair()
 
 drone.controller_clear_screen()
-
-drone.sendDisplayDrawString(0, 0, "Hello, world!")
+drone.controller_draw_string(0, 0, "Hello, world!")
 
 drone.close()
 
