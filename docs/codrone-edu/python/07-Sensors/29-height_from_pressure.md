@@ -14,7 +14,7 @@ This function gets the drone's current height in centimeters based on the initia
 
 ##### Parameters
 
-**b**: slope intercept in pascals (default is set to 0) <br>
+**b**: slope intercept in pascals (default is set to 0) <br />
 **m**: slope in centimeters/pascals (default is set to 9.34)
 
 ##### Returns
