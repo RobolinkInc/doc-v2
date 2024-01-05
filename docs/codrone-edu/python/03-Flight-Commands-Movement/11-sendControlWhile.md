@@ -32,8 +32,7 @@ from codrone_edu.drone import *
 drone = Drone()
 drone.pair()
 drone.takeoff()
-drone.sendControl(0, 30, 0, 0) # setting pitch to 30
-time.sleep(1) # wait for 1 second while the drone is moving forward
+drone.sendControlWhile(0, 30, 0, 0,1000)  # set pitch to 30 and move for 1000 ms (1 second)
 drone.land()
 drone.close()
 ```
