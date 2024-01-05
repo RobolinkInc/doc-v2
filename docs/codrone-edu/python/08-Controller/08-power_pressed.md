@@ -6,7 +6,7 @@ title: power_pressed()
 
 ##### Description
 
-A function that determines if the controller's power button has been pressed
+A function that determines if the controller's power button has been pressed.  Since pressing the power button also switches the drone to flight mode, this function only detects alternate button presses. In other words, the function can only detect a power button press when in LINK state.
 
 ##### Syntax
 ```power_pressed()```
