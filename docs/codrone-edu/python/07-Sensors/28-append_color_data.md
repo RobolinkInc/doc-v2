@@ -10,7 +10,7 @@ append_color_data() is a function that adds onto an existing dataset of custom c
 the dataset parameter must already exist in order to use this function.
 
 ##### Syntax
-```new_color_data(label, data, dataset)```<br />
+```append_color_data(label, data, dataset)```<br />
 
 
 ##### Parameters

@@ -36,7 +36,7 @@ drone.pair()
 
 drone.controller_clear_screen()
 
-drone.sendDisplayDrawStringAlign(0, 70, 0, "Hello, world!")
+drone.controller_draw_string_align(0, 70, 0, "Hello, world!")
 
 drone.close()
 

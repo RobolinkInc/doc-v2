@@ -19,7 +19,7 @@ This getter function gets the relative position value calculated by the optical 
 
 ##### Returns
 
-The relative position value calculated by the optical flow sensor from the x direction. (cm default).
+The relative position value calculated by the optical flow sensor from the y direction. (cm default).
 
 ##### Example Code
 ###### Python
