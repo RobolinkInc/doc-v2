@@ -5,6 +5,20 @@ title: CoDrone EDU Library Changelog
 
 ---
 # Changelog
+---
+
+##### January 23, 2023
+
+**CoDrone EDU Version 2.1.3**
+
+* Changed parameters on "flip" functions to match Python function parameters
+* Improved trim slider functionality
+* Updated pairing window to reflect messaging about AA batteries
+* Fixed Senior turn_degree() block
+* Fixed Senior get_pressure() block
+* Addressed backend errors to improve performance
+* Improved functionality of the drone LED feature in the connection window
+
 
 ##### December 21, 2023
 
