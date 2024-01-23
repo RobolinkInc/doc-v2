@@ -7,7 +7,7 @@ title: CoDrone EDU Library Changelog
 # Changelog
 ---
 
-##### January 23, 2023
+##### January 23, 2024
 
 **CoDrone EDU Version 2.1.3**
 
