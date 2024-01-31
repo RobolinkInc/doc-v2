@@ -6,7 +6,7 @@ title: turn_left()/turn_right()
 
 ##### Block
 
-![turn direction degree image](turn_degree.PNG)
+![turn direction degree image](turn_direction_degree.PNG)
 
 ##### Description
 

@@ -22,7 +22,7 @@ Returns the current estimated position of the CoDrone EDU using the optical flow
 
 ##### Returns
 
-**posistion:** float x,y, or z value in units selected
+**position:** float x,y, or z value in units selected
 
 ##### Example
 
