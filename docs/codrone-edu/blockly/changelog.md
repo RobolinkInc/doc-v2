@@ -7,6 +7,15 @@ title: CoDrone EDU Library Changelog
 # Changelog
 ---
 
+##### February 14th, 2024
+
+**CoDrone EDU Version 2.1.4**
+
+* Updated drone visuals to match CoDrone EDU (JROTC ed.) when connected
+* Temporarily disabled "Screen" category for JROTC ed.
+* Improvements to firmware notifications in the connection box
+
+
 ##### January 23, 2024
 
 **CoDrone EDU Version 2.1.3**
