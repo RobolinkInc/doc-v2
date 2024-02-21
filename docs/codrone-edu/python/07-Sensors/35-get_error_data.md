@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: 35-get_error_data()
+id: 35-get_error_data
 title: get_error_data()
 ---
 
