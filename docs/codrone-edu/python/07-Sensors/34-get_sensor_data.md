@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-id: 24-get_sensor_data
+id: 34-get_sensor_data
 title: get_sensor_data()
 ---
 
