@@ -7,6 +7,17 @@ title: CoDrone EDU Library Changelog
 # Changelog
 ---
 
+##### February 26th, 2024
+
+**CoDrone EDU Version 2.1.5**
+
+* Disabled battery requests during takeoff
+* Implemented an error-logging system so users can report an error from the menu
+* Implemented analytics
+* Updated firmware notifications to match latest firmware releases
+* Updated Korean-language translations
+
+
 ##### February 14th, 2024
 
 **CoDrone EDU Version 2.1.4**
