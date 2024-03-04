@@ -712,3 +712,7 @@ input:checked + .slider{
     display: none;
   }
 }
+
+[data-theme='dark'] article>header>h1 {
+	color: #FFFFFF; 
+}
