@@ -34,7 +34,7 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
         <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/04-hover">hover for [seconds] seconds</a>
             <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/hover.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/05-go">go [direction] for [seconds] seconds at [power] % power</a>
-            <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/go.PNG"></img>
+            <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/go_for_seconds_at_power_2.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/06-turn-to">turn [direction] [degrees] degrees</a>
             <img src="/img/codrone-edu/blockly/Junior/Flight-Commands/turn.PNG"></img>
         <a href="/docs/codrone-edu/blockly/Junior/Flight-Commands/07-turn-direction-seconds-power">turn [direction] for [seconds] seconds at [power]% power</a>
@@ -43,7 +43,7 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
    <div class="box-reference-shadow margin-bottom-20">
     <h3>Flight Sequences</h3>
     <a href="/docs/codrone-edu/blockly/Junior/Flight-Sequences/01-flip">flip [direction]</a>
-       <img src="/img/codrone-edu/blockly/Junior/Flight-Sequences/flip.PNG"></img>
+       <img src="/img/codrone-edu/blockly/Junior/Flight-Sequences/flip_3.PNG"></img>
   </div>
   </div>
  
