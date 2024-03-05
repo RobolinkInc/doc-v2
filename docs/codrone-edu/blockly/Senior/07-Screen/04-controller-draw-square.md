@@ -9,13 +9,18 @@ title: controller_draw_square()
 ![controller draw square block image](controller_draw_square.PNG)<br />
 
 ##### Description
-
+```
        width
         (x,y)|------|
              |      | width
              |______|
-        
-        draws a square on the controller screen starting from point (x,y) and will extend to the given width
+ ```       
+draws a square on the controller screen starting from point (x,y) and will extend to the given width              
+:::warning
+
+This function is currently unavailable for CoDrone EDU (JROTC ed.).
+
+:::
 
 ##### Parameters
 ![controller draw square block image](controller_draw_square_params.PNG) <br />

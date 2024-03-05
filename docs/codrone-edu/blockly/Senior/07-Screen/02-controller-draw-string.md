@@ -10,7 +10,12 @@ title: controller_draw_string()
 
 ##### Description
 
-Draws a string from the given x_start, x_end and y positions. The string can be aligned along the x_start and x_end positions
+Draws a string from the given x_start, x_end and y positions. The string can be aligned along the x_start and x_end positions    
+:::warning
+
+This function is currently unavailable for CoDrone EDU (JROTC ed.).
+
+:::
 
 ##### Parameters
 ![controller draw string block image](controller_draw_string_params.PNG) <br />
