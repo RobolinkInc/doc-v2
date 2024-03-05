@@ -13,7 +13,7 @@ title: flip()
 This functions makes the drone flip backward, forward, right, or left. Make sure your battery percentage is over 50% for the flip to execute.
 
 ##### Parameters
-![flip param image](flip_senior_param.png)
+![flip param image](flip_senior_param.png)    
 **direction**: back, front, right, left <br /> 
 
 ##### Returns
