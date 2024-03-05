@@ -6,7 +6,7 @@ title: flip [direction]
 
 ##### Block
 
-![flip image](flip_2.PNG)<br /> 
+![flip image](flip_3.PNG)<br /> 
 
 ##### Description
 
