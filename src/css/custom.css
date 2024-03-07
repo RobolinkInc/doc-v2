@@ -713,6 +713,6 @@ input:checked + .slider{
   }
 }
 
-[data-theme='dark'] article>header>h1 {
-	color: #FFFFFF; 
+:root,html[data-theme=dark] {
+  background-color: white !important;
 }
