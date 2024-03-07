@@ -10,7 +10,12 @@ title: controller_draw_point()
 
 ##### Description
 
-Draws a point on the CoDrone EDU LED screen at point (x, y).
+Draws a point on the CoDrone EDU LED screen at point (x, y).    
+:::warning
+
+This function is currently unavailable for CoDrone EDU (JROTC ed.).
+
+:::
 
 ##### Parameters
 ![controller draw point block image](controller_draw_point_params.PNG) <br />

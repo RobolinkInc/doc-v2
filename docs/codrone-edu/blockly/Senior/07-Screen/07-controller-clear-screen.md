@@ -10,7 +10,12 @@ title: controller_clear_screen()
 
 ##### Description
 
-Clears the CoDrone EDU controller screen.
+Clears the CoDrone EDU controller screen.    
+:::warning
+
+This function is currently unavailable for CoDrone EDU (JROTC ed.).
+
+:::
 
 ##### Parameters
 
