@@ -10,7 +10,7 @@ title: flip [direction]
 
 ##### Description
 
-This functions makes the drone flip backward, forward, right, or left. Make sure your battery percentage is over 50% for the flip to execute.
+This functions makes the drone flip back, front, right, or left. Make sure your battery percentage is over 50% for the flip to execute.
 
 ##### Parameters
 ![flip param image](flip_params_2.PNG)<br /> 
