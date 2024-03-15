@@ -644,6 +644,10 @@ input:checked + .slider{
   padding-top: 16px;
 }
 
+.admonition-heading > h5 {
+  color: #FFFFFF;
+}
+
 @media screen and (min-width: 1600px) {
 
   .col.col--6.feature_src-pages-:nth-child(3)>div>div {
