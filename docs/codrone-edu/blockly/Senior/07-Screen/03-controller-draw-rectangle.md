@@ -4,6 +4,12 @@ id: 03-controller-draw-rectangle
 title: controller_draw_rectangle()
 ---
 
+:::caution
+
+This function is currently unavailable for CoDrone EDU (JROTC ed.).
+
+:::
+
 ##### Block
 
 ![controller draw rectangle block image](controller_draw_rectangle.PNG)<br />
@@ -16,11 +22,7 @@ title: controller_draw_rectangle()
              |_______________|
 ```
 draws a rectangle onto the controller screen starting from point (x,y) and extends to given height and width                        
-:::warning
 
-This function is currently unavailable for CoDrone EDU (JROTC ed.).
-
-:::
 
 ##### Parameters
 ![controller draw rectangle block image](controller_draw_rectangle_params.PNG) <br />
