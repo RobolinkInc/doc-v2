@@ -644,8 +644,8 @@ input:checked + .slider{
   padding-top: 16px;
 }
 
-.admonition-heading > h5 {
-  color: #FFFFFF;
+.admonition h5 {
+    color: white !important;
 }
 
 @media screen and (min-width: 1600px) {
