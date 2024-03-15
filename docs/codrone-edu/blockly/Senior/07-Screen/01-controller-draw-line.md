@@ -17,7 +17,7 @@ title: controller_draw_line()
 ```
 draws a line between points (x1, y1) and (x2, y2)
 
-:::warning
+:::caution
 
 This function is currently unavailable for CoDrone EDU (JROTC ed.).
 
