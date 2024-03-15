@@ -4,6 +4,12 @@ id: 01-controller-draw-line
 title: controller_draw_line()
 ---
 
+:::caution
+
+This function is currently unavailable for CoDrone EDU (JROTC ed.).
+
+:::
+
 ##### Block
 
 ![controller draw line block image](controller_draw_line.PNG)<br />
@@ -17,11 +23,6 @@ title: controller_draw_line()
 ```
 draws a line between points (x1, y1) and (x2, y2)
 
-:::warning
-
-This function is currently unavailable for CoDrone EDU (JROTC ed.).
-
-:::
 
 
 ##### Parameters

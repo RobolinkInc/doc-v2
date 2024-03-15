@@ -4,6 +4,12 @@ id: 07-controller-clear-screen
 title: controller_clear_screen()
 ---
 
+:::caution
+
+This function is currently unavailable for CoDrone EDU (JROTC ed.).
+
+:::
+
 ##### Block
 
 ![controller draw line block image](controller_clear_screen.PNG)<br />
@@ -11,11 +17,6 @@ title: controller_clear_screen()
 ##### Description
 
 Clears the CoDrone EDU controller screen.    
-:::warning
-
-This function is currently unavailable for CoDrone EDU (JROTC ed.).
-
-:::
 
 ##### Parameters
 
