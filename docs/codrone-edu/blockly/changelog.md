@@ -7,12 +7,26 @@ title: CoDrone EDU Library Changelog
 # Changelog
 ---
 
+##### April 18th, 2024
+
+**CoDrone EDU Version 2.1.6**
+
+* Fixed bug with generated Python code for avoid_wall()
+* New pop-up window When drone or controller disconnects from Blockly
+* Updated wording from "Pair with Blockly" to "Connect to Blockly"
+* Updated messaging for adding or loading a colorset with clearer instructions
+* Added a notice for JROTC edition users to first calibrate their color sensor before adding a color set
+* Back-end changes to ensure Blockly is checking for the latest versions
+* "Open" menu option only allows .XML as options
+* Back-end changes to improve timing logs
+
+
 ##### February 26th, 2024
 
 **CoDrone EDU Version 2.1.5**
 
 * Disabled battery requests during takeoff
-* Implemented an error-logging system so users can report an error from the menu
+* Implemented an error-logging system
 * Implemented analytics
 * Updated firmware notifications to match latest firmware releases
 * Updated Korean-language translations
