@@ -7,7 +7,19 @@ title: CoDrone EDU Library Changelog
 # Changelog
 ---
 
-##### April 18th, 2024
+##### May 21, 2024
+
+**CoDrone EDU Version 2.1.7**
+
+* Fixed bug causing crashes when color sensor returns "unknown".
+* Enhanced takeoff command by adding checks for the drone flight state after takeoff.
+* Fixed issue with labels not loading completely when a color set is loaded.
+* Resolved bug where some blocks don't disable when using the "when start" block.
+* Disabled the asynchronous "when keyboard press" block to improve stability.
+* Added multi-language support for the "How to Connect" popup.
+* Corrected drone model display issue in the connection window without needing a refresh.
+
+##### April 18, 2024
 
 **CoDrone EDU Version 2.1.6**
 
@@ -21,7 +33,7 @@ title: CoDrone EDU Library Changelog
 * Back-end changes to improve timing logs
 
 
-##### February 26th, 2024
+##### February 26, 2024
 
 **CoDrone EDU Version 2.1.5**
 
@@ -32,7 +44,7 @@ title: CoDrone EDU Library Changelog
 * Updated Korean-language translations
 
 
-##### February 14th, 2024
+##### February 14, 2024
 
 **CoDrone EDU Version 2.1.4**
 
