@@ -7,6 +7,19 @@ title: CoDrone EDU Library Changelog
 # Changelog
 ---
 
+##### June 12, 2024
+
+**CoDrone EDU Version 2.1.8**
+
+* Changed "color classifiers" to "color data sets"
+* Resolved bug where not all labels were loaded from a colorset
+* Disabled "code_is_running" block
+* Resolved bug where right-click delete did not delete the generated code in the Python tab
+* Implemented an alert when the user forgets to load a colorset
+* Updated Japanese translations
+* Enhanced "when start" feature that only allows one block at a time in the workspace
+* Reset the "Run code" button interface when "land" is pressed
+
 ##### May 21, 2024
 
 **CoDrone EDU Version 2.1.7**
