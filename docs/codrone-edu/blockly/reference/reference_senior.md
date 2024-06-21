@@ -63,11 +63,6 @@ These are the Blockly functions that you can use to control the CoDrone EDU. Exa
     <a href="/docs/codrone-edu/blockly/Senior/Flight-Variables/09-reset-trim">reset_trim()</a>
         <img src="/img/codrone-edu/blockly/Flight-Variables/reset_trim.PNG"></img>
   </div>
-   <div class="box-reference-shadow margin-bottom-20">
-    <h3>Status Checkers</h3>
-    <a href="/docs/codrone-edu/blockly/Senior/Status-Checkers/01-code-is-running">code_is_running()</a>
-       <img src="/img/codrone-edu/blockly/Status-Checkers/code_is_running.PNG"></img>
-  </div>
   <div class="box-reference-shadow margin-bottom-20">
     <h3>Lights</h3>
     <a href="/docs/codrone-edu/blockly/Senior/Lights/01-set-drone-led">set_drone_led()</a>
