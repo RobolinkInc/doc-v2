@@ -1,0 +1,826 @@
+<!doctype html>
+<html lang="ko-KR" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-CoDroneEDU/Blockly/page4" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.4.0">
+<title data-rh="true">Senior Block Documentation | Robolink Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://staging-docs.robolink.com/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation"><meta data-rh="true" property="og:locale" content="ko_KR"><meta data-rh="true" property="og:locale:alternate" content="en_GB"><meta data-rh="true" name="docusaurus_locale" content="ko"><meta data-rh="true" name="docsearch:language" content="ko"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Senior Block Documentation | Robolink Documentation"><meta data-rh="true" name="description" content="window.print()}&gt;Print"><meta data-rh="true" property="og:description" content="window.print()}&gt;Print"><link data-rh="true" rel="icon" href="/ko/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://staging-docs.robolink.com/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation"><link data-rh="true" rel="alternate" href="https://staging-docs.robolink.com/docs/CoDroneEDU/Blockly/Senior-Block-Documentation" hreflang="en-GB"><link data-rh="true" rel="alternate" href="https://staging-docs.robolink.com/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation" hreflang="ko-KR"><link data-rh="true" rel="alternate" href="https://staging-docs.robolink.com/docs/CoDroneEDU/Blockly/Senior-Block-Documentation" hreflang="x-default"><link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5CJZ80X5XG"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-5CJZ80X5XG",{anonymize_ip:!0})</script>
+
+
+
+<link rel="icon" href="/ko/img/docusaurus.png">
+<link rel="manifest" href="/ko/manifest.json">
+<meta name="theme-color" content="rgb(37, 194, 160)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+<link rel="apple-touch-icon" href="/ko/img/docusaurus.png">
+<link rel="mask-icon" href="/ko/img/docusaurus.svg" color="rgb(37, 194, 160)">
+<meta name="msapplication-TileImage" content="/ko/img/docusaurus.png">
+<meta name="msapplication-TileColor" content="#000">
+<script src="/custom.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><link rel="stylesheet" href="/ko/assets/css/styles.d18f979e.css">
+<script src="/ko/assets/js/runtime~main.4f87586a.js" defer="defer"></script>
+<script src="/ko/assets/js/main.9f4edce1.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();null!==e?t(e):window.matchMedia("(prefers-color-scheme: dark)").matches?t("dark"):window.matchMedia("(prefers-color-scheme: light)").matches?t("light"):t("dark")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="본문으로 건너뛰기"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">본문으로 건너뛰기</a></div><nav aria-label="메인" class="navbar navbar--fixed-top navbar--dark"><div class="navbar__inner"><div class="navbar__items"><button aria-label="사이드바 펼치거나 접기" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/ko/"><div class="navbar__logo"><img src="/ko/img/R-docs-logo.png" alt="Robolink Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/ko/img/R-docs-logo.png" alt="Robolink Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div></a></div><div class="navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>한글 Korean</a><ul class="dropdown__menu"><li><a href="/docs/CoDroneEDU/Blockly/Senior-Block-Documentation" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="en-GB">English</a></li><li><a href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="ko-KR">한글 Korean</a></li></ul></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search"><span aria-label="expand searchbar" role="button" class="search-icon" tabindex="0"></span><input id="search_input_react" type="search" placeholder="Loading..." aria-label="Search" class="navbar__search-input search-bar" disabled=""></div></div><a href="https://learn.robolink.com/" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Go to Lessons<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS darkNavbarColorModeToggle_X3D1" type="button" disabled="" title="어두운 모드와 밝은 모드 전환하기 (현재 어두운 모드)" aria-label="어두운 모드와 밝은 모드 전환하기 (현재 어두운 모드)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="맨 위로 스크롤하기" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="문서 사이드바" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ko/docs/CoDroneEDU/">CoDrone EDU</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ko/docs/CoDroneEDU/Blockly/">Blockly</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--active" href="/ko/docs/CoDroneEDU/Blockly/">Blockly</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ko/docs/CoDroneEDU/Blockly/How-to-use-Blockly">Blockly란 무엇인가요?</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ko/docs/CoDroneEDU/Blockly/Junior-Block-Documentation">Junior Block Documentation</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation">Senior Block Documentation</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ko/docs/CoDroneEDU/Blockly/Blockly-Changelog">Blockly Changelog</a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ko/docs/CoDroneEDU/Python/">Python</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link" href="/ko/docs/CoDroneEDU/Python/">Python</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ko/docs/CoDroneEDU/Python/Setup-and-Installation">Setup and Installation</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ko/docs/CoDroneEDU/Python/Updating-Library">Updating the Library</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ko/docs/CoDroneEDU/Python/Function-Documentation">Function Documentation</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ko/docs/CoDroneEDU/Python/Python-Changelog">Python Changelog</a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ko/docs/CoDroneEDU/Documents/">Documents</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link" href="/ko/docs/CoDroneEDU/Documents/">Documents</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ko/docs/CoDroneEDU/Documents/Digital-User-Manual">Digital User Manual</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ko/docs/CoDroneEDU/Documents/Firmware">Firmware</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ko/docs/CoDroneEDU/Documents/Technical-Specifications">Technical Specifications</a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="홈" class="breadcrumbs__link" href="/ko/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/ko/docs/CoDroneEDU/Blockly/"><span itemprop="name">Blockly</span></a><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Senior Block Documentation</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">이 페이지에서</button></div><div class="theme-doc-markdown markdown"><header><h1>Senior Block Documentation</h1></header><div class="print_div"><button id="print_page">Print</button></div>
+<div class="change_version"><p>version 2.1.8 (<a href="/ko/docs/CoDroneEDU/Blockly/Blockly-Changelog">Changelog</a>)</p></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="flight-commands">Flight Commands<a class="hash-link" aria-label="Flight Commands에 대한 직접 링크" title="Flight Commands에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#flight-commands">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="takeoff">takeoff()<a class="hash-link" aria-label="takeoff()에 대한 직접 링크" title="takeoff()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#takeoff">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/take_off.png" width="90px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">takeoff()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description">​</a></h4>
+<p>This functions makes the drone take off. CoDrone EDU takes off at an average height of 1 meter off the ground. A takeoff block must be used before any other flight command or flight movement.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/take_off_hover_land.png" width="180x">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="land">land()<a class="hash-link" aria-label="land()에 대한 직접 링크" title="land()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#land">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-1">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-1">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/land.png" width="70px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-1">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-1">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">land()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-1">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-1">​</a></h4>
+<p>This function makes the drone land by throttling down safely.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-1">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-1">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-1">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-1">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-1">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-1">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/take_off_hover_land.png" width="180px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="emergency_stop">emergency_stop()<a class="hash-link" aria-label="emergency_stop()에 대한 직접 링크" title="emergency_stop()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#emergency_stop">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-2">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-2">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/emergencystop.png" width="160px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-2">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-2">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">emergency_stop()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-2">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-2">​</a></h4>
+<p>Stops all commands to motors. The drone will stop flying immediately.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-2">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-2">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-2">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-2">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-2">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-2">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/emergency_stop_example.png" width="150px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="hover">hover()<a class="hash-link" aria-label="hover()에 대한 직접 링크" title="hover()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#hover">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-3">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-3">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/hover.png" width="150px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-3">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-3">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">hover()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-3">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-3">​</a></h4>
+<p>This function makes the drone hover in place for a duration in seconds.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-3">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-3">​</a></h4>
+<p><strong><em>integer</em> duration:</strong> the duration of the hover in seconds</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-3">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-3">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-3">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-3">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/take_off_hover_land.png" width="180px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="move">move()<a class="hash-link" aria-label="move()에 대한 직접 링크" title="move()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#move">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-4">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-4">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/move.png" width="460px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-4">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-4">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">move()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-4">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-4">​</a></h4>
+<p>Moves the drone for a certain amount of time (in seconds) in a given direction determined by the flight parameters.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-4">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-4">​</a></h4>
+<p><strong><em>integer</em> roll:</strong> roll power percentage as an integer between -100 and +100<br>
+<strong><em>integer</em> pitch:</strong> pitch power percentage as an integer between -100 and +100<br>
+<strong><em>integer</em> yaw:</strong> yaw power percentage as an integer between -100 and +100<br>
+<strong><em>integer</em> throttle:</strong> throttle power percentage as an integer between -100 and +100<br>
+<strong><em>integer</em> duration:</strong> duration of the hover, in seconds</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-4">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-4">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-4">Example<a class="hash-link" aria-label="Example에 대한  직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-4">​</a></h4>
+<p>In this example, roll and pitch are both set to positive 30% while yaw and throttle remain at 0%. CoDrone EDU will fly forward and to the right (diagonally) for 1 second at 30% speed.</p>
+<img src="/img/CDE/blockly_docu/senior/move-example.png" width="480px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="flip">flip()<a class="hash-link" aria-label="flip()에 대한 직접 링크" title="flip()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#flip">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-5">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-5">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/flip.png" width="180px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-5">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-5">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">flip()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-5">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-5">​</a></h4>
+<p>This functions makes the drone flip back, front, right, or left. Make sure your battery percentage is over 50% for the flip to execute.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-5">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-5">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/flip_params.png" width="180px">
+<p><strong>direction:</strong> back, front, right, left</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-5">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-5">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-5">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-5">​</a></h4>
+<p>Add a hover or delay block after the flip if you need to stabilize before your next command. The drone takes 3-4 seconds after a flip before it can do another flight command.</p>
+<img src="/img/CDE/blockly_docu/senior/flip_example.png" width="500px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="turn_degree">turn_degree()<a class="hash-link" aria-label="turn_degree()에 대한 직접 링크" title="turn_degree()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#turn_degree">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-6">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-6">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/turn_degree.png" width="200px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-6">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-6">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">turn_degree()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-6">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-6">​</a></h4>
+<p>Turns right or left with absolute reference frame to drone&#x27;s initial heading. Positive degrees turn to right and negative degrees turn to the left. When the drone pairs after powering on, the current heading will be set as 0 degrees.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-6">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-6">​</a></h4>
+<p><strong><em>integer</em> degrees:</strong> angle of the turn between -180 and +180</p>
+<img src="/img/CDE/blockly_docu/senior/CDE_heading.jpg" width="300px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-6">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-6">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-6">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-6">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/turn_degree_example.png" width="240px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="turn_left--turn_right">turn_left() / turn_right()<a class="hash-link" aria-label="turn_left() / turn_right()에 대한 직접 링크" title="turn_left() / turn_right()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#turn_left--turn_right">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-7">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-7">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/turn_direction_degree.PNG" width="210px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-7">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-7">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">turn_left()</span>
+<br>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">turn_right()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-7">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-7">​</a></h4>
+<p>Turns right or left relative to the drone&#x27;s current heading.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-7">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-7">​</a></h4>
+<p><strong><em>integer</em> degrees:</strong> angle of the turn between 0 and 180</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-7">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-7">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-7">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-7">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/turn_direction_degree_example.PNG" width="240px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="avoid_wall">avoid_wall()<a class="hash-link" aria-label="avoid_wall()에 대한 직접 링크" title="avoid_wall()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#avoid_wall">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-8">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-8">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/avoid_wall.png" width="260px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-8">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-8">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">avoid_wall()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-8">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-8">​</a></h4>
+<p>CoDrone EDU will fly forward and stop when an obstacle is detected a given distance away (in centimeters). The block will run until the timeout (in seconds) is finished or the obstacle is found, whichever comes first. The default timeout is 10 seconds for an obstacle detected 20cm away.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-8">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-8">​</a></h4>
+<p><strong><em>integer</em> timeout:</strong> the timeout duration in seconds<br>
+<strong><em>integer</em> distance:</strong> the distance, in centimeters, at which the CoDrone EDU will stop to avoid obstacle</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-8">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-8">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-8">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-8">​</a></h4>
+<p>Place the drone on the floor a few feet away from a wall. When you run the code, the drone will fly forward until the wall is detected 30 centimeters away. The next block will immediately execute. In this case, the drone will land.</p>
+<img src="/img/CDE/blockly_docu/senior/avoid_wall_example.png" width="280px">
+<hr class="section_hr">
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="flight-variables">Flight Variables<a class="hash-link" aria-label="Flight Variables에 대한 직접 링크" title="Flight Variables에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#flight-variables">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="set_roll">set_roll()<a class="hash-link" aria-label="set_roll()에 대한 직접 링크" title="set_roll()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#set_roll">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-9">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-9">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/set_roll.png" width="180px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-9">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-9">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">set_roll()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-9">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-9">​</a></h4>
+<p>This function sets the roll direction variable but will not send a move command. Negative values will move the drone to the left and positive values will move the drone to the right.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-9">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-9">​</a></h4>
+<p><strong><em>integer</em> power:</strong> the power/speed of the drone between -100 and 100</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-9">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-9">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-9">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-9">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/set_roll_example.png" width="180px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="set_pitch">set_pitch()<a class="hash-link" aria-label="set_pitch()에 대한 직접 링크" title="set_pitch()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#set_pitch">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-10">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-10">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/set_pitch.png" width="180px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-10">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-10">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">set_pitch()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-10">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-10">​</a></h4>
+<p>This function sets the pitch direction variable but will not send a move command. Negative values will move the drone backward and positive values will move the drone forward.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-10">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-10">​</a></h4>
+<p><strong><em>integer</em> power:</strong> the power/speed of the drone between -100 and 100</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-10">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-10">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-10">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-10">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/set_pitch_example.png" width="180px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="set_yaw">set_yaw()<a class="hash-link" aria-label="set_yaw()에 대한 직접 링크" title="set_yaw()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#set_yaw">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-11">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-11">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/set_yaw.png" width="180px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-11">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-11">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">set_yaw()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-11">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-11">​</a></h4>
+<p>This function sets the yaw direction variable but will not send a move command. Negative values will turn the drone to the right and positive values will turn the drone to the left.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-11">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-11">​</a></h4>
+<p><strong><em>integer</em> power:</strong> the power/speed of the drone between -100 and 100</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-11">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-11">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-11">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-11">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/set_yaw_example.png" width="180px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="set_throttle">set_throttle()<a class="hash-link" aria-label="set_throttle()에 대한 직접 링크" title="set_throttle()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#set_throttle">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-12">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-12">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/set_throttle.png" width="240px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-12">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-12">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">set_throttle()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-12">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-12">​</a></h4>
+<p>This function sets the throttle direction variable but will not send a move command. Negative values will move the drone downward and positive values will move the drone upward.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-12">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-12">​</a></h4>
+<p><strong><em>integer</em> power:</strong> the power/speed of the drone between -100 and 100</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-12">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-12">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-12">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-12">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/set_throttle_example.png" width="240px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="move-1">move()<a class="hash-link" aria-label="move()에 대한 직접 링크" title="move()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#move-1">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-13">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-13">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/move_no_params.png" width="80px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-13">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-13">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">move()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-13">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-13">​</a></h4>
+<p>Moves CoDrone EDU in the direction set by the flight variables with the smallest duration possible (about 0.01 seconds). Since it has no specified duration, it is often used inside of a loop to check sensors simultaneously.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-13">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-13">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-13">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-13">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-13">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-13">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/move_no_params_example.png" width="400px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="moveduration">move(duration)<a class="hash-link" aria-label="move(duration)에 대한 직접 링크" title="move(duration)에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#moveduration">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-14">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-14">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/move_with_params.png" width="160px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-14">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-14">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">move()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-14">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-14">​</a></h4>
+<p>Moves CoDrone EDU for a duration in seconds in the direction set by the flight variables.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-14">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-14">​</a></h4>
+<p><strong><em>integer</em> duration:</strong> the duration of the movement in seconds</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-14">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-14">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-14">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-14">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/move_with_params_example.png" width="200px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="set_trim">set_trim()<a class="hash-link" aria-label="set_trim()에 대한 직접 링크" title="set_trim()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#set_trim">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-15">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-15">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/set_trim.png" width="240px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-15">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-15">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">set_trim()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-15">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-15">​</a></h4>
+<p>Sets the trim values to adjust for any drifting while CoDrone EDU is flying. Set the trim values in the opposite direction of drift. For example, if the drone is drifting to the right, set roll to a negative value.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-15">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-15">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/set_trim_params.png" width="280px">
+<p><strong><em>integer</em> roll:</strong> the trim value to adjust for roll drifting, between -100 and 100<br>
+<strong><em>integer</em> pitch:</strong> the trim value to adjust for pitch drifting, between -100 and 100</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-15">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-15">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-15">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-15">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/set_trim_example.png" width="280px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="get_trim">get_trim()<a class="hash-link" aria-label="get_trim()에 대한 직접 링크" title="get_trim()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_trim">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-16">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-16">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_trim.png" width="120px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-16">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-16">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">get_trim()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-16">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-16">​</a></h4>
+<p>Returns the current trim values. Combine with a print statement to see the results printed to the console.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-16">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-16">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-16">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-16">​</a></h4>
+<p><strong><em>integer</em> roll:</strong> the trim value for the roll movement, between -100 and 100<br>
+<strong><em>integer</em> pitch:</strong> the trim value for the pitch movement, between -100 and 100</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-16">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-16">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_trim_example.png" width="280px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="reset_trim">reset_trim()<a class="hash-link" aria-label="reset_trim()에 대한 직접 링크" title="reset_trim()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#reset_trim">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-17">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-17">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/reset_trim.png" width="120px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-17">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-17">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">reset_trim()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-17">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-17">​</a></h4>
+<p>Resets the trim values to (0,0).</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-17">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-17">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-17">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-17">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-17">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-17">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/reset_trim_example.png" width="280px">
+<hr class="section_hr">
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="lights">Lights<a class="hash-link" aria-label="Lights에 대한 직접 링크" title="Lights에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#lights">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="set_drone_led">set_drone_LED()<a class="hash-link" aria-label="set_drone_LED()에 대한 직접 링크" title="set_drone_LED()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#set_drone_led">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-18">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-18">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/set_drone_led.png" width="450px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-18">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-18">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">set_drone_LED()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-18">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-18">​</a></h4>
+<p>Sets the color of CoDrone EDU&#x27;s LED. Colors are set by using its RGB (red, green, blue) equivalent values.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-18">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-18">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/set_drone_led_params.png" width="500px">
+<p><strong><em>integer</em> red:</strong> pixel value for the color red between 0 and 255<br>
+<strong><em>integer</em> green:</strong> pixel value for the color green between 0 and 255<br>
+<strong><em>integer</em> blue:</strong> pixel value for the color blue between 0 and 255<br>
+<strong><em>integer</em> brightness:</strong> brightness of the drone LED between 0 and 255</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-18">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-18">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-18">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-18">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/set_drone_led_example.png" width="500px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="drone_led_off">drone_LED_off()<a class="hash-link" aria-label="drone_LED_off()에 대한 직접 링크" title="drone_LED_off()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#drone_led_off">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-19">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-19">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/drone_led_off.png" width="150px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-19">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-19">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">drone_LED_off()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-19">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-19">​</a></h4>
+<p>Turns off CoDrone EDU&#x27;s LED.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-19">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-19">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-19">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-19">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-19">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-19">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/drone_led_off_example.png" width="480px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="set_controller_led">set_controller_LED()<a class="hash-link" aria-label="set_controller_LED()에 대한 직접 링크" title="set_controller_LED()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#set_controller_led">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-20">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-20">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/set_controller_led.png" width="450px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-20">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-20">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">set_controller_LED()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-20">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-20">​</a></h4>
+<p>Sets the color of CoDrone EDU&#x27;s controller LED. Colors are set by using its RGB (red, green, blue) equivalent values.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-20">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-20">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/set_controller_led_params.png" width="500px">
+<p><strong><em>integer</em> red:</strong> pixel value for the color red between 0 and 255<br>
+<strong><em>integer</em> green:</strong> pixel value for the color green between 0 and 255<br>
+<strong><em>integer</em> blue:</strong> pixel value for the color blue between 0 and 255<br>
+<strong><em>integer</em> brightness:</strong> brightness of the controller LED between 0 and 255</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-20">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-20">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-20">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-20">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/set_controller_led_example.png" width="500px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="controller_led_off">controller_LED_off()<a class="hash-link" aria-label="controller_LED_off()에 대한 직접 링크" title="controller_LED_off()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#controller_led_off">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-21">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-21">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_led_off.png" width="180px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-21">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-21">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">controller_LED_off()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-21">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-21">​</a></h4>
+<p>Turns off the CoDrone EDU&#x27;s controller LED.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-21">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-21">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-21">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-21">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-21">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-21">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_led_off_example.png" width="480px">
+<hr class="section_hr">
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sensors">Sensors<a class="hash-link" aria-label="Sensors에 대한 직접 링크" title="Sensors에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#sensors">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="get_range">get_range()<a class="hash-link" aria-label="get_range()에 대한 직접 링  크" title="get_range()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_range">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-22">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-22">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_range.png" width="250px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-22">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-22">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">get_range()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-22">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-22">​</a></h4>
+<p>Returns the calculated distance from either the front or bottom infrared (IR) range sensor to the surface. The sensor range is up to 1.5m.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-22">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-22">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_range_params1.png" width="250px">
+<br>
+<img src="/img/CDE/blockly_docu/senior/get_range_params2.png" width="250px">
+<p><strong>type:</strong> front, bottom<br>
+<strong>unit:</strong> cm, mm, in, m</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-22">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-22">​</a></h4>
+<p><strong><em>float</em> distance:</strong> float value in the units selected</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-22">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-22">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_range_example.png" width="450px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="get_angle">get_angle()<a class="hash-link" aria-label="get_angle()에 대한 직접 링크" title="get_angle()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_angle">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-23">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-23">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_angle.png" width="180px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-23">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-23">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">get_angle()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-23">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-23">​</a></h4>
+<p>This function returns the current gyroscope angle measurement for either the x (roll),y (pitch),or z (yaw) axis.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-23">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-23">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_angle_params.png" width="200px">
+<p><strong>axis:</strong> x, y, z</p>
+<img src="/img/CDE/blockly_docu/senior/xyz.jpg" width="350px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-23">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-23">​</a></h4>
+<p><strong><em>integer</em> angle:</strong> gyroscope angle measurement for the given axis, in degrees</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-23">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-23">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_angle_ex.png" width="420px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="get_angular_speed">get_angular_speed()<a class="hash-link" aria-label="get_angular_speed()에 대한 직접 링크" title="get_angular_speed()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_angular_speed">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-24">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-24">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_angular_speed.png" width="240px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-24">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-24">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">get_angular_speed()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-24">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-24">​</a></h4>
+<p>This function returns the current angular velocity in degrees per second for either the x (roll),y (pitch), or z (yaw) axis.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-24">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-24">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_angular_speed_params.png" width="280px">
+<p><strong>type:</strong> x, y, z</p>
+<img src="/img/CDE/blockly_docu/senior/xyz.jpg" width="350px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-24">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-24">​</a></h4>
+<p><strong><em>integer</em> angular velocity:</strong> the angular velocity of the drone, in degrees per second</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-24">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-24">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_angular_speed_ex.png" width="480px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="get_accel">get_accel()<a class="hash-link" aria-label="get_accel()에 대한 직접 링크" title="get_accel()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_accel">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-25">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-25">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_accel.png" width="190px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-25">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-25">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">get_accel()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-25">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-25">​</a></h4>
+<p>This function returns the current acceleration on either the x, y, or z axis in units of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi><mi mathvariant="normal">/</mi><msup><mi>s</mi><mn>2</mn></msup><mo>∗</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">m/s^2*10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em"></span><span class="mord mathnormal">m</span><span class="mord">/</span><span class="mord"><span class="mord mathnormal">s</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em"><span style="top:-3.063em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222em"></span></span><span class="base"><span class="strut" style="height:0.6444em"></span><span class="mord">10</span></span></span></span>.<br>
+<strong>Note:</strong> <em>1g</em> = <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>9.8</mn><mi>m</mi><mi mathvariant="normal">/</mi><msup><mi>s</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">9.8m/s^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em"></span><span class="mord">9.8</span><span class="mord mathnormal">m</span><span class="mord">/</span><span class="mord"><span class="mord mathnormal">s</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em"><span style="top:-3.063em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></p>
+<img src="/img/CDE/blockly_docu/senior/xyz.jpg" width="350px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-25">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-25">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_accel_params.png" width="210px">
+<p><strong>type:</strong> x, y, z</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-25">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-25">​</a></h4>
+<p><strong><em>integer</em> acceleration:</strong> positive or negative acceleration of the drone, in <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi><mi mathvariant="normal">/</mi><msup><mi>s</mi><mn>2</mn></msup><mo>∗</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">m/s^2*10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em"></span><span class="mord mathnormal">m</span><span class="mord">/</span><span class="mord"><span class="mord mathnormal">s</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em"><span style="top:-3.063em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222em"></span></span><span class="base"><span class="strut" style="height:0.6444em"></span><span class="mord">10</span></span></span></span></p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-25">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-25">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_accel_ex.png" width="400px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="get_pos">get_pos()<a class="hash-link" aria-label="get_pos()에 대한 직접 링크" title="get_pos()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_pos">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-26">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-26">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_pos.png" width="230px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-26">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-26">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">get_pos()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-26">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-26">​</a></h4>
+<p>Returns the current estimated position of the CoDrone EDU using the optical flow sensor.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-26">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-26">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_pos_params1.png" width="230px">
+<br>
+<img src="/img/CDE/blockly_docu/senior/get_pos_params2.png" width="250px">
+<p><strong>axis:</strong> x, y, z<br>
+<strong>unit:</strong> mm, cm, in, m</p>
+<img src="/img/CDE/blockly_docu/senior/topdown_xy.png" width="350px">
+<br>
+<img src="/img/CDE/blockly_docu/senior/xyz.jpg" width="350px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-26">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-26">​</a></h4>
+<p><strong><em>float</em> position:</strong> float x,y, or z value in units selected</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-26">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-26">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_pos_ex.png" width="450px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="get_battery">get_battery()<a class="hash-link" aria-label="get_battery()에 대한 직접 링크" title="get_battery()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_battery">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-27">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-27">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_battery.png" width="120px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-27">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-27">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">get_battery()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-27">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-27">​</a></h4>
+<p>This function returns the current battery percentage of the drone battery.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-27">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-27">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-27">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-27">​</a></h4>
+<p><strong><em>integer</em> battery percentage:</strong> the battery percentage from 0 to 100</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-27">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-27">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_battery_example.png" width="160px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="get_height">get_height()<a class="hash-link" aria-label="get_height()에 대한 직접 링크" title="get_height()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_height">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-28">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-28">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_height.png" width="180px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-28">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-28">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">get_height()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-28">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-28">​</a></h4>
+<p>Returns the calculated distance from the bottom infrared (IR) range sensor to the surface. The sensor range is up to 1.5m. This is another name for the get_range(&quot;bottom&quot;) function.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-28">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-28">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_height_params.png" width="200px">
+<p><strong>units:</strong> cm, in, mm, m</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-28">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-28">​</a></h4>
+<p><strong><em>flaot</em> height:</strong> float height value in the units selected</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-28">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-28">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_height_example.png" width="450px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="get_pressure">get_pressure()<a class="hash-link" aria-label="get_pressure()에 대한 직접 링크" title="get_pressure()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_pressure">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-29">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-29">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_pressure.png" width="200px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-29">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-29">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">get_pressure()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-29">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-29">​</a></h4>
+<p>This function returns barometer data in either pascals or millibars.<br>
+<strong>Note:</strong> 1 mbar = 100 Pa</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-29">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-29">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_pressure_params.png" width="220px">
+<p><strong>unit:</strong> pascal or millibar</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-29">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-29">​</a></h4>
+<p><strong><em>float</em> pressure:</strong> float value in either Pa or mbar</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-29">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-29">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_pressure_example.png" width="280px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="get_temperature">get_temperature()<a class="hash-link" aria-label="get_temperature()에 대한 직접 링크" title="get_temperature()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_temperature">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-30">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-30">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_temperature.png" width="300px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-30">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-30">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">get_temperature()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-30">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-30">​</a></h4>
+<p>This block returns the current temperature of the drone in either Celsius or Fahrenheit.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-30">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-30">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_temperature_params.png" width="300px">
+<p><strong>unit:</strong> Fahrenheit, Celsius, Kelvin</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-30">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-30">​</a></h4>
+<p><strong><em>float</em> temperature:</strong> float value in degrees</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-30">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-30">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_temperature_example.png" width="380px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="get_elevation">get_elevation()<a class="hash-link" aria-label="get_elevation()에 대한 직접 링크" title="get_elevation()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_elevation">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-31">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-31">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_elevation.png" width="220px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-31">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-31">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">get_elevation()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-31">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-31">​</a></h4>
+<p>Returns the estimated elevation data from the CoDrone EDU&#x27;s barometer.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-31">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-31">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_elevation_parameters.png" width="250px">
+<p><strong>unit:</strong> m (meter), km (kilometer), ft (feet), mi (miles).</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-31">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-31">​</a></h4>
+<p><strong><em>float</em> elevation:</strong> float elevation value in units selected</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-31">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-31">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_elevation_example.png" width="260px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="get_color">get_color()<a class="hash-link" aria-label="get_color()에 대한 직접 링크" title="get_color()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_color">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-32">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-32">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_color.png" width="210px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-32">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-32">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">get_color()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-32">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-32">​</a></h4>
+<p>This functions reads the color data from either of the two bottom color sensors and returns one of the 8 pre-calibrated colors (provided in the color cards). The drone must be flat on a surface (not flying) for the color sensor to activate.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-32">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-32">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_color_params.png" width="230px">
+<p><strong>type:</strong> front, back</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-32">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-32">​</a></h4>
+<p><strong>color:</strong> detected color as a string (Red, Green, Yellow, Blue, Cyan, Magenta, Black, White, Unknown)</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-32">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-32">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_color_data_ex.png" width="500px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="get_hsvl">get_hsvl()<a class="hash-link" aria-label="get_hsvl()에 대한 직접 링크" title="get_hsvl()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_hsvl">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-33">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-33">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_hsvl.png" width="250px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-33">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-33">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">get_hsvl()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-33">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-33">​</a></h4>
+<p>Returns the HSVL (hue, saturation, value, lightness) data from either of the CoDrone EDU&#x27;s bottom color sensors. The drone must be flat on a surface (not flying) for the color sensor to activate.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-33">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-33">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_hsvl_params1.png" width="250px">
+<br>
+<img src="/img/CDE/blockly_docu/senior/get_hsvl_params2.png" width="270x">
+<p><strong>type:</strong> front, back<br>
+<strong>unit:</strong> hue, saturation, value, lightness</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-33">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-33">​</a></h4>
+<p>hsvl value from sensor</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-33">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-33">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_hsvl_ex.png" width="500px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="get_state_data">get_state_data()<a class="hash-link" aria-label="get_state_data()에 대한 직접 링크" title="get_state_data()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_state_data">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-34">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-34">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_state_data.png" width="280x">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-34">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-34">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">get_state_data()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-34">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-34">​</a></h4>
+<p>Returns the current state of the CoDrone EDU.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-34">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-34">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_state_data_params.png" width="280px">
+<p><strong>unit:</strong> modeFlight, modeMovement</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-34">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-34">​</a></h4>
+<p><strong>state:</strong> name of flight/movement state</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-34">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-34">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/get_state_data_ex.png" width="320px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="reset_sensor">reset_sensor()<a class="hash-link" aria-label="reset_sensor()에 대한 직접 링크" title="reset_sensor()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#reset_sensor">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-35">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-35">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/reset_sensor.png" width="160px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-35">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-35">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">reset_sensor()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-35">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-35">​</a></h4>
+<p>Resets the Gyroscope angles to 0. Make sure the drone is on a flat surface when running this block.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-35">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-35">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-35">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-35">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-35">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-35">​</a></h4>
+<p>To use this example file turn the drone manually with your hand and watch the Z angle change. Stop moving the drone during the reset. You will see that the Z angle is reset to 0.</p>
+<img src="/img/CDE/blockly_docu/senior/reset_sensor_ex.png" width="280px">
+<hr class="section_hr">
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sound">Sound<a class="hash-link" aria-label="Sound에 대한 직접 링크" title="Sound에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#sound">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="drone_buzzer">drone_buzzer()<a class="hash-link" aria-label="drone_buzzer()에 대한 직접 링크" title="drone_buzzer()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#drone_buzzer">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-36">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-36">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/drone_buzzer.PNG" width="500px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-36">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-36">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">buzzer()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-36">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-36">​</a></h4>
+<p>Plays a note for a duration in milliseconds using the CoDrone EDU drone buzzer.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-36">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-36">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/drone_buzzer_params.PNG" width="500px">
+<p><strong>note:</strong> note range from C3 to B7, Mute, Fin<br>
+<strong><em>integer</em> duration:</strong> the duration of note played in milliseconds</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-36">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-36">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-36">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-36">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/drone_buzzer_example.PNG" width="500px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="controller_buzzer">controller_buzzer()<a class="hash-link" aria-label="controller_buzzer()에 대한 직접 링크" title="controller_buzzer()에 대  한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#controller_buzzer">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-37">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-37">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_buzzer.PNG" width="500px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-37">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-37">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">controller_buzzer()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-37">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-37">​</a></h4>
+<p>Plays a note for a duration in milliseconds using the CoDrone EDU controller buzzer.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-37">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-37">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_buzzer_params.PNG" width="500px">
+<p><strong>note:</strong> note range from C3 to B7, Mute, Fin<br>
+<strong><em>integer</em> duration:</strong> the duration of note played in milliseconds</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-37">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-37">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-37">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-37">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_buzzer_example.PNG" width="500px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="drone_buzzer_hertz">drone_buzzer_hertz()<a class="hash-link" aria-label="drone_buzzer_hertz()에 대한 직접 링크" title="drone_buzzer_hertz()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#drone_buzzer_hertz">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-38">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-38">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/drone_buzzer_hertz.PNG" width="500px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-38">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-38">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">drone_buzzer_hertz()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-38">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-38">​</a></h4>
+<p>Plays a sound frequency for a duration in milliseconds using the CoDrone EDU drone buzzer.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-38">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-38">​</a></h4>
+<p><strong><em>integer</em> hertz:</strong> the frequency of the buzzer, in Hertz<br>
+<strong><em>integer</em> duration:</strong> the duration of the buzzer played, in milliseconds</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-38">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-38">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-38">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-38">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/hertz_example.PNG" width="500px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="controller_buzzer_hertz">controller_buzzer_hertz()<a class="hash-link" aria-label="controller_buzzer_hertz()에 대한 직접 링크" title="controller_buzzer_hertz()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#controller_buzzer_hertz">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-39">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-39">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_buzzer_hertz.PNG" width="500px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-39">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-39">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">controller_buzzer_hertz()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-39">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-39">​</a></h4>
+<p>Plays a sound frequency for a duration in milliseconds using the CoDrone EDU controller buzzer.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-39">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-39">​</a></h4>
+<p><strong><em>integer</em> hertz:</strong> the frequency of the buzzer, in Hertz<br>
+<strong><em>integer</em> duration:</strong> the duration of the buzzer played, in milliseconds</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-39">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-39">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-39">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-39">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior//hertz_example.PNG" width="500px">
+<hr class="section_hr">
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="screen">Screen<a class="hash-link" aria-label="Screen에 대한 직접 링크" title="Screen에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#screen">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="controller_draw_line">controller_draw_line()<a class="hash-link" aria-label="controller_draw_line()에 대한 직접 링크" title="controller_draw_line()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#controller_draw_line">​</a></h3>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>경고</div><div class="admonitionContent_BuS1"><p>This function is currently unavailable for CoDrone EDU (JROTC ed.).</p></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-40">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-40">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_draw_line.png" width="450px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-40">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-40">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">controller_draw_line()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-40">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-40">​</a></h4>
+<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token plain">x1</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain">y1</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token plain"> \</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">         \</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">          \</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">           \ </span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token plain">x2</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain">y2</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="클립보드에 코드 복사" title="복사" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Draws a line between points (x1, y1) and (x2, y2)</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-40">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-40">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_draw_line_params.png" width="450px">
+<p><strong><em>integer</em> x1:</strong> point 1 x coordinate<br>
+<strong><em>integer</em> y1:</strong> point 1 y coordinate<br>
+<strong><em>integer</em> x2:</strong> point 2 x coordinate<br>
+<strong><em>integer</em> y2:</strong> point 2 y coordinate</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-40">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-40">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-40">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-40">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_draw_line_example.png" width="450px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="controller_draw_string">controller_draw_string()<a class="hash-link" aria-label="controller_draw_string()에 대한 직접 링크" title="controller_draw_string()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#controller_draw_string">​</a></h3>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>경고</div><div class="admonitionContent_BuS1"><p>This function is currently unavailable for CoDrone EDU (JROTC ed.).</p></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-41">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-41">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_draw_string.png" width="450px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-41">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-41">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">controller_draw_string()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-41">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-41">​</a></h4>
+<p>Draws a string from the given x_start, x_end and y positions. The string can be aligned along the x_start and x_end positions</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-41">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-41">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_draw_string_params.png" width="450px">
+<p><strong><em>integer</em> xStart:</strong> starting x position<br>
+<strong><em>integer</em> yStart:</strong> starting y position<br>
+<strong>text:</strong> any string input</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-41">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-41">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-41">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-41">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_draw_string_example.png" width="450px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="controller_draw_rectangle">controller_draw_rectangle()<a class="hash-link" aria-label="controller_draw_rectangle()에 대한 직접 링크" title="controller_draw_rectangle()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#controller_draw_rectangle">​</a></h3>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>경고</div><div class="admonitionContent_BuS1"><p>This function is currently unavailable for CoDrone EDU (JROTC ed.).</p></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-42">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-42">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_draw_rectangle.png" width="550px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-42">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-42">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">controller_draw_rectangle()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-42">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-42">​</a></h4>
+<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain"> width</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token plain">x</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain">y</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token operator" style="color:rgb(137, 221, 255)">|</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">|</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">     </span><span class="token operator" style="color:rgb(137, 221, 255)">|</span><span class="token plain">               </span><span class="token operator" style="color:rgb(137, 221, 255)">|</span><span class="token plain"> height</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">     </span><span class="token operator" style="color:rgb(137, 221, 255)">|</span><span class="token plain">_______________</span><span class="token operator" style="color:rgb(137, 221, 255)">|</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="클립보드에 코드 복사" title="복사" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Draws a rectangle onto the controller screen starting from point (x,y) and extends to given height and width</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-42">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-42">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_draw_rectangle_params.png" width="550px">
+<p><strong><em>integer</em> xStart:</strong> top left corner x coordinate<br>
+<strong><em>integer</em> yStart:</strong> top left corner y coordinate<br>
+<strong><em>integer</em> width:</strong> width of rectangle<br>
+<strong><em>integer</em> height:</strong> height of rectangle<br>
+<strong><em>boolean</em> flagFill:</strong> optional parameter to fill in the rectangle or not. default value is False</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-42">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-42">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-42">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-42">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_draw_rectangle_example.png" width="550px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="controller_draw_square">controller_draw_square()<a class="hash-link" aria-label="controller_draw_square()에 대한 직접 링크" title="controller_draw_square()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#controller_draw_square">​</a></h3>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>경고</div><div class="admonitionContent_BuS1"><p>This function is currently unavailable for CoDrone EDU (JROTC ed.).</p></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-43">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-43">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_draw_square.png" width="500px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-43">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-43">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">controller_draw_square()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-43">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-43">​</a></h4>
+<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">width</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token plain">x</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain">y</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token operator" style="color:rgb(137, 221, 255)">|</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">|</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">     </span><span class="token operator" style="color:rgb(137, 221, 255)">|</span><span class="token plain">      </span><span class="token operator" style="color:rgb(137, 221, 255)">|</span><span class="token plain"> width</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">     </span><span class="token operator" style="color:rgb(137, 221, 255)">|</span><span class="token plain">______</span><span class="token operator" style="color:rgb(137, 221, 255)">|</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="클립보드에 코드 복사" title="복사" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Draws a square on the controller screen starting from point (x,y) and will extend to the given width</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-43">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-43">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_draw_square_params.png" width="500px">
+<p><strong><em>integer</em> xStart:</strong> top left corner x coordinate<br>
+<strong><em>integer</em> yStart:</strong> top left corner y coordinate<br>
+<strong><em>integer</em> width:</strong> width of square<br>
+<strong><em>boolean</em> flagFill:</strong> optional parameter to fill in the square or not. default value is False</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-43">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-43">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-43">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-43">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_draw_square_example.png" width="500px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="controller_draw_point">controller_draw_point()<a class="hash-link" aria-label="controller_draw_point()에 대한 직접 링크" title="controller_draw_point()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#controller_draw_point">​</a></h3>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>경고</div><div class="admonitionContent_BuS1"><p>This function is currently unavailable for CoDrone EDU (JROTC ed.).</p></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-44">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-44">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_draw_point.png" width="350px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-44">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-44">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">controller_draw_point()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-44">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-44">​</a></h4>
+<p>Draws a point on the CoDrone EDU LED screen at point (x, y).</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-44">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-44">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_draw_point_params.png" width="350px">
+<p><strong><em>integer</em> x:</strong> x coordinate<br>
+<strong><em>integer</em> y:</strong> y coordinate</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-44">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-44">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-44">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-44">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_draw_point_example.png" width="350px">
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="controller_clear_screen">controller_clear_screen()<a class="hash-link" aria-label="controller_clear_screen()에 대한 직접 링크" title="controller_clear_screen()에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#controller_clear_screen">​</a></h3>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>경고</div><div class="admonitionContent_BuS1"><p>This function is currently unavailable for CoDrone EDU (JROTC ed.).</p></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="block-45">Block<a class="hash-link" aria-label="Block에 대한 직접 링크" title="Block에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#block-45">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_clear_screen.png" width="220px">
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="code-45">Code<a class="hash-link" aria-label="Code에 대한 직접 링크" title="Code에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#code-45">​</a></h4>
+<span class="light_gray">drone.</span>
+<span class="dark_gray">controller_clear_screen()</span>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="description-45">Description<a class="hash-link" aria-label="Description에 대한 직접 링크" title="Description에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#description-45">​</a></h4>
+<p>Clears the CoDrone EDU controller screen.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="parameters-45">Parameters<a class="hash-link" aria-label="Parameters에 대한 직접 링크" title="Parameters에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#parameters-45">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="returns-45">Returns<a class="hash-link" aria-label="Returns에 대한 직접 링크" title="Returns에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#returns-45">​</a></h4>
+<p>None</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-45">Example<a class="hash-link" aria-label="Example에 대한 직접 링크" title="Example에 대한 직접 링크" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#example-45">​</a></h4>
+<img src="/img/CDE/blockly_docu/senior/controller_clear_screen_example.png" width="600px">
+<hr></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/RobolinkInc/doc-v3/tree/main/docs/docs/CoDroneEDU/Blockly/page4.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>페이지 편집</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="문서 페이지"><a class="pagination-nav__link pagination-nav__link--prev" href="/ko/docs/CoDroneEDU/Blockly/Junior-Block-Documentation"><div class="pagination-nav__sublabel">이전</div><div class="pagination-nav__label">Junior Block Documentation</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/ko/docs/CoDroneEDU/Blockly/Blockly-Changelog"><div class="pagination-nav__sublabel">다음</div><div class="pagination-nav__label">Blockly Changelog</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#flight-commands">Flight Commands</a><ul><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#takeoff">takeoff()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#land">land()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#emergency_stop">emergency_stop()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#hover">hover()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#move">move()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#flip">flip()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#turn_degree">turn_degree()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#turn_left--turn_right">turn_left() / turn_right()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#avoid_wall">avoid_wall()</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#flight-variables">Flight Variables</a><ul><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#set_roll">set_roll()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#set_pitch">set_pitch()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#set_yaw">set_yaw()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#set_throttle">set_throttle()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#move-1">move()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#moveduration">move(duration)</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#set_trim">set_trim()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_trim">get_trim()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#reset_trim">reset_trim()</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#lights">Lights</a><ul><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#set_drone_led">set_drone_LED()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#drone_led_off">drone_LED_off()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#set_controller_led">set_controller_LED()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#controller_led_off">controller_LED_off()</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#sensors">Sensors</a><ul><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_range">get_range()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_angle">get_angle()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_angular_speed">get_angular_speed()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_accel">get_accel()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_pos">get_pos()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_battery">get_battery()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_height">get_height()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_pressure">get_pressure()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_temperature">get_temperature()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_elevation">get_elevation()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_color">get_color()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_hsvl">get_hsvl()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#get_state_data">get_state_data()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#reset_sensor">reset_sensor()</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#sound">Sound</a><ul><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#drone_buzzer">drone_buzzer()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#controller_buzzer">controller_buzzer()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#drone_buzzer_hertz">drone_buzzer_hertz()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#controller_buzzer_hertz">controller_buzzer_hertz()</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#screen">Screen</a><ul><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#controller_draw_line">controller_draw_line()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#controller_draw_string">controller_draw_string()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#controller_draw_rectangle">controller_draw_rectangle()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#controller_draw_square">controller_draw_square()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#controller_draw_point">controller_draw_point()</a></li><li><a class="table-of-contents__link toc-highlight" href="/ko/docs/CoDroneEDU/Blockly/Senior-Block-Documentation#controller_clear_screen">controller_clear_screen()</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright"><div class="footer-wrap">
+          <div class="footerBox" id="footerBox">
+            <img id="imgFooter" src="/img/R-footer-logo.svg">
+            <span>5075 Shoreham Pl. Ste 110, San Diego, CA 92122 | +1 (858) 876-5123</span>
+          </div>
+          <div class="box" id="box">
+            <div>
+              <a href="https://robolink.helpdocs.io/" target="_blank" rel="noopener noreferrer"> Robolink Help&nbsp;</a> |
+              <a href="/docs/terms-of-use"> &nbsp;Terms of use&nbsp;</a> |
+              <a href="/docs/privacy-policy"> &nbsp;Privacy</a>
+            </div>
+          </div>
+        </div></div></div></div></footer></div>
+</body>
+</html>
